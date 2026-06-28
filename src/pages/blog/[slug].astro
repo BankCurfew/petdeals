@@ -1,0 +1,106 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import ProductCard from '@/components/ProductCard.astro';
+import productsData from '../../../data/products.json';
+
+
+export function getStaticPaths() {
+  // For now, create a placeholder article until Writer content is ready
+  return [
+    {
+      params: { slug: 'best-cat-food-2025' },
+      props: {
+        article: {
+          title: '10 อาหารแมวยอดนิยม 2025 — คัดมาแล้วจาก Shopee',
+          description: 'รวมอาหารแมวคุณภาพดี ราคาเบาๆ จาก Shopee ทั้งอาหารเม็ดและอาหารเปียก เหมาะสำหรับแมวทุกวัย',
+          date: '2025-06-28',
+          author: 'PETDEALS',
+          content: `
+## ทำไมต้องเลือกอาหารแมวดีๆ?
+
+การเลือกอาหารแมวที่มีคุณภาพเป็นสิ่งสำคัญสำหรับสุขภาพของน้องแมว อาหารที่ดีควรมีโปรตีนสูง ไขมันเหมาะสม และวิตามินครบถ้วน
+
+## อาหารแมวแนะนำจาก Shopee
+
+### 1. Orijen Original Cat
+อาหารแมวเกรดพรีเมียม สูตร Grain-Free ใช้เนื้อสดเป็นส่วนผสมหลัก เหมาะสำหรับแมวทุกสายพันธุ์
+
+### 2. Hill's Science Diet
+อาหารแมวสูตรวิทยาศาสตร์ พัฒนาโดยสัตวแพทย์ ช่วยดูแลสุขภาพทางเดินอาหาร
+
+### 3. Royal Canin Indoor
+สูตรเฉพาะสำหรับแมวเลี้ยงในบ้าน ช่วยควบคุมน้ำหนักและลดกลิ่นอุจจาระ
+
+### 4. SmartHeart Gold
+อาหารแมวคุณภาพดี ราคาประหยัด มีหลายรสชาติให้เลือก
+
+### 5. Me-O Delite
+อาหารแมวพรีเมียม เนื้อสัมผัสนุ่ม น้องแมวชอบ
+
+## สรุป
+
+การเลือกอาหารแมวควรพิจารณาจากอายุ สุขภาพ และความชอบของน้องแมว ลองดูสินค้าแนะนำด้านล่างได้เลย!
+          `.trim(),
+        },
+      },
+    },
+  ];
+}
+
+const { article } = Astro.props;
+
+// Related products for article
+const relatedProducts = productsData.slice(0, 4).map((p: any) => ({
+  name: p.title,
+  image: p.images?.[0] || '',
+  price: parseInt(String(p.price).replace(/[^0-9]/g, '')) || 0,
+  rating: parseFloat(p.rating) || 0,
+  sold: parseInt(String(p.sold).replace(/[^0-9]/g, '')) || 0,
+  affiliateUrl: p.affiliateUrl || p.url || '#',
+}));
+
+// Schema.org Article
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": article.title,
+  "description": article.description,
+  "datePublished": article.date,
+  "author": { "@type": "Organization", "name": "PETDEALS" },
+  "publisher": { "@type": "Organization", "name": "PETDEALS", "url": "https://petzdeals.com" },
+};
+---
+
+<BaseLayout title={article.title} description={article.description}>
+  <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+
+  <!-- Breadcrumb -->
+  <nav class="max-w-4xl mx-auto px-4 py-3 text-sm text-gray-400">
+    <a href="/" class="hover:text-pet-500">หน้าแรก</a>
+    <span class="mx-1">›</span>
+    <a href="/blog" class="hover:text-pet-500">บทความ</a>
+    <span class="mx-1">›</span>
+    <span class="text-gray-600">{article.title.slice(0, 40)}...</span>
+  </nav>
+
+  <article class="max-w-4xl mx-auto px-4 py-8">
+    <header class="mb-8">
+      <h1 class="text-2xl md:text-3xl font-bold text-gray-900 leading-snug mb-3">{article.title}</h1>
+      <div class="flex items-center gap-3 text-sm text-gray-400">
+        <span>โดย {article.author}</span>
+        <span>•</span>
+        <time datetime={article.date}>{new Date(article.date).toLocaleDateString('th-TH', { year: 'numeric', month: 'long', day: 'numeric' })}</time>
+      </div>
+    </header>
+
+    <div class="prose prose-gray prose-lg max-w-none" set:html={article.content.replace(/^### (.*)/gm, '<h3 class="text-lg font-bold text-gray-800 mt-6 mb-2">$1</h3>').replace(/^## (.*)/gm, '<h2 class="text-xl font-bold text-gray-900 mt-8 mb-3">$1</h2>').replace(/\n\n/g, '</p><p class="mb-4 text-gray-600 leading-relaxed">').replace(/^/, '<p class="mb-4 text-gray-600 leading-relaxed">')} />
+
+    <!-- Related Products -->
+    <section class="mt-12 pt-8 border-t border-gray-100">
+      <h2 class="text-xl font-bold text-gray-900 mb-6">🛒 สินค้าแนะนำ</h2>
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+        {relatedProducts.map(p => <ProductCard {...p} />)}
+      </div>
+    </section>
+  </article>
+</BaseLayout>

@@ -12,7 +12,7 @@ const products = productsData.map((p: any) => ({
   price: parseInt(String(p.price).replace(/[^0-9]/g, '')) || 0,
   rating: parseFloat(p.rating) || 0,
   sold: parseInt(String(p.sold).replace(/[^0-9]/g, '')) || 0,
-  affiliateUrl: p.affiliateUrl || p.url || '#',
+  affiliateUrl: `/products/${p.slug}`,
   category: 'food',
 }));
 ---
