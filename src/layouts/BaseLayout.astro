@@ -1,0 +1,89 @@
+---
+interface Props {
+  title: string;
+  description?: string;
+  image?: string;
+}
+
+const { title, description = 'ดีลอุปกรณ์สัตว์เลี้ยง Shopee ราคาดี — อาหาร ของเล่น อุปกรณ์ สำหรับหมาและแมว', image } = Astro.props;
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+---
+
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content={description} />
+  <link rel="canonical" href={canonicalURL} />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content={canonicalURL} />
+  {image && <meta property="og:image" content={image} />}
+
+  <title>{title} | PETDEALS</title>
+</head>
+<body class="bg-white text-gray-800 font-sans antialiased">
+  <!-- Header -->
+  <header class="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-gray-100">
+    <div class="max-w-7xl mx-auto px-4 h-14 flex items-center justify-between">
+      <a href="/" class="flex items-center gap-2">
+        <span class="text-2xl">🐾</span>
+        <span class="text-lg font-bold text-gray-900">PETDEALS</span>
+      </a>
+      <nav class="hidden md:flex items-center gap-6 text-sm text-gray-600">
+        <a href="/" class="hover:text-pet-500 transition-colors">หน้าแรก</a>
+        <a href="/categories" class="hover:text-pet-500 transition-colors">หมวดหมู่</a>
+        <a href="/deals" class="hover:text-pet-500 transition-colors">ดีลเด็ด</a>
+        <a href="/blog" class="hover:text-pet-500 transition-colors">บทความ</a>
+      </nav>
+      <a href="/deals" class="bg-pet-500 text-white px-4 py-1.5 rounded-full text-sm font-medium hover:bg-pet-600 transition-colors">
+        ดูดีลทั้งหมด
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <slot />
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-50 border-t border-gray-100 py-12 mt-16">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+        <div class="col-span-2 md:col-span-1">
+          <div class="flex items-center gap-2 mb-3">
+            <span class="text-2xl">🐾</span>
+            <span class="text-lg font-bold">PETDEALS</span>
+          </div>
+          <p class="text-sm text-gray-500">ดีลอุปกรณ์สัตว์เลี้ยง Shopee ราคาดี คัดสรรสินค้าคุณภาพสำหรับน้องหมาและน้องแมว</p>
+        </div>
+        <div>
+          <h4 class="font-semibold text-sm mb-3">หมวดหมู่</h4>
+          <ul class="space-y-2 text-sm text-gray-500">
+            <li><a href="/categories/food" class="hover:text-pet-500">อาหาร</a></li>
+            <li><a href="/categories/toys" class="hover:text-pet-500">ของเล่น</a></li>
+            <li><a href="/categories/accessories" class="hover:text-pet-500">อุปกรณ์</a></li>
+            <li><a href="/categories/health" class="hover:text-pet-500">สุขภาพ</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-semibold text-sm mb-3">เกี่ยวกับเรา</h4>
+          <ul class="space-y-2 text-sm text-gray-500">
+            <li><a href="/about" class="hover:text-pet-500">เกี่ยวกับ PETDEALS</a></li>
+            <li><a href="/blog" class="hover:text-pet-500">บทความ</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-gray-200 mt-8 pt-6 text-center text-xs text-gray-400">
+        <p>&copy; 2025 PETDEALS — petzdeals.com | Shopee Affiliate Partner</p>
+        <p class="mt-1">ราคาและส่วนลดอาจเปลี่ยนแปลงได้ กรุณาตรวจสอบที่ Shopee ก่อนสั่งซื้อ</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

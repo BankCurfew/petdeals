@@ -1,0 +1,26 @@
+---
+const categories = [
+  { emoji: '🐕', label: 'สุนัข', slug: 'dogs' },
+  { emoji: '🐈', label: 'แมว', slug: 'cats' },
+  { emoji: '🍖', label: 'อาหาร', slug: 'food' },
+  { emoji: '🧸', label: 'ของเล่น', slug: 'toys' },
+  { emoji: '🏠', label: 'บ้าน/เตียง', slug: 'beds' },
+  { emoji: '💊', label: 'สุขภาพ', slug: 'health' },
+  { emoji: '🧴', label: 'อาบน้ำ', slug: 'grooming' },
+  { emoji: '🦴', label: 'ขนม', slug: 'treats' },
+  { emoji: '🎒', label: 'กระเป๋า', slug: 'carriers' },
+  { emoji: '🔥', label: 'ดีลเด็ด', slug: 'deals' },
+];
+---
+
+<div class="flex gap-2 overflow-x-auto scrollbar-hide py-2 px-4 -mx-4" style="scrollbar-width: none;">
+  {categories.map(cat => (
+    <a
+      href={`/categories/${cat.slug}`}
+      class="flex items-center gap-1.5 px-4 py-2 bg-surface rounded-full text-sm font-medium text-gray-600 hover:bg-pet-50 hover:text-pet-600 transition-colors whitespace-nowrap flex-shrink-0 border border-gray-100"
+    >
+      <span>{cat.emoji}</span>
+      <span>{cat.label}</span>
+    </a>
+  ))}
+</div>

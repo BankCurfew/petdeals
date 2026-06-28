@@ -1,0 +1,62 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import CategoryPills from '@/components/CategoryPills.astro';
+import ProductCard from '@/components/ProductCard.astro';
+
+// Placeholder products until Data pipeline is ready
+const placeholderProducts = [
+  { name: 'อาหารแมว Royal Canin Indoor 2kg', image: '/placeholder.svg', price: 590, originalPrice: 750, discount: 21, rating: 4.9, sold: 12500, affiliateUrl: '#' },
+  { name: 'ที่ลับเล็บแมว คอนโดแมว 3 ชั้น', image: '/placeholder.svg', price: 890, originalPrice: 1290, discount: 31, rating: 4.7, sold: 8200, affiliateUrl: '#' },
+  { name: 'สายจูงสุนัข Auto Retractable 5m', image: '/placeholder.svg', price: 299, originalPrice: 450, discount: 34, rating: 4.8, sold: 15600, affiliateUrl: '#' },
+  { name: 'เปลแมว ของเล่นแมว แฮมม็อค', image: '/placeholder.svg', price: 199, originalPrice: 350, discount: 43, rating: 4.6, sold: 9300, affiliateUrl: '#' },
+  { name: 'อาหารสุนัข Pedigree Adult 3kg', image: '/placeholder.svg', price: 259, originalPrice: 320, discount: 19, rating: 4.8, sold: 22000, affiliateUrl: '#' },
+  { name: 'แผ่นรองฉี่สุนัข Premium 50แผ่น', image: '/placeholder.svg', price: 189, originalPrice: 290, discount: 35, rating: 4.5, sold: 18700, affiliateUrl: '#' },
+  { name: 'ชามอาหารสัตว์เลี้ยง สแตนเลส คู่', image: '/placeholder.svg', price: 159, originalPrice: 250, discount: 36, rating: 4.7, sold: 11200, affiliateUrl: '#' },
+  { name: 'น้ำพุแมว อัตโนมัติ 2.5L USB', image: '/placeholder.svg', price: 459, originalPrice: 790, discount: 42, rating: 4.6, sold: 7800, affiliateUrl: '#' },
+];
+---
+
+<BaseLayout title="ดีลอุปกรณ์สัตว์เลี้ยง Shopee ราคาดี">
+  <!-- Hero -->
+  <section class="bg-gradient-to-b from-pet-50 to-white py-12 px-4">
+    <div class="max-w-7xl mx-auto text-center">
+      <h1 class="text-3xl md:text-5xl font-bold text-gray-900 mb-4">
+        ดีลอุปกรณ์สัตว์เลี้ยง
+        <span class="text-pet-500">ราคาดี</span>
+      </h1>
+      <p class="text-lg text-gray-500 max-w-2xl mx-auto mb-8">
+        คัดสรรสินค้าคุณภาพจาก Shopee สำหรับน้องหมาและน้องแมว อัพเดททุกวัน ส่วนลดสูงสุด 80%
+      </p>
+      <a href="/deals" class="inline-flex items-center gap-2 bg-pet-500 text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-pet-600 transition-colors shadow-lg shadow-pet-500/20">
+        🔥 ดูดีลวันนี้
+      </a>
+    </div>
+  </section>
+
+  <!-- Category Pills -->
+  <section class="max-w-7xl mx-auto mt-8">
+    <CategoryPills />
+  </section>
+
+  <!-- Featured Products -->
+  <section class="max-w-7xl mx-auto px-4 py-12">
+    <div class="flex items-center justify-between mb-6">
+      <h2 class="text-xl font-bold text-gray-900">🔥 สินค้าแนะนำ</h2>
+      <a href="/deals" class="text-sm text-pet-500 hover:text-pet-600 font-medium">ดูทั้งหมด →</a>
+    </div>
+    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+      {placeholderProducts.map(product => (
+        <ProductCard {...product} />
+      ))}
+    </div>
+  </section>
+
+  <!-- SEO Content -->
+  <section class="max-w-4xl mx-auto px-4 py-12">
+    <h2 class="text-xl font-bold text-gray-900 mb-4">PETDEALS — แหล่งรวมดีลอุปกรณ์สัตว์เลี้ยงจาก Shopee</h2>
+    <div class="prose prose-gray text-sm leading-relaxed">
+      <p>PETDEALS คัดสรรสินค้าอุปกรณ์สัตว์เลี้ยงคุณภาพดีจาก Shopee ทั้งอาหารสุนัข อาหารแมว ของเล่น ที่นอน อุปกรณ์อาบน้ำ และผลิตภัณฑ์ดูแลสุขภาพ พร้อมส่วนลดพิเศษและโปรโมชั่นอัพเดททุกวัน</p>
+      <p>เราช่วยคุณประหยัดเวลาในการเลือกซื้อ โดยคัดเฉพาะสินค้าที่มีรีวิวดี ยอดขายสูง และราคาคุ้มค่าที่สุด ส่งตรงจากร้านค้าที่เชื่อถือได้บน Shopee</p>
+    </div>
+  </section>
+</BaseLayout>

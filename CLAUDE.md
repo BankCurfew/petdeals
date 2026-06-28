@@ -6,7 +6,7 @@
 
 Fully automated Shopee affiliate website for premium pet supplies in Thailand.
 Built with Astro 6 + Supabase + Cloudflare. Content pipeline uses CDP browser
-automation (NOT Shopee API — they block bots).
+automation (CDP approach — browser automation).
 
 ## Stack
 
@@ -16,7 +16,6 @@ automation (NOT Shopee API — they block bots).
 - **Images**: Cloudflare R2
 - **Cron/Workers**: Cloudflare Workers
 - **Browser Automation**: pw-cli.sh (CDP-based, NOT Playwright MCP)
-- **Affiliate**: Shopee Affiliate Program (แบงค์ has account: AP_marketing)
 
 ## Data Flow
 
@@ -42,9 +41,7 @@ CDP scrape Shopee → Supabase → Astro SSG build → CF Pages deploy → Googl
 
 | Service | ID/URL |
 |---|---|
-| CF Zone | petzdeals.com (50181bfbd24d46d29eba7e09f74dcaf5) |
 | CF Pages | petzdeals.pages.dev |
-| CF Account | 3b1af24a7513b520e418d7e707f6491e |
 | GitHub | BankCurfew/petdeals |
 | Supabase | TBD — create project "petdeals" |
 | Google Search Console | TBD — verify domain |

@@ -1,0 +1,63 @@
+---
+interface Props {
+  name: string;
+  image: string;
+  price: number;
+  originalPrice?: number;
+  discount?: number;
+  rating?: number;
+  sold?: number;
+  affiliateUrl: string;
+  category?: string;
+}
+
+const { name, image, price, originalPrice, discount, rating, sold, affiliateUrl, category } = Astro.props;
+
+const formatPrice = (n: number) => `฿${n.toLocaleString('th-TH')}`;
+---
+
+<a href={affiliateUrl} target="_blank" rel="noopener sponsored" class="group block bg-white rounded-xl border border-gray-100 overflow-hidden hover:shadow-lg hover:-translate-y-0.5 transition-all duration-200">
+  <!-- Image -->
+  <div class="relative aspect-square bg-surface overflow-hidden">
+    <img src={image} alt={name} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+    {discount && discount > 0 && (
+      <span class="absolute top-2 left-2 bg-pet-500 text-white text-xs font-bold px-2 py-0.5 rounded-md">
+        -{discount}%
+      </span>
+    )}
+  </div>
+
+  <!-- Info -->
+  <div class="p-3">
+    <h3 class="text-sm text-gray-700 line-clamp-2 mb-2 group-hover:text-pet-500 transition-colors leading-snug">
+      {name}
+    </h3>
+
+    <!-- Price -->
+    <div class="flex items-baseline gap-2 mb-2">
+      <span class="text-lg font-bold text-pet-500">{formatPrice(price)}</span>
+      {originalPrice && originalPrice > price && (
+        <span class="text-xs text-gray-400 line-through">{formatPrice(originalPrice)}</span>
+      )}
+    </div>
+
+    <!-- Rating + Sold -->
+    {(rating || sold) && (
+      <div class="flex items-center gap-3 text-xs text-gray-400">
+        {rating && (
+          <span class="flex items-center gap-0.5">
+            <span class="text-yellow-400">★</span> {rating.toFixed(1)}
+          </span>
+        )}
+        {sold && <span>ขายแล้ว {sold.toLocaleString()}</span>}
+      </div>
+    )}
+
+    <!-- CTA -->
+    <div class="mt-3">
+      <span class="block w-full text-center bg-pet-500 text-white text-sm font-medium py-2 rounded-full group-hover:bg-pet-600 transition-colors">
+        ดูราคา Shopee
+      </span>
+    </div>
+  </div>
+</a>
