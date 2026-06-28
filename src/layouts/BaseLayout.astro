@@ -5,7 +5,7 @@ interface Props {
   image?: string;
 }
 
-const { title, description = 'ดีลอุปกรณ์สัตว์เลี้ยง Shopee ราคาดี — อาหาร ของเล่น อุปกรณ์ สำหรับหมาและแมว', image } = Astro.props;
+const { title, description = 'PetzDeals — รวมดีลอุปกรณ์สัตว์เลี้ยงราคาดี คัดมาให้ทาสแมวและทาสหมาโดยเฉพาะ', image } = Astro.props;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 ---
 
@@ -30,7 +30,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
   <meta property="og:url" content={canonicalURL} />
   {image && <meta property="og:image" content={image} />}
 
-  <title>{title} | PETDEALS</title>
+  <title>{title} | PetzDeals</title>
 </head>
 <body class="bg-white text-gray-800 font-sans antialiased">
   <!-- Google Tag Manager (noscript) -->
@@ -40,7 +40,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     <div class="max-w-7xl mx-auto px-4 h-14 flex items-center justify-between">
       <a href="/" class="flex items-center gap-2">
         <span class="text-2xl">🐾</span>
-        <span class="text-lg font-bold text-gray-900">PETDEALS</span>
+        <span class="text-lg font-bold"><span class="text-pet-500">Petz</span><span class="text-coral-400">Deals</span></span>
       </a>
       <nav class="hidden md:flex items-center gap-6 text-sm text-gray-600">
         <a href="/" class="hover:text-pet-500 transition-colors">หน้าแรก</a>
@@ -48,7 +48,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
         <a href="/deals" class="hover:text-pet-500 transition-colors">ดีลเด็ด</a>
         <a href="/blog" class="hover:text-pet-500 transition-colors">บทความ</a>
       </nav>
-      <a href="/deals" class="bg-pet-500 text-white px-4 py-1.5 rounded-full text-sm font-medium hover:bg-pet-600 transition-colors">
+      <a href="/deals" class="bg-cta-500 text-white px-4 py-1.5 rounded-full text-sm font-medium hover:bg-cta-600 transition-colors">
         ดูดีลทั้งหมด
       </a>
     </div>
@@ -65,9 +65,9 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
         <div class="col-span-2 md:col-span-1">
           <div class="flex items-center gap-2 mb-3">
             <span class="text-2xl">🐾</span>
-            <span class="text-lg font-bold">PETDEALS</span>
+            <span class="text-lg font-bold"><span class="text-pet-500">Petz</span><span class="text-coral-400">Deals</span></span>
           </div>
-          <p class="text-sm text-gray-500">ดีลอุปกรณ์สัตว์เลี้ยง Shopee ราคาดี คัดสรรสินค้าคุณภาพสำหรับน้องหมาและน้องแมว</p>
+          <p class="text-sm text-gray-500">คัดดีลอุปกรณ์สัตว์เลี้ยงราคาดี สำหรับทาสแมวและทาสหมาตัวจริง อัพเดททุกวัน</p>
         </div>
         <div>
           <h4 class="font-semibold text-sm mb-3">หมวดหมู่</h4>
@@ -81,14 +81,14 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
         <div>
           <h4 class="font-semibold text-sm mb-3">เกี่ยวกับเรา</h4>
           <ul class="space-y-2 text-sm text-gray-500">
-            <li><a href="/about" class="hover:text-pet-500">เกี่ยวกับ PETDEALS</a></li>
+            <li><a href="/about" class="hover:text-pet-500">เกี่ยวกับ PetzDeals</a></li>
             <li><a href="/blog" class="hover:text-pet-500">บทความ</a></li>
           </ul>
         </div>
       </div>
       <div class="border-t border-gray-200 mt-8 pt-6 text-center text-xs text-gray-400">
-        <p>&copy; 2025 PETDEALS — petzdeals.com | Shopee Affiliate Partner</p>
-        <p class="mt-1">ราคาและส่วนลดอาจเปลี่ยนแปลงได้ กรุณาตรวจสอบที่ Shopee ก่อนสั่งซื้อ</p>
+        <p>&copy; 2025 PetzDeals — petzdeals.com</p>
+        <p class="mt-1">ราคาและส่วนลดอาจเปลี่ยนแปลงได้ กรุณาตรวจสอบราคาล่าสุดก่อนสั่งซื้อ</p>
       </div>
     </div>
   </footer>

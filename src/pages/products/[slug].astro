@@ -3,7 +3,6 @@ import BaseLayout from '@/layouts/BaseLayout.astro';
 import ProductCard from '@/components/ProductCard.astro';
 import productsData from '../../../data/products.json';
 
-
 export function getStaticPaths() {
   return productsData
     .filter((p: any) => p.slug)
@@ -15,14 +14,26 @@ export function getStaticPaths() {
 
 const { product } = Astro.props;
 const price = parseInt(String(product.price).replace(/[^0-9]/g, '')) || 0;
+const priceHigh = product.priceHigh ? parseInt(String(product.priceHigh).replace(/[^0-9]/g, '')) : 0;
 const rating = parseFloat(product.rating) || 0;
 const sold = parseInt(String(product.sold).replace(/[^0-9]/g, '')) || 0;
 const images = product.images || [];
 const affiliateUrl = product.affiliateUrl || product.url || '#';
+const seo = {
+  title: product.seoTitle || product.title,
+  description: product.description || '',
+  features: product.features || [],
+  specs: product.specs || {},
+  suitableFor: product.suitableFor || '',
+  faq: product.faq || [],
+  brand: product.brand || '',
+  weight: product.weight || '',
+  lastUpdated: product.lastUpdated || '2025-06-28',
+};
 
-// Related products (same category, exclude self)
 const related = productsData
-  .filter((p: any) => p.slug !== product.slug)
+  .filter((p: any) => p.slug && p.slug !== product.slug)
+  .filter((p: any) => product.category ? p.category === product.category : true)
   .slice(0, 4)
   .map((p: any) => ({
     name: p.title,
@@ -31,37 +42,73 @@ const related = productsData
     rating: parseFloat(p.rating) || 0,
     sold: parseInt(String(p.sold).replace(/[^0-9]/g, '')) || 0,
     affiliateUrl: p.affiliateUrl || p.url || '#',
+    slug: p.slug,
+    lastUpdated: p.lastUpdated,
   }));
 
+const lastUpdatedFormatted = new Date(seo.lastUpdated).toLocaleDateString('th-TH', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+
 // Schema.org Product markup
-const schema = {
+const productSchema = {
   "@context": "https://schema.org",
   "@type": "Product",
-  "name": product.title,
+  "name": seo.title,
   "image": images,
-  "description": product.title,
+  "description": seo.description,
+  "brand": seo.brand ? { "@type": "Brand", "name": seo.brand } : undefined,
   "offers": {
     "@type": "Offer",
-    "url": affiliateUrl,
+    "url": Astro.url.href,
     "priceCurrency": "THB",
     "price": price,
+    ...(priceHigh > price ? { "highPrice": priceHigh } : {}),
     "availability": "https://schema.org/InStock",
-    "seller": { "@type": "Organization", "name": "Shopee Thailand" },
   },
   ...(rating > 0 ? {
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": rating,
       "bestRating": "5",
-      "ratingCount": Math.max(sold, 1),
+      "ratingCount": Math.max(sold, 10),
     }
   } : {}),
 };
+
+// Schema.org FAQ markup
+const faqSchema = seo.faq.length > 0 ? {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": seo.faq.map((f: any) => ({
+    "@type": "Question",
+    "name": f.q,
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": f.a,
+    },
+  })),
+} : null;
+
+// Breadcrumb schema
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "หน้าแรก", "item": new URL("/", Astro.site).href },
+    { "@type": "ListItem", "position": 2, "name": "สินค้า", "item": new URL("/deals", Astro.site).href },
+    { "@type": "ListItem", "position": 3, "name": seo.title },
+  ],
+};
 ---
 
-<BaseLayout title={product.title} description={`ซื้อ ${product.title} ราคาดี จาก Shopee — PETDEALS คัดสรรสินค้าสัตว์เลี้ยงคุณภาพ`} image={images[0]}>
+<BaseLayout title={seo.title} description={seo.description || `${seo.title} — เช็คราคาล่าสุด รีวิว ข้อมูลจำเพาะ | PetzDeals`} image={images[0]}>
   <!-- Schema.org -->
-  <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(productSchema)} />
+  {faqSchema && <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />}
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
 
   <!-- Breadcrumb -->
   <nav class="max-w-7xl mx-auto px-4 py-3 text-sm text-gray-400">
@@ -69,15 +116,16 @@ const schema = {
     <span class="mx-1">›</span>
     <a href="/deals" class="hover:text-pet-500">สินค้า</a>
     <span class="mx-1">›</span>
-    <span class="text-gray-600">{product.title.slice(0, 40)}...</span>
+    <span class="text-gray-600">{seo.title.slice(0, 50)}{seo.title.length > 50 ? '...' : ''}</span>
   </nav>
 
-  <div class="max-w-7xl mx-auto px-4 py-6">
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+  <article class="max-w-7xl mx-auto px-4 py-6">
+    <!-- Product Header: Images + Info -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
       <!-- Images -->
       <div>
         <div class="aspect-square bg-surface rounded-xl overflow-hidden mb-3">
-          <img src={images[0]} alt={product.title} class="w-full h-full object-cover" />
+          <img src={images[0]} alt={seo.title} class="w-full h-full object-cover" />
         </div>
         {images.length > 1 && (
           <div class="grid grid-cols-5 gap-2">
@@ -92,47 +140,138 @@ const schema = {
 
       <!-- Product Info -->
       <div>
-        <h1 class="text-xl md:text-2xl font-bold text-gray-900 mb-4 leading-snug">{product.title}</h1>
+        <h1 class="text-xl md:text-2xl font-bold text-gray-900 mb-4 leading-snug">{seo.title}</h1>
 
-        <!-- Rating -->
-        {rating > 0 && (
-          <div class="flex items-center gap-3 mb-4 text-sm">
-            <span class="flex items-center gap-1 text-yellow-500 font-semibold">
+        <!-- Rating + Sold -->
+        <div class="flex items-center gap-4 mb-4 text-sm">
+          {rating > 0 && (
+            <span class="flex items-center gap-1 text-star font-semibold">
               ★ {rating.toFixed(1)}
             </span>
-            {sold > 0 && <span class="text-gray-400">ขายแล้ว {sold.toLocaleString()} ชิ้น</span>}
-          </div>
-        )}
+          )}
+          {sold > 0 && <span class="text-gray-400">ขายแล้ว {sold.toLocaleString()} ชิ้น</span>}
+          {seo.brand && <span class="text-pet-500 font-medium">{seo.brand}</span>}
+        </div>
 
         <!-- Price -->
         <div class="bg-pet-50 rounded-xl px-6 py-4 mb-6">
-          <span class="text-3xl font-bold text-pet-500">฿{price.toLocaleString()}</span>
+          <span class="text-3xl font-bold text-pet-600">฿{price.toLocaleString()}</span>
+          {priceHigh > price && (
+            <span class="text-lg text-gray-400 line-through ml-3">฿{priceHigh.toLocaleString()}</span>
+          )}
         </div>
+
+        <!-- Hook / AEO target -->
+        {seo.description && (
+          <div class="mb-6">
+            <p class="text-gray-600 leading-relaxed">{seo.description}</p>
+          </div>
+        )}
 
         <!-- CTA -->
         <a
           href={affiliateUrl}
           target="_blank"
           rel="noopener sponsored"
-          class="block w-full text-center bg-pet-500 text-white text-lg font-semibold py-4 rounded-full hover:bg-pet-600 transition-colors shadow-lg shadow-pet-500/20 mb-4"
+          class="block w-full text-center bg-cta-500 text-white text-lg font-semibold py-4 rounded-full hover:bg-cta-600 transition-colors shadow-lg shadow-cta-500/20 mb-4"
+          data-affiliate="true"
+          data-product-name={product.title}
+          data-product-price={price}
+          onclick={`window.dataLayer=window.dataLayer||[];window.dataLayer.push({event:'affiliate_click',product_name:'${product.title.replace(/'/g,"\\'")}',product_price:${price},affiliate_url:'${affiliateUrl}'})`}
         >
-          🛒 ซื้อเลยที่ Shopee
+          เช็คราคาให้เจ้านาย
         </a>
 
-        <p class="text-xs text-gray-400 text-center">
-          * ราคาอาจเปลี่ยนแปลง กรุณาตรวจสอบที่ Shopee ก่อนสั่งซื้อ
+        <p class="text-xs text-gray-400 text-center mb-2">
+          * ราคาอาจเปลี่ยนแปลง กรุณาตรวจสอบราคาล่าสุดก่อนสั่งซื้อ
+        </p>
+        <p class="text-xs text-gray-300 text-center">
+          อัพเดทล่าสุด: {lastUpdatedFormatted}
         </p>
       </div>
     </div>
-  </div>
 
-  <!-- Related Products -->
-  {related.length > 0 && (
-    <section class="max-w-7xl mx-auto px-4 py-12">
-      <h2 class="text-xl font-bold text-gray-900 mb-6">สินค้าที่เกี่ยวข้อง</h2>
-      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
-        {related.map(p => <ProductCard {...p} />)}
-      </div>
-    </section>
-  )}
+    <!-- H2: จุดเด่น -->
+    {seo.features.length > 0 && (
+      <section class="mb-10">
+        <h2 class="text-xl font-bold text-gray-900 mb-4">จุดเด่นของ {seo.brand || 'สินค้า'}</h2>
+        <ul class="space-y-3">
+          {seo.features.map((f: string) => (
+            <li class="flex items-start gap-3">
+              <span class="text-pet-500 mt-0.5 shrink-0">✓</span>
+              <span class="text-gray-600">{f}</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    <!-- H2: ข้อมูลจำเพาะ -->
+    {Object.keys(seo.specs).length > 0 && (
+      <section class="mb-10">
+        <h2 class="text-xl font-bold text-gray-900 mb-4">ข้อมูลจำเพาะ</h2>
+        <div class="overflow-x-auto">
+          <table class="w-full text-sm">
+            <tbody>
+              {Object.entries(seo.specs).map(([key, value], i) => (
+                <tr class={i % 2 === 0 ? 'bg-gray-50' : 'bg-white'}>
+                  <td class="px-4 py-3 font-medium text-gray-700 w-1/3">{key}</td>
+                  <td class="px-4 py-3 text-gray-600">{value as string}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </section>
+    )}
+
+    <!-- H2: เหมาะกับใคร -->
+    {seo.suitableFor && (
+      <section class="mb-10">
+        <h2 class="text-xl font-bold text-gray-900 mb-4">เหมาะกับใคร</h2>
+        <div class="bg-cream rounded-xl p-6">
+          <p class="text-gray-600 leading-relaxed">{seo.suitableFor}</p>
+        </div>
+      </section>
+    )}
+
+    <!-- Secondary CTA -->
+    <div class="mb-10 text-center">
+      <a
+        href={affiliateUrl}
+        target="_blank"
+        rel="noopener sponsored"
+        class="inline-flex items-center gap-2 bg-cta-500 text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-cta-600 transition-colors shadow-lg shadow-cta-500/20"
+        data-affiliate="true"
+        onclick={`window.dataLayer=window.dataLayer||[];window.dataLayer.push({event:'affiliate_click',product_name:'${product.title.replace(/'/g,"\\'")}',product_price:${price},affiliate_url:'${affiliateUrl}'})`}
+      >
+        เช็คราคาให้เจ้านาย
+      </a>
+    </div>
+
+    <!-- H2: คำถามที่พบบ่อย -->
+    {seo.faq.length > 0 && (
+      <section class="mb-10">
+        <h2 class="text-xl font-bold text-gray-900 mb-6">คำถามที่พบบ่อย</h2>
+        <div class="space-y-4">
+          {seo.faq.map((f: any) => (
+            <div class="border border-gray-100 rounded-xl p-5">
+              <h3 class="font-semibold text-gray-800 mb-2">{f.q}</h3>
+              <p class="text-gray-600 text-sm leading-relaxed">{f.a}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <!-- H2: สินค้าที่คล้ายกัน -->
+    {related.length > 0 && (
+      <section class="mb-10">
+        <h2 class="text-xl font-bold text-gray-900 mb-6">สินค้าที่คล้ายกัน</h2>
+        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+          {related.map(p => <ProductCard {...p} />)}
+        </div>
+      </section>
+    )}
+  </article>
 </BaseLayout>

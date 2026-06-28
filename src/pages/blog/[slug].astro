@@ -3,43 +3,41 @@ import BaseLayout from '@/layouts/BaseLayout.astro';
 import ProductCard from '@/components/ProductCard.astro';
 import productsData from '../../../data/products.json';
 
-
 export function getStaticPaths() {
-  // For now, create a placeholder article until Writer content is ready
   return [
     {
       params: { slug: 'best-cat-food-2025' },
       props: {
         article: {
-          title: '10 อาหารแมวยอดนิยม 2025 — คัดมาแล้วจาก Shopee',
-          description: 'รวมอาหารแมวคุณภาพดี ราคาเบาๆ จาก Shopee ทั้งอาหารเม็ดและอาหารเปียก เหมาะสำหรับแมวทุกวัย',
+          title: '10 อาหารแมวยอดนิยม 2025 — คัดมาแล้วสำหรับทาสแมว',
+          description: 'รวมอาหารแมวคุณภาพดี ราคาเบาๆ ทั้งอาหารเม็ดและอาหารเปียก เหมาะสำหรับน้องเหมียวทุกวัย',
           date: '2025-06-28',
-          author: 'PETDEALS',
+          author: 'PetzDeals',
           content: `
-## ทำไมต้องเลือกอาหารแมวดีๆ?
+## ทำไมต้องเลือกอาหารน้องเหมียวดีๆ?
 
-การเลือกอาหารแมวที่มีคุณภาพเป็นสิ่งสำคัญสำหรับสุขภาพของน้องแมว อาหารที่ดีควรมีโปรตีนสูง ไขมันเหมาะสม และวิตามินครบถ้วน
+การเลือกอาหารแมวที่มีคุณภาพเป็นสิ่งสำคัญสำหรับสุขภาพของเจ้านาย อาหารที่ดีควรมีโปรตีนสูง ไขมันเหมาะสม และวิตามินครบถ้วน ทาสแมวที่ดีต้องใส่ใจเรื่องโภชนาการของน้องเหมียว
 
-## อาหารแมวแนะนำจาก Shopee
+## อาหารแมวแนะนำ
 
 ### 1. Orijen Original Cat
-อาหารแมวเกรดพรีเมียม สูตร Grain-Free ใช้เนื้อสดเป็นส่วนผสมหลัก เหมาะสำหรับแมวทุกสายพันธุ์
+อาหารแมวเกรดพรีเมียม สูตร Grain-Free ใช้เนื้อสดเป็นส่วนผสมหลัก เหมาะสำหรับน้องเหมียวทุกสายพันธุ์
 
 ### 2. Hill's Science Diet
-อาหารแมวสูตรวิทยาศาสตร์ พัฒนาโดยสัตวแพทย์ ช่วยดูแลสุขภาพทางเดินอาหาร
+อาหารแมวสูตรวิทยาศาสตร์ พัฒนาโดยสัตวแพทย์ ช่วยดูแลสุขภาพทางเดินอาหารของเจ้านาย
 
 ### 3. Royal Canin Indoor
-สูตรเฉพาะสำหรับแมวเลี้ยงในบ้าน ช่วยควบคุมน้ำหนักและลดกลิ่นอุจจาระ
+สูตรเฉพาะสำหรับน้องเหมียวเลี้ยงในบ้าน ช่วยควบคุมน้ำหนักและลดกลิ่นอุจจาระ
 
 ### 4. SmartHeart Gold
-อาหารแมวคุณภาพดี ราคาประหยัด มีหลายรสชาติให้เลือก
+อาหารแมวคุณภาพดี ราคาประหยัด มีหลายรสชาติให้เจ้านายเลือก
 
 ### 5. Me-O Delite
-อาหารแมวพรีเมียม เนื้อสัมผัสนุ่ม น้องแมวชอบ
+อาหารแมวพรีเมียม เนื้อสัมผัสนุ่ม น้องเหมียวชอบ
 
 ## สรุป
 
-การเลือกอาหารแมวควรพิจารณาจากอายุ สุขภาพ และความชอบของน้องแมว ลองดูสินค้าแนะนำด้านล่างได้เลย!
+การเลือกอาหารน้องเหมียวควรพิจารณาจากอายุ สุขภาพ และความชอบของเจ้านาย ลองดูสินค้าแนะนำด้านล่างได้เลย!
           `.trim(),
         },
       },
@@ -49,30 +47,33 @@ export function getStaticPaths() {
 
 const { article } = Astro.props;
 
-// Related products for article
-const relatedProducts = productsData.slice(0, 4).map((p: any) => ({
-  name: p.title,
-  image: p.images?.[0] || '',
-  price: parseInt(String(p.price).replace(/[^0-9]/g, '')) || 0,
-  rating: parseFloat(p.rating) || 0,
-  sold: parseInt(String(p.sold).replace(/[^0-9]/g, '')) || 0,
-  affiliateUrl: p.affiliateUrl || p.url || '#',
-}));
+const relatedProducts = productsData
+  .filter((p: any) => p.slug)
+  .slice(0, 4)
+  .map((p: any) => ({
+    name: p.title,
+    image: p.images?.[0] || '',
+    price: parseInt(String(p.price).replace(/[^0-9]/g, '')) || 0,
+    rating: parseFloat(p.rating) || 0,
+    sold: parseInt(String(p.sold).replace(/[^0-9]/g, '')) || 0,
+    affiliateUrl: p.affiliateUrl || p.url || '#',
+    slug: p.slug,
+    lastUpdated: p.lastUpdated,
+  }));
 
-// Schema.org Article
-const schema = {
+const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": article.title,
   "description": article.description,
   "datePublished": article.date,
-  "author": { "@type": "Organization", "name": "PETDEALS" },
-  "publisher": { "@type": "Organization", "name": "PETDEALS", "url": "https://petzdeals.com" },
+  "author": { "@type": "Organization", "name": "PetzDeals" },
+  "publisher": { "@type": "Organization", "name": "PetzDeals", "url": "https://petzdeals.com" },
 };
 ---
 
 <BaseLayout title={article.title} description={article.description}>
-  <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
 
   <!-- Breadcrumb -->
   <nav class="max-w-4xl mx-auto px-4 py-3 text-sm text-gray-400">
@@ -97,7 +98,7 @@ const schema = {
 
     <!-- Related Products -->
     <section class="mt-12 pt-8 border-t border-gray-100">
-      <h2 class="text-xl font-bold text-gray-900 mb-6">🛒 สินค้าแนะนำ</h2>
+      <h2 class="text-xl font-bold text-gray-900 mb-6">สินค้าแนะนำสำหรับเจ้านาย</h2>
       <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
         {relatedProducts.map(p => <ProductCard {...p} />)}
       </div>

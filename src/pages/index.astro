@@ -3,33 +3,38 @@ import BaseLayout from '@/layouts/BaseLayout.astro';
 import CategoryPills from '@/components/CategoryPills.astro';
 import ProductCard from '@/components/ProductCard.astro';
 
-// Real products from Shopee CDP scrape
 import productsData from '../../data/products.json';
 
-const products = productsData.map((p: any) => ({
-  name: p.title,
-  image: p.images?.[0] || 'https://placehold.co/400x400/FFF7ED/F97316?text=Product',
-  price: parseInt(String(p.price).replace(/[^0-9]/g, '')) || 0,
-  rating: parseFloat(p.rating) || 0,
-  sold: parseInt(String(p.sold).replace(/[^0-9]/g, '')) || 0,
-  affiliateUrl: `/products/${p.slug}`,
-  category: 'food',
-}));
+const products = productsData
+  .filter((p: any) => p.slug)
+  .map((p: any) => ({
+    name: p.title,
+    image: p.images?.[0] || 'https://placehold.co/400x400/F0FDFA/14B8A6?text=Product',
+    price: parseInt(String(p.price).replace(/[^0-9]/g, '')) || 0,
+    rating: parseFloat(p.rating) || 0,
+    sold: parseInt(String(p.sold).replace(/[^0-9]/g, '')) || 0,
+    affiliateUrl: p.affiliateUrl || p.url || '#',
+    category: p.category || 'food',
+    lastUpdated: p.lastUpdated || '2025-06-28',
+    slug: p.slug,
+  }));
 ---
 
-<BaseLayout title="ดีลอุปกรณ์สัตว์เลี้ยง Shopee ราคาดี">
+<BaseLayout title="PetzDeals — รวมดีลอุปกรณ์สัตว์เลี้ยง คัดมาให้ทาสแมวและทาสหมา">
   <!-- Hero -->
-  <section class="bg-gradient-to-b from-pet-50 to-white py-16 md:py-20 px-4 min-h-[40vh] flex items-center">
+  <section class="bg-gradient-to-b from-pet-50 to-white py-16 md:py-20 px-4 max-h-[40vh] flex items-center">
     <div class="max-w-7xl mx-auto text-center w-full">
       <h1 class="text-3xl md:text-5xl font-bold text-gray-900 mb-4">
-        ดีลอุปกรณ์สัตว์เลี้ยง
-        <span class="text-pet-500">ราคาดี</span>
+        ดีลดีๆ สำหรับ
+        <span class="text-pet-500">ทาสแมว</span>
+        และ
+        <span class="text-coral-400">ทาสหมา</span>
       </h1>
       <p class="text-lg text-gray-500 max-w-2xl mx-auto mb-8">
-        คัดสรรสินค้าคุณภาพจาก Shopee สำหรับน้องหมาและน้องแมว อัพเดททุกวัน ส่วนลดสูงสุด 80%
+        คัดสรรของดีราคาโดนสำหรับน้องเหมียวและน้องหมา อัพเดททุกวัน ส่วนลดสูงสุด 80%
       </p>
-      <a href="/deals" class="inline-flex items-center gap-2 bg-pet-500 text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-pet-600 transition-colors shadow-lg shadow-pet-500/20">
-        🔥 ดูดีลวันนี้
+      <a href="/deals" class="inline-flex items-center gap-2 bg-cta-500 text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-cta-600 transition-colors shadow-lg shadow-cta-500/20">
+        ดูดีลวันนี้
       </a>
     </div>
   </section>
@@ -42,7 +47,7 @@ const products = productsData.map((p: any) => ({
   <!-- Featured Products -->
   <section class="max-w-7xl mx-auto px-4 py-12">
     <div class="flex items-center justify-between mb-6">
-      <h2 class="text-xl font-bold text-gray-900">🔥 สินค้าแนะนำ</h2>
+      <h2 class="text-xl font-bold text-gray-900">สินค้าแนะนำสำหรับเจ้านาย</h2>
       <a href="/deals" class="text-sm text-pet-500 hover:text-pet-600 font-medium">ดูทั้งหมด →</a>
     </div>
     <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
@@ -54,10 +59,10 @@ const products = productsData.map((p: any) => ({
 
   <!-- SEO Content -->
   <section class="max-w-4xl mx-auto px-4 py-12">
-    <h2 class="text-xl font-bold text-gray-900 mb-4">PETDEALS — แหล่งรวมดีลอุปกรณ์สัตว์เลี้ยงจาก Shopee</h2>
+    <h2 class="text-xl font-bold text-gray-900 mb-4">PetzDeals — แหล่งรวมดีลอุปกรณ์สัตว์เลี้ยงสำหรับทาสแมวและทาสหมา</h2>
     <div class="prose prose-gray text-sm leading-relaxed">
-      <p>PETDEALS คัดสรรสินค้าอุปกรณ์สัตว์เลี้ยงคุณภาพดีจาก Shopee ทั้งอาหารสุนัข อาหารแมว ของเล่น ที่นอน อุปกรณ์อาบน้ำ และผลิตภัณฑ์ดูแลสุขภาพ พร้อมส่วนลดพิเศษและโปรโมชั่นอัพเดททุกวัน</p>
-      <p>เราช่วยคุณประหยัดเวลาในการเลือกซื้อ โดยคัดเฉพาะสินค้าที่มีรีวิวดี ยอดขายสูง และราคาคุ้มค่าที่สุด ส่งตรงจากร้านค้าที่เชื่อถือได้บน Shopee</p>
+      <p>PetzDeals คัดสรรอุปกรณ์สัตว์เลี้ยงคุณภาพดีให้ทาสแมวและทาสหมาตัวจริง ทั้งอาหารน้องเหมียว อาหารน้องหมา ของเล่น ที่นอน อุปกรณ์อาบน้ำ และผลิตภัณฑ์ดูแลสุขภาพ พร้อมส่วนลดพิเศษอัพเดททุกวัน</p>
+      <p>เราช่วยทาสแมวและทาสหมาประหยัดเวลาในการเลือกของให้เจ้านาย โดยคัดเฉพาะสินค้ารีวิวดี ยอดขายสูง และราคาคุ้มค่าที่สุด</p>
     </div>
   </section>
 </BaseLayout>
