@@ -58,3 +58,18 @@ Via CF Worker cron or `/petdeals-publish` skill:
 2. `bun run build` (regenerates all pages)
 3. `wrangler pages deploy` (pushes to CF Pages)
 4. Google Indexing API submits new URLs (max 200/day)
+
+## Troubleshooting
+
+| Issue | Fix |
+|---|---|
+| Build fails | Check `astro.config.mjs`, verify Supabase env vars |
+| Deploy fails | Verify CF token has Pages Write permission |
+| Old content shown | Purge CF cache: `curl -X POST "https://api.cloudflare.com/client/v4/zones/50181bfbd24d46d29eba7e09f74dcaf5/purge_cache" -H "Authorization: Bearer TOKEN" -d '{"purge_everything":true}'` |
+| Images broken | Check R2 bucket URLs in Supabase |
+| DNS not resolving | Check CF DNS records for CNAME → petzdeals.pages.dev |
+
+## CI/CD (Future)
+
+GitHub Actions: on push to `main` → build → deploy.
+CF Pages also supports Git integration (connect repo → auto-deploy on push).
