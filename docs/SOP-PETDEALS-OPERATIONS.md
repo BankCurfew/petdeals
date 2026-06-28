@@ -172,3 +172,34 @@ curl -s https://petzdeals.com | head -5
 | 2026-06-28 | CAR | Shopee blocks Playwright | Switch to real Chrome CDP | Always use CDP, never Playwright for Shopee |
 | 2026-06-28 | CAR | Google c-wiz blocks CDP input | Manual GTM/GA4 creation | Use Google APIs for future automation |
 | 2026-06-28 | PAR | Web share no affiliate link | Use UTM params with affiliate ID | Build affiliate link from known format |
+
+## Visual QA — MANDATORY (pw-cli)
+
+**Every deploy MUST be visually verified using pw-cli.sh**
+
+```bash
+pw=~/.oracle/tools/pw-cli.sh
+$pw open
+$pw goto "https://petzdeals.com"
+$pw screenshot  # Save + review
+
+# Check:
+# 1. Product images load (NOT placeholders)
+# 2. Prices display correctly
+# 3. Product names readable
+# 4. CTA buttons visible
+# 5. Mobile responsive (resize)
+# 6. Affiliate links clickable
+
+$pw goto "https://petzdeals.com/products/product-279775864-16255141757"
+$pw screenshot  # Product detail page
+
+$pw goto "https://petzdeals.com/blog"
+$pw screenshot  # Articles page
+
+$pw close
+```
+
+**CAR-2026-06-28**: QA passed affiliate links but missed placeholder images. Visual check was not done. Now MANDATORY in SOP.
+
+**Rule**: No deploy is "production-ready" without pw-cli screenshot verification showing real product images + correct prices.
