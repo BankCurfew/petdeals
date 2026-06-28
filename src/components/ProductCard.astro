@@ -16,7 +16,7 @@ const { name, image, price, originalPrice, discount, rating, sold, affiliateUrl,
 const formatPrice = (n: number) => `฿${n.toLocaleString('th-TH')}`;
 ---
 
-<a href={affiliateUrl} target="_blank" rel="noopener sponsored" class="group block bg-white rounded-xl border border-gray-100 overflow-hidden hover:shadow-lg hover:-translate-y-0.5 transition-all duration-200">
+<a href={affiliateUrl} target="_blank" rel="noopener sponsored" class="group block bg-white rounded-xl border border-gray-100 overflow-hidden hover:shadow-lg hover:-translate-y-0.5 transition-all duration-200" data-affiliate="true" data-product-name={name} data-product-price={price} data-product-category={category} onclick={`window.dataLayer=window.dataLayer||[];window.dataLayer.push({event:'affiliate_click',product_name:'${name.replace(/'/g,"\\'")}',product_price:${price},product_category:'${category||''}',affiliate_url:'${affiliateUrl}'})`}>
   <!-- Image -->
   <div class="relative aspect-square bg-surface overflow-hidden">
     <img src={image} alt={name} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
