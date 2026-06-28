@@ -3,20 +3,24 @@ import BaseLayout from '@/layouts/BaseLayout.astro';
 import CategoryPills from '@/components/CategoryPills.astro';
 import ProductCard from '@/components/ProductCard.astro';
 
-// Mock products with real Shopee image URLs (placeholder until Data pipeline)
-const placeholderProducts = [
-  { name: 'Royal Canin Indoor อาหารแมวโต เลี้ยงในบ้าน 2kg', image: 'https://placehold.co/400x400/FFF7ED/F97316?text=Royal+Canin', price: 590, originalPrice: 750, discount: 21, rating: 4.9, sold: 12500, affiliateUrl: 'https://shopee.co.th', category: 'food' },
-  { name: 'คอนโดแมว 3 ชั้น ที่ลับเล็บ ที่นอนแมว ของเล่นแมว', image: 'https://placehold.co/400x400/FFF7ED/F97316?text=Cat+Condo', price: 890, originalPrice: 1290, discount: 31, rating: 4.7, sold: 8200, affiliateUrl: 'https://shopee.co.th', category: 'toys' },
-  { name: 'สายจูงสุนัข แบบยืดหด อัตโนมัติ 5 เมตร พรีเมียม', image: 'https://placehold.co/400x400/FFF7ED/F97316?text=Dog+Leash', price: 299, originalPrice: 450, discount: 34, rating: 4.8, sold: 15600, affiliateUrl: 'https://shopee.co.th', category: 'accessories' },
-  { name: 'เปลแมว แฮมม็อค ติดกระจก ที่นอนแมว วิวหน้าต่าง', image: 'https://placehold.co/400x400/FFF7ED/F97316?text=Cat+Hammock', price: 199, originalPrice: 350, discount: 43, rating: 4.6, sold: 9300, affiliateUrl: 'https://shopee.co.th', category: 'beds' },
-  { name: 'น้ำพุแมว อัตโนมัติ 2.5L USB ชาร์จ กรองน้ำ 3 ชั้น', image: 'https://placehold.co/400x400/FFF7ED/F97316?text=Cat+Fountain', price: 459, originalPrice: 790, discount: 42, rating: 4.6, sold: 7800, affiliateUrl: 'https://shopee.co.th', category: 'accessories' },
-];
+// Real products from Shopee CDP scrape
+import productsData from '../../data/products.json';
+
+const products = productsData.map((p: any) => ({
+  name: p.title,
+  image: p.images?.[0] || 'https://placehold.co/400x400/FFF7ED/F97316?text=Product',
+  price: parseInt(String(p.price).replace(/[^0-9]/g, '')) || 0,
+  rating: parseFloat(p.rating) || 0,
+  sold: parseInt(String(p.sold).replace(/[^0-9]/g, '')) || 0,
+  affiliateUrl: p.affiliateUrl || p.url || '#',
+  category: 'food',
+}));
 ---
 
 <BaseLayout title="ดีลอุปกรณ์สัตว์เลี้ยง Shopee ราคาดี">
   <!-- Hero -->
-  <section class="bg-gradient-to-b from-pet-50 to-white py-12 px-4">
-    <div class="max-w-7xl mx-auto text-center">
+  <section class="bg-gradient-to-b from-pet-50 to-white py-16 md:py-20 px-4 min-h-[40vh] flex items-center">
+    <div class="max-w-7xl mx-auto text-center w-full">
       <h1 class="text-3xl md:text-5xl font-bold text-gray-900 mb-4">
         ดีลอุปกรณ์สัตว์เลี้ยง
         <span class="text-pet-500">ราคาดี</span>
@@ -42,7 +46,7 @@ const placeholderProducts = [
       <a href="/deals" class="text-sm text-pet-500 hover:text-pet-600 font-medium">ดูทั้งหมด →</a>
     </div>
     <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
-      {placeholderProducts.map(product => (
+      {products.map(product => (
         <ProductCard {...product} />
       ))}
     </div>
