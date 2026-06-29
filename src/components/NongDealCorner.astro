@@ -1,0 +1,72 @@
+---
+---
+
+<a href="/deals/7-7/" class="nong-deal-corner" aria-label="น้องดีลแนะนำดีล">
+  <img src="/brand/nong-deal-bossy.png" alt="น้องดีล" width="80" height="80" loading="lazy" />
+</a>
+
+<style>
+  .nong-deal-corner {
+    position: fixed;
+    bottom: 80px;
+    right: 16px;
+    width: 64px;
+    height: 64px;
+    z-index: 40;
+    cursor: pointer;
+    animation: wiggle 2.5s ease-in-out infinite;
+    filter: drop-shadow(0 2px 8px rgba(0,0,0,0.15));
+    transition: transform 0.2s;
+  }
+  .nong-deal-corner img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 50%;
+  }
+  .nong-deal-corner:hover {
+    animation-play-state: paused;
+    transform: scale(1.1);
+  }
+  .nong-deal-corner::after {
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    right: 0;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s;
+  }
+  .nong-deal-corner:hover::after {
+    content: 'เจ้าทาส! ดูดีลวันนี้หรือยัง?';
+    opacity: 1;
+    background: white;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    padding: 8px 14px;
+    font-size: 12px;
+    font-family: 'Sarabun', sans-serif;
+    white-space: nowrap;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    color: #1F2937;
+    margin-bottom: 8px;
+  }
+  @keyframes wiggle {
+    0%, 100% { transform: rotate(0deg); }
+    20% { transform: rotate(-5deg); }
+    40% { transform: rotate(5deg); }
+    60% { transform: rotate(-3deg); }
+    80% { transform: rotate(3deg); }
+  }
+  @media (max-width: 640px) {
+    .nong-deal-corner {
+      width: 52px;
+      height: 52px;
+      bottom: 70px;
+      right: 12px;
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .nong-deal-corner { animation: none; }
+  }
+</style>

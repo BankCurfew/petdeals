@@ -1,0 +1,35 @@
+---
+interface Props {
+  count?: number;
+}
+const { count = 5 } = Astro.props;
+const paws = Array.from({ length: count });
+---
+
+<div class="paw-trail" aria-hidden="true">
+  {paws.map((_, i) => (
+    <div class:list={['paw', i % 2 === 0 ? 'paw-left' : 'paw-right']}></div>
+  ))}
+</div>
+
+<style>
+  .paw-trail {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding: 16px 0;
+    opacity: 0.12;
+  }
+  .paw {
+    width: 18px;
+    height: 18px;
+    background: url('/icons/paw.svg') no-repeat center;
+    background-size: contain;
+    color: #14B8A6;
+  }
+  .paw-left { transform: rotate(-15deg); }
+  .paw-right { transform: rotate(15deg) translateY(-4px); }
+  @media (prefers-reduced-motion: reduce) {
+    .paw-trail { display: none; }
+  }
+</style>

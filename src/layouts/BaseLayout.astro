@@ -1,4 +1,6 @@
 ---
+import NongDealCorner from '@/components/NongDealCorner.astro';
+
 interface Props {
   title: string;
   description?: string;
@@ -36,7 +38,9 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MXZC4NXN" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- Header -->
-  <header class="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-gray-100">
+  <header class="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-gray-100 relative overflow-visible">
+    <!-- Cat tail peeking from header -->
+    <div class="header-tail" aria-hidden="true"></div>
     <div class="max-w-7xl mx-auto px-4 h-14 flex items-center justify-between">
       <a href="/" class="flex items-center gap-2">
         <span class="text-2xl">🐾</span>
@@ -57,6 +61,9 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
   <main>
     <slot />
   </main>
+
+  <!-- น้องดีล corner mascot -->
+  <NongDealCorner />
 
   <!-- Footer -->
   <footer class="bg-gray-50 border-t border-gray-100 py-12 mt-16">
@@ -92,5 +99,31 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
       </div>
     </div>
   </footer>
+
+  <style is:global>
+    .header-tail {
+      position: absolute;
+      right: 140px;
+      top: -2px;
+      width: 32px;
+      height: 40px;
+      background: url('/brand/cat-tail.svg') no-repeat center;
+      background-size: contain;
+      animation: tail-wag 2s ease-in-out infinite;
+      pointer-events: none;
+      z-index: 51;
+    }
+    @keyframes tail-wag {
+      0%, 100% { transform: rotate(0deg); }
+      33% { transform: rotate(10deg); }
+      66% { transform: rotate(-10deg); }
+    }
+    @media (max-width: 768px) {
+      .header-tail { display: none; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .header-tail { animation: none; }
+    }
+  </style>
 </body>
 </html>

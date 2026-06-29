@@ -3,6 +3,7 @@ import BaseLayout from '@/layouts/BaseLayout.astro';
 import Hero77 from '@/components/Hero77.astro';
 import CategoryPills from '@/components/CategoryPills.astro';
 import ProductCard from '@/components/ProductCard.astro';
+import PawTrail from '@/components/PawTrail.astro';
 
 import productsData from '../../data/products.json';
 
@@ -30,6 +31,8 @@ const products = productsData
     <CategoryPills />
   </section>
 
+  <PawTrail />
+
   <!-- Featured Products -->
   <section class="max-w-7xl mx-auto px-4 py-12">
     <div class="flex items-center justify-between mb-6">
@@ -42,6 +45,8 @@ const products = productsData
       ))}
     </div>
   </section>
+
+  <PawTrail count={7} />
 
   <!-- SEO Content -->
   <section class="max-w-4xl mx-auto px-4 py-12">
