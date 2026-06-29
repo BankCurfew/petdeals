@@ -13,7 +13,8 @@ interface Props {
   slug?: string;
 }
 
-const { name, image, price, originalPrice, discount, rating, sold, affiliateUrl, category, lastUpdated, slug } = Astro.props;
+const { name, image: rawImage, price, originalPrice, discount, rating, sold, affiliateUrl, category, lastUpdated, slug } = Astro.props;
+const image = (slug ? `/products/${slug}.webp` : '') || rawImage;
 
 const formatPrice = (n: number) => `฿${n.toLocaleString('th-TH')}`;
 const productPageUrl = slug ? `/products/${slug}` : null;
