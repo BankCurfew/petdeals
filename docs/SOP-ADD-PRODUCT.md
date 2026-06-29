@@ -181,3 +181,53 @@ bun run build && wrangler pages deploy dist --project-name=petzdeals
 | **3. Designer** | Brand consistency | Teal/coral colors, น้องดีล mascot, playful elements (paw prints, แมวเกาะขอบ), ไม่เหมือน Shopee |
 
 **ไม่ผ่านแม้แต่ 1 ด่าน = ไม่ deploy = แก้แล้วส่ง review ใหม่**
+
+---
+
+## Testing Mandate (แบงค์ ordered 29 มิ.ย.)
+
+**ทุกอย่างบน production ต้อง test ก่อน — ไม่มีข้อยกเว้น**
+
+### Unit Tests (Dev — bun test)
+```bash
+bun test
+```
+
+| Test | What |
+|---|---|
+| Filter logic | กด tab → ถูก products แสดง |
+| Search logic | พิมพ์ → match products ถูกต้อง |
+| Affiliate links | ทุก link มี utm_source + utm_medium |
+| Price display | ไม่มี 0, ไม่มี empty, format ฿X,XXX |
+| Image URLs | ทุก URL เป็น susercontent.com (ไม่ใช่ placeholder) |
+| Schema markup | Product + FAQ JSON-LD valid |
+| Category data | ทุก product มี category assigned |
+
+### Visual Tests (QA — pw-cli)
+```bash
+pw=~/.oracle/tools/pw-cli.sh
+$pw open
+$pw goto "https://petzdeals.com"
+$pw screenshot  # Homepage
+$pw click [filter-tab]  # Test filter
+$pw screenshot  # Filtered view
+$pw fill [search-input] "Royal Canin"  # Test search
+$pw screenshot  # Search results
+$pw goto "https://petzdeals.com/products/[slug]"  
+$pw screenshot  # Product detail
+$pw close
+```
+
+**Check:**
+- [ ] Images load (ไม่ใช่ placeholder)
+- [ ] Prices correct (ตรง Shopee)
+- [ ] Filters work (กดแล้ว products เปลี่ยน)
+- [ ] Search works (พิมพ์แล้วเจอ)
+- [ ] CTA correct (ไม่พูด Shopee)
+- [ ] Mobile responsive (390px)
+- [ ] Branding consistent (teal/coral/green)
+- [ ] น้องดีล mascot visible
+- [ ] Playful elements (paw trails, tail wag)
+- [ ] Rating/sold ไม่แสดง 0
+
+**ไม่ผ่าน test = ไม่ deploy. ไม่มีข้อยกเว้น.**
