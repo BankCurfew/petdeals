@@ -23,8 +23,8 @@ const formatDate = (d: string) => {
 };
 const ratingNum = typeof rating === 'string' ? parseFloat(rating) : rating;
 const soldStr = typeof sold === 'string' ? sold : (sold && sold > 0 ? sold.toLocaleString() : '');
-const hasRating = ratingNum && ratingNum > 0;
-const hasSold = soldStr && soldStr !== '0';
+const hasRating = ratingNum != null && !isNaN(ratingNum) && ratingNum > 0;
+const hasSold = !!soldStr && soldStr !== '0' && soldStr !== '';
 ---
 
 <div class="group block bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-lg hover:-translate-y-0.5 transition-all duration-200">
