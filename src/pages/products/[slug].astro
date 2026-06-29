@@ -15,8 +15,10 @@ export function getStaticPaths() {
 const { product } = Astro.props;
 const price = parseInt(String(product.price).replace(/[^0-9]/g, '')) || 0;
 const priceHigh = product.priceHigh ? parseInt(String(product.priceHigh).replace(/[^0-9]/g, '')) : 0;
-const rating = parseFloat(product.rating) || 0;
-const sold = parseInt(String(product.sold).replace(/[^0-9]/g, '')) || 0;
+const rating = product.rating ? parseFloat(product.rating) : 0;
+const soldRaw = product.sold || '';
+const soldStr = typeof soldRaw === 'string' ? soldRaw : (soldRaw > 0 ? soldRaw.toLocaleString() : '');
+const sold = parseInt(String(soldRaw).replace(/[^0-9]/g, '')) || 0;
 const images = product.images || [];
 const affiliateUrl = product.affiliateUrl || product.url || '#';
 const seo = {
@@ -143,15 +145,17 @@ const breadcrumbSchema = {
         <h1 class="text-xl md:text-2xl font-bold text-gray-900 mb-4 leading-snug">{seo.title}</h1>
 
         <!-- Rating + Sold -->
-        <div class="flex items-center gap-4 mb-4 text-sm">
-          {rating > 0 && (
-            <span class="flex items-center gap-1 text-star font-semibold">
-              ★ {rating.toFixed(1)}
-            </span>
-          )}
-          {sold > 0 && <span class="text-gray-400">ขายแล้ว {sold.toLocaleString()} ชิ้น</span>}
-          {seo.brand && <span class="text-pet-500 font-medium">{seo.brand}</span>}
-        </div>
+        {(rating > 0 || soldStr || seo.brand) && (
+          <div class="flex items-center gap-4 mb-4 text-sm">
+            {rating > 0 && (
+              <span class="flex items-center gap-1 text-star font-semibold">
+                ★ {rating.toFixed(1)}
+              </span>
+            )}
+            {soldStr && <span class="text-gray-400">ขายแล้ว {soldStr}</span>}
+            {seo.brand && <span class="text-pet-500 font-medium">{seo.brand}</span>}
+          </div>
+        )}
 
         <!-- Price -->
         <div class="bg-pet-50 rounded-xl px-6 py-4 mb-6">

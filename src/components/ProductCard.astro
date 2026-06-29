@@ -5,8 +5,8 @@ interface Props {
   price: number;
   originalPrice?: number;
   discount?: number;
-  rating?: number;
-  sold?: number;
+  rating?: number | string;
+  sold?: number | string;
   affiliateUrl: string;
   category?: string;
   lastUpdated?: string;
@@ -21,6 +21,10 @@ const formatDate = (d: string) => {
   const date = new Date(d);
   return date.toLocaleDateString('th-TH', { day: 'numeric', month: 'short' });
 };
+const ratingNum = typeof rating === 'string' ? parseFloat(rating) : rating;
+const soldStr = typeof sold === 'string' ? sold : (sold && sold > 0 ? sold.toLocaleString() : '');
+const hasRating = ratingNum && ratingNum > 0;
+const hasSold = soldStr && soldStr !== '0';
 ---
 
 <div class="group block bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-lg hover:-translate-y-0.5 transition-all duration-200">
@@ -53,14 +57,14 @@ const formatDate = (d: string) => {
     </div>
 
     <!-- Rating + Sold -->
-    {(rating || sold) && (
+    {(hasRating || hasSold) && (
       <div class="flex items-center gap-3 text-xs text-gray-400">
-        {rating && rating > 0 && (
+        {hasRating && (
           <span class="flex items-center gap-0.5">
-            <span class="text-star">★</span> {rating.toFixed(1)}
+            <span class="text-star">★</span> {ratingNum!.toFixed(1)}
           </span>
         )}
-        {sold && sold > 0 && <span>ขายแล้ว {sold.toLocaleString()} ชิ้น</span>}
+        {hasSold && <span>ขายแล้ว {soldStr}</span>}
       </div>
     )}
 
