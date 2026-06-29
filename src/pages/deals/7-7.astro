@@ -1,0 +1,96 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Hero77 from '@/components/Hero77.astro';
+import ProductCard from '@/components/ProductCard.astro';
+import productsData from '../../../data/products.json';
+
+const saleEnd = '2026-07-08T00:00:00+07:00';
+
+const products = productsData
+  .filter((p: any) => p.slug)
+  .map((p: any) => ({
+    name: p.title,
+    image: p.images?.[0] || '',
+    price: parseInt(String(p.price).replace(/[^0-9]/g, '')) || 0,
+    originalPrice: p.priceHigh ? parseInt(String(p.priceHigh).replace(/[^0-9]/g, '')) : undefined,
+    rating: p.rating ? parseFloat(p.rating) : 0,
+    sold: p.sold || '',
+    affiliateUrl: p.affiliateUrl || p.url || '#',
+    category: p.category || 'food',
+    lastUpdated: p.lastUpdated,
+    slug: p.slug,
+    discount: p.priceHigh ? Math.round((1 - (parseInt(String(p.price).replace(/[^0-9]/g, '')) / parseInt(String(p.priceHigh).replace(/[^0-9]/g, '')))) * 100) : 0,
+    is77: true,
+  }));
+
+const schemaEvent = {
+  "@context": "https://schema.org",
+  "@type": "SaleEvent",
+  "name": "PetzDeals 7.7 Mega Pet Sale",
+  "description": "ลดสูงสุด 80% อุปกรณ์สัตว์เลี้ยง — ดีลดีสำหรับทาสแมวและทาสหมา",
+  "startDate": "2026-07-01",
+  "endDate": "2026-07-08",
+  "url": "https://petzdeals.com/deals/7-7/",
+  "organizer": { "@type": "Organization", "name": "PetzDeals", "url": "https://petzdeals.com" },
+};
+---
+
+<BaseLayout title="7.7 Mega Pet Sale — ลดสูงสุด 80% อุปกรณ์สัตว์เลี้ยง" description="ดีล 7.7 สำหรับทาสแมวและทาสหมา ลดสูงสุด 80% อาหารแมว อาหารสุนัข อุปกรณ์สัตว์เลี้ยง">
+  <script type="application/ld+json" set:html={JSON.stringify(schemaEvent)} />
+
+  <!-- Hero 7.7 -->
+  <Hero77 />
+
+  <!-- Breadcrumb -->
+  <nav class="max-w-7xl mx-auto px-4 py-3 text-sm text-gray-400">
+    <a href="/" class="hover:text-pet-500">หน้าแรก</a>
+    <span class="mx-1">›</span>
+    <span class="text-gray-600">ดีล 7.7</span>
+  </nav>
+
+  <!-- Sale Info -->
+  <section class="max-w-7xl mx-auto px-4 py-8">
+    <div class="bg-cream rounded-2xl p-6 md:p-8 mb-8">
+      <h1 class="text-2xl font-bold text-gray-900 mb-3">🔥 7.7 Mega Pet Sale — ดีลดีสำหรับทาสแมวและทาสหมา</h1>
+      <p class="text-gray-600 leading-relaxed">
+        รวมดีลอุปกรณ์สัตว์เลี้ยงจัดหนัก ลดราคาสูงสุด 80% เฉพาะช่วง 7.7 เท่านั้น
+        อาหารน้องเหมียว อาหารน้องหมา ของเล่น อุปกรณ์ดูแลสุขภาพ คัดมาให้เจ้านายโดยเฉพาะ
+      </p>
+    </div>
+
+    <!-- Product Grid -->
+    <div class="flex items-center justify-between mb-6">
+      <h2 class="text-xl font-bold text-gray-900">ดีล 7.7 ทั้งหมด</h2>
+      <span class="text-sm text-gray-400">{products.length} สินค้า</span>
+    </div>
+    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+      {products.map(product => (
+        <div class="relative">
+          <span class="badge-77 absolute top-2 left-2 z-10">7.7 🔥</span>
+          <ProductCard {...product} />
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <!-- SEO -->
+  <section class="max-w-4xl mx-auto px-4 py-12">
+    <h2 class="text-xl font-bold text-gray-900 mb-4">ดีล 7.7 คืออะไร?</h2>
+    <div class="prose prose-gray text-sm leading-relaxed">
+      <p>ดีล 7.7 คือมหกรรมลดราคาประจำเดือนกรกฎาคม รวมโปรโมชั่นจากร้านค้าชั้นนำ ลดราคาสินค้าสัตว์เลี้ยงสูงสุด 80% ทั้งอาหารแมวพรีเมียม อาหารสุนัข ของเล่น และอุปกรณ์ดูแลสุขภาพ</p>
+      <p>PetzDeals คัดเฉพาะดีลที่ดีที่สุดสำหรับทาสแมวและทาสหมา เช็คราคาล่าสุดให้เจ้านายทุกวัน อัพเดทดีลใหม่ตลอดช่วง 7.7</p>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .badge-77 {
+    background: linear-gradient(135deg, #FB7185, #F43F5E);
+    color: white;
+    font-weight: 700;
+    font-size: 11px;
+    padding: 4px 10px;
+    border-radius: 6px;
+    pointer-events: none;
+  }
+</style>

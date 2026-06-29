@@ -1,0 +1,81 @@
+---
+interface Props {
+  targetDate: string;
+  label?: string;
+}
+
+const { targetDate, label = 'ดีลหมดใน' } = Astro.props;
+---
+
+<div class="countdown-wrapper" data-target={targetDate}>
+  <p class="text-sm font-medium mb-2 opacity-80">{label}</p>
+  <div class="flex justify-center gap-2">
+    <div class="countdown-unit">
+      <div class="countdown-number" data-days>--</div>
+      <div class="countdown-label">วัน</div>
+    </div>
+    <div class="text-2xl font-bold self-start mt-2 opacity-50">:</div>
+    <div class="countdown-unit">
+      <div class="countdown-number" data-hours>--</div>
+      <div class="countdown-label">ชม.</div>
+    </div>
+    <div class="text-2xl font-bold self-start mt-2 opacity-50">:</div>
+    <div class="countdown-unit">
+      <div class="countdown-number" data-minutes>--</div>
+      <div class="countdown-label">นาที</div>
+    </div>
+    <div class="text-2xl font-bold self-start mt-2 opacity-50">:</div>
+    <div class="countdown-unit">
+      <div class="countdown-number" data-seconds>--</div>
+      <div class="countdown-label">วิ.</div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .countdown-unit {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(8px);
+    border-radius: 8px;
+    padding: 8px 12px;
+    text-align: center;
+    min-width: 56px;
+  }
+  .countdown-number {
+    font-size: 24px;
+    font-weight: 900;
+    font-family: 'Inter', monospace;
+    color: white;
+    line-height: 1;
+  }
+  .countdown-label {
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 4px;
+  }
+</style>
+
+<script is:inline>
+  document.querySelectorAll('.countdown-wrapper').forEach(wrapper => {
+    const target = new Date(wrapper.dataset.target).getTime();
+    const days = wrapper.querySelector('[data-days]');
+    const hours = wrapper.querySelector('[data-hours]');
+    const minutes = wrapper.querySelector('[data-minutes]');
+    const seconds = wrapper.querySelector('[data-seconds]');
+
+    function update() {
+      const now = Date.now();
+      const diff = Math.max(0, target - now);
+      const d = Math.floor(diff / 86400000);
+      const h = Math.floor((diff % 86400000) / 3600000);
+      const m = Math.floor((diff % 3600000) / 60000);
+      const s = Math.floor((diff % 60000) / 1000);
+      if (days) days.textContent = String(d).padStart(2, '0');
+      if (hours) hours.textContent = String(h).padStart(2, '0');
+      if (minutes) minutes.textContent = String(m).padStart(2, '0');
+      if (seconds) seconds.textContent = String(s).padStart(2, '0');
+      if (diff > 0) requestAnimationFrame(() => setTimeout(update, 1000));
+    }
+    update();
+  });
+</script>
