@@ -21,95 +21,111 @@ const topDeals = productsData
 const maxDiscount = topDeals.length > 0 ? topDeals[0].discount : 50;
 ---
 
-<section class="hero-77 relative overflow-hidden">
-  <!-- Animated background shapes -->
-  <div class="absolute inset-0 overflow-hidden">
-    <div class="absolute -top-20 -left-20 w-80 h-80 bg-white/5 rounded-full animate-float-slow"></div>
-    <div class="absolute -bottom-16 -right-16 w-64 h-64 bg-white/5 rounded-full animate-float-slow" style="animation-delay: -3s;"></div>
-    <div class="absolute top-1/2 left-1/4 w-32 h-32 bg-white/3 rounded-full animate-float-slow" style="animation-delay: -5s;"></div>
+<section class="hero-77-punchy relative overflow-hidden">
+  <!-- Banner image background -->
+  <div class="absolute inset-0">
+    <img src="/brand/77-mega-sale-banner.png" alt="7.7 Mega Pet Sale" class="w-full h-full object-cover object-top opacity-30 md:opacity-20" />
+    <div class="absolute inset-0 bg-gradient-to-b from-transparent via-red-600/60 to-red-700/90"></div>
   </div>
 
-  <div class="max-w-7xl mx-auto px-4 pt-10 pb-8 md:pt-14 md:pb-10 relative z-10">
-    <!-- Top: badge -->
-    <div class="text-center mb-4">
-      <span class="inline-block bg-white/20 backdrop-blur text-white text-xs font-bold px-4 py-1.5 rounded-full uppercase tracking-wider animate-pulse">
-        Flash Sale เริ่มแล้ว!
-      </span>
+  <div class="max-w-7xl mx-auto px-4 pt-8 pb-6 md:pt-12 md:pb-8 relative z-10">
+    <!-- Flash badge -->
+    <div class="text-center mb-3">
+      <span class="badge-mega inline-block">FLASH SALE เริ่มแล้ว!</span>
     </div>
 
-    <!-- Main: 7.7 + headline -->
-    <div class="text-center mb-6">
+    <!-- 7.7 + headline -->
+    <div class="text-center mb-4">
       <div class="sale-number select-none">7.7</div>
-      <h2 class="text-2xl md:text-4xl font-black text-white -mt-2 mb-2 tracking-tight">
+      <h2 class="text-2xl md:text-4xl font-black text-white -mt-1 mb-1 tracking-tight drop-shadow-lg">
         MEGA PET SALE
       </h2>
       <p class="text-xl md:text-2xl text-white font-bold">
-        ลดสูงสุด <span class="text-yellow-300 text-3xl md:text-4xl">{maxDiscount}%</span>
+        ลดสูงสุด <span class="text-yellow-300 text-3xl md:text-4xl font-black drop-shadow">{maxDiscount}%</span>
       </p>
-      <p class="text-white/70 text-sm mt-1">อุปกรณ์สัตว์เลี้ยง — ดีลดีที่ทาสต้องรีบ!</p>
     </div>
 
-    <!-- Countdown -->
-    <div class="text-center mb-8">
+    <!-- Countdown — RED boxes -->
+    <div class="text-center mb-6">
       <CountdownTimer targetDate={saleEnd} label="⏰ ดีลหมดใน" />
     </div>
 
-    <!-- Flash deal preview cards -->
+    <!-- Flash deal preview -->
     {topDeals.length > 0 && (
-      <div class="grid grid-cols-2 md:grid-cols-4 gap-3 max-w-3xl mx-auto mb-8">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-2 max-w-3xl mx-auto mb-6">
         {topDeals.map((deal: any) => (
-          <a href={`/products/${deal.slug}`} class="bg-white/10 backdrop-blur rounded-xl p-3 text-center hover:bg-white/20 transition-colors group">
-            <div class="aspect-square rounded-lg overflow-hidden bg-white/10 mb-2 relative">
+          <a href={`/products/${deal.slug}`} class="bg-white/15 backdrop-blur rounded-xl p-2.5 text-center hover:bg-white/25 transition-colors group border border-white/10">
+            <div class="aspect-square rounded-lg overflow-hidden bg-white/10 mb-1.5 relative">
               <img src={deal.images?.[0]} alt="" class="w-full h-full object-cover group-hover:scale-105 transition-transform" loading="lazy" />
-              <span class="absolute top-1 right-1 bg-red-500 text-white text-[10px] font-bold px-1.5 py-0.5 rounded">-{deal.discount}%</span>
+              <span class="absolute top-1 right-1 bg-yellow-400 text-red-700 text-[10px] font-black px-1.5 py-0.5 rounded-full">-{deal.discount}%</span>
             </div>
-            <div class="text-red-300 font-bold text-sm">฿{deal.priceNum.toLocaleString()}</div>
-            <div class="text-white/40 text-xs line-through">฿{deal.maxNum.toLocaleString()}</div>
+            <div class="sale-price text-base">฿{deal.priceNum.toLocaleString()}</div>
+            <div class="original-price">฿{deal.maxNum.toLocaleString()}</div>
           </a>
         ))}
       </div>
     )}
 
     <!-- CTA → article -->
-    <div class="flex flex-wrap justify-center gap-3">
-      <a href="/blog/7-7-mega-sale-2026/" class="bg-yellow-400 text-gray-900 px-8 py-3.5 rounded-full font-black text-lg hover:bg-yellow-300 transition-colors shadow-lg shadow-yellow-400/30 animate-bounce-gentle">
+    <div class="text-center mb-4">
+      <a href="/blog/7-7-mega-sale-2026/" class="inline-block bg-yellow-400 text-red-700 px-10 py-4 rounded-full font-black text-lg hover:bg-yellow-300 transition-all shadow-lg shadow-yellow-400/40 hover:scale-105 active:scale-95">
         ดูดีล 7.7 ทั้งหมด →
       </a>
     </div>
 
     <!-- Mascot -->
-    <div class="mt-6 text-center">
-      <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur rounded-full px-4 py-2 text-white/90 text-sm">
+    <div class="text-center">
+      <div class="inline-flex items-center gap-2 bg-black/20 backdrop-blur rounded-full px-4 py-2 text-white text-sm">
         <img src="/brand/nong-deal-bossy.png" alt="น้องดีล" class="w-8 h-8 rounded-full object-cover" />
-        <span>น้องดีล: "ข้าคัดมาเอง จงกดเดี๋ยวนี้ เหมี๊ยว!"</span>
+        <span>น้องดีล: "ดีลเดือด! จงกดเดี๋ยวนี้ เหมี๊ยว!"</span>
       </div>
     </div>
   </div>
 </section>
 
 <style>
-  .hero-77 {
-    background: linear-gradient(135deg, #DC2626 0%, #FB7185 30%, #14B8A6 70%, #0D9488 100%);
+  .hero-77-punchy {
+    background: linear-gradient(135deg, #DC2626 0%, #EA580C 50%, #FBBF24 100%);
   }
   .sale-number {
     font-size: clamp(90px, 22vw, 160px);
     font-weight: 900;
     color: white;
-    text-shadow: 0 6px 30px rgba(0, 0, 0, 0.3), 0 2px 4px rgba(0,0,0,0.2);
-    line-height: 0.9;
+    text-shadow: 0 6px 30px rgba(0,0,0,0.4), 0 2px 4px rgba(0,0,0,0.3), 0 0 80px rgba(251,191,36,0.3);
+    line-height: 0.85;
     letter-spacing: -0.03em;
   }
-  @keyframes float-slow {
-    0%, 100% { transform: translateY(0) scale(1); }
-    50% { transform: translateY(-20px) scale(1.05); }
+  .badge-mega {
+    background: #FBBF24;
+    color: #DC2626;
+    font-weight: 900;
+    font-size: 13px;
+    padding: 6px 16px;
+    border-radius: 999px;
+    animation: pulse-badge 1.5s infinite;
+    letter-spacing: 0.05em;
   }
-  .animate-float-slow { animation: float-slow 8s ease-in-out infinite; }
-  @keyframes bounce-gentle {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-4px); }
+  .sale-price {
+    color: #FEF08A;
+    font-weight: 900;
   }
-  .animate-bounce-gentle { animation: bounce-gentle 2s ease-in-out infinite; }
+  .original-price {
+    text-decoration: line-through;
+    color: rgba(255,255,255,0.4);
+    font-size: 11px;
+  }
+  @keyframes pulse-badge {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.06); }
+  }
   @media (prefers-reduced-motion: reduce) {
-    .animate-float-slow, .animate-bounce-gentle, .animate-pulse { animation: none; }
+    .badge-mega { animation: none; }
+  }
+</style>
+
+<style is:global>
+  .hero-77-punchy .countdown-unit {
+    background: #DC2626 !important;
+    border: 1px solid rgba(255,255,255,0.2);
   }
 </style>

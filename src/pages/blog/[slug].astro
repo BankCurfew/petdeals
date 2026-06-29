@@ -59,6 +59,13 @@ const dateFormatted = new Date(post.data.date).toLocaleDateString('th-TH', {
 
   <article class="max-w-4xl mx-auto px-4 py-8">
     <header class="mb-8">
+      <!-- Sale banner for 7.7 article -->
+      {post.id.includes('7-7') && (
+        <div class="rounded-2xl overflow-hidden mb-6 shadow-lg">
+          <img src="/brand/77-mega-sale-banner.png" alt="7.7 Mega Pet Sale" class="w-full h-auto" />
+        </div>
+      )}
+
       <!-- Byline card -->
       <div class="flex items-center gap-3 bg-cream rounded-xl p-4 border border-yellow-100 mb-6">
         <img src="/brand/nong-deal-bossy.png" alt="น้องดีล" class="w-12 h-12 rounded-full object-cover" />
