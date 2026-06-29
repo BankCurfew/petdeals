@@ -1,0 +1,59 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import PawTrail from '@/components/PawTrail.astro';
+import categoriesData from '../../../data/categories.json';
+import productsData from '../../../data/products.json';
+
+const categories = categoriesData.map((cat: any) => ({
+  ...cat,
+  productCount: productsData.filter((p: any) => p.category === cat.dataCategory).length,
+}));
+
+const phase1 = categories.filter((c: any) => c.phase === 1);
+const phase2 = categories.filter((c: any) => c.phase === 2);
+---
+
+<BaseLayout title="หมวดหมู่สินค้าสัตว์เลี้ยง — PetzDeals" description="รวมหมวดหมู่สินค้าสัตว์เลี้ยงทุกประเภท อาหาร ของเล่น ทราย อุปกรณ์ สำหรับแมว สุนัข และสัตว์เลี้ยงทุกชนิด">
+  <nav class="max-w-7xl mx-auto px-4 py-3 text-sm text-gray-400">
+    <a href="/" class="hover:text-pet-500">หน้าแรก</a>
+    <span class="mx-1">›</span>
+    <span class="text-gray-600">หมวดหมู่</span>
+  </nav>
+
+  <section class="max-w-7xl mx-auto px-4 py-8">
+    <h1 class="text-2xl md:text-3xl font-bold text-gray-900 mb-2">หมวดหมู่สินค้าสัตว์เลี้ยง</h1>
+    <p class="text-gray-500 mb-8">เลือกดูสินค้าตามหมวดหมู่ — คัดมาให้เจ้านายทุกประเภท 🐾</p>
+
+    <!-- Phase 1: Main categories -->
+    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 mb-12">
+      {phase1.map((cat: any) => (
+        <a href={`/categories/${cat.slug}/`} class="group bg-white rounded-xl border border-gray-100 p-5 text-center hover:shadow-md hover:border-pet-200 transition-all">
+          <div class="text-4xl mb-3">{cat.emoji}</div>
+          <h2 class="font-bold text-gray-900 group-hover:text-pet-500 transition-colors text-sm">{cat.name}</h2>
+          <p class="text-xs text-gray-400 mt-1">{cat.nameEn}</p>
+          {cat.productCount > 0 && (
+            <span class="inline-block mt-2 bg-pet-50 text-pet-600 text-xs px-2 py-0.5 rounded-full">{cat.productCount} สินค้า</span>
+          )}
+          {cat.productCount === 0 && (
+            <span class="inline-block mt-2 bg-gray-50 text-gray-400 text-xs px-2 py-0.5 rounded-full">เร็วๆ นี้</span>
+          )}
+        </a>
+      ))}
+    </div>
+
+    <PawTrail />
+
+    <!-- Phase 2: Exotic pets -->
+    <h2 class="text-xl font-bold text-gray-900 mb-4">สัตว์เลี้ยงพิเศษ — เร็วๆ นี้</h2>
+    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
+      {phase2.map((cat: any) => (
+        <a href={`/categories/${cat.slug}/`} class="group bg-white rounded-xl border border-gray-100 p-5 text-center hover:shadow-md transition-all opacity-70">
+          <div class="text-4xl mb-3">{cat.emoji}</div>
+          <h2 class="font-bold text-gray-700 text-sm">{cat.name}</h2>
+          <p class="text-xs text-gray-400 mt-1">{cat.nameEn}</p>
+          <span class="inline-block mt-2 bg-gray-50 text-gray-400 text-xs px-2 py-0.5 rounded-full">เร็วๆ นี้</span>
+        </a>
+      ))}
+    </div>
+  </section>
+</BaseLayout>

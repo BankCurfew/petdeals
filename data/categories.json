@@ -1,0 +1,222 @@
+[
+  {
+    "slug": "cat-food",
+    "name": "อาหารแมว",
+    "nameEn": "Cat Food",
+    "emoji": "🐱",
+    "animal": "cat",
+    "type": "food",
+    "dataCategory": "อาหารแมว",
+    "description": "รวมอาหารแมวเม็ดจากแบรนด์ชั้นนำ คัดมาให้เจ้านายโดยน้องดีล",
+    "phase": 1
+  },
+  {
+    "slug": "cat-wet-food",
+    "name": "อาหารเปียกแมว",
+    "nameEn": "Cat Wet Food",
+    "emoji": "🥫",
+    "animal": "cat",
+    "type": "food",
+    "dataCategory": "อาหารเปียก",
+    "description": "อาหารเปียกแมว ซอง กระป๋อง กลิ่นหอม น้องเหมียวชอบ",
+    "phase": 1
+  },
+  {
+    "slug": "cat-treats",
+    "name": "ขนมแมว",
+    "nameEn": "Cat Treats",
+    "emoji": "🍬",
+    "animal": "cat",
+    "type": "treats",
+    "dataCategory": "ขนมแมว",
+    "description": "ขนมแมวเลีย ขนมเม็ด ฟรีซดราย รางวัลสำหรับเจ้านาย",
+    "phase": 1
+  },
+  {
+    "slug": "cat-litter",
+    "name": "ทรายแมว",
+    "nameEn": "Cat Litter",
+    "emoji": "🪣",
+    "animal": "cat",
+    "type": "litter",
+    "dataCategory": "ทรายแมว",
+    "description": "ทรายแมวเบนโทไนท์ เต้าหู้ คริสตัล ภูเขาไฟ ทุกประเภท",
+    "phase": 1
+  },
+  {
+    "slug": "dog-food",
+    "name": "อาหารสุนัข",
+    "nameEn": "Dog Food",
+    "emoji": "🐕",
+    "animal": "dog",
+    "type": "food",
+    "dataCategory": "สุนัข",
+    "description": "อาหารสุนัขเม็ด ทุกสายพันธุ์ ทุกช่วงวัย ราคาดี",
+    "phase": 1
+  },
+  {
+    "slug": "cat-toys",
+    "name": "ของเล่นแมว",
+    "nameEn": "Cat Toys",
+    "emoji": "🧸",
+    "animal": "cat",
+    "type": "toys",
+    "dataCategory": "ของเล่นแมว",
+    "description": "ไม้แหย่แมว บอล catnip laser ของเล่นเสริมสร้างพัฒนาการ",
+    "phase": 1
+  },
+  {
+    "slug": "cat-condos",
+    "name": "คอนโดแมว",
+    "nameEn": "Cat Trees & Condos",
+    "emoji": "🏠",
+    "animal": "cat",
+    "type": "furniture",
+    "dataCategory": "คอนโดแมว",
+    "description": "คอนโดแมว เสาลับเล็บ ที่นอนแมว บ้านแมว ทุกขนาด",
+    "phase": 1
+  },
+  {
+    "slug": "auto-feeders",
+    "name": "เครื่องให้อาหารอัตโนมัติ",
+    "nameEn": "Auto Feeders",
+    "emoji": "🤖",
+    "animal": "all",
+    "type": "tech",
+    "dataCategory": "เครื่องให้อาหารอัตโนมัติ",
+    "description": "เครื่องให้อาหารแมว/สุนัขอัตโนมัติ ตั้งเวลาได้ WiFi เชื่อมแอป",
+    "phase": 1
+  },
+  {
+    "slug": "water-fountains",
+    "name": "น้ำพุแมว",
+    "nameEn": "Cat Water Fountains",
+    "emoji": "💧",
+    "animal": "cat",
+    "type": "tech",
+    "dataCategory": "น้ำพุแมว",
+    "description": "น้ำพุแมว ทุกรุ่น ทุกแบรนด์ กรองสะอาด น้องเหมียวชอบดื่ม",
+    "phase": 1
+  },
+  {
+    "slug": "smart-pet-tech",
+    "name": "อุปกรณ์อิเล็กทรอนิกส์",
+    "nameEn": "Smart Pet Tech",
+    "emoji": "📱",
+    "animal": "all",
+    "type": "tech",
+    "dataCategory": "อุปกรณ์อิเล็กทรอนิกส์",
+    "description": "กล้องดูแมว GPS tracker Smart collar เทคโนโลยีสำหรับสัตว์เลี้ยง",
+    "phase": 1
+  },
+  {
+    "slug": "carriers",
+    "name": "กรง/กล่องเดินทาง",
+    "nameEn": "Carriers & Crates",
+    "emoji": "🎒",
+    "animal": "all",
+    "type": "accessories",
+    "dataCategory": "กรง/กล่องเดินทาง",
+    "description": "กระเป๋าแมว กรงเดินทาง กล่องขนย้ายสัตว์เลี้ยง",
+    "phase": 1
+  },
+  {
+    "slug": "grooming",
+    "name": "แชมพู/อาบน้ำ",
+    "nameEn": "Grooming",
+    "emoji": "🧴",
+    "animal": "all",
+    "type": "grooming",
+    "dataCategory": "แชมพู/อาบน้ำ",
+    "description": "แชมพูแมว แชมพูสุนัข อุปกรณ์อาบน้ำ แปรงขน",
+    "phase": 1
+  },
+  {
+    "slug": "health",
+    "name": "สุขภาพ/วิตามิน",
+    "nameEn": "Health & Supplements",
+    "emoji": "💊",
+    "animal": "all",
+    "type": "health",
+    "dataCategory": "สุขภาพ/วิตามิน",
+    "description": "วิตามินแมว อาหารเสริม ดูแลสุขภาพเจ้านาย",
+    "phase": 1
+  },
+  {
+    "slug": "pet-clothing",
+    "name": "เสื้อผ้าสัตว์เลี้ยง",
+    "nameEn": "Pet Clothing",
+    "emoji": "👕",
+    "animal": "all",
+    "type": "clothing",
+    "dataCategory": "เสื้อผ้าสัตว์เลี้ยง",
+    "description": "เสื้อผ้าแมว เสื้อผ้าสุนัข ชุดคอสเพลย์ ชุดกันหนาว",
+    "phase": 1
+  },
+  {
+    "slug": "training",
+    "name": "อุปกรณ์ฝึก",
+    "nameEn": "Training",
+    "emoji": "🎯",
+    "animal": "all",
+    "type": "training",
+    "dataCategory": "อุปกรณ์ฝึก",
+    "description": "อุปกรณ์ฝึกสุนัข ห่วงคล่อง clicker ของเล่นฝึก",
+    "phase": 1
+  },
+  {
+    "slug": "birds",
+    "name": "นก",
+    "nameEn": "Birds",
+    "emoji": "🐦",
+    "animal": "bird",
+    "type": "all",
+    "dataCategory": "นก",
+    "description": "กรงนก อาหารนก ของเล่นนก อุปกรณ์สำหรับนก",
+    "phase": 2
+  },
+  {
+    "slug": "fish",
+    "name": "ปลา",
+    "nameEn": "Fish",
+    "emoji": "🐠",
+    "animal": "fish",
+    "type": "all",
+    "dataCategory": "ปลา",
+    "description": "ตู้ปลา กรองน้ำ อาหารปลา ตกแต่งตู้ปลา",
+    "phase": 2
+  },
+  {
+    "slug": "rabbits",
+    "name": "กระต่าย",
+    "nameEn": "Rabbits",
+    "emoji": "🐰",
+    "animal": "rabbit",
+    "type": "all",
+    "dataCategory": "กระต่าย",
+    "description": "กรงกระต่าย อาหารกระต่าย ของเล่นกระต่าย",
+    "phase": 2
+  },
+  {
+    "slug": "hamsters",
+    "name": "แฮมสเตอร์",
+    "nameEn": "Hamsters",
+    "emoji": "🐹",
+    "animal": "hamster",
+    "type": "all",
+    "dataCategory": "แฮมสเตอร์",
+    "description": "กรงแฮมสเตอร์ ล้อออกกำลัง อาหารแฮมสเตอร์",
+    "phase": 2
+  },
+  {
+    "slug": "reptiles",
+    "name": "เต่า/สัตว์เลื้อยคลาน",
+    "nameEn": "Reptiles",
+    "emoji": "🐢",
+    "animal": "reptile",
+    "type": "all",
+    "dataCategory": "เต่า/สัตว์เลื้อยคลาน",
+    "description": "ตู้เลี้ยงสัตว์เลื้อยคลาน หลอดไฟ อาหารเต่า",
+    "phase": 2
+  }
+]
