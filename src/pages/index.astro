@@ -17,7 +17,7 @@ const products = productsData
       image: p.images?.[0] || 'https://placehold.co/400x400/F0FDFA/14B8A6?text=Product',
       price,
       originalPrice: maxPrice > price ? maxPrice : undefined,
-      discount: maxPrice > price ? Math.round((1 - price / maxPrice) * 100) : 0,
+      discount: maxPrice > price ? Math.round((1 - price / maxPrice) * 100) : undefined,
       rating: p.rating ? parseFloat(p.rating) : undefined,
       sold: p.sold || '',
       affiliateUrl: p.affiliateUrl || p.url || '#',
