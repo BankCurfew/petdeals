@@ -166,11 +166,12 @@ describe("Affiliate Links — format validation", () => {
     }
   });
 
-  test("all products have affiliate URL with utm_source", () => {
+  test("all products have affiliate URL (utm or short link)", () => {
     for (const p of productsData) {
       const url = p.affiliateUrl || p.url;
       expect(url).toBeTruthy();
-      expect(url).toContain("utm_source=");
+      const hasTracking = url.includes("utm_source=") || url.includes("s.shopee.co.th") || url.includes("shope.ee");
+      expect(hasTracking).toBe(true);
     }
   });
 });
