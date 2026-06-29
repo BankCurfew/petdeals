@@ -4,16 +4,17 @@
 
 ## About
 
-PetzDeals is a Thai pet supplies deal aggregator. We curate the best deals on pet food, treats, litter, toys, and accessories from Shopee Thailand. All products are reviewed by น้องดีล, our bossy cat mascot.
+PetzDeals is a Thai pet supplies deal aggregator and review site. We curate the best deals on pet food, treats, litter, toys, condos, fountains, feeders, carriers, and accessories from Shopee Thailand. 281 products across 12 categories. All content reviewed by น้องดีล, our bossy cat mascot.
 
 ## Pages
 
 - [Homepage](https://petzdeals.com/) — Featured deals and products
 - [ดีลเด็ดวันนี้](https://petzdeals.com/deals/today/) — Daily curated best deals
 - [ดีล 7.7](https://petzdeals.com/deals/7-7/) — 7.7 Mega Sale deals
+- [หมวดหมู่](https://petzdeals.com/categories/) — All product categories
 - [บทความ](https://petzdeals.com/blog/) — Review articles and buying guides
 
-## Blog Articles
+## Blog Articles (12)
 
 - [10 อาหารแมว ยี่ห้อไหนดี 2026](https://petzdeals.com/blog/best-cat-food-2026/) — Cat food review
 - [อาหารเปียกแมว ยี่ห้อไหนดี 2026](https://petzdeals.com/blog/wet-food-guide-2026/) — Wet food review
@@ -22,14 +23,30 @@ PetzDeals is a Thai pet supplies deal aggregator. We curate the best deals on pe
 - [เครื่องให้อาหารแมวอัตโนมัติ 2026](https://petzdeals.com/blog/auto-feeder-review-2026/) — Auto feeder review
 - [อุปกรณ์เลี้ยงแมวครั้งแรก](https://petzdeals.com/blog/first-cat-essentials-2026/) — First-time cat owner checklist
 - [ดีล 7.7 Mega Sale](https://petzdeals.com/blog/7-7-mega-sale-2026/) — 7.7 sale guide
+- [ของเล่นแมว ยี่ห้อไหนดี 2026](https://petzdeals.com/blog/cat-toys-guide-2026/) — Cat toys guide
+- [คอนโดแมว เสาลับเล็บ 2026](https://petzdeals.com/blog/cat-condo-guide-2026/) — Cat condo guide
+- [น้ำพุแมว ยี่ห้อไหนดี 2026](https://petzdeals.com/blog/cat-fountain-guide-2026/) — Cat fountain guide
+- [เครื่องให้อาหารแมว ยี่ห้อไหนดี 2026](https://petzdeals.com/blog/auto-feeder-guide-2026/) — Auto feeder buying guide
+- [กรงแมว กล่องเดินทาง 2026](https://petzdeals.com/blog/carrier-cage-guide-2026/) — Carrier and cage guide
 
-## Categories
+## Categories (12)
 
-- อาหารแมว (Cat Food) — 30 products
-- อาหารเปียก (Wet Food) — 20 products
+- อาหารแมว (Cat Food) — 85 products
+- ของเล่นแมว (Cat Toys) — 30 products
+- เครื่องให้อาหาร (Auto Feeders) — 24 products
+- คอนโดแมว (Cat Condos) — 20 products
 - ขนมแมว (Cat Treats) — 20 products
-- ทรายแมว (Cat Litter) — 20 products
+- อาหารเปียก (Wet Food) — 20 products
 - สุนัข (Dog Products) — 20 products
+- ทรายแมว (Cat Litter) — 19 products
+- น้ำพุแมว (Cat Fountains) — 15 products
+- กรงและกระเป๋า (Carriers & Cages) — 14 products
+- ของเล่นสุนัข (Dog Toys) — 10 products
+- อาหารสุนัข (Dog Food) — 4 products
+
+## Brands
+
+Royal Canin, Hill's, Orijen, Acana, Petkit, KONG, Catit, Purina One, Whiskas, Kaniva, and 30+ more
 
 ## Contact
 
