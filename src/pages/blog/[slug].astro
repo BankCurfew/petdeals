@@ -38,7 +38,7 @@ const articleSchema = {
   "description": post.data.description,
   "datePublished": post.data.date,
   "dateModified": post.data.date,
-  "image": post.data.image || "https://petzdeals.com/brand/og-default.png",
+  "image": post.data.image || "https://petzdeals.com/brand/og-default.webp",
   "mainEntityOfPage": { "@type": "WebPage", "@id": Astro.url.href },
   "author": { "@type": "Organization", "name": "PetzDeals" },
   "publisher": { "@type": "Organization", "name": "PetzDeals", "url": "https://petzdeals.com", "logo": { "@type": "ImageObject", "url": "https://petzdeals.com/favicon.svg" } },
@@ -49,7 +49,7 @@ const dateFormatted = new Date(post.data.date).toLocaleDateString('th-TH', {
 });
 ---
 
-<BaseLayout title={post.data.title} description={post.data.description} type="article" image={post.data.image || '/brand/og-default.png'}>
+<BaseLayout title={post.data.title} description={post.data.description} type="article" image={post.data.image || '/brand/og-default.webp'}>
   <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
 
   <nav class="max-w-4xl mx-auto px-4 py-3 text-sm text-gray-400">
@@ -65,13 +65,13 @@ const dateFormatted = new Date(post.data.date).toLocaleDateString('th-TH', {
       <!-- Sale banner for 7.7 article -->
       {post.id.includes('7-7') && (
         <div class="rounded-2xl overflow-hidden mb-6 shadow-lg">
-          <img src="/brand/77-mega-sale-banner.png" alt="7.7 Mega Pet Sale — ลดสูงสุด 80% อุปกรณ์สัตว์เลี้ยง PetzDeals" title="PetzDeals 7.7 Mega Sale" width="1200" height="400" class="w-full h-auto" fetchpriority="high" />
+          <img src="/brand/77-mega-sale-banner.webp" alt="7.7 Mega Pet Sale — ลดสูงสุด 80% อุปกรณ์สัตว์เลี้ยง PetzDeals" title="PetzDeals 7.7 Mega Sale" width="1200" height="400" class="w-full h-auto" fetchpriority="high" />
         </div>
       )}
 
       <!-- Byline card -->
       <div class="flex items-center gap-3 bg-cream rounded-xl p-4 border border-yellow-100 mb-6">
-        <img src="/brand/nong-deal-bossy.png" alt="น้องดีล" class="w-12 h-12 rounded-full object-cover" />
+        <img src="/brand/nong-deal-bossy.webp" alt="น้องดีล" class="w-12 h-12 rounded-full object-cover" />
         <div>
           <p class="font-semibold text-gray-800 text-sm">{post.data.author}</p>
           <p class="text-xs text-gray-400">ทีมรีวิว PetzDeals · {dateFormatted}</p>

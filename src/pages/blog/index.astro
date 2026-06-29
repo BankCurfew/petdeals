@@ -23,7 +23,7 @@ const posts = (await getCollection('blog')).sort(
       {posts.map(post => (
         <a href={`/blog/${post.id}/`} class="block group bg-white rounded-xl border border-gray-100 p-5 hover:shadow-md hover:border-pet-200 transition-all">
           <div class="flex items-start gap-4">
-            <img src="/brand/nong-deal-bossy.png" alt="" class="w-12 h-12 rounded-full object-cover shrink-0 mt-1" />
+            <img src="/brand/nong-deal-bossy.webp" alt="" class="w-12 h-12 rounded-full object-cover shrink-0 mt-1" />
             <div class="flex-1 min-w-0">
               <h2 class="text-lg font-bold text-gray-900 group-hover:text-pet-500 transition-colors mb-1 line-clamp-2">
                 {post.data.title}
