@@ -24,7 +24,7 @@ const maxDiscount = topDeals.length > 0 ? topDeals[0].discount : 50;
 <section class="hero-77-punchy relative overflow-hidden">
   <!-- Banner image background -->
   <div class="absolute inset-0">
-    <img src="/brand/77-mega-sale-banner.png" alt="7.7 Mega Pet Sale" class="w-full h-full object-cover object-top opacity-30 md:opacity-20" />
+    <img src="/brand/77-mega-sale-banner.png" alt="7.7 Mega Pet Sale — ลดสูงสุด 80% อุปกรณ์สัตว์เลี้ยง" title="PetzDeals 7.7 Mega Sale" width="1200" height="400" class="w-full h-full object-cover object-top opacity-30 md:opacity-20" fetchpriority="high" />
     <div class="absolute inset-0 bg-gradient-to-b from-transparent via-red-600/60 to-red-700/90"></div>
   </div>
 
@@ -56,7 +56,7 @@ const maxDiscount = topDeals.length > 0 ? topDeals[0].discount : 50;
         {topDeals.map((deal: any) => (
           <a href={`/products/${deal.slug}`} class="bg-white/15 backdrop-blur rounded-xl p-2.5 text-center hover:bg-white/25 transition-colors group border border-white/10">
             <div class="aspect-square rounded-lg overflow-hidden bg-white/10 mb-1.5 relative">
-              <img src={deal.images?.[0]} alt={deal.title} class="w-full h-full object-cover group-hover:scale-105 transition-transform" loading="lazy" />
+              <img src={deal.images?.[0]} alt={deal.title} title={deal.title} width="300" height="300" class="w-full h-full object-cover group-hover:scale-105 transition-transform" loading="lazy" decoding="async" />
               <span class="absolute top-1 right-1 bg-yellow-400 text-red-700 text-[10px] font-black px-1.5 py-0.5 rounded-full">-{deal.discount}%</span>
             </div>
             <div class="sale-price text-base">฿{deal.priceNum.toLocaleString()}</div>

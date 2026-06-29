@@ -118,6 +118,69 @@ Rules:
 ### Blog Pages
 - `Article` schema with headline, description, datePublished, dateModified, image, author, publisher, mainEntityOfPage
 
+## Image SEO Standards
+
+Every `<img>` tag on PetzDeals MUST have these attributes:
+
+### Required Attributes
+
+| Attribute | Purpose | Example |
+|---|---|---|
+| `alt` | Describes image for Google + screen readers | `alt={productTitle}` |
+| `title` | Tooltip + secondary SEO signal | `title={productTitle}` |
+| `width` + `height` | Prevents CLS (layout shift) — Google Core Web Vitals | `width="400" height="400"` |
+| `loading` | `"lazy"` for below-fold, omit for above-fold | `loading="lazy"` |
+| `decoding` | `"async"` for lazy images (non-blocking) | `decoding="async"` |
+
+### Above-the-fold Images
+
+Images visible on first load (hero banner, main product image):
+```html
+<img src={url} alt={desc} title={desc} width="800" height="800" fetchpriority="high" />
+```
+- `fetchpriority="high"` — tells browser to load this first
+- NO `loading="lazy"` — above-fold images must load immediately
+
+### Below-the-fold Images
+
+Product cards, thumbnails, related products:
+```html
+<img src={url} alt={desc} title={desc} width="400" height="400" loading="lazy" decoding="async" />
+```
+
+### Standard Dimensions by Template
+
+| Template | Width | Height | Notes |
+|---|---|---|---|
+| ProductCard | 400 | 400 | Square product image |
+| Product page main | 800 | 800 | Large hero image |
+| Product thumbnails | 200 | 200 | Small preview |
+| Hero77 deal images | 300 | 300 | Square deal card |
+| Banner images | 1200 | 400 | Wide banner |
+| Mascot (น้องดีล) | 40-48 | 40-48 | Avatar circle |
+
+### Alt Tag Content Rules
+
+| Image Type | Alt Format | Example |
+|---|---|---|
+| Product main | Full product title | `"Royal Canin Indoor 4kg อาหารแมว"` |
+| Product thumbnail | Title + image number | `"Royal Canin Indoor 4kg - ภาพที่ 2"` |
+| Hero deal | Product title | `"Nekko Gold อาหารเปียกแมว 12 ซอง"` |
+| Banner | Descriptive + keywords | `"7.7 Mega Pet Sale — ลดสูงสุด 80% อุปกรณ์สัตว์เลี้ยง"` |
+| Mascot | Character name | `"น้องดีล"` |
+| Decorative | Empty string | `alt=""` (only for truly decorative) |
+
+### CAR/PAR — Image Metadata
+
+**CAR**: All images across ProductCard, product page, Hero77, and blog templates were missing `width`, `height`, `title`, `decoding`, and `fetchpriority` attributes. Above-fold images had no priority hint, below-fold images had no `decoding="async"`. This impacts Core Web Vitals (CLS) and image SEO.
+**Fix**: Added all attributes to every template. Commit: 2026-06-29.
+
+**PAR**:
+1. This section of the SOP must be read before adding any new template with images
+2. QA checks image attributes in the New Page Checklist
+3. No `<img>` tag without `alt`, `title`, `width`, `height`
+4. Above-fold = `fetchpriority="high"`, below-fold = `loading="lazy" decoding="async"`
+
 ## AEO (AI Engine Optimization)
 
 ### robots.txt

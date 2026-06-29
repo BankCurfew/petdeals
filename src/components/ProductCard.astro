@@ -31,7 +31,7 @@ const hasSold = !!soldStr && soldStr !== '0' && soldStr !== '';
   <!-- Image — links to product page -->
   <a href={productPageUrl || affiliateUrl} target={productPageUrl ? '_self' : '_blank'} rel={productPageUrl ? undefined : 'noopener sponsored'}>
     <div class="relative aspect-square bg-surface overflow-hidden">
-      <img src={image} alt={name} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+      <img src={image} alt={name} title={name} width="400" height="400" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" decoding="async" />
       {discount && discount > 0 && (
         <span class="absolute top-2 left-2 bg-coral-400 text-white text-xs font-bold px-2 py-0.5 rounded-md">
           -{discount}%

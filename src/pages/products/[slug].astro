@@ -195,13 +195,13 @@ const starBreakdown = rating > 0 && reviewCount > 0 ? (() => {
       <!-- Images -->
       <div>
         <div class="aspect-square bg-surface rounded-xl overflow-hidden mb-3">
-          <img src={images[0]} alt={seoTitle} class="w-full h-full object-cover" />
+          <img src={images[0]} alt={seoTitle} title={seoTitle} width="800" height="800" class="w-full h-full object-cover" fetchpriority="high" />
         </div>
         {images.length > 1 && (
           <div class="grid grid-cols-5 gap-2">
             {images.slice(0, 5).map((img: string, i: number) => (
               <div class="aspect-square bg-surface rounded-lg overflow-hidden border border-gray-100">
-                <img src={img} alt={`${seoTitle} - ภาพที่ ${i + 2}`} class="w-full h-full object-cover" loading="lazy" />
+                <img src={img} alt={`${seoTitle} - ภาพที่ ${i + 2}`} title={seoTitle} width="200" height="200" class="w-full h-full object-cover" loading="lazy" decoding="async" />
               </div>
             ))}
           </div>
