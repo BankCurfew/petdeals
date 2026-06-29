@@ -29,6 +29,8 @@ const brandClean = brand.replace(/\(.*\)/, '').trim();
 const shopName = product.shopName || '';
 const category = product.category || 'อาหารแมว';
 const scrapedAt = product.scrapedAt || '2025-06-29';
+const nongDealReview = product.nongDealReview || '';
+const reviewCons = product.reviewCons || [];
 const lastUpdated = product.lastUpdated || scrapedAt;
 
 // SEO content — use provided or auto-generate
@@ -315,7 +317,9 @@ const starBreakdown = rating > 0 && reviewCount > 0 ? (() => {
           <div>
             <p class="font-semibold text-gray-800 text-sm mb-1">💬 น้องดีลรีวิว</p>
             <p class="text-gray-600 text-sm leading-relaxed">
-              {rating >= 4.5
+              {nongDealReview
+                ? nongDealReview
+                : rating >= 4.5
                 ? `ข้าให้ผ่าน! ${brandClean || 'สินค้านี้'}ได้คะแนน ${rating} ดาว ${soldStr ? 'ขายไป ' + soldStr + ' ชิ้นแล้ว' : ''} — ทาสหลายคนยืนยันว่าเจ้านายชอบ เหมียว~`
                 : rating >= 4.0
                 ? `พอใช้ได้เจ้าทาส ${brandClean || 'สินค้านี้'}ได้ ${rating} ดาว ราคาเริ่ม ฿${price.toLocaleString()} คุ้มค่าพอสมควร ลองดูรีวิวจากทาสคนอื่นก่อนตัดสินใจ`
@@ -325,6 +329,20 @@ const starBreakdown = rating > 0 && reviewCount > 0 ? (() => {
           </div>
         </div>
       </div>
+
+      {reviewCons.length > 0 && (
+        <div class="mt-4 bg-surface rounded-xl p-5">
+          <p class="font-semibold text-gray-700 text-sm mb-2">📌 จุดสังเกต</p>
+          <ul class="space-y-1.5">
+            {reviewCons.map((c: string) => (
+              <li class="flex items-start gap-2 text-sm text-gray-600">
+                <span class="text-coral-400 shrink-0">•</span>
+                <span>{c}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
     </section>
 
     <PawTrail />
