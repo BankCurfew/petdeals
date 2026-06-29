@@ -125,17 +125,60 @@ Once we hit 1000 orders, apply for Open API access:
 - **Docs**: https://graphql.org/
 - **Enables**: Programmatic link generation, bulk operations, real-time data
 
+## Batch Link Generation via CDP (proven process)
+
+When you need to convert many URLs to affiliate links at once:
+
+1. Open a **fresh Chrome tab** to `https://affiliate.shopee.co.th/offer/custom_link` via CDP:
+   ```bash
+   node -e "const http=require('http'); http.request({hostname:'localhost',port:9222,path:'/json/new?https://affiliate.shopee.co.th/offer/custom_link',method:'PUT'},(r)=>{let d='';r.on('data',c=>d+=c);r.on('end',()=>console.log(JSON.parse(d).id))}).end()"
+   ```
+2. Use `Input.insertText` to type URLs into the textarea (max 5 per batch)
+3. Click `button.ant-btn-primary` ("Get Link")
+4. Read result from `.ant-modal textarea` value
+5. Close modal with `.ant-modal-close` click
+6. Navigate fresh for next batch
+
+**Important**: Use a dedicated tab. Don't share with other CDP operations. Reuse the same WebSocket connection across batches.
+
+**Proven**: 2026-06-29 session converted 100 product links (20 batches) + 56 article links (12 batches) = 156 links total, zero failures.
+
+## Deployment
+
+After updating any affiliate links:
+1. `npx astro build` — verify build passes
+2. Deploy: `CLOUDFLARE_API_TOKEN=<token> npx wrangler pages deploy dist --project-name=petzdeals --commit-dirty=true`
+3. CF project name is `petzdeals` (NOT `petdeals`)
+4. Verify live: `curl -s https://petzdeals.com/blog/<article>/ | grep 's.shopee.co.th'`
+
 ## CAR/PAR
 
-### CAR (Corrective Action Report)
-**Issue**: All 110 product affiliate links used UTM-constructed URLs instead of proper Shopee share links. Campaign page links had no affiliate tracking at all.
-**Root Cause**: Initial scraper built UTM links from affiliate ID without going through Shopee's link conversion system.
-**Fix**: Use Custom Link portal or Product Feed CSV to generate proper affiliate links for all products and campaign pages.
+### CAR #1 — Product Links (2026-06-29)
+**Issue**: All 110 product affiliate links used UTM-constructed URLs (`?utm_source=an_15312860014`) instead of proper Shopee share links. These earn ZERO commission — Shopee's attribution cookie is never set.
+**Root Cause**: Initial scraper built UTM links from affiliate ID without going through Shopee's Custom Link conversion system.
+**Fix**: Generated proper `s.shopee.co.th/xxx` links for all 110 products via Custom Link portal (100 products) and Product Feed CSV (10 products). Campaign page links (vouchers/flash-sale/coins) also converted.
+**Date**: 2026-06-29
+
+### CAR #2 — Article Links (2026-06-29)
+**Issue**: 56 links across 7 blog articles pointed to direct `shopee.co.th` URLs (search pages and UTM product pages). These either: (a) earn no commission (UTM format), (b) go to error pages (old product URLs), or (c) use search URLs without tracking.
+**Root Cause**: Original article content was written with direct Shopee links or search URLs instead of affiliate-converted links.
+**Fix**: Batch-converted all 56 URLs via Custom Link portal (12 batches of 5). All articles now have zero `shopee.co.th` direct links — every link is `s.shopee.co.th/xxx` format.
+**Date**: 2026-06-29
+**Verification**: `grep -c 'shopee.co.th/' src/content/blog/*.md` = 0
+
+### CAR #3 — Deployment Gap (2026-06-29)
+**Issue**: 12 commits pushed to GitHub but site served old version for ~2 hours. All fixes (WEBP, affiliate links, images, meta tags) were invisible to users.
+**Root Cause**: CF Pages was not auto-deploying from GitHub pushes. Project name confusion (`petdeals` vs `petzdeals`). No CI/CD pipeline configured.
+**Fix**: Manual deploy via `wrangler pages deploy dist --project-name=petzdeals`. 
 **Date**: 2026-06-29
 
 ### PAR (Preventive Action Report)
 **Prevention**:
-1. All new products MUST have affiliate links generated via Custom Link or Product Feed — never construct UTM links manually
-2. Weekly Product Feed sync script to keep affiliate links fresh
-3. Sub_id tracking on all links for attribution analysis
-4. SOP review before any link-related code change
+1. **NEVER construct UTM links manually** — always use Custom Link portal or Product Feed
+2. **Every link in content MUST be `s.shopee.co.th/xxx` format** — QA checks this before deploy
+3. **Deploy after every push**: `CLOUDFLARE_API_TOKEN=... npx wrangler pages deploy dist --project-name=petzdeals`
+4. **Verify live links**: `curl -s https://petzdeals.com/<page>/ | grep -c 'shopee.co.th/'` must be 0
+5. **Weekly Product Feed sync** to keep affiliate links fresh
+6. **New Page Checklist** (in SOP-SEO-TAGS.md) must be followed for every new page
+7. **CF project name is `petzdeals`** — NOT `petdeals` (caused 2-hour outage)
+8. Set up GitHub Actions CI/CD for auto-deploy (TODO)
