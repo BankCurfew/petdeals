@@ -1,0 +1,37 @@
+# PetzDeals — รวมดีลอุปกรณ์สัตว์เลี้ยงราคาดี
+
+> PetzDeals คัดดีลอุปกรณ์สัตว์เลี้ยงราคาดี สำหรับทาสแมวและทาสหมาตัวจริง อัพเดททุกวัน
+
+## About
+
+PetzDeals is a Thai pet supplies deal aggregator. We curate the best deals on pet food, treats, litter, toys, and accessories from Shopee Thailand. All products are reviewed by น้องดีล, our bossy cat mascot.
+
+## Pages
+
+- [Homepage](https://petzdeals.com/) — Featured deals and products
+- [ดีลเด็ดวันนี้](https://petzdeals.com/deals/today/) — Daily curated best deals
+- [ดีล 7.7](https://petzdeals.com/deals/7-7/) — 7.7 Mega Sale deals
+- [บทความ](https://petzdeals.com/blog/) — Review articles and buying guides
+
+## Blog Articles
+
+- [10 อาหารแมว ยี่ห้อไหนดี 2026](https://petzdeals.com/blog/best-cat-food-2026/) — Cat food review
+- [อาหารเปียกแมว ยี่ห้อไหนดี 2026](https://petzdeals.com/blog/wet-food-guide-2026/) — Wet food review
+- [ขนมแมว ยี่ห้อไหนดี 2026](https://petzdeals.com/blog/cat-treats-guide-2026/) — Cat treats review
+- [ทรายแมว ยี่ห้อไหนดี 2026](https://petzdeals.com/blog/cat-litter-guide-2026/) — Cat litter review
+- [เครื่องให้อาหารแมวอัตโนมัติ 2026](https://petzdeals.com/blog/auto-feeder-review-2026/) — Auto feeder review
+- [อุปกรณ์เลี้ยงแมวครั้งแรก](https://petzdeals.com/blog/first-cat-essentials-2026/) — First-time cat owner checklist
+- [ดีล 7.7 Mega Sale](https://petzdeals.com/blog/7-7-mega-sale-2026/) — 7.7 sale guide
+
+## Categories
+
+- อาหารแมว (Cat Food) — 30 products
+- อาหารเปียก (Wet Food) — 20 products
+- ขนมแมว (Cat Treats) — 20 products
+- ทรายแมว (Cat Litter) — 20 products
+- สุนัข (Dog Products) — 20 products
+
+## Contact
+
+- Website: https://petzdeals.com
+- Content by: น้องดีล 🐾 (PetzDeals editorial team)
