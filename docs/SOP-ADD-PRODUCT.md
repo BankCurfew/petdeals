@@ -167,3 +167,17 @@ bun run build && wrangler pages deploy dist --project-name=petzdeals
 - [ ] Monitoring set up
 
 **ข้ามขั้นตอนไหน = สินค้านั้นไม่มีค่า = เสียเวลา**
+
+---
+
+## Pre-Deploy Review Gate (MANDATORY — แบงค์ ordered)
+
+**ทุก deploy ต้องผ่าน 3 ด่าน:**
+
+| Gate | Reviewer | Checklist |
+|---|---|---|
+| **1. Editor** | Content accuracy | ราคาตรง, ข้อมูลจริง, brand voice น้องดีล, สแลงทาสแมว, SEO H1/H2/H3, CTA ไม่พูด Shopee |
+| **2. QA** | Visual check | pw-cli screenshot, images load, prices correct, mobile responsive, playful elements visible |
+| **3. Designer** | Brand consistency | Teal/coral colors, น้องดีล mascot, playful elements (paw prints, แมวเกาะขอบ), ไม่เหมือน Shopee |
+
+**ไม่ผ่านแม้แต่ 1 ด่าน = ไม่ deploy = แก้แล้วส่ง review ใหม่**
