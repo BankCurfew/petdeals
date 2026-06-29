@@ -75,22 +75,25 @@ const dateFormatted = new Date(post.data.date).toLocaleDateString('th-TH', {
         </div>
       </div>
 
-      <h1 class="text-2xl md:text-3xl font-bold text-gray-900 leading-snug mb-3">{post.data.title}</h1>
+      <h1 class="text-3xl md:text-4xl font-black text-gray-900 leading-tight mb-4">{post.data.title}</h1>
+      <p class="text-lg text-gray-500 leading-relaxed">{post.data.description}</p>
     </header>
 
-    <div class="prose prose-gray prose-lg max-w-none
+    <div class="article-content prose prose-gray prose-lg max-w-none
       prose-headings:text-gray-900 prose-headings:font-bold
-      prose-h2:text-xl prose-h2:mt-10 prose-h2:mb-4
-      prose-h3:text-lg prose-h3:mt-6 prose-h3:mb-3
-      prose-p:text-gray-600 prose-p:leading-relaxed
+      prose-h2:text-2xl prose-h2:mt-14 prose-h2:mb-6 prose-h2:pb-3 prose-h2:border-b prose-h2:border-gray-100
+      prose-h3:text-xl prose-h3:mt-10 prose-h3:mb-4
+      prose-p:text-gray-600 prose-p:text-lg prose-p:leading-loose prose-p:mb-6
       prose-a:text-pet-500 prose-a:no-underline hover:prose-a:underline
       prose-strong:text-gray-800
-      prose-table:text-sm
-      prose-th:bg-pet-500 prose-th:text-white prose-th:px-3 prose-th:py-2
-      prose-td:px-3 prose-td:py-2
+      prose-table:text-base
+      prose-th:bg-pet-500 prose-th:text-white prose-th:px-4 prose-th:py-3
+      prose-td:px-4 prose-td:py-3 prose-td:text-base
       prose-tr:even:bg-gray-50
-      prose-li:text-gray-600
-      prose-blockquote:border-pet-500 prose-blockquote:bg-pet-50 prose-blockquote:rounded-lg prose-blockquote:py-1
+      prose-li:text-gray-600 prose-li:text-lg prose-li:leading-loose prose-li:mb-2
+      prose-blockquote:border-pet-500 prose-blockquote:bg-pet-50 prose-blockquote:rounded-xl prose-blockquote:py-4 prose-blockquote:px-6
+      prose-hr:my-12
+      prose-img:rounded-xl prose-img:shadow-md
     ">
       <Content />
     </div>
