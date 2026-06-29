@@ -74,11 +74,32 @@ const ogImage = image || '/brand/og-default.webp';
         <a href="/deals/7-7/" class="hover:text-pet-500 transition-colors">ดีล 7.7</a>
         <a href="/blog" class="hover:text-pet-500 transition-colors">บทความ</a>
       </nav>
-      <a href="/deals/7-7/" class="bg-cta-500 text-white px-4 py-1.5 rounded-full text-sm font-medium hover:bg-cta-600 transition-colors">
-        ดูดีล 7.7
-      </a>
+      <div class="flex items-center gap-2">
+        <a href="/deals/7-7/" class="bg-cta-500 text-white px-4 py-1.5 rounded-full text-sm font-medium hover:bg-cta-600 transition-colors">
+          ดูดีล 7.7
+        </a>
+        <button id="mobile-menu-btn" class="md:hidden p-2 text-gray-600" aria-label="เมนู">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        </button>
+      </div>
     </div>
   </header>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-gray-100 shadow-lg">
+    <div class="max-w-7xl mx-auto px-4 py-3">
+      <div class="relative mb-3">
+        <input type="search" id="mobile-search" placeholder="ค้นหาสินค้า..." class="w-full pl-9 pr-3 py-2 text-sm border border-gray-200 rounded-full bg-gray-50 focus:bg-white focus:border-pet-400 focus:outline-none" />
+        <svg class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+      </div>
+      <nav class="flex flex-col gap-2 text-sm">
+        <a href="/" class="px-3 py-2 rounded-lg hover:bg-pet-50 text-gray-700">หน้าแรก</a>
+        <a href="/deals/today/" class="px-3 py-2 rounded-lg hover:bg-pet-50 text-gray-700">ดีลเด็ดวันนี้</a>
+        <a href="/deals/7-7/" class="px-3 py-2 rounded-lg hover:bg-pet-50 text-pet-600 font-medium">ดีล 7.7 Mega Sale</a>
+        <a href="/blog" class="px-3 py-2 rounded-lg hover:bg-pet-50 text-gray-700">บทความรีวิว</a>
+      </nav>
+    </div>
+  </div>
 
   <main>
     <slot />
@@ -124,19 +145,71 @@ const ogImage = image || '/brand/og-default.webp';
 
   <script is:inline>
     document.addEventListener('DOMContentLoaded', () => {
-      const search = document.getElementById('site-search');
-      if (!search) return;
-      search.addEventListener('input', (e) => {
-        const q = e.target.value.toLowerCase().trim();
-        const cards = document.querySelectorAll('[data-product-name]');
-        cards.forEach(card => {
-          if (!q || card.dataset.productName.toLowerCase().includes(q)) {
-            card.style.display = '';
-          } else {
-            card.style.display = 'none';
-          }
+      // Mobile menu toggle
+      const menuBtn = document.getElementById('mobile-menu-btn');
+      const menu = document.getElementById('mobile-menu');
+      if (menuBtn && menu) {
+        menuBtn.addEventListener('click', () => menu.classList.toggle('hidden'));
+      }
+
+      // Search (desktop + mobile)
+      ['site-search', 'mobile-search'].forEach(id => {
+        const search = document.getElementById(id);
+        if (search) {
+          search.addEventListener('input', (e) => {
+            const q = e.target.value.toLowerCase().trim();
+            document.querySelectorAll('[data-product-name]').forEach(card => {
+              card.style.display = (!q || card.dataset.productName.toLowerCase().includes(q)) ? '' : 'none';
+            });
+          });
+        }
+      });
+
+      // Track ALL affiliate link clicks site-wide
+      document.addEventListener('click', (e) => {
+        const link = e.target.closest('a[href*="s.shopee.co.th"], a[href*="shope.ee"]');
+        if (!link) return;
+        const article = document.querySelector('article');
+        const articleSlug = window.location.pathname.replace(/\//g, '').replace('blog', '') || 'homepage';
+        const card = link.closest('[data-product-name]');
+        const productName = card?.dataset.productName || link.title || link.closest('a')?.title || '';
+        const isInline = !!link.closest('.blog-article, .prose');
+        const isCTA = link.classList.contains('bg-cta-500') || link.textContent.includes('เช็คราคา');
+        const isCard = !!card;
+        const position = isCTA ? 'cta' : isCard ? 'card' : isInline ? 'inline' : 'other';
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({
+          event: 'affiliate_click',
+          article_slug: articleSlug,
+          product_name: productName,
+          link_position: position,
+          link_url: link.href,
+          page_type: document.querySelector('.blog-article') ? 'article' : document.querySelector('[data-product-name]') ? 'product' : 'page'
         });
       });
+
+      // Scroll depth tracking for articles
+      if (document.querySelector('.blog-article')) {
+        let maxScroll = 0;
+        const milestones = [25, 50, 75, 100];
+        const fired = new Set();
+        window.addEventListener('scroll', () => {
+          const doc = document.documentElement;
+          const pct = Math.round((window.scrollY / (doc.scrollHeight - doc.clientHeight)) * 100);
+          if (pct > maxScroll) maxScroll = pct;
+          milestones.forEach(m => {
+            if (pct >= m && !fired.has(m)) {
+              fired.add(m);
+              window.dataLayer = window.dataLayer || [];
+              window.dataLayer.push({
+                event: 'scroll_depth',
+                scroll_pct: m,
+                article_slug: window.location.pathname
+              });
+            }
+          });
+        });
+      }
     });
   </script>
 
