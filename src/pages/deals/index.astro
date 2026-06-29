@@ -1,0 +1,40 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import PawTrail from '@/components/PawTrail.astro';
+---
+
+<BaseLayout title="ดีลทั้งหมด — สินค้าสัตว์เลี้ยงราคาดี" description="รวมดีลอุปกรณ์สัตว์เลี้ยงราคาดี ทั้งดีลเด็ดวันนี้ โปรโมชัน 7.7 และดีลพิเศษ คัดมาให้ทาสแมวและทาสหมา">
+
+  <nav class="max-w-7xl mx-auto px-4 py-3 text-sm text-gray-400">
+    <a href="/" class="hover:text-pet-500">หน้าแรก</a>
+    <span class="mx-1">›</span>
+    <span class="text-gray-600">ดีลทั้งหมด</span>
+  </nav>
+
+  <section class="max-w-4xl mx-auto px-4 py-8">
+    <h1 class="text-3xl font-black text-gray-900 mb-6">ดีลทั้งหมด</h1>
+
+    <div class="grid gap-6">
+      <a href="/deals/today/" class="block bg-pet-50 rounded-2xl p-8 hover:shadow-lg transition-shadow border border-pet-100">
+        <div class="flex items-center gap-4 mb-3">
+          <img src="/brand/nong-deal-bossy.webp" alt="น้องดีล" width="48" height="48" class="rounded-full object-cover" />
+          <div>
+            <h2 class="text-xl font-bold text-gray-900">ดีลเด็ดวันนี้</h2>
+            <p class="text-sm text-pet-600">น้องดีลคัดมาให้ — อัพเดททุกวัน</p>
+          </div>
+        </div>
+        <p class="text-gray-600">สินค้าสัตว์เลี้ยงราคาดี คัดเฉพาะของดีราคาโดน ทั้งของเล่น อุปกรณ์ดูแล ขนม และอีกเพียบ</p>
+      </a>
+
+      <a href="/deals/7-7/" class="block bg-gradient-to-r from-red-50 to-orange-50 rounded-2xl p-8 hover:shadow-lg transition-shadow border border-red-100">
+        <div class="mb-3">
+          <h2 class="text-xl font-bold text-gray-900">7.7 Mega Pet Sale</h2>
+          <p class="text-sm text-red-500 font-medium">ลดสูงสุด 80% — 1-7 กรกฎาคม 2026</p>
+        </div>
+        <p class="text-gray-600">มหกรรมลดราคาอุปกรณ์สัตว์เลี้ยง อาหาร ของเล่น ทราย ลดหนักที่สุดในรอบปี Flash Sale ทุก 6 ชั่วโมง</p>
+      </a>
+    </div>
+
+    <PawTrail count={7} />
+  </section>
+</BaseLayout>
