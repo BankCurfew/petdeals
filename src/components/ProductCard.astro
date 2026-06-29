@@ -50,13 +50,13 @@ const hasSold = !!soldStr && soldStr !== '0' && soldStr !== '';
 
     <!-- Price -->
     <div class="flex items-baseline flex-wrap gap-1.5 mb-2">
-      <span class:list={['text-lg font-bold', originalPrice && originalPrice > price ? 'text-red-500' : 'text-pet-600']}>
+      <span class:list={['text-lg font-bold', originalPrice != null && originalPrice > price ? 'text-red-500' : 'text-pet-600']}>
         {formatPrice(price)}
       </span>
       {originalPrice && originalPrice > price && (
         <span class="text-xs text-gray-400 line-through">{formatPrice(originalPrice)}</span>
       )}
-      {discount && discount > 0 && (
+      {discount != null && discount > 0 && (
         <span class="text-[10px] font-bold text-red-500 bg-red-50 px-1.5 py-0.5 rounded">-{discount}%</span>
       )}
     </div>
