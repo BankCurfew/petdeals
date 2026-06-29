@@ -56,7 +56,7 @@ const maxDiscount = topDeals.length > 0 ? topDeals[0].discount : 50;
         {topDeals.map((deal: any) => (
           <a href={`/products/${deal.slug}`} class="bg-white/15 backdrop-blur rounded-xl p-2.5 text-center hover:bg-white/25 transition-colors group border border-white/10">
             <div class="aspect-square rounded-lg overflow-hidden bg-white/10 mb-1.5 relative">
-              <img src={deal.images?.[0]} alt="" class="w-full h-full object-cover group-hover:scale-105 transition-transform" loading="lazy" />
+              <img src={deal.images?.[0]} alt={deal.title} class="w-full h-full object-cover group-hover:scale-105 transition-transform" loading="lazy" />
               <span class="absolute top-1 right-1 bg-yellow-400 text-red-700 text-[10px] font-black px-1.5 py-0.5 rounded-full">-{deal.discount}%</span>
             </div>
             <div class="sale-price text-base">฿{deal.priceNum.toLocaleString()}</div>

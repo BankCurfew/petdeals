@@ -199,9 +199,9 @@ const starBreakdown = rating > 0 && reviewCount > 0 ? (() => {
         </div>
         {images.length > 1 && (
           <div class="grid grid-cols-5 gap-2">
-            {images.slice(0, 5).map((img: string) => (
+            {images.slice(0, 5).map((img: string, i: number) => (
               <div class="aspect-square bg-surface rounded-lg overflow-hidden border border-gray-100">
-                <img src={img} alt="" class="w-full h-full object-cover" loading="lazy" />
+                <img src={img} alt={`${seoTitle} - ภาพที่ ${i + 2}`} class="w-full h-full object-cover" loading="lazy" />
               </div>
             ))}
           </div>

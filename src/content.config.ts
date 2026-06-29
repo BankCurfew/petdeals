@@ -10,6 +10,7 @@ const blog = defineCollection({
     author: z.string().default('PetzDeals'),
     image: z.string().optional(),
     category: z.string().optional(),
+    tags: z.array(z.string()).optional(),
   }),
 });
 

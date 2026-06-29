@@ -37,8 +37,11 @@ const articleSchema = {
   "headline": post.data.title,
   "description": post.data.description,
   "datePublished": post.data.date,
+  "dateModified": post.data.date,
+  "image": post.data.image || "https://petzdeals.com/brand/og-default.png",
+  "mainEntityOfPage": { "@type": "WebPage", "@id": Astro.url.href },
   "author": { "@type": "Organization", "name": "PetzDeals" },
-  "publisher": { "@type": "Organization", "name": "PetzDeals", "url": "https://petzdeals.com" },
+  "publisher": { "@type": "Organization", "name": "PetzDeals", "url": "https://petzdeals.com", "logo": { "@type": "ImageObject", "url": "https://petzdeals.com/favicon.svg" } },
 };
 
 const dateFormatted = new Date(post.data.date).toLocaleDateString('th-TH', {
@@ -46,7 +49,7 @@ const dateFormatted = new Date(post.data.date).toLocaleDateString('th-TH', {
 });
 ---
 
-<BaseLayout title={post.data.title} description={post.data.description}>
+<BaseLayout title={post.data.title} description={post.data.description} type="article" image={post.data.image || '/brand/og-default.png'}>
   <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
 
   <nav class="max-w-4xl mx-auto px-4 py-3 text-sm text-gray-400">
@@ -169,5 +172,27 @@ const dateFormatted = new Date(post.data.date).toLocaleDateString('th-TH', {
   }
   .blog-article strong {
     color: #111827;
+  }
+  .blog-article pre {
+    background: #F0FDFA;
+    border: 1px solid #99F6E4;
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin: 24px 0;
+    overflow-x: auto;
+    font-size: 14px;
+    line-height: 1.7;
+  }
+  .blog-article code {
+    background: #F0FDFA;
+    color: #0D9488;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.9em;
+  }
+  .blog-article pre code {
+    background: none;
+    padding: 0;
+    color: #374151;
   }
 </style>

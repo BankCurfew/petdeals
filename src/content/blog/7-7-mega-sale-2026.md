@@ -4,6 +4,7 @@ description: "รวมดีล 7.7 Mega Sale สำหรับทาสแม
 date: "2026-06-29"
 author: "น้องดีล 🐾"
 category: "ดีล"
+tags: ["7.7", "mega sale", "shopee", "voucher", "flash sale", "โปรโมชัน", "อุปกรณ์สัตว์เลี้ยง", "ทาสแมว"]
 ---
 
 มาแล้วค่ะเพื่อนทาส! น้องดีล 🐾 ตื่นเต้นจนหางพองเลย!
@@ -33,10 +34,10 @@ category: "ดีล"
 ช่วง warmup คือช่วงที่ร้านค้าเริ่มปล่อยดีลล่วงหน้า เก็บ voucher ได้แล้ว แต่บางตัวใช้ได้เฉพาะวัน 7 ก.ค. ทาสต้อง **เก็บ voucher ตั้งแต่วันที่ 1** นะคะ ไม่งั้นหมดก่อน!
 
 สิ่งที่ทาสต้องทำช่วง warmup:
-- ✅ เก็บ voucher ทุกวัน (เปิดแอป Shopee กดเก็บ)
+- ✅ [เก็บ voucher ทุกวัน → กดเก็บที่นี่](https://shopee.co.th/m/vouchers?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=7-7-voucher) (เปิดแอป Shopee กดเก็บ)
 - ✅ ใส่ตะกร้าสินค้าที่อยากได้ (ราคาอาจลดเพิ่มวัน 7)
 - ✅ Follow ร้านค้า pet ที่ชอบ (ได้ shop voucher เพิ่ม)
-- ✅ เปิดแจ้งเตือน Flash Sale (ตั้ง alarm สำรองด้วย!)
+- ✅ [เปิดแจ้งเตือน Flash Sale → ดู Flash Sale ทั้งหมด](https://shopee.co.th/m/flash-sale?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=7-7-flash-sale) (ตั้ง alarm สำรองด้วย!)
 
 ### Mega Day (7 ก.ค.)
 วันนี้คือวันที่ดีลดีที่สุด ลดหนักที่สุด voucher ใช้ได้มากที่สุด แต่ของก็หมดเร็วที่สุดด้วย ทาสต้องพร้อมตั้งแต่เที่ยงคืน!
@@ -133,7 +134,7 @@ Orijen ปกติแพงจนทาสร้องไห้ แต่ช่
 ### 3 ชั้นของ voucher (stack ได้!)
 
 **ชั้นที่ 1: Platform Voucher (จาก Shopee)**
-- เก็บที่หน้าแรก Shopee ทุกวัน
+- [กดเก็บ Platform Voucher ที่นี่ →](https://shopee.co.th/m/vouchers?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=7-7-voucher)
 - ช่วง 7.7 มีให้เก็บทุกวัน 1-7 ก.ค.
 - ตัวอย่าง: ลด ฿50 เมื่อช้อป ฿300, ลด ฿100 เมื่อช้อป ฿600
 
@@ -143,19 +144,17 @@ Orijen ปกติแพงจนทาสร้องไห้ แต่ช่
 - **ใช้ร่วมกับ Platform Voucher ได้!**
 
 **ชั้นที่ 3: Shopee Coins**
-- ถ้ามี Shopee Coins สะสมไว้ ใช้หักราคาเพิ่มอีกชั้น
+- ถ้ามี [Shopee Coins](https://shopee.co.th/m/coins?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=7-7-coins) สะสมไว้ ใช้หักราคาเพิ่มอีกชั้น
 - 1 coin = ฿1
 - ช่วง 7.7 coins cashback สูงกว่าปกติ
 
 ### 💬 ดีลสรุปให้ทาส — ขั้นตอนให้คุ้มที่สุด
 
-```
-1. เก็บ Platform Voucher ทุกวัน 1-7 ก.ค. ✅
+1. [เก็บ Platform Voucher ทุกวัน 1-7 ก.ค. →](https://shopee.co.th/m/vouchers?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=7-7-voucher) ✅
 2. Follow ร้าน pet ที่จะซื้อ → เก็บ Shop Voucher ✅
 3. ใส่ตะกร้า → เช็คราคาจริงหลังหักส่วนลด ✅
 4. วัน 7 ก.ค. 00:00 → กดสั่ง → ใส่ voucher ทั้ง 2 ชั้น ✅
-5. ใช้ Shopee Coins หักเพิ่ม (ถ้ามี) ✅
-```
+5. ใช้ [Shopee Coins](https://shopee.co.th/m/coins?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=7-7-coins) หักเพิ่ม (ถ้ามี) ✅
 
 📌 **จุดสังเกต**: บางร้านขึ้นราคาก่อน 7.7 แล้วลดวัน 7 ให้ดูเหมือนลดเยอะ ดีลแนะนำ: **ใส่ตะกร้าตั้งแต่ตอนนี้** แล้วดูว่าราคาขึ้นไหมช่วง 1-6 ก.ค. ถ้าขึ้น = ร้านนั้นไม่ได้ลดจริง 🚩
 
@@ -175,7 +174,7 @@ Flash Sale คือดีลที่ลดหนักสุดแต่มี
 ### วิธีชนะ Flash Sale
 
 1. **เปิดแจ้งเตือน**: ตั้ง alarm + เปิด notification Shopee
-2. **กด "เตือนฉัน"**: ในหน้า Flash Sale กดปุ่มเตือนทุกรายการที่สนใจ
+2. **[กด "เตือนฉัน" ในหน้า Flash Sale →](https://shopee.co.th/m/flash-sale?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=7-7-flash-sale)**: กดปุ่มเตือนทุกรายการที่สนใจ
 3. **ล็อกอินรอ**: เข้าแอป 2-3 นาทีก่อนเวลา ล็อกอินรอไว้
 4. **กดเร็ว อย่าอ่าน**: Flash Sale ไม่มีเวลาอ่านรายละเอียด กดใส่ตะกร้า → กดสั่ง → ใส่ voucher → จ่าย — ทุกอย่างภายใน 30 วินาที
 5. **เตรียม payment**: ผูกบัตรเครดิต/debit ไว้ก่อน อย่ามาใส่เลขบัตรตอน Flash Sale
