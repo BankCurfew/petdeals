@@ -69,7 +69,7 @@ describe("Product Data Integrity", () => {
   });
 
   test("all products have a category", () => {
-    const validCategories = ["อาหารแมว", "อาหารเม็ด", "อาหารเปียก", "ขนมแมว", "สุนัข"];
+    const validCategories = ["อาหารแมว", "อาหารเปียก", "ขนมแมว", "ทรายแมว", "สุนัข"];
     for (const p of productsData) {
       if (p.category) {
         expect(validCategories).toContain(p.category);
@@ -79,7 +79,7 @@ describe("Product Data Integrity", () => {
 });
 
 describe("Category Filter Logic", () => {
-  const categories = ["อาหารแมว", "อาหารเม็ด", "อาหารเปียก", "ขนมแมว", "สุนัข"];
+  const categories = ["อาหารแมว", "อาหารเปียก", "ขนมแมว", "ทรายแมว", "สุนัข"];
 
   test("every category has at least one product", () => {
     for (const cat of categories) {
