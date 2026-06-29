@@ -1,0 +1,67 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import ProductCard from '@/components/ProductCard.astro';
+import PawTrail from '@/components/PawTrail.astro';
+import topDeals from '../../../data/top-deals.json';
+
+const deals = topDeals.map((d: any) => ({
+  name: d.title,
+  image: d.image,
+  price: d.price,
+  affiliateUrl: d.affiliateUrl,
+  sold: d.sold || '',
+  category: 'ดีลเด็ด',
+  slug: d.slug,
+  lastUpdated: d.scrapedAt,
+}));
+
+const today = new Date().toLocaleDateString('th-TH', { year: 'numeric', month: 'long', day: 'numeric' });
+---
+
+<BaseLayout title="ดีลเด็ดวันนี้ — สินค้าสัตว์เลี้ยงราคาดี" description="รวมดีลเด็ดอุปกรณ์สัตว์เลี้ยงราคาดี คัดมาให้ทาสแมวและทาสหมาโดยน้องดีล อัพเดททุกวัน">
+
+  <nav class="max-w-7xl mx-auto px-4 py-3 text-sm text-gray-400">
+    <a href="/" class="hover:text-pet-500">หน้าแรก</a>
+    <span class="mx-1">›</span>
+    <span class="text-gray-600">ดีลเด็ดวันนี้</span>
+  </nav>
+
+  <section class="max-w-7xl mx-auto px-4 py-8">
+    <div class="text-center mb-10">
+      <div class="inline-flex items-center gap-2 bg-cream rounded-full px-5 py-2 border border-yellow-100 mb-4">
+        <img src="/brand/nong-deal-bossy.png" alt="น้องดีล" class="w-8 h-8 rounded-full object-cover" />
+        <span class="text-sm font-medium text-gray-700">น้องดีล คัดมาให้แล้ว!</span>
+      </div>
+      <h1 class="text-3xl md:text-4xl font-black text-gray-900 mb-3">ดีลเด็ดวันนี้</h1>
+      <p class="text-lg text-gray-500">สินค้าสัตว์เลี้ยงราคาดี คัดมาเฉพาะของดีราคาโดน</p>
+      <p class="text-sm text-gray-400 mt-2">อัพเดทล่าสุด: {today}</p>
+    </div>
+
+    <div class="bg-pet-50 rounded-2xl p-6 mb-10">
+      <div class="flex items-start gap-3">
+        <img src="/brand/nong-deal-bossy.png" alt="น้องดีล" class="w-12 h-12 rounded-full object-cover shrink-0" />
+        <div>
+          <p class="font-semibold text-gray-800 mb-1">น้องดีลบอก:</p>
+          <p class="text-gray-600 leading-relaxed">
+            "ข้าคัดสินค้ามาให้ทาสแล้ว! ทุกชิ้นเป็นของดีราคาโดนที่ข้าเห็นว่าคุ้มค่า ทั้งของเล่น อุปกรณ์ดูแล ขนม และอีกเพียบ ลองดูเลยค่ะเจ้าทาส เหมี๊ยว~"
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <PawTrail />
+
+    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 mt-8">
+      {deals.map(deal => <ProductCard {...deal} />)}
+    </div>
+
+    <PawTrail count={7} />
+
+    <div class="text-center mt-12 mb-8">
+      <p class="text-sm text-gray-400 mb-4">ราคาและส่วนลดอาจเปลี่ยนแปลง กรุณาตรวจสอบราคาล่าสุดก่อนสั่งซื้อ</p>
+      <a href="/blog/7-7-mega-sale-2026/" class="inline-block bg-cta-500 text-white px-8 py-3 rounded-full font-semibold hover:bg-cta-600 transition-colors">
+        ดูดีล 7.7 ทั้งหมด →
+      </a>
+    </div>
+  </section>
+</BaseLayout>
