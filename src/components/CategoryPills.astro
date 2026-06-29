@@ -1,26 +1,53 @@
 ---
 const categories = [
-  { emoji: '🐕', label: 'สุนัข', slug: 'dogs' },
-  { emoji: '🐈', label: 'แมว', slug: 'cats' },
-  { emoji: '🍖', label: 'อาหาร', slug: 'food' },
-  { emoji: '🧸', label: 'ของเล่น', slug: 'toys' },
-  { emoji: '🏠', label: 'บ้าน/เตียง', slug: 'beds' },
-  { emoji: '💊', label: 'สุขภาพ', slug: 'health' },
-  { emoji: '🧴', label: 'อาบน้ำ', slug: 'grooming' },
-  { emoji: '🦴', label: 'ขนม', slug: 'treats' },
-  { emoji: '🎒', label: 'กระเป๋า', slug: 'carriers' },
-  { emoji: '🔥', label: 'ดีลเด็ด', slug: 'deals' },
+  { label: 'ทั้งหมด', value: 'all' },
+  { label: '🏆 พรีเมียม', value: 'premium-dry' },
+  { label: '🍚 อาหารเม็ด', value: 'mid-dry' },
+  { label: '💰 ประหยัด', value: 'budget-dry' },
+  { label: '🥫 อาหารเปียก', value: 'wet-food' },
+  { label: '💊 สูตรพิเศษ', value: 'vet-diet' },
 ];
 ---
 
-<div class="flex gap-2 overflow-x-auto scrollbar-hide py-2 px-4 -mx-4" style="scrollbar-width: none;">
-  {categories.map(cat => (
-    <a
-      href={`/categories/${cat.slug}`}
-      class="flex items-center gap-1.5 px-4 py-2 bg-surface rounded-full text-sm font-medium text-gray-600 hover:bg-pet-50 hover:text-pet-600 transition-colors whitespace-nowrap flex-shrink-0 border border-gray-100"
+<div class="flex gap-2 overflow-x-auto scrollbar-hide py-2 px-4 -mx-4" style="scrollbar-width: none;" id="filter-pills">
+  {categories.map((cat, i) => (
+    <button
+      type="button"
+      data-filter={cat.value}
+      class:list={[
+        'filter-pill flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-medium whitespace-nowrap flex-shrink-0 border transition-colors cursor-pointer',
+        i === 0 ? 'bg-pet-500 text-white border-pet-500' : 'bg-surface text-gray-600 border-gray-100 hover:bg-pet-50 hover:text-pet-600',
+      ]}
     >
-      <span>{cat.emoji}</span>
-      <span>{cat.label}</span>
-    </a>
+      {cat.label}
+    </button>
   ))}
 </div>
+
+<script is:inline>
+  document.addEventListener('DOMContentLoaded', () => {
+    const pills = document.querySelectorAll('.filter-pill');
+    const cards = document.querySelectorAll('[data-product-category]');
+
+    pills.forEach(pill => {
+      pill.addEventListener('click', () => {
+        const filter = pill.dataset.filter;
+
+        pills.forEach(p => {
+          p.classList.remove('bg-pet-500', 'text-white', 'border-pet-500');
+          p.classList.add('bg-surface', 'text-gray-600', 'border-gray-100');
+        });
+        pill.classList.remove('bg-surface', 'text-gray-600', 'border-gray-100');
+        pill.classList.add('bg-pet-500', 'text-white', 'border-pet-500');
+
+        cards.forEach(card => {
+          if (filter === 'all' || card.dataset.productCategory === filter) {
+            card.style.display = '';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+  });
+</script>

@@ -46,14 +46,25 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
         <span class="text-2xl">🐾</span>
         <span class="text-lg font-bold"><span class="text-pet-500">Petz</span><span class="text-coral-400">Deals</span></span>
       </a>
+      <!-- Search Bar -->
+      <div class="hidden sm:block flex-1 max-w-xs mx-4">
+        <div class="relative">
+          <input
+            type="search"
+            id="site-search"
+            placeholder="ค้นหาสินค้า..."
+            class="w-full pl-9 pr-3 py-1.5 text-sm border border-gray-200 rounded-full bg-gray-50 focus:bg-white focus:border-pet-400 focus:outline-none transition-colors"
+          />
+          <svg class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+        </div>
+      </div>
       <nav class="hidden md:flex items-center gap-6 text-sm text-gray-600">
         <a href="/" class="hover:text-pet-500 transition-colors">หน้าแรก</a>
-        <a href="/categories" class="hover:text-pet-500 transition-colors">หมวดหมู่</a>
-        <a href="/deals" class="hover:text-pet-500 transition-colors">ดีลเด็ด</a>
+        <a href="/deals/7-7/" class="hover:text-pet-500 transition-colors">ดีล 7.7</a>
         <a href="/blog" class="hover:text-pet-500 transition-colors">บทความ</a>
       </nav>
-      <a href="/deals" class="bg-cta-500 text-white px-4 py-1.5 rounded-full text-sm font-medium hover:bg-cta-600 transition-colors">
-        ดูดีลทั้งหมด
+      <a href="/deals/7-7/" class="bg-cta-500 text-white px-4 py-1.5 rounded-full text-sm font-medium hover:bg-cta-600 transition-colors">
+        ดูดีล 7.7
       </a>
     </div>
   </header>
@@ -99,6 +110,24 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
       </div>
     </div>
   </footer>
+
+  <script is:inline>
+    document.addEventListener('DOMContentLoaded', () => {
+      const search = document.getElementById('site-search');
+      if (!search) return;
+      search.addEventListener('input', (e) => {
+        const q = e.target.value.toLowerCase().trim();
+        const cards = document.querySelectorAll('[data-product-name]');
+        cards.forEach(card => {
+          if (!q || card.dataset.productName.toLowerCase().includes(q)) {
+            card.style.display = '';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+  </script>
 
   <style is:global>
     .header-tail {

@@ -27,7 +27,7 @@ const hasRating = ratingNum != null && !isNaN(ratingNum) && ratingNum > 0;
 const hasSold = !!soldStr && soldStr !== '0' && soldStr !== '';
 ---
 
-<div class="group block bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-lg hover:-translate-y-0.5 transition-all duration-200">
+<div class="group block bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-lg hover:-translate-y-0.5 transition-all duration-200" data-product-category={category} data-product-name={name}>
   <!-- Image — links to product page -->
   <a href={productPageUrl || affiliateUrl} target={productPageUrl ? '_self' : '_blank'} rel={productPageUrl ? undefined : 'noopener sponsored'}>
     <div class="relative aspect-square bg-surface overflow-hidden">
