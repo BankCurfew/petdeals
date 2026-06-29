@@ -554,7 +554,7 @@
     ],
     "imageCount": 5,
     "url": "https://shopee.co.th/3-0-xtra-49-meow-space-10-i.262132208.18108344668",
-    "affiliateUrl": "https://shopee.co.th/3-0-xtra-49-meow-space-10-i.262132208.18108344668?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals",
+    "affiliateUrl": "https://shope.ee/an_redir?origin_link=https%3A%2F%2Fshopee.co.th%2Fproduct%2F262132208%2F18108344668",
     "slug": "meowspace-cat-litter-10ลิตร",
     "category": "ทรายแมว",
     "source": "apify_real",
@@ -565,7 +565,8 @@
       "ทิ้งชักโครกได้ แต่ทีละน้อย อย่าทิ้งทีเดียวเยอะ ท่ออาจตัน",
       "ซื้อ 3 ถุง ส่งฟรี! สต็อกไว้ใช้ 1-2 เดือน"
     ],
-    "seoTitle": "ทรายแมว Meow Space เต้าหู้ — ไร้ฝุ่น ทิ้งชักโครกได้ 6,247 รีวิว"
+    "seoTitle": "ทรายแมว Meow Space เต้าหู้ — ไร้ฝุ่น ทิ้งชักโครกได้ 6,247 รีวิว",
+    "feedLink": "https://shopee.co.th/product/262132208/18108344668"
   },
   {
     "shopId": "1496922957",
@@ -613,11 +614,12 @@
     ],
     "imageCount": 5,
     "url": "https://shopee.co.th/petcho-100-premium-cat-litter-i.287201971.22590281650",
-    "affiliateUrl": "https://shopee.co.th/petcho-100-premium-cat-litter-i.287201971.22590281650?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals",
+    "affiliateUrl": "https://shope.ee/an_redir?origin_link=https%3A%2F%2Fshopee.co.th%2Fproduct%2F287201971%2F22590281650",
     "slug": "petcho-cat-litter-1",
     "category": "ทรายแมว",
     "source": "apify_real",
-    "scrapedAt": "2026-06-29"
+    "scrapedAt": "2026-06-29",
+    "feedLink": "https://shopee.co.th/product/287201971/22590281650"
   },
   {
     "shopId": "1496094264",
@@ -767,11 +769,12 @@
     ],
     "imageCount": 3,
     "url": "https://shopee.co.th/100-tofu-cat-litter-6l-2kg-i.1850477356.57662143902",
-    "affiliateUrl": "https://shopee.co.th/100-tofu-cat-litter-6l-2kg-i.1850477356.57662143902?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals",
+    "affiliateUrl": "https://shope.ee/an_redir?origin_link=https%3A%2F%2Fshopee.co.th%2Fproduct%2F1850477356%2F57662143902",
     "slug": "cat-litter-2kg-2",
     "category": "ทรายแมว",
     "source": "apify_real",
-    "scrapedAt": "2026-06-29"
+    "scrapedAt": "2026-06-29",
+    "feedLink": "https://shopee.co.th/product/1850477356/57662143902"
   },
   {
     "shopId": "958470529",
@@ -870,11 +873,12 @@
     ],
     "imageCount": 5,
     "url": "https://shopee.co.th/petcho-1-5-i.287201971.26380805419",
-    "affiliateUrl": "https://shopee.co.th/petcho-1-5-i.287201971.26380805419?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals",
+    "affiliateUrl": "https://shope.ee/an_redir?origin_link=https%3A%2F%2Fshopee.co.th%2Fproduct%2F287201971%2F26380805419",
     "slug": "petcho-cat-litter-3",
     "category": "ทรายแมว",
     "source": "apify_real",
-    "scrapedAt": "2026-06-29"
+    "scrapedAt": "2026-06-29",
+    "feedLink": "https://shopee.co.th/product/287201971/26380805419"
   },
   {
     "shopId": "1469541987",
@@ -1056,11 +1060,12 @@
     ],
     "imageCount": 5,
     "url": "https://shopee.co.th/pramy-smoothy-15g-4-i.1327057570.25539392383",
-    "affiliateUrl": "https://shopee.co.th/pramy-smoothy-15g-4-i.1327057570.25539392383?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals",
+    "affiliateUrl": "https://shope.ee/an_redir?origin_link=https%3A%2F%2Fshopee.co.th%2Fproduct%2F1327057570%2F25539392383",
     "slug": "cat-treats-15g",
     "category": "ขนมแมว",
     "source": "apify_real",
-    "scrapedAt": "2026-06-29"
+    "scrapedAt": "2026-06-29",
+    "feedLink": "https://shopee.co.th/product/1327057570/25539392383"
   },
   {
     "shopId": "831512945",
@@ -1186,7 +1191,7 @@
     ],
     "imageCount": 5,
     "url": "https://shopee.co.th/ciao-50-i.7409564.20789499944",
-    "affiliateUrl": "https://shopee.co.th/ciao-50-i.7409564.20789499944?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals",
+    "affiliateUrl": "https://shope.ee/an_redir?origin_link=https%3A%2F%2Fshopee.co.th%2Fproduct%2F7409564%2F20789499944",
     "slug": "ciao-cat-treats-50pack-1",
     "category": "ขนมแมว",
     "source": "apify_real",
@@ -1197,7 +1202,8 @@
       "เป็นขนม ไม่ใช่อาหารหลัก วันละ 1-2 ซองพอ",
       "เจ้านายบางตัวติดจนไม่ยอมกินอาหารเม็ด ทาสต้องคุมปริมาณ"
     ],
-    "seoTitle": "ขนมแมวเลีย CIAO Chu Ru กล่อง 50 ซอง — ของแท้ Inaba ญี่ปุ่น"
+    "seoTitle": "ขนมแมวเลีย CIAO Chu Ru กล่อง 50 ซอง — ของแท้ Inaba ญี่ปุ่น",
+    "feedLink": "https://shopee.co.th/product/7409564/20789499944"
   },
   {
     "shopId": "7409564",
@@ -1379,11 +1385,12 @@
     ],
     "imageCount": 5,
     "url": "https://shopee.co.th/10-20-30-pramy-14-i.368892882.47854147259",
-    "affiliateUrl": "https://shopee.co.th/10-20-30-pramy-14-i.368892882.47854147259?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals",
+    "affiliateUrl": "https://shope.ee/an_redir?origin_link=https%3A%2F%2Fshopee.co.th%2Fproduct%2F368892882%2F47854147259",
     "slug": "pramy-cat-treats-30pack",
     "category": "ขนมแมว",
     "source": "apify_real",
-    "scrapedAt": "2026-06-29"
+    "scrapedAt": "2026-06-29",
+    "feedLink": "https://shopee.co.th/product/368892882/47854147259"
   },
   {
     "shopId": "831512945",
@@ -1819,11 +1826,12 @@
     ],
     "imageCount": 5,
     "url": "https://shopee.co.th/100-ketzuzu-70-i.1579821145.57606414841",
-    "affiliateUrl": "https://shopee.co.th/100-ketzuzu-70-i.1579821145.57606414841?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals",
+    "affiliateUrl": "https://shope.ee/an_redir?origin_link=https%3A%2F%2Fshopee.co.th%2Fproduct%2F1579821145%2F57606414841",
     "slug": "ketzuzu-wet-food",
     "category": "อาหารเปียก",
     "source": "apify_real",
-    "scrapedAt": "2026-06-29"
+    "scrapedAt": "2026-06-29",
+    "feedLink": "https://shopee.co.th/product/1579821145/57606414841"
   },
   {
     "shopId": "67344184",
@@ -2159,11 +2167,12 @@
     ],
     "imageCount": 5,
     "url": "https://shopee.co.th/kaniva-1-3-1-5-kg-i.19056998.41120268894",
-    "affiliateUrl": "https://shopee.co.th/kaniva-1-3-1-5-kg-i.19056998.41120268894?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals",
+    "affiliateUrl": "https://shope.ee/an_redir?origin_link=https%3A%2F%2Fshopee.co.th%2Fproduct%2F19056998%2F41120268894",
     "slug": "kaniva-cat-food-1.5kg-1",
     "category": "อาหารแมว",
     "source": "apify_real",
-    "scrapedAt": "2026-06-29"
+    "scrapedAt": "2026-06-29",
+    "feedLink": "https://shopee.co.th/product/19056998/41120268894"
   },
   {
     "shopId": "1118890063",
@@ -2185,11 +2194,12 @@
     ],
     "imageCount": 5,
     "url": "https://shopee.co.th/mrvet-holistic-t1-t2-1kg-i.1118890063.27720534292",
-    "affiliateUrl": "https://shopee.co.th/mrvet-holistic-t1-t2-1kg-i.1118890063.27720534292?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals",
+    "affiliateUrl": "https://shope.ee/an_redir?origin_link=https%3A%2F%2Fshopee.co.th%2Fproduct%2F1118890063%2F27720534292",
     "slug": "mrvet-cat-food-1kg",
     "category": "อาหารแมว",
     "source": "apify_real",
-    "scrapedAt": "2026-06-29"
+    "scrapedAt": "2026-06-29",
+    "feedLink": "https://shopee.co.th/product/1118890063/27720534292"
   },
   {
     "shopId": "28265861",
