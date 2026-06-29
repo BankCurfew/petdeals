@@ -1,51 +1,20 @@
 ---
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import ProductCard from '@/components/ProductCard.astro';
+import PawTrail from '@/components/PawTrail.astro';
+import { getCollection, render } from 'astro:content';
 import productsData from '../../../data/products.json';
 
-export function getStaticPaths() {
-  return [
-    {
-      params: { slug: 'best-cat-food-2025' },
-      props: {
-        article: {
-          title: '10 อาหารแมวยอดนิยม 2025 — คัดมาแล้วสำหรับทาสแมว',
-          description: 'รวมอาหารแมวคุณภาพดี ราคาเบาๆ ทั้งอาหารเม็ดและอาหารเปียก เหมาะสำหรับน้องเหมียวทุกวัย',
-          date: '2025-06-28',
-          author: 'PetzDeals',
-          content: `
-## ทำไมต้องเลือกอาหารน้องเหมียวดีๆ?
-
-การเลือกอาหารแมวที่มีคุณภาพเป็นสิ่งสำคัญสำหรับสุขภาพของเจ้านาย อาหารที่ดีควรมีโปรตีนสูง ไขมันเหมาะสม และวิตามินครบถ้วน ทาสแมวที่ดีต้องใส่ใจเรื่องโภชนาการของน้องเหมียว
-
-## อาหารแมวแนะนำ
-
-### 1. Orijen Original Cat
-อาหารแมวเกรดพรีเมียม สูตร Grain-Free ใช้เนื้อสดเป็นส่วนผสมหลัก เหมาะสำหรับน้องเหมียวทุกสายพันธุ์
-
-### 2. Hill's Science Diet
-อาหารแมวสูตรวิทยาศาสตร์ พัฒนาโดยสัตวแพทย์ ช่วยดูแลสุขภาพทางเดินอาหารของเจ้านาย
-
-### 3. Royal Canin Indoor
-สูตรเฉพาะสำหรับน้องเหมียวเลี้ยงในบ้าน ช่วยควบคุมน้ำหนักและลดกลิ่นอุจจาระ
-
-### 4. SmartHeart Gold
-อาหารแมวคุณภาพดี ราคาประหยัด มีหลายรสชาติให้เจ้านายเลือก
-
-### 5. Me-O Delite
-อาหารแมวพรีเมียม เนื้อสัมผัสนุ่ม น้องเหมียวชอบ
-
-## สรุป
-
-การเลือกอาหารน้องเหมียวควรพิจารณาจากอายุ สุขภาพ และความชอบของเจ้านาย ลองดูสินค้าแนะนำด้านล่างได้เลย!
-          `.trim(),
-        },
-      },
-    },
-  ];
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  return posts.map(post => ({
+    params: { slug: post.id },
+    props: { post },
+  }));
 }
 
-const { article } = Astro.props;
+const { post } = Astro.props;
+const { Content } = await render(post);
 
 const relatedProducts = productsData
   .filter((p: any) => p.slug)
@@ -54,49 +23,73 @@ const relatedProducts = productsData
     name: p.title,
     image: p.images?.[0] || '',
     price: parseInt(String(p.price).replace(/[^0-9]/g, '')) || 0,
-    rating: parseFloat(p.rating) || 0,
-    sold: parseInt(String(p.sold).replace(/[^0-9]/g, '')) || 0,
+    rating: p.rating ? parseFloat(p.rating) : undefined,
+    sold: p.sold || '',
     affiliateUrl: p.affiliateUrl || p.url || '#',
     slug: p.slug,
-    lastUpdated: p.lastUpdated,
+    lastUpdated: p.lastUpdated || p.scrapedAt,
+    category: p.category,
   }));
 
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": article.title,
-  "description": article.description,
-  "datePublished": article.date,
+  "headline": post.data.title,
+  "description": post.data.description,
+  "datePublished": post.data.date,
   "author": { "@type": "Organization", "name": "PetzDeals" },
   "publisher": { "@type": "Organization", "name": "PetzDeals", "url": "https://petzdeals.com" },
 };
+
+const dateFormatted = new Date(post.data.date).toLocaleDateString('th-TH', {
+  year: 'numeric', month: 'long', day: 'numeric',
+});
 ---
 
-<BaseLayout title={article.title} description={article.description}>
+<BaseLayout title={post.data.title} description={post.data.description}>
   <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
 
-  <!-- Breadcrumb -->
   <nav class="max-w-4xl mx-auto px-4 py-3 text-sm text-gray-400">
     <a href="/" class="hover:text-pet-500">หน้าแรก</a>
     <span class="mx-1">›</span>
     <a href="/blog" class="hover:text-pet-500">บทความ</a>
     <span class="mx-1">›</span>
-    <span class="text-gray-600">{article.title.slice(0, 40)}...</span>
+    <span class="text-gray-600">{post.data.title.slice(0, 40)}...</span>
   </nav>
 
   <article class="max-w-4xl mx-auto px-4 py-8">
     <header class="mb-8">
-      <h1 class="text-2xl md:text-3xl font-bold text-gray-900 leading-snug mb-3">{article.title}</h1>
-      <div class="flex items-center gap-3 text-sm text-gray-400">
-        <span>โดย {article.author}</span>
-        <span>•</span>
-        <time datetime={article.date}>{new Date(article.date).toLocaleDateString('th-TH', { year: 'numeric', month: 'long', day: 'numeric' })}</time>
+      <!-- Byline card -->
+      <div class="flex items-center gap-3 bg-cream rounded-xl p-4 border border-yellow-100 mb-6">
+        <img src="/brand/nong-deal-bossy.png" alt="น้องดีล" class="w-12 h-12 rounded-full object-cover" />
+        <div>
+          <p class="font-semibold text-gray-800 text-sm">{post.data.author}</p>
+          <p class="text-xs text-gray-400">ทีมรีวิว PetzDeals · {dateFormatted}</p>
+        </div>
       </div>
+
+      <h1 class="text-2xl md:text-3xl font-bold text-gray-900 leading-snug mb-3">{post.data.title}</h1>
     </header>
 
-    <div class="prose prose-gray prose-lg max-w-none" set:html={article.content.replace(/^### (.*)/gm, '<h3 class="text-lg font-bold text-gray-800 mt-6 mb-2">$1</h3>').replace(/^## (.*)/gm, '<h2 class="text-xl font-bold text-gray-900 mt-8 mb-3">$1</h2>').replace(/\n\n/g, '</p><p class="mb-4 text-gray-600 leading-relaxed">').replace(/^/, '<p class="mb-4 text-gray-600 leading-relaxed">')} />
+    <div class="prose prose-gray prose-lg max-w-none
+      prose-headings:text-gray-900 prose-headings:font-bold
+      prose-h2:text-xl prose-h2:mt-10 prose-h2:mb-4
+      prose-h3:text-lg prose-h3:mt-6 prose-h3:mb-3
+      prose-p:text-gray-600 prose-p:leading-relaxed
+      prose-a:text-pet-500 prose-a:no-underline hover:prose-a:underline
+      prose-strong:text-gray-800
+      prose-table:text-sm
+      prose-th:bg-pet-500 prose-th:text-white prose-th:px-3 prose-th:py-2
+      prose-td:px-3 prose-td:py-2
+      prose-tr:even:bg-gray-50
+      prose-li:text-gray-600
+      prose-blockquote:border-pet-500 prose-blockquote:bg-pet-50 prose-blockquote:rounded-lg prose-blockquote:py-1
+    ">
+      <Content />
+    </div>
 
-    <!-- Related Products -->
+    <PawTrail count={7} />
+
     <section class="mt-12 pt-8 border-t border-gray-100">
       <h2 class="text-xl font-bold text-gray-900 mb-6">สินค้าแนะนำสำหรับเจ้านาย</h2>
       <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
