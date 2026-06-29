@@ -130,6 +130,84 @@ All AI crawlers explicitly allowed:
 - Clean heading hierarchy for context understanding
 - Natural language descriptions (not keyword stuffing)
 
+## New Page Checklist (MANDATORY)
+
+Every time a new page is added to PetzDeals, complete ALL steps before considering it done.
+
+### Before Deploy
+
+| # | Check | How |
+|---|---|---|
+| 1 | **Title tag** | Unique, keyword-rich, under 60 chars |
+| 2 | **Meta description** | 150-160 chars, includes CTA |
+| 3 | **H1 heading** | One per page, matches intent |
+| 4 | **og:type** | "website" for pages, "article" for blog posts |
+| 5 | **og:image** | Set specific image or default `og-default.png` |
+| 6 | **Canonical URL** | Auto from BaseLayout — verify no duplicates |
+| 7 | **Internal links** | Add to navigation/footer/related sections |
+| 8 | **Image alt tags** | Every `<img>` has descriptive alt text |
+| 9 | **Structured data** | JSON-LD schema appropriate for page type |
+| 10 | **Build passes** | `npx astro build` — 0 errors |
+
+### After Deploy
+
+| # | Check | How | Command/URL |
+|---|---|---|---|
+| 1 | **Sitemap updated** | Verify new URL is in sitemap-0.xml | `grep "new-page" dist/sitemap-0.xml` |
+| 2 | **GSC sitemap resubmit** | Resubmit sitemap via GSC API | See script below |
+| 3 | **GSC URL inspection** | Request indexing for new URL | See script below |
+| 4 | **GA4 tracking** | Auto via BaseLayout gtag.js — verify in GA4 Realtime | analytics.google.com → Realtime |
+| 5 | **GTM container** | Auto via BaseLayout GTM snippet | tagmanager.google.com |
+| 6 | **Affiliate links** | All product links use `s.shopee.co.th` (not UTM) | Check with grep |
+| 7 | **Navigation link** | New page accessible from nav/footer/related | Click-test on live site |
+
+### GSC Submission Script
+
+```python
+import requests
+
+# Get access token
+token_resp = requests.post("https://oauth2.googleapis.com/token", data={
+    "client_id": "from shopee-affiliate.env",
+    "client_secret": "from shopee-affiliate.env",
+    "refresh_token": "from shopee-affiliate.env",
+    "grant_type": "refresh_token"
+})
+token = token_resp.json()["access_token"]
+headers = {"Authorization": f"Bearer {token}", "Content-Type": "application/json"}
+
+# Resubmit sitemap
+import urllib.parse
+site = "sc-domain:petzdeals.com"
+sitemap = "https://petzdeals.com/sitemap-index.xml"
+requests.put(
+    f"https://www.googleapis.com/webmasters/v3/sites/{urllib.parse.quote(site, safe='')}/sitemaps/{urllib.parse.quote(sitemap, safe='')}",
+    headers=headers
+)
+
+# Request indexing for new page
+requests.post(
+    "https://searchconsole.googleapis.com/v1/urlInspection/index:inspect",
+    headers=headers,
+    json={"inspectionUrl": "https://petzdeals.com/deals/today/", "siteUrl": site}
+)
+```
+
+### GTM Event Tracking (for new page types)
+
+If the new page has special interactions (e.g., deal clicks, form submissions), add custom dataLayer events:
+
+```javascript
+window.dataLayer.push({
+  event: 'deal_click',
+  deal_name: 'product title',
+  deal_price: 149,
+  deal_source: 'shopee-offer'
+});
+```
+
+Then configure a matching GA4 Event Tag in GTM to capture these events.
+
 ## CAR/PAR
 
 ### CAR
