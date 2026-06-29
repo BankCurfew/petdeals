@@ -57,8 +57,8 @@ const dateFormatted = new Date(post.data.date).toLocaleDateString('th-TH', {
     <span class="text-gray-600">{post.data.title.slice(0, 40)}...</span>
   </nav>
 
-  <article class="max-w-4xl mx-auto px-4 py-8">
-    <header class="mb-8">
+  <article class="max-w-[700px] mx-auto px-5 py-8">
+    <header class="mb-10">
       <!-- Sale banner for 7.7 article -->
       {post.id.includes('7-7') && (
         <div class="rounded-2xl overflow-hidden mb-6 shadow-lg">
@@ -79,22 +79,7 @@ const dateFormatted = new Date(post.data.date).toLocaleDateString('th-TH', {
       <p class="text-lg text-gray-500 leading-relaxed">{post.data.description}</p>
     </header>
 
-    <div class="article-content prose prose-gray prose-lg max-w-none
-      prose-headings:text-gray-900 prose-headings:font-bold
-      prose-h2:text-2xl prose-h2:mt-14 prose-h2:mb-6 prose-h2:pb-3 prose-h2:border-b prose-h2:border-gray-100
-      prose-h3:text-xl prose-h3:mt-10 prose-h3:mb-4
-      prose-p:text-gray-600 prose-p:text-lg prose-p:leading-loose prose-p:mb-6
-      prose-a:text-pet-500 prose-a:no-underline hover:prose-a:underline
-      prose-strong:text-gray-800
-      prose-table:text-base
-      prose-th:bg-pet-500 prose-th:text-white prose-th:px-4 prose-th:py-3
-      prose-td:px-4 prose-td:py-3 prose-td:text-base
-      prose-tr:even:bg-gray-50
-      prose-li:text-gray-600 prose-li:text-lg prose-li:leading-loose prose-li:mb-2
-      prose-blockquote:border-pet-500 prose-blockquote:bg-pet-50 prose-blockquote:rounded-xl prose-blockquote:py-4 prose-blockquote:px-6
-      prose-hr:my-12
-      prose-img:rounded-xl prose-img:shadow-md
-    ">
+    <div class="blog-article prose prose-gray max-w-none">
       <Content />
     </div>
 
@@ -108,3 +93,81 @@ const dateFormatted = new Date(post.data.date).toLocaleDateString('th-TH', {
     </section>
   </article>
 </BaseLayout>
+
+<style is:global>
+  .blog-article p {
+    font-size: 17px;
+    line-height: 2.0;
+    margin-bottom: 1.5em;
+    color: #374151;
+  }
+  .blog-article h2 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-top: 48px;
+    margin-bottom: 16px;
+    color: #111827;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #E5E7EB;
+  }
+  .blog-article h3 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-top: 32px;
+    margin-bottom: 12px;
+    color: #1F2937;
+  }
+  .blog-article li {
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 8px;
+  }
+  .blog-article img {
+    border-radius: 12px;
+    margin: 32px 0;
+  }
+  .blog-article table {
+    font-size: 14px;
+    width: 100%;
+    margin: 24px 0;
+  }
+  .blog-article th {
+    background: #14B8A6;
+    color: white;
+    padding: 10px 14px;
+    text-align: left;
+    font-weight: 600;
+  }
+  .blog-article td {
+    padding: 10px 14px;
+    border-bottom: 1px solid #E5E7EB;
+  }
+  .blog-article tr:nth-child(even) {
+    background: #F9FAFB;
+  }
+  .blog-article blockquote {
+    background: #F0FDFA;
+    border-left: 4px solid #14B8A6;
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin: 24px 0;
+    font-style: normal;
+  }
+  .blog-article a {
+    color: #0D9488;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .blog-article a:hover {
+    text-decoration: underline;
+  }
+  .blog-article hr {
+    margin: 48px 0;
+    border-color: #E5E7EB;
+  }
+  .blog-article strong {
+    color: #111827;
+  }
+</style>
