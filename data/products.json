@@ -23,7 +23,8 @@
     "affiliateUrl": "https://shopee.co.th/100-17g-ketzuzu-i.1571633380.50053775602?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=50053775602",
     "slug": "product-1571633380-50053775602",
     "source": "apify_real",
-    "scrapedAt": "2026-06-29"
+    "scrapedAt": "2026-06-29",
+    "category": "ขนมแมว"
   },
   {
     "shopId": "1449018616",
@@ -49,7 +50,8 @@
     "affiliateUrl": "https://shopee.co.th/meo-6-8-7-i.1449018616.45404183694?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=45404183694",
     "slug": "product-1449018616-45404183694",
     "source": "apify_real",
-    "scrapedAt": "2026-06-29"
+    "scrapedAt": "2026-06-29",
+    "category": "อาหารเม็ด"
   },
   {
     "shopId": "19056998",
@@ -75,7 +77,8 @@
     "affiliateUrl": "https://shopee.co.th/kaniva-1-3-1-5-kg-i.19056998.41120268894?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=41120268894",
     "slug": "product-19056998-41120268894",
     "source": "apify_real",
-    "scrapedAt": "2026-06-29"
+    "scrapedAt": "2026-06-29",
+    "category": "อาหารเม็ด"
   },
   {
     "shopId": "1118890063",
@@ -101,7 +104,8 @@
     "affiliateUrl": "https://shopee.co.th/mrvet-holistic-t1-t2-1kg-i.1118890063.27720534292?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=27720534292",
     "slug": "product-1118890063-27720534292",
     "source": "apify_real",
-    "scrapedAt": "2026-06-29"
+    "scrapedAt": "2026-06-29",
+    "category": "สุนัข"
   },
   {
     "shopId": "28265861",
@@ -126,7 +130,8 @@
     "affiliateUrl": "https://shopee.co.th/purina-one-mature-adult-7-7-i.28265861.42774298904?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=42774298904",
     "slug": "product-28265861-42774298904",
     "source": "apify_real",
-    "scrapedAt": "2026-06-29"
+    "scrapedAt": "2026-06-29",
+    "category": "อาหารแมว"
   },
   {
     "shopId": "1449018616",
@@ -152,7 +157,8 @@
     "affiliateUrl": "https://shopee.co.th/1-2-kg-i.1449018616.53053909815?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=53053909815",
     "slug": "product-1449018616-53053909815",
     "source": "apify_real",
-    "scrapedAt": "2026-06-29"
+    "scrapedAt": "2026-06-29",
+    "category": "อาหารแมว"
   },
   {
     "shopId": "1114342129",
@@ -177,7 +183,8 @@
     "affiliateUrl": "https://shopee.co.th/purina-one-2-7-kg-i.1114342129.44373566504?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=44373566504",
     "slug": "product-1114342129-44373566504",
     "source": "apify_real",
-    "scrapedAt": "2026-06-29"
+    "scrapedAt": "2026-06-29",
+    "category": "อาหารแมว"
   },
   {
     "shopId": "1114342129",
@@ -202,7 +209,8 @@
     "affiliateUrl": "https://shopee.co.th/code40-12-pramy-carnivore-70g-i.1114342129.24991346357?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=24991346357",
     "slug": "product-1114342129-24991346357",
     "source": "apify_real",
-    "scrapedAt": "2026-06-29"
+    "scrapedAt": "2026-06-29",
+    "category": "อาหารเปียก"
   },
   {
     "shopId": "297818100",
@@ -228,7 +236,8 @@
     "affiliateUrl": "https://shopee.co.th/buzz-beyond-7-kg-i.297818100.27786220912?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=27786220912",
     "slug": "product-297818100-27786220912",
     "source": "apify_real",
-    "scrapedAt": "2026-06-29"
+    "scrapedAt": "2026-06-29",
+    "category": "อาหารแมว"
   },
   {
     "shopId": "1449018616",
@@ -254,7 +263,8 @@
     "affiliateUrl": "https://shopee.co.th/1-i.1449018616.49454285464?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=49454285464",
     "slug": "product-1449018616-49454285464",
     "source": "apify_real",
-    "scrapedAt": "2026-06-29"
+    "scrapedAt": "2026-06-29",
+    "category": "อาหารแมว"
   },
   {
     "shopId": "151386507",
@@ -280,7 +290,8 @@
     "affiliateUrl": "https://shopee.co.th/kaniva-1-1-5-kg-i.151386507.11614992581?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=11614992581",
     "slug": "product-151386507-11614992581",
     "source": "apify_real",
-    "scrapedAt": "2026-06-29"
+    "scrapedAt": "2026-06-29",
+    "category": "อาหารแมว"
   },
   {
     "shopId": "253732112",
@@ -306,7 +317,8 @@
     "affiliateUrl": "https://shopee.co.th/pramy-supreme-mother-kitten-adult-indoor-skin-coat-i.253732112.19342385770?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=19342385770",
     "slug": "product-253732112-19342385770",
     "source": "apify_real",
-    "scrapedAt": "2026-06-29"
+    "scrapedAt": "2026-06-29",
+    "category": "อาหารเม็ด"
   },
   {
     "shopId": "159912755",
@@ -332,7 +344,8 @@
     "affiliateUrl": "https://shopee.co.th/7-kg-dc11-dc21-dc31-deenee-cat-3-26-i.159912755.41157741421?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=41157741421",
     "slug": "product-159912755-41157741421",
     "source": "apify_real",
-    "scrapedAt": "2026-06-29"
+    "scrapedAt": "2026-06-29",
+    "category": "อาหารเม็ด"
   },
   {
     "shopId": "1449018616",
@@ -358,7 +371,8 @@
     "affiliateUrl": "https://shopee.co.th/smillie-1-3-i.1449018616.46804183703?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=46804183703",
     "slug": "product-1449018616-46804183703",
     "source": "apify_real",
-    "scrapedAt": "2026-06-29"
+    "scrapedAt": "2026-06-29",
+    "category": "อาหารแมว"
   },
   {
     "shopId": "79695887",
@@ -384,7 +398,8 @@
     "affiliateUrl": "https://shopee.co.th/7-me-o-cat-food-tuna-7-kg-i.79695887.10464746510?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=10464746510",
     "slug": "product-79695887-10464746510",
     "source": "apify_real",
-    "scrapedAt": "2026-06-29"
+    "scrapedAt": "2026-06-29",
+    "category": "อาหารแมว"
   },
   {
     "shopId": "185244633",
@@ -410,7 +425,8 @@
     "affiliateUrl": "https://shopee.co.th/whiskas-6-5-7-kg-i.185244633.41023367221?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=41023367221",
     "slug": "product-185244633-41023367221",
     "source": "apify_real",
-    "scrapedAt": "2026-06-29"
+    "scrapedAt": "2026-06-29",
+    "category": "อาหารเม็ด"
   },
   {
     "shopId": "62754594",
@@ -436,7 +452,8 @@
     "affiliateUrl": "https://shopee.co.th/7-deenee-cat-i.62754594.29567974240?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=29567974240",
     "slug": "product-62754594-29567974240",
     "source": "apify_real",
-    "scrapedAt": "2026-06-29"
+    "scrapedAt": "2026-06-29",
+    "category": "อาหารแมว"
   },
   {
     "shopId": "179359716",
@@ -462,7 +479,8 @@
     "affiliateUrl": "https://shopee.co.th/5-5-9-00-92-pramy-carnivore-800g-1kg-30-i.179359716.43252821142?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=43252821142",
     "slug": "product-179359716-43252821142",
     "source": "apify_real",
-    "scrapedAt": "2026-06-29"
+    "scrapedAt": "2026-06-29",
+    "category": "อาหารเม็ด"
   },
   {
     "shopId": "144046792",
@@ -488,7 +506,8 @@
     "affiliateUrl": "https://shopee.co.th/2-7-3-whiskas-pockets-dry-cat-food-2-7-kg-3-kg-i.144046792.23340553505?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=23340553505",
     "slug": "product-144046792-23340553505",
     "source": "apify_real",
-    "scrapedAt": "2026-06-29"
+    "scrapedAt": "2026-06-29",
+    "category": "อาหารเม็ด"
   },
   {
     "shopId": "1182608526",
@@ -514,7 +533,8 @@
     "affiliateUrl": "https://shopee.co.th/buzz-beyond-7-kg-1-i.1182608526.41804017575?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=41804017575",
     "slug": "product-1182608526-41804017575",
     "source": "apify_real",
-    "scrapedAt": "2026-06-29"
+    "scrapedAt": "2026-06-29",
+    "category": "อาหารแมว"
   },
   {
     "shopId": "109765977",
@@ -540,7 +560,8 @@
     "affiliateUrl": "https://shopee.co.th/lola-co-5-7-kg-i.109765977.24238087150?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=24238087150",
     "slug": "product-109765977-24238087150",
     "source": "apify_real",
-    "scrapedAt": "2026-06-29"
+    "scrapedAt": "2026-06-29",
+    "category": "อาหารเม็ด"
   },
   {
     "shopId": "1042312366",
@@ -566,7 +587,8 @@
     "affiliateUrl": "https://shopee.co.th/kaniva-8-9-10kg-link-i.1042312366.24164074180?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=24164074180",
     "slug": "product-1042312366-24164074180",
     "source": "apify_real",
-    "scrapedAt": "2026-06-29"
+    "scrapedAt": "2026-06-29",
+    "category": "อาหารแมว"
   },
   {
     "shopId": "104796104",
@@ -592,7 +614,8 @@
     "affiliateUrl": "https://shopee.co.th/purina-one-1-2kg-i.104796104.1843264827?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=1843264827",
     "slug": "product-104796104-1843264827",
     "source": "apify_real",
-    "scrapedAt": "2026-06-29"
+    "scrapedAt": "2026-06-29",
+    "category": "อาหารแมว"
   },
   {
     "shopId": "275309578",
@@ -615,7 +638,8 @@
     "affiliateUrl": "https://shopee.co.th/pramy-carnivore-1kg-i.275309578.41402820018?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=41402820018",
     "slug": "product-275309578-41402820018",
     "source": "apify_real",
-    "scrapedAt": "2026-06-29"
+    "scrapedAt": "2026-06-29",
+    "category": "อาหารเม็ด"
   },
   {
     "shopId": "279775864",
@@ -639,7 +663,8 @@
     "affiliateUrl": "https://shopee.co.th/10-temtem-i.279775864.57200749787?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=57200749787",
     "slug": "product-279775864-57200749787",
     "source": "apify_real",
-    "scrapedAt": "2026-06-29"
+    "scrapedAt": "2026-06-29",
+    "category": "อาหารเม็ด"
   },
   {
     "shopId": "1404353915",
@@ -665,7 +690,8 @@
     "affiliateUrl": "https://shopee.co.th/kaniva-1-i.1404353915.26275511819?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=26275511819",
     "slug": "product-1404353915-26275511819",
     "source": "apify_real",
-    "scrapedAt": "2026-06-29"
+    "scrapedAt": "2026-06-29",
+    "category": "อาหารเม็ด"
   },
   {
     "shopId": "1449018616",
@@ -691,7 +717,8 @@
     "affiliateUrl": "https://shopee.co.th/zoi-cat-1-8-i.1449018616.49354285522?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=49354285522",
     "slug": "product-1449018616-49354285522",
     "source": "apify_real",
-    "scrapedAt": "2026-06-29"
+    "scrapedAt": "2026-06-29",
+    "category": "อาหารแมว"
   },
   {
     "shopId": "1095739424",
@@ -717,7 +744,8 @@
     "affiliateUrl": "https://shopee.co.th/pramy-carnivore-800g-1-kg-i.1095739424.42202639886?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=42202639886",
     "slug": "product-1095739424-42202639886",
     "source": "apify_real",
-    "scrapedAt": "2026-06-29"
+    "scrapedAt": "2026-06-29",
+    "category": "อาหารเม็ด"
   },
   {
     "shopId": "944560235",
@@ -742,7 +770,8 @@
     "affiliateUrl": "https://shopee.co.th/buzz-beyond-cat-1-kg-i.944560235.24430337898?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=24430337898",
     "slug": "product-944560235-24430337898",
     "source": "apify_real",
-    "scrapedAt": "2026-06-29"
+    "scrapedAt": "2026-06-29",
+    "category": "อาหารแมว"
   },
   {
     "shopId": "1118890063",
@@ -768,6 +797,7 @@
     "affiliateUrl": "https://shopee.co.th/12-mrvet-i.1118890063.24386369882?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=24386369882",
     "slug": "product-1118890063-24386369882",
     "source": "apify_real",
-    "scrapedAt": "2026-06-29"
+    "scrapedAt": "2026-06-29",
+    "category": "อาหารเปียก"
   }
 ]
