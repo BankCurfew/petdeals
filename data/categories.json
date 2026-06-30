@@ -83,7 +83,7 @@
     "emoji": "🤖",
     "animal": "all",
     "type": "tech",
-    "dataCategory": "เครื่องให้อาหารอัตโนมัติ",
+    "dataCategory": "เครื่องให้อาหาร",
     "description": "เครื่องให้อาหารแมว/สุนัขอัตโนมัติ ตั้งเวลาได้ WiFi เชื่อมแอป",
     "phase": 1
   },
@@ -116,7 +116,7 @@
     "emoji": "🎒",
     "animal": "all",
     "type": "accessories",
-    "dataCategory": "กรง/กล่องเดินทาง",
+    "dataCategory": "กรงและกระเป๋า",
     "description": "กระเป๋าแมว กรงเดินทาง กล่องขนย้ายสัตว์เลี้ยง",
     "phase": 1
   },
