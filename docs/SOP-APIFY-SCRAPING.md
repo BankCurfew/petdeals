@@ -226,14 +226,36 @@ CLOUDFLARE_API_TOKEN=... npx wrangler pages deploy dist --project-name=petzdeals
 
 ## CAR/PAR
 
-### CAR
-**Issue**: Data used wrong Apify actors (shopee-scraper, web-scraper) → 403 Forbidden on all 13 searches. 30 min wasted.
-**Root Cause**: No documentation of which Apify actor works. Data guessed wrong.
-**Fix**: Documented working actor ID (fmKWN5uByUCIy2Sam) + CDP fallback method. Redirected to CDP for immediate scraping.
+### CAR #1 — Wrong Actor (2026-06-30)
+**Issue**: Data used wrong Apify actors (shopee-scraper, web-scraper) → 403 Forbidden on all 13 searches.
+**Root Cause**: No documentation of which Apify actor works.
+**Fix**: Documented working actor ID + CDP fallback.
+
+### CAR #2 — BRAZIL DATA DISASTER (2026-06-30)
+**Issue**: Apify actor fmKWN5uByUCIy2Sam scraped **Shopee BRAZIL** (shopee.com.br) instead of Thailand (shopee.co.th). 231 products were Brazilian furniture, underwear, floor wax — NOT pet products. Portuguese titles ("Armário De Armazenamento", "Calcinha para Senhora", "Cera Acrílica") were deployed to petzdeals.com.
+**Root Cause**: Actor fmKWN5uByUCIy2Sam defaults to Brazil market. The `location=Thailand` parameter was not sufficient or incorrect.
+**Impact**: 231 fake products on live site for ~12 hours. Products had no images, wrong language, wrong category. แบงค์ found it.
+**Fix**: Removed all 231 Brazilian products. Reverted to original 109 Thai products. Hidden 10 empty categories.
 **Date**: 2026-06-30
 
-### PAR
-1. **Actor ID documented** in this SOP — always use fmKWN5uByUCIy2Sam
-2. **CDP fallback** documented step-by-step
-3. **Never guess actors** — check this SOP first
-4. **Test with 1 search** before running batch
+### CAR #3 — No Data Validation (2026-06-30)
+**Issue**: 231 products were committed without ANY validation that titles were Thai or products were pet-related.
+**Root Cause**: No validation step in the scraping pipeline. Data blindly appended Apify results.
+**Fix**: Added validation rules below.
+
+### PAR (Preventive Action Report)
+1. **Actor fmKWN5uByUCIy2Sam scrapes BRAZIL by default** — DO NOT USE for Thailand without verified country parameter
+2. **VALIDATE BEFORE COMMIT**: Every scraped product MUST have Thai characters (฀-๿) in the title. If title is Portuguese/English with no Thai → REJECT
+3. **Spot-check 5 products manually** before batch import — open URLs, verify they're Thai Shopee pages
+4. **Use CDP for Thailand** — connect to Chrome logged into shopee.co.th, scrape search results directly. This guarantees Thai products
+5. **Never commit >20 products without review** — batch imports need BoB approval
+6. **Test with 1 search first** — verify country/language before running 13 searches
+7. **Product title language check** (automated):
+   ```python
+   import re
+   thai_re = re.compile(r'[฀-๿]')
+   for p in new_products:
+       if not thai_re.search(p['title']):
+           raise ValueError(f"Non-Thai product: {p['title'][:50]}")
+   ```
+8. **CAR for every data incident** — document what went wrong, why, and prevention
