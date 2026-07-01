@@ -259,3 +259,21 @@ CLOUDFLARE_API_TOKEN=... npx wrangler pages deploy dist --project-name=petzdeals
            raise ValueError(f"Non-Thai product: {p['title'][:50]}")
    ```
 8. **CAR for every data incident** — document what went wrong, why, and prevention
+
+### CAR #4 — Country Parameter Case-Sensitivity (2026-07-01)
+**Issue**: Apify actor requires `"country": "TH"` (uppercase). Using `"th"` (lowercase) was rejected with error. Previous runs defaulted to Brazil because no country was specified.
+**Root Cause**: Actor fmKWN5uByUCIy2Sam defaults to `"BR"` (Brazil) when country parameter is omitted or lowercase. Allowed values: `"BR", "ID", "TH", "MY", "SG", "PH", "VN", "MX"`.
+**Fix**: Always specify `"country": "TH"` (uppercase) in Apify input JSON. Also `"maxItems"` must be >= 10.
+**Correct input format**:
+```json
+{
+  "keywords": ["อาหารแมว", "ของเล่นแมว"],
+  "maxItems": 20,
+  "country": "TH"
+}
+```
+**Wrong**: `"country": "th"` (rejected), `"country"` omitted (defaults to Brazil), `"maxItems": 5` (rejected, min 10)
+
+### PAR Addition
+9. **ALWAYS specify `"country": "TH"`** in every Apify run — NEVER omit, NEVER lowercase
+10. **`maxItems` minimum 10** — lower values are rejected by the actor
