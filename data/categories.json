@@ -63,7 +63,7 @@
     "type": "toys",
     "dataCategory": "ของเล่นแมว",
     "description": "ไม้แหย่แมว บอล catnip laser ของเล่นเสริมสร้างพัฒนาการ",
-    "phase": 0
+    "phase": 1
   },
   {
     "slug": "cat-condos",
@@ -74,7 +74,7 @@
     "type": "furniture",
     "dataCategory": "คอนโดแมว",
     "description": "คอนโดแมว เสาลับเล็บ ที่นอนแมว บ้านแมว ทุกขนาด",
-    "phase": 0
+    "phase": 1
   },
   {
     "slug": "auto-feeders",
@@ -85,7 +85,7 @@
     "type": "tech",
     "dataCategory": "เครื่องให้อาหาร",
     "description": "เครื่องให้อาหารแมว/สุนัขอัตโนมัติ ตั้งเวลาได้ WiFi เชื่อมแอป",
-    "phase": 0
+    "phase": 1
   },
   {
     "slug": "water-fountains",
@@ -96,7 +96,7 @@
     "type": "tech",
     "dataCategory": "น้ำพุแมว",
     "description": "น้ำพุแมว ทุกรุ่น ทุกแบรนด์ กรองสะอาด น้องเหมียวชอบดื่ม",
-    "phase": 0
+    "phase": 1
   },
   {
     "slug": "smart-pet-tech",
@@ -118,7 +118,7 @@
     "type": "accessories",
     "dataCategory": "กรงและกระเป๋า",
     "description": "กระเป๋าแมว กรงเดินทาง กล่องขนย้ายสัตว์เลี้ยง",
-    "phase": 0
+    "phase": 1
   },
   {
     "slug": "grooming",
