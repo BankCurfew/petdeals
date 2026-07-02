@@ -277,3 +277,31 @@ CLOUDFLARE_API_TOKEN=... npx wrangler pages deploy dist --project-name=petzdeals
 ### PAR Addition
 9. **ALWAYS specify `"country": "TH"`** in every Apify run — NEVER omit, NEVER lowercase
 10. **`maxItems` minimum 10** — lower values are rejected by the actor
+
+### CAR #5 — itemCount Stats Show 0 But Dataset Has Items (2026-07-02)
+**Issue**: All Apify runs showed `itemCount: 0` in stats, leading team to believe scraper was broken. Wasted 24+ hours trying to fix (different builds, keywords, CDP fallback). Actually the dataset DID have items — stats were just wrong.
+**Root Cause**: Actor's `stats.itemCount` counter doesn't update properly on Starter plan. The actual dataset contains products. Must check `dataset/items` endpoint directly, NOT rely on `stats.itemCount`.
+**Impact**: 24 hours of wasted debugging. Tried build 0.4.9 vs 0.4.11, Thai vs English keywords, single vs batch, CDP fallback — all unnecessary.
+**Fix**: Always check `GET /actor-runs/{id}/dataset/items` to verify actual data. Don't trust `stats.itemCount`.
+**Date**: 2026-07-02
+
+### CAR #6 — Full Input Schema Required (2026-07-02)
+**Issue**: Partial input JSON (only keywords + maxItems + country) sometimes failed silently. Full schema with all fields works reliably.
+**Root Cause**: Actor expects all fields present even if empty.
+**Correct input format**:
+```json
+{
+  "keywords": ["ของเล่นแมว", "คอนโดแมว"],
+  "categoryUrls": [],
+  "shopUrls": [],
+  "country": "TH",
+  "maxItems": 200,
+  "priceSlicing": false,
+  "debug": false
+}
+```
+
+### PAR Addition
+11. **NEVER trust `stats.itemCount`** — always check `dataset/items` endpoint for actual data
+12. **Use FULL input schema** — include all fields (keywords, categoryUrls, shopUrls, country, maxItems, priceSlicing, debug)
+13. **Use `debug: true`** for test runs to see logs (📦 Total final: N itens confirms actual count)
