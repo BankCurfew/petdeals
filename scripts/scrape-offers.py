@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""Scrape Shopee Offer Pets page via Apify → filter real pet products → data/shopee-offers-raw.json"""
+"""Daily Apify sync — scrape Thai pet products via correct actor fmKWN5uByUCIy2Sam
+Params: keywords=[], country="TH" (uppercase), maxItems>=10
+"""
 import json, os, time
 from datetime import datetime
 from urllib.request import Request, urlopen
@@ -15,126 +17,116 @@ for line in open(ENV):
 
 APIFY_TOKEN = creds.get("APIFY_API_TOKEN", "")
 AFFILIATE_ID = creds.get("SHOPEE_AFFILIATE_ID", "an_15312860014")
+ACTOR_ID = "fmKWN5uByUCIy2Sam"
+PRODUCTS_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data", "products.json")
 
-SHOPEE_OFFER_URL = "https://shopee.co.th/m/offer-pets"
+DAILY_SEARCHES = [
+    (["อาหารแมว"], "", "อาหารแมว", 20),
+    (["อาหารเปียกแมว"], "", "อาหารเปียก", 15),
+    (["ขนมแมว"], "", "ขนมแมว", 15),
+    (["ทรายแมว"], "", "ทรายแมว", 15),
+    (["อาหารสุนัข"], "", "อาหารสุนัข", 15),
+]
 
-def run_apify_scrape():
-    """Use Apify web scraper to fetch Shopee offers page."""
-    url = "https://api.apify.com/v2/acts/apify~web-scraper/runs"
+def run_actor(keywords, max_items):
+    url = f"https://api.apify.com/v2/acts/{ACTOR_ID}/runs?token={APIFY_TOKEN}"
     body = json.dumps({
-        "startUrls": [{"url": SHOPEE_OFFER_URL}],
-        "pageFunction": """async function pageFunction(context) {
-            const { page, request } = context;
-            await page.waitForTimeout(5000);
-            const products = await page.evaluate(() => {
-                const items = [];
-                document.querySelectorAll('[data-sqe="item"], .shopee-search-item-result__item, a[href*="-i."]').forEach((el, i) => {
-                    if (i >= 50) return;
-                    const link = el.querySelector('a[href*="-i."]') || el;
-                    const href = link?.getAttribute('href') || '';
-                    const match = href.match(/-i\\.(\\d+)\\.(\\d+)/);
-                    if (!match) return;
-                    const text = el.innerText || '';
-                    const name = text.split('\\n').filter(l => l.length > 10 && !l.startsWith('฿'))[0] || '';
-                    const priceMatch = text.match(/฿([\\d,.]+)/);
-                    items.push({
-                        shopId: match[1], itemId: match[2],
-                        name: name.substring(0, 120),
-                        price: priceMatch ? priceMatch[0] : '',
-                        url: 'https://shopee.co.th' + href,
-                    });
-                });
-                return items;
-            });
-            return products;
-        }""",
-        "proxyConfiguration": {"useApifyProxy": True},
-        "maxRequestsPerCrawl": 3,
+        "keywords": keywords,
+        "maxItems": max(max_items, 10),
+        "country": "TH",
     }).encode()
+    req = Request(url, data=body, headers={"Content-Type": "application/json"})
+    with urlopen(req, timeout=30) as resp:
+        return json.loads(resp.read()).get("data", {}).get("id")
 
-    req = Request(f"{url}?token={APIFY_TOKEN}", data=body,
-                  headers={"Content-Type": "application/json"})
-    try:
-        with urlopen(req, timeout=30) as resp:
-            run = json.loads(resp.read())
-        run_id = run.get("data", {}).get("id")
-        print(f"Apify run: {run_id}")
-        return run_id
-    except HTTPError as e:
-        print(f"Apify error: {e.code} {e.read().decode()[:200]}")
-        return None
-
-def get_apify_results(run_id, max_wait=120):
-    """Poll for Apify results."""
+def wait_results(run_id, max_wait=120):
     for i in range(max_wait // 5):
         time.sleep(5)
         url = f"https://api.apify.com/v2/actor-runs/{run_id}?token={APIFY_TOKEN}"
-        req = Request(url)
-        with urlopen(req, timeout=10) as resp:
+        with urlopen(Request(url), timeout=10) as resp:
             status = json.loads(resp.read()).get("data", {}).get("status")
-        if status in ("SUCCEEDED", "FAILED", "ABORTED"):
-            print(f"Run {status} after {(i+1)*5}s")
-            if status == "SUCCEEDED":
-                dataset_url = f"https://api.apify.com/v2/actor-runs/{run_id}/dataset/items?token={APIFY_TOKEN}"
-                with urlopen(Request(dataset_url), timeout=30) as resp:
-                    return json.loads(resp.read())
+        if status == "SUCCEEDED":
+            ds = f"https://api.apify.com/v2/actor-runs/{run_id}/dataset/items?token={APIFY_TOKEN}"
+            with urlopen(Request(ds), timeout=30) as resp:
+                return json.loads(resp.read())
+        elif status in ("FAILED", "ABORTED"):
             return []
-    print("Timeout waiting for Apify")
     return []
 
-def filter_pet_products(products):
-    """Filter for real pet products with reasonable data."""
-    pet_keywords = ["แมว", "สุนัข", "หมา", "cat", "dog", "pet", "อาหาร", "ทราย",
-                     "ของเล่น", "สายจูง", "ที่นอน", "แชมพู", "กรง", "กระเป๋า"]
-    filtered = []
-    for p in products:
-        name = (p.get("name", "") or "").lower()
-        if any(k in name for k in pet_keywords):
-            p["affiliate_url"] = f"{p['url']}?utm_source={AFFILIATE_ID}&utm_medium=affiliates&utm_campaign=petdeals&utm_content={p.get('itemId','')}"
-            filtered.append(p)
-    return filtered
-
 def main():
-    today = datetime.now().strftime("%Y-%m-%d")
-    print(f"Shopee Offers Scrape: {today}")
-
     if not APIFY_TOKEN:
         print("ERROR: APIFY_API_TOKEN not set")
         return
 
-    run_id = run_apify_scrape()
-    if not run_id:
-        print("Failed to start Apify run")
-        return
+    with open(PRODUCTS_PATH) as f:
+        existing = json.load(f)
+    products = existing if isinstance(existing, list) else existing.get("products", [])
+    existing_ids = {str(p.get("itemId", "")) for p in products}
+    print(f"Existing: {len(products)} products")
 
-    products = get_apify_results(run_id)
-    all_products = []
-    if isinstance(products, list):
-        for batch in products:
-            if isinstance(batch, list):
-                all_products.extend(batch)
-            elif isinstance(batch, dict):
-                all_products.append(batch)
+    all_new = []
+    for keywords, brand, category, max_items in DAILY_SEARCHES:
+        print(f"\n=== {keywords[0]} (max={max_items}) ===")
+        try:
+            run_id = run_actor(keywords, max_items)
+            if not run_id:
+                print("  No run ID")
+                continue
+            print(f"  Run: {run_id}")
+            results = wait_results(run_id)
+            print(f"  Results: {len(results)}")
 
-    print(f"Raw products: {len(all_products)}")
-    filtered = filter_pet_products(all_products)
-    print(f"Pet products: {len(filtered)}")
+            new_count = 0
+            for item in results:
+                if "error" in item:
+                    continue
+                item_id = str(item.get("itemId", ""))
+                if not item_id or item_id in existing_ids:
+                    continue
+                existing_ids.add(item_id)
+                title = item.get("name", "")
+                if not title or len(title) < 5:
+                    continue
 
-    outdir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data")
-    os.makedirs(outdir, exist_ok=True)
+                shop_id = str(item.get("shopId", ""))
+                price = item.get("price", "")
+                if isinstance(price, (int, float)):
+                    price = f"฿{price:,.0f}"
+                orig = item.get("originalPrice", "")
+                if isinstance(orig, (int, float)) and orig > 0:
+                    orig = f"฿{orig:,.0f}"
 
-    raw_file = os.path.join(outdir, "shopee-offers-raw.json")
-    with open(raw_file, "w") as f:
-        json.dump({"scraped_at": datetime.now().isoformat(), "total": len(all_products), "products": all_products}, f, ensure_ascii=False, indent=2)
-    print(f"Raw saved: {raw_file}")
+                url = item.get("url", f"https://shopee.co.th/product-i.{shop_id}.{item_id}")
 
-    deals_file = os.path.join(outdir, "top-deals.json")
-    with open(deals_file, "w") as f:
-        json.dump({"updated_at": datetime.now().isoformat(), "total": len(filtered), "products": filtered}, f, ensure_ascii=False, indent=2)
-    print(f"Deals saved: {deals_file}")
+                all_new.append({
+                    "shopId": shop_id,
+                    "itemId": item_id,
+                    "title": title[:150],
+                    "price": str(price),
+                    "priceMax": str(orig) if orig else "",
+                    "rating": str(item.get("rating", "")),
+                    "reviewCount": str(item.get("reviewCount", "")),
+                    "sold": str(item.get("historicalSoldEstimated", "")),
+                    "brand": brand,
+                    "category": category,
+                    "images": (item.get("images") or [])[:5],
+                    "url": url,
+                    "affiliateUrl": f"{url}?utm_source={AFFILIATE_ID}&utm_medium=affiliates&utm_campaign=petdeals&utm_content={item_id}",
+                    "scrapedAt": datetime.now().strftime("%Y-%m-%d"),
+                })
+                new_count += 1
+            print(f"  New: {new_count}")
+        except Exception as e:
+            print(f"  Error: {e}")
+        time.sleep(2)
 
-    for p in filtered[:5]:
-        print(f"  {p.get('name','?')[:50]} | {p.get('price','?')}")
+    products.extend(all_new)
+    output = products if isinstance(existing, list) else {**existing, "products": products}
+    with open(PRODUCTS_PATH, "w") as f:
+        json.dump(output, f, ensure_ascii=False, indent=2)
+
+    print(f"\n=== DONE ===")
+    print(f"New: {len(all_new)} | Total: {len(products)}")
 
 if __name__ == "__main__":
     main()
