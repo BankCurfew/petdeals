@@ -34,9 +34,35 @@ DAILY_SEARCHES = [
 REJECTED_DOMAINS = ["shopee.com.br", "shopee.com.mx", "shopee.com.co", "shopee.sg"]
 THAI_CHAR_RE = re.compile(r"[ก-ฺเ-๎]")
 
+CAT_KEYWORDS = re.compile(r"แมว|cat|kitten|catnip|แคทนิป|มาทาทาบิ|ลับเล็บ|ฝนเล็บ|ขูดเล็บ|คอนโด|ไม้ตกแมว|ไม้ล่อแมว|อุโมงค์แมว|teaser", re.IGNORECASE)
+DOG_KEYWORDS = re.compile(r"สุนัข|หมา|dog|puppy", re.IGNORECASE)
+
+CATEGORY_REMAP = {
+    "ลับเล็บ": "ลับเล็บแมว",
+    "คอนโด": "คอนโดแมว",
+    "อุโมงค์": "ของเล่นแมว",
+}
+
 
 def has_thai(text):
     return bool(THAI_CHAR_RE.search(text))
+
+
+def correct_category(title, assigned_category):
+    """Fix category when title keywords contradict the assigned search category."""
+    has_cat = bool(CAT_KEYWORDS.search(title))
+    has_dog = bool(DOG_KEYWORDS.search(title))
+
+    if "สุนัข" in assigned_category and has_cat and not has_dog:
+        for keyword, cat in CATEGORY_REMAP.items():
+            if keyword in title:
+                return cat
+        return "ของเล่นแมว"
+
+    if "แมว" in assigned_category and has_dog and not has_cat:
+        return "อาหารสุนัข"
+
+    return assigned_category
 
 
 def is_valid_th_product(item):
@@ -173,7 +199,7 @@ def main():
                     "reviewCount": str(item.get("reviewCount", "")),
                     "sold": str(item.get("historicalSoldEstimated", "")),
                     "brand": brand,
-                    "category": category,
+                    "category": correct_category(title, category),
                     "images": (item.get("images") or [])[:5],
                     "url": product_url,
                     "affiliateUrl": make_affiliate_url(shop_id, item_id),
