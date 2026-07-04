@@ -8,14 +8,16 @@ bun install
 bun run build
 ```
 
-Build output: `dist/client/` (~1MB, SSG HTML)
+Build output: `dist/` (~1MB, SSG HTML)
 
 ## Deploy
 
 ```bash
-CLOUDFLARE_API_TOKEN=[CF_API_TOKEN — see ~/.oracle/secrets/shopee-affiliate.env] \
+# Token: use CLOUDFLARE_DNS_TOKEN from ~/.oracle/security/cloudflare-dns.env
+# (NOT cloudflare.env — that token is scoped to FA Tools only)
+CLOUDFLARE_API_TOKEN=$(grep CLOUDFLARE_DNS_TOKEN ~/.oracle/security/cloudflare-dns.env | cut -d= -f2) \
 CLOUDFLARE_ACCOUNT_ID=3b1af24a7513b520e418d7e707f6491e \
-npx wrangler pages deploy dist/client --project-name=petzdeals
+npx wrangler pages deploy dist --project-name=petzdeals
 ```
 
 ## Verify
@@ -63,8 +65,9 @@ Via CF Worker cron or `/petdeals-publish` skill:
 
 | Issue | Fix |
 |---|---|
-| Build fails | Check `astro.config.mjs`, verify Supabase env vars |
-| Deploy fails | Verify CF token has Pages Write permission |
+| Build fails | Check `astro.config.mjs`, verify data/products.json is valid JSON |
+| Deploy fails — "Invalid access token" | Use `CLOUDFLARE_DNS_TOKEN` from `~/.oracle/security/cloudflare-dns.env`, NOT `cloudflare.env` (FA Tools scope only). Verify: `npx wrangler whoami` |
+| Deploy fails — "invalid header value" | Token has trailing whitespace. Use `grep ... \| cut -d= -f2` not `cat` |
 | Old content shown | Purge CF cache: `curl -X POST "https://api.cloudflare.com/client/v4/zones/50181bfbd24d46d29eba7e09f74dcaf5/purge_cache" -H "Authorization: Bearer TOKEN" -d '{"purge_everything":true}'` |
 | Images broken | Check R2 bucket URLs in Supabase |
 | DNS not resolving | Check CF DNS records for CNAME → petzdeals.pages.dev |

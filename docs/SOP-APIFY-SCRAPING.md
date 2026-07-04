@@ -146,60 +146,47 @@ For massive product lists, use the Shopee Affiliate Product Feed (1M+ products d
 
 ## After Scraping — Processing Pipeline
 
-For EVERY new product scraped:
+`scripts/scrape-offers.py` handles steps 1-3 automatically at ingest (since #19 fix).
 
-### 1. Generate Affiliate Link
+### What the script does at ingest (automatic)
+
+1. **Validation gate** — rejects non-Thai items (shopee.com.br URLs, non-Thai titles). Fails LOUD with alert count.
+2. **Slug generation** — URL-safe slug from English tokens in title + itemId suffix. Products WITHOUT slugs are invisible to Astro build.
+3. **Source tag** — `"source": "apify-daily-sync"` for provenance tracking.
+4. **Affiliate URL** — UTM-tracked product URL format: `shopee.co.th/product/{shopId}/{itemId}?utm_source=...`
+5. **Append to products.json** — never overwrites existing products.
+
+### Post-ingest steps (manual)
+
+#### 1. Upgrade to real affiliate shortlinks (optional, revenue-critical)
 
 ```python
-# Via Custom Link page (CDP)
+# Via Custom Link page (CDP) — requires Shopee login
 # Batch 5 URLs at a time
 # Navigate to affiliate.shopee.co.th/offer/custom_link
 # Input URLs → click Get Link → read modal textarea
-# Result: s.shopee.co.th/XXXXX
+# Result: s.shopee.co.th/XXXXX (earns commission)
+# Without this: UTM links may not track commission properly
 ```
 
-### 2. Download Image as WEBP
+#### 2. Download Image as WEBP (optional)
 
 ```bash
-# Download + convert
 curl -sL -o /tmp/product.jpg "$IMAGE_URL"
 convert /tmp/product.jpg -resize 200x200 -quality 75 public/products/$SLUG.webp
 ```
 
-### 3. Add to products.json
-
-```python
-# APPEND to existing products — never overwrite
-with open('data/products.json') as f:
-    products = json.load(f)
-products.append({
-    "title": "...",
-    "price": 850,
-    "priceMax": 950,  # if available
-    "rating": 4.9,
-    "reviewCount": 15000,
-    "sold": "50000+",
-    "images": ["https://..."],
-    "localImage": "/products/slug.webp",
-    "affiliateUrl": "https://s.shopee.co.th/XXXXX",
-    "slug": "royal-canin-indoor-4kg",
-    "brand": "Royal Canin",
-    "category": "อาหารแมว",
-    "shopId": "76673436",
-    "itemId": "1420780700",
-    "url": "https://shopee.co.th/...",
-    "scrapedAt": "2026-06-30"
-})
-```
-
-### 4. Build + Deploy
+#### 3. Build + Deploy
 
 ```bash
-npx astro build
-CLOUDFLARE_API_TOKEN=... npx wrangler pages deploy dist --project-name=petzdeals
+bun run build
+# Use CLOUDFLARE_DNS_TOKEN — see docs/DEPLOYMENT.md for correct token
+CLOUDFLARE_API_TOKEN=$(grep CLOUDFLARE_DNS_TOKEN ~/.oracle/security/cloudflare-dns.env | cut -d= -f2) \
+CLOUDFLARE_ACCOUNT_ID=3b1af24a7513b520e418d7e707f6491e \
+npx wrangler pages deploy dist --project-name=petzdeals
 ```
 
-### 5. GSC Submit (for new category pages)
+#### 4. GSC Submit (for new category pages)
 
 ```python
 # Resubmit sitemap + URL inspection
@@ -305,3 +292,20 @@ CLOUDFLARE_API_TOKEN=... npx wrangler pages deploy dist --project-name=petzdeals
 11. **NEVER trust `stats.itemCount`** — always check `dataset/items` endpoint for actual data
 12. **Use FULL input schema** — include all fields (keywords, categoryUrls, shopUrls, country, maxItems, priceSlicing, debug)
 13. **Use `debug: true`** for test runs to see logs (📦 Total final: N itens confirms actual count)
+
+### CAR #7 — Slug Regression: Daily Sync Ships Nothing (2026-07-04)
+**Issue**: Jul 3 daily sync added 53 products (commit a06fb90) but 0/53 had `slug` field. Astro build filters by `p.slug` — products without slugs are invisible. The entire daily sync shipped NOTHING to the live site.
+**Root Cause**: `scrape-offers.py` never emitted `slug` or `source` fields. When original 309 products were imported, slugs were added in a separate step (commit b11b76c). The daily sync script was never updated to include them.
+**Impact**: Every daily sync since the slug regression shipped zero new products. 15 leftover Brazilian products also persisted (hidden only because they lacked slugs).
+**Fix** (commit 89d7f55):
+1. `scrape-offers.py` now emits `slug` + `source` at ingest
+2. Added TH validation gate — rejects `shopee.com.br` URLs and non-Thai titles with LOUD alert
+3. Purged 15 remaining BR products
+4. Backfilled slugs for all 53 Jul 3 products
+5. Fixed 263 bare UTM affiliate URLs
+**Date**: 2026-07-04
+
+### PAR Addition
+14. **slug + source are MANDATORY at ingest** — `scrape-offers.py` generates both automatically. Without slug = product invisible to site
+15. **Validation gate is coded, not prose** — script rejects non-TH items automatically. CAR/PAR rules 2-7 are now enforced in code, not just documentation
+16. **Deploy token**: Use `CLOUDFLARE_DNS_TOKEN` from `~/.oracle/security/cloudflare-dns.env` — the `CLOUDFLARE_API_TOKEN` in `cloudflare.env` is scoped to FA Tools only
