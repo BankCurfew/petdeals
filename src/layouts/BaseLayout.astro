@@ -10,7 +10,7 @@ interface Props {
 
 const { title, description = 'PetzDeals — รวมดีลอุปกรณ์สัตว์เลี้ยงราคาดี คัดมาให้ทาสแมวและทาสหมาโดยเฉพาะ', image, type = 'website' } = Astro.props;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
-const ogImage = image || '/brand/og-default.webp';
+const ogImage = new URL(image || '/brand/og-default.webp', Astro.site).href;
 ---
 
 <!doctype html>
