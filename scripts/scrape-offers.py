@@ -5,7 +5,7 @@ Params: keywords=[], country="TH" (uppercase), maxItems>=10
 Validation gate: rejects non-Thai items (shopee.com.br URLs, non-Thai titles).
 Emits slug + source at ingest so products render in Astro build.
 """
-import json, os, re, sys, time, unicodedata
+import json, os, re, subprocess, sys, time, unicodedata
 from datetime import datetime
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError
@@ -29,6 +29,8 @@ DAILY_SEARCHES = [
     (["ขนมแมว"], "", "ขนมแมว", 15),
     (["ทรายแมว"], "", "ทรายแมว", 15),
     (["อาหารสุนัข"], "", "อาหารสุนัข", 15),
+    (["อาหารเสริมสัตว์เลี้ยง วิตามิน โปรไบโอติก"], "", "อาหารเสริม", 10),
+    (["ขนมสุนัข ขนมหมา"], "", "ขนมสุนัข", 10),
 ]
 
 REJECTED_DOMAINS = ["shopee.com.br", "shopee.com.mx", "shopee.com.co", "shopee.sg"]
@@ -95,6 +97,31 @@ def generate_slug(title, item_id, existing_slugs):
         slug = f"{slug}-{item_id[-4:]}"
 
     return slug
+
+
+WEBP_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "public", "products")
+
+
+def download_webp(img_url, slug):
+    """Download product image and convert to WEBP. Returns localImage path or empty string."""
+    os.makedirs(WEBP_DIR, exist_ok=True)
+    webp_path = os.path.join(WEBP_DIR, f"{slug}.webp")
+    if os.path.exists(webp_path):
+        return f"/products/{slug}.webp"
+    try:
+        dl = subprocess.run(
+            ["curl", "-sL", "--max-time", "10", "-o", "/tmp/petdeals-img.jpg", img_url],
+            capture_output=True, timeout=15)
+        if dl.returncode != 0:
+            return ""
+        cv = subprocess.run(
+            ["convert", "/tmp/petdeals-img.jpg", "-resize", "200x200", "-quality", "75", webp_path],
+            capture_output=True, timeout=10)
+        if cv.returncode == 0 and os.path.exists(webp_path):
+            return f"/products/{slug}.webp"
+    except Exception:
+        pass
+    return ""
 
 
 def make_affiliate_url(shop_id, item_id):
@@ -187,6 +214,9 @@ def main():
 
                 product_url = f"https://shopee.co.th/product/{shop_id}/{item_id}"
 
+                images = (item.get("images") or [])[:5]
+                local_image = download_webp(images[0], slug) if images else ""
+
                 all_new.append({
                     "shopId": shop_id,
                     "itemId": item_id,
@@ -200,7 +230,8 @@ def main():
                     "sold": str(item.get("historicalSoldEstimated", "")),
                     "brand": brand,
                     "category": correct_category(title, category),
-                    "images": (item.get("images") or [])[:5],
+                    "images": images,
+                    "localImage": local_image,
                     "url": product_url,
                     "affiliateUrl": make_affiliate_url(shop_id, item_id),
                     "scrapedAt": datetime.now().strftime("%Y-%m-%d"),
