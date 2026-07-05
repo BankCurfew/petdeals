@@ -247,7 +247,7 @@ def main():
                     "source": "apify-daily-sync",
                     "price": str(price),
                     "priceMax": price_before_discount,
-                    "originalPrice": price_before_discount,
+                    "price_before_discount": price_before_discount,
                     "discountPercent": int(raw_discount) if raw_discount else 0,
                     "isOnSale": is_on_sale,
                     "hasVariations": has_variants,

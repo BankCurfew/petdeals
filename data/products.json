@@ -53,9 +53,9 @@
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
     "localImage": "/products/pedigree-dog-food-3kg.webp",
-    "originalPrice": "฿265",
     "discountPercent": 3,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿265"
   },
   {
     "shopId": "144046792",
@@ -141,9 +141,9 @@
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
     "localImage": "/products/smartheart-dog-food-2.7kg.webp",
-    "originalPrice": "฿364",
     "discountPercent": 12,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿364"
   },
   {
     "shopId": "27072891",
@@ -168,9 +168,9 @@
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
     "localImage": "/products/luvcare-dog-food-9kg.webp",
-    "originalPrice": "฿979",
     "discountPercent": 34,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿979"
   },
   {
     "shopId": "144046792",
@@ -198,9 +198,9 @@
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
     "localImage": "/products/smartheart-dog-food-10kg-1.webp",
-    "originalPrice": "฿727",
     "discountPercent": 4,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿727"
   },
   {
     "shopId": "144046792",
@@ -286,9 +286,9 @@
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
     "localImage": "/products/kaniva-dog-food-12kg.webp",
-    "originalPrice": "฿1,550",
     "discountPercent": 15,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿1,550"
   },
   {
     "shopId": "36479205",
@@ -312,9 +312,9 @@
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
     "localImage": "/products/dog-food-130g.webp",
-    "originalPrice": "฿210",
     "discountPercent": 18,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿210"
   },
   {
     "shopId": "646557",
@@ -342,9 +342,9 @@
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
     "localImage": "/products/honghong-dog-food-400g.webp",
-    "originalPrice": "฿349",
     "discountPercent": 1,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿349"
   },
   {
     "shopId": "83872760",
@@ -372,9 +372,9 @@
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
     "localImage": "/products/pedigree-dog-food-20kg.webp",
-    "originalPrice": "฿1,855",
     "discountPercent": 30,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿1,855"
   },
   {
     "shopId": "1261293109",
@@ -460,9 +460,9 @@
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
     "localImage": "/products/smartheart-dog-food-10kg-2.webp",
-    "originalPrice": "฿820",
     "discountPercent": 3,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿820"
   },
   {
     "shopId": "141832310",
@@ -490,9 +490,9 @@
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
     "localImage": "/products/moochie-dog-food.webp",
-    "originalPrice": "฿255",
     "discountPercent": 27,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿255"
   },
   {
     "shopId": "69983339",
@@ -586,9 +586,9 @@
     "seoTitle": "ทรายแมว Meow Space เต้าหู้ — ไร้ฝุ่น ทิ้งชักโครกได้ 6,247 รีวิว",
     "feedLink": "https://shopee.co.th/product/262132208/18108344668",
     "localImage": "/products/meowspace-cat-litter-10ลิตร.webp",
-    "originalPrice": "฿105",
     "discountPercent": 2,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿105"
   },
   {
     "shopId": "1496922957",
@@ -616,9 +616,9 @@
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
     "localImage": "/products/kenzo-cat-litter-10ลิตร.webp",
-    "originalPrice": "฿153",
     "discountPercent": 44,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿153"
   },
   {
     "shopId": "287201971",
@@ -734,9 +734,9 @@
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
     "localImage": "/products/kasty-cat-litter-20ลิตร.webp",
-    "originalPrice": "฿675",
     "discountPercent": 21,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿675"
   },
   {
     "shopId": "1850483867",
@@ -849,9 +849,9 @@
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
     "localImage": "/products/cat-litter-10ลิตร-2.webp",
-    "originalPrice": "฿195",
     "discountPercent": 5,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿195"
   },
   {
     "shopId": "287201971",
@@ -908,9 +908,9 @@
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
     "localImage": "/products/cat-litter-4pack.webp",
-    "originalPrice": "฿219",
     "discountPercent": 1,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿219"
   },
   {
     "shopId": "287201971",
@@ -1032,9 +1032,9 @@
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
     "localImage": "/products/pet8-cat-litter-10ลิตร.webp",
-    "originalPrice": "฿215",
     "discountPercent": 17,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿215"
   },
   {
     "shopId": "189572746",
@@ -1062,9 +1062,9 @@
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
     "localImage": "/products/cat-litter-10ลิตร-3.webp",
-    "originalPrice": "฿345",
     "discountPercent": 49,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿345"
   },
   {
     "shopId": "36537132",
@@ -1092,9 +1092,9 @@
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
     "localImage": "/products/pramy-cat-litter-6ลิตร.webp",
-    "originalPrice": "฿176",
     "discountPercent": 7,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿176"
   },
   {
     "shopId": "1287046821",
@@ -1208,9 +1208,9 @@
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
     "localImage": "/products/cat-treats-14g.webp",
-    "originalPrice": "฿15",
     "discountPercent": 13,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿15"
   },
   {
     "shopId": "76681597",
@@ -1304,9 +1304,9 @@
     "seoTitle": "ขนมแมวเลีย CIAO Chu Ru กล่อง 50 ซอง — ของแท้ Inaba ญี่ปุ่น",
     "feedLink": "https://shopee.co.th/product/7409564/20789499944",
     "localImage": "/products/ciao-cat-treats-50pack-1.webp",
-    "originalPrice": "฿459",
     "discountPercent": 2,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿459"
   },
   {
     "shopId": "7409564",
@@ -1334,9 +1334,9 @@
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
     "localImage": "/products/ciaochuru-cat-treats-50pack-1.webp",
-    "originalPrice": "฿489",
     "discountPercent": 11,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿489"
   },
   {
     "shopId": "1101522855",
@@ -1429,9 +1429,9 @@
     ],
     "seoTitle": "ขนมแมวเลีย CIAO Chu Ru กระป๋อง 50 ซอง — ขนมแมวขายดีอันดับ 1",
     "localImage": "/products/ciaochuru-cat-treats-50pack-2.webp",
-    "originalPrice": "฿390",
     "discountPercent": 2,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿390"
   },
   {
     "shopId": "279775864",
@@ -1459,9 +1459,9 @@
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
     "localImage": "/products/ciaochuru-cat-treats-50pack-3.webp",
-    "originalPrice": "฿500",
     "discountPercent": 6,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿500"
   },
   {
     "shopId": "109765977",
@@ -1603,9 +1603,9 @@
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
     "localImage": "/products/meo-cat-treats-15g-1.webp",
-    "originalPrice": "฿59",
     "discountPercent": 19,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿59"
   },
   {
     "shopId": "1808248952",
@@ -1773,9 +1773,9 @@
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
     "localImage": "/products/meowmeow-wet-food-85g.webp",
-    "originalPrice": "฿133",
     "discountPercent": 3,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿133"
   },
   {
     "shopId": "1579722061",
@@ -1828,9 +1828,9 @@
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
     "localImage": "/products/cherman-wet-food-12pack.webp",
-    "originalPrice": "฿147",
     "discountPercent": 16,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿147"
   },
   {
     "shopId": "1579722061",
@@ -1981,9 +1981,9 @@
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
     "localImage": "/products/bellotta-wet-food-85g.webp",
-    "originalPrice": "฿225",
     "discountPercent": 7,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿225"
   },
   {
     "shopId": "1579821145",
@@ -2103,9 +2103,9 @@
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
     "localImage": "/products/cattycat-wet-food-80g.webp",
-    "originalPrice": "฿124",
     "discountPercent": 48,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿124"
   },
   {
     "shopId": "1580877610",
@@ -2220,9 +2220,9 @@
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
     "localImage": "/products/pramy-wet-food-48pack.webp",
-    "originalPrice": "฿887",
     "discountPercent": 1,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿887"
   },
   {
     "shopId": "724854905",
@@ -2250,9 +2250,9 @@
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
     "localImage": "/products/catstaste-wet-food-12pack.webp",
-    "originalPrice": "฿193",
     "discountPercent": 13,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿193"
   },
   {
     "shopId": "1052066532",
@@ -2278,9 +2278,9 @@
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
     "localImage": "/products/cattycat-wet-food-12pack.webp",
-    "originalPrice": "฿129",
     "discountPercent": 12,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿129"
   },
   {
     "shopId": "228830584",
@@ -2308,9 +2308,9 @@
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
     "localImage": "/products/felix-wet-food-85g.webp",
-    "originalPrice": "฿185",
     "discountPercent": 18,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿185"
   },
   {
     "shopId": "1571633380",
@@ -2367,9 +2367,9 @@
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
     "localImage": "/products/cat-food-7kg-1.webp",
-    "originalPrice": "฿780",
     "discountPercent": 14,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿780"
   },
   {
     "shopId": "19056998",
@@ -2456,9 +2456,9 @@
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
     "localImage": "/products/purinaone-cat-food.webp",
-    "originalPrice": "฿759",
     "discountPercent": 59,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿759"
   },
   {
     "shopId": "1449018616",
@@ -2486,9 +2486,9 @@
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
     "localImage": "/products/purinaone-cat-food-1.2kg-1.webp",
-    "originalPrice": "฿377",
     "discountPercent": 36,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿377"
   },
   {
     "shopId": "1114342129",
@@ -2673,9 +2673,9 @@
     ],
     "seoTitle": "อาหารแมว Pramy Supreme แบ่งขาย — ราคาเริ่ม ฿29 คุณภาพเกินราคา",
     "localImage": "/products/cat-food.webp",
-    "originalPrice": "฿39",
     "discountPercent": 26,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿39"
   },
   {
     "shopId": "159912755",
@@ -2830,9 +2830,9 @@
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
     "localImage": "/products/cat-food-7kg-2.webp",
-    "originalPrice": "฿300",
     "discountPercent": 43,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿300"
   },
   {
     "shopId": "179359716",
@@ -2895,9 +2895,9 @@
       "ถ้าทาสมีงบเพิ่ม ลองอัพเกรดเป็น Kaniva ข้าจะขอบคุณ (ด้วยการนอนบนตัก 😸)"
     ],
     "localImage": "/products/whiskas-cat-food-2.7kg.webp",
-    "originalPrice": "฿328",
     "discountPercent": 14,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿328"
   },
   {
     "shopId": "1182608526",
@@ -2925,9 +2925,9 @@
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
     "localImage": "/products/cat-food-7kg-3.webp",
-    "originalPrice": "฿705",
     "discountPercent": 0,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿705"
   },
   {
     "shopId": "109765977",
@@ -2984,9 +2984,9 @@
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
     "localImage": "/products/kaniva-cat-food-10kg.webp",
-    "originalPrice": "฿1,439",
     "discountPercent": 8,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿1,439"
   },
   {
     "shopId": "104796104",
@@ -3096,9 +3096,9 @@
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
     "localImage": "/products/kaniva-cat-food-1kg.webp",
-    "originalPrice": "฿199",
     "discountPercent": 31,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿199"
   },
   {
     "shopId": "1449018616",
@@ -3155,9 +3155,9 @@
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
     "localImage": "/products/pramy-cat-food-800g-2.webp",
-    "originalPrice": "฿135",
     "discountPercent": 19,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿135"
   },
   {
     "shopId": "944560235",
@@ -3246,9 +3246,9 @@
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
     "localImage": "/products/jerhigh-dog-food-1.2kg.webp",
-    "originalPrice": "฿489",
     "discountPercent": 8,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿489"
   },
   {
     "title": "รางบอล ของเล่นแมว มีลูกบอล มีกระดิ่ง คลายเคลียด ราคาถูก เล่นตัวเดียวได้ ประหยัดพื้นที่  YZ",
@@ -3301,9 +3301,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-144901.webp",
-    "originalPrice": 589,
     "discountPercent": 75,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 589
   },
   {
     "title": "🐱ไม้ตกแมว ไม้ล้อเล่นแมว ของเล่นแมวมีขนนกและกระดิ่ง ฝึกความสนใจแมว เชือกลวดเหล็กยืดหยุ่น ไม่หักง่าย มีถ้วยดูด",
@@ -3329,9 +3329,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-123027.webp",
-    "originalPrice": 34,
     "discountPercent": 6,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 34
   },
   {
     "title": "ลูกบอลของเล่นแมว ทนทานกัด มีเชือก อัตโนมัติกระโดดโต้ตอบ คลายเครียดคลายเหงา เหมาะให้แมวเล่นในบ้าน",
@@ -3384,9 +3384,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-648582.webp",
-    "originalPrice": 59,
     "discountPercent": 17,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 59
   },
   {
     "title": "คอนโดแมว 2-3 ชั้น ดีไซน์ญี่ปุ่น มีรู ปีนเล่นได้",
@@ -3412,9 +3412,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-144901-1.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "【Pet Gravity】 ที่ลับเล็บแมวผ้าฟลีซนุ่ม 3 in 1 นอนหลับ เล่นสนุก ลับเล็บ เหมาะทุกสายพันธุ์ ของเล่นแมวอเนกประสงค์",
@@ -3440,9 +3440,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/pet-gravity-in.webp",
-    "originalPrice": 229,
     "discountPercent": 17,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 229
   },
   {
     "title": "ของเล่นแมวโต้ตอบแบบชาร์จไฟได้,ทนทานซ่อนและค้นหาของเล่นแมวที่มีการเคลื่อนย้ายขนปกปิด",
@@ -3495,9 +3495,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-144647.webp",
-    "originalPrice": 109,
     "discountPercent": 12,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 109
   },
   {
     "title": "😻ของเล่นแมว ของเล่นแมวไล่จับหนู ของเล่นจานเสียงแมว เกมส์แมวจับหนู Catch the Mouse motion cat toy",
@@ -3523,9 +3523,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/catch-the-mouse.webp",
-    "originalPrice": 86,
     "discountPercent": 3,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 86
   },
   {
     "title": "【FurBaby】 พร้อมส่ง COD ของเล่นแมว จำลองหนูมีเสียงอัตโนมัติ กระตุ้นสัญชาตญาณการล่า ตุ๊กตาหนูสมจริง แก้เบื่อ ทนทาน",
@@ -3551,9 +3551,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/furbaby-cod.webp",
-    "originalPrice": 135,
     "discountPercent": 71,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 135
   },
   {
     "title": "ของเล่นแมวโต้ตอบแบบชาร์จไฟได้ มีขนปกปิดเคลื่อนที่อัตโนมัติ ลดความน่าเบื่อของแมว ใช้เล่นในร่มได้ดี",
@@ -3579,9 +3579,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-172573.webp",
-    "originalPrice": 169,
     "discountPercent": 76,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 169
   },
   {
     "title": "🐱 ไม้ล่อแมวแบบดูดแรง มีขนนกและกระดิ่ง หัวเปลี่ยนได้ ยาวพิเศษ ของเล่นแมวคลายเบื่อ พร้อมส่ง เพิ่มความใกล้ชิด",
@@ -3607,9 +3607,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-139171.webp",
-    "originalPrice": 56,
     "discountPercent": 73,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 56
   },
   {
     "title": "🐾 ที่ลับเล็บแมว ลับเล็บแมว ของเล่นแมว 5in1 ที่ลับเล็บ มัลติฟังก์ชั่น เสาฝนเล็บแมว หรูหรา ที่ฝนเล็บแมว ใหญ่ ฝนเล็บแมว",
@@ -3635,9 +3635,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/in.webp",
-    "originalPrice": 219,
     "discountPercent": 41,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 219
   },
   {
     "title": "Doge&Orange ที่ลับเล็บแมว แผ่นลับเล็บแมว ที่ฝนเล็บแมว ของเล่นแมว รูปทรงตัว L กระดานลับเล็บแมว MIP158",
@@ -3663,9 +3663,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/doge-orange-l.webp",
-    "originalPrice": 179,
     "discountPercent": 73,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 179
   },
   {
     "title": "[พร้อมส่ง] ไม้ตกแมวแบบดูดติดพื้น ของเล่นขนนกมีกระดิ่ง สำหรับแมวและลูกแมว cat toy",
@@ -3745,9 +3745,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/winky-wink-diy.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "ของเล่นแมวอัตโนมัติ🐱ไม้ล่อแมวขนนก เคลื่อนไหวสุ่ม เล่นซ่อนหา อัตโนมัติไม้ตกแมว ชาร์จ USB ของเล่นแมวแก้เบื่อ",
@@ -3800,9 +3800,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-170852.webp",
-    "originalPrice": 180,
     "discountPercent": 62,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 180
   },
   {
     "title": "อุโมงค์แมว อุโมงค์สัตว์เลี้ยงแสนสนุก ของเล่นแมว อุโมงค์3ทางสำหรับสัตว์เลี้ยงพับของเล่นสัตว์เลี้ยงอุ",
@@ -3828,9 +3828,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-917045.webp",
-    "originalPrice": 135,
     "discountPercent": 59,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 135
   },
   {
     "title": "ของเล่นแมวซ่อนและค้นหาของเล่นแมวโต้ตอบ-ไม้กายสิทธิ์ขนนกอัตโนมัติแบบชาร์จไฟได้พร้อมนกสารภาพสําหรับแมวในร่มเพิ่มความจุแบตเตอรี่ของเล่นขนนกแมวพร้อมคันแม",
@@ -3856,9 +3856,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-170852-1.webp",
-    "originalPrice": 199,
     "discountPercent": 75,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 199
   },
   {
     "title": "Boqi Factory 🐱 ของเล่นแมวแบบชาร์จไฟ ซ่อนหาอัตโนมัติ หมุนได้ 360° Excitedtoy",
@@ -3911,9 +3911,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/usb-1.webp",
-    "originalPrice": 319,
     "discountPercent": 50,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 319
   },
   {
     "title": "Winky Wink 🐱อุโมงค์แมว อุโมงค์สัตว์เลี้ยงแสนสนุก ของเล่นแมว ของเล่นสัตว์เลี้ยง",
@@ -3939,9 +3939,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/winky-wink.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "😻 【4in1】เสาลับเล็บแมว แผ่นลับเล็บ คอนโดแมว ของเล่นแมว กันลื่น วัสดุไม้แท้ แข็งแรง ทนทาน",
@@ -3994,9 +3994,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/horbong-pets.webp",
-    "originalPrice": 79,
     "discountPercent": 67,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 79
   },
   {
     "title": "Petcho ของเล่นแมว ของเล่นแมวอัจฉริยะ การหลีกเลี่ยงอย่างชาญฉลาด หมุนได้ 360 องศา ด้วยขนนก แสงเลเซอร์จุดแดง ดึงดูดแมว",
@@ -4049,9 +4049,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/fly-soft.webp",
-    "originalPrice": 99,
     "discountPercent": 73,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 99
   },
   {
     "title": "รางบอลแมว 4 ชั้น ของเล่นสุดน่ารักสำหรับน้องแมว แถมขนไก่และลูกบอลอาหาร เพลิดเพลินไม่เบื่อ",
@@ -4077,9 +4077,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-126915.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "60CM!! ขนาดใหญ่ ที่ลับเล็บแมว แผ่นลับเล็บแมว ที่ฝนเล็บแมว ของเล่นแมว รูปทรงตัว L 60*40*25ซม จัดส่งจากไทย🚛💨",
@@ -4159,9 +4159,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-165378.webp",
-    "originalPrice": 78,
     "discountPercent": 64,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 78
   },
   {
     "title": "Winky Wink🐱ของเล่นแมว ลูกบอลแมวอัติโนมัติ สมาร์ทไฟฟ้า หมุนได้ ของเล่นแมวโต้ตอบ 360 องศา เรืองแสง ลูกบอลสัตว์เลี้ยง",
@@ -4187,9 +4187,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/winky-wink-1.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "🐾ที่ลับเล็บแมว ฝนเล็บแมว คอนโดแมวราคาถูก คอนโดแมว ที่ฝนเล็บแมว ลับเล็บแมว คอนโดแมวเล็ก ของเล่นแมว แผ่นลับเล็บแมว แมวเล็บ",
@@ -4215,9 +4215,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-114535.webp",
-    "originalPrice": 219,
     "discountPercent": 70,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 219
   },
   {
     "title": "ลูกบอลกรงเล็บแมว ลูกบอลกรงเล็บแมว ของเล่นแมว กรงเล็บฝน ทนทาน แข็งแรง ลูกบอลกรงเล็บฝน ทนทานไม่เสียหายง่า",
@@ -4297,9 +4297,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-114535-1.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "(ซื้อ 1 แถม 1)ที่ลับเล็บแมว รูปอ่าง ที่ฝนเล็บแมว ของเล่นแมว เป็นที่นอนแมวไปในตัว ฟรี แคปนิท ที่ลับเล็บ ที่ลับเล็บแมว ที่",
@@ -4352,9 +4352,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-126915-2.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "ซื้อ 1 แถม 1🔥ที่ลับเล็บแมว รูปอ่าง ที่ลับเล็บแมวขนาดใหญ่ ที่ขูดเล็บ ของเล่นแมว รูปอ่าง เป็นที่นอนแมวไปในตัว",
@@ -4380,9 +4380,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-378764.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "ไม้ตกแมว ไม้ล่อแมว ไม้ตบแมว ไม้แมว ของเล่นแมว ของเล่นเเมว ขอเล่นแมว ขนนกแมว ขนไก่แมว",
@@ -4408,9 +4408,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-123514.webp",
-    "originalPrice": 16,
     "discountPercent": 31,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 16
   },
   {
     "title": "ลูกบอลแมว บอลแมวอัตโนมัติ ชาร์ตแบตได้ ของเล่นแมว สมาร์ทไฟฟ้า  หมุนได้ ของเล่นแมวโต้ตอบ ของใช้แมว",
@@ -4436,9 +4436,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-154776.webp",
-    "originalPrice": 52,
     "discountPercent": 4,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 52
   },
   {
     "title": "Harmcat ลูกบอลลับเล็บ ที่ลับเล็บแมว รูปบอล ที่ฝนเล็บแมว ของเล่นแมว ขนาดใหญ่ มี 3 แบบให้เลือก",
@@ -4464,9 +4464,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/harmcat.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "Petcho โมงค์แมว ของเล่นแมว อุโมงค์3ทางสำหรับสัตว์เลี้ยงพับของเล่นสัตว์เลี้ยงอุโมงค์ ลูกสุนัข",
@@ -4519,9 +4519,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-114535-2.webp",
-    "originalPrice": 108,
     "discountPercent": 37,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 108
   },
   {
     "title": "พร้อมส่ง🔥ที่ลับเล็บแมว+แคทนิป อ่างลับเล็บ ของเล่นแมว ที่นอนแมว 2in1แผ่นลับเล็บ ที่ฝนเล็บสัตว์เลี้ยง",
@@ -4547,9 +4547,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/in-3.webp",
-    "originalPrice": 118,
     "discountPercent": 72,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 118
   },
   {
     "title": "yoyopet : ของเล่นแมว ของเล่นแมวอัจฉริยะ ลูกแมวหยอกล้ออัตโนมัติ สมาร์ทไฟฟ้า หมุนได้ 360° เรืองแสง",
@@ -4629,9 +4629,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/l.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "🐱รางบอลของเล่นแมว ของเล่นเเมวบอลแมว ไม้ตกแมวขนนก 360° สามารถหมุนได้ กันลื่น ถอดได้ มั่นคง เล่นได้ทน",
@@ -4657,9 +4657,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-633190.webp",
-    "originalPrice": 138,
     "discountPercent": 55,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 138
   },
   {
     "title": "ที่ลับเล็บแมว แผ่นลับเล็บแมว ที่ฝนเล็บแมว ของเล่นแมว รูปทรงตัว L มี 3 สี ขนาดเล็ก และ ขนาดใหญ่ LA-XL",
@@ -4685,9 +4685,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/l-la-xl.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "TT HOME01🌵ผีเสื้อ บินได้ ของเล่นอัตโนมัติ ของเล่นแมว สัตว์เลี้ยง ของเล่นแมวผีเสื้อ ดอกไม้ไฟฟ้า ของล่อแมว ผีเสื้อออโต้🌵",
@@ -4767,9 +4767,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/ytl.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "🍄 ที่ลับเล็บแมว ของเล่นแมว 5in1 คอนโดแมว คอนโดแมวไม้ เสาลับเล็บแมวได้ ไม่สั่นไหว ที่ลับเล็บ มัลติฟังก์ชั่น เสาฝนเล็บแมว",
@@ -4795,9 +4795,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/in-4.webp",
-    "originalPrice": 219,
     "discountPercent": 41,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 219
   },
   {
     "title": "เสาลับเล็บแมวได้ ลับเล็บแมว ของเล่นแมว เสาฝนเล็บแมว ที่รับเล็บแมว ทนต่อการสึกหรอ วัสดุไม้เนื้อแข็ง",
@@ -4823,9 +4823,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-895418.webp",
-    "originalPrice": 599,
     "discountPercent": 75,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 599
   },
   {
     "title": "คอนโดแมว ที่ฝนเล็บแมว เสาลับเล็บแมว พร้อมของเล่น ช่วยคลายเครียด เสาเชือกป่าน ทนทาน JL",
@@ -4851,9 +4851,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/jl.webp",
-    "originalPrice": 98,
     "discountPercent": 32,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 98
   },
   {
     "title": "SKISOPGO ของเล่นแมว ของเล่นปริศนาแมว กล่องปริศนาแมวรู้สึก มีหลายสไตล์",
@@ -4879,9 +4879,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/skisopgo.webp",
-    "originalPrice": 88,
     "discountPercent": 67,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 88
   },
   {
     "title": "TME ของเล่นแมวจําลองนกแบบโต้ตอบ Feather Bird พร้อม Bell Cat Stick สําหรับลูกแมว Teaser Wand",
@@ -4907,9 +4907,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/tme-feather-bird.webp",
-    "originalPrice": 105,
     "discountPercent": 45,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 105
   },
   {
     "title": "✨😻﻿ ของเล่นล่อแมว ไม้แหย่แมว ล้อเลียน Cat Stick ไม้ตกแมว แบบปุ่มดูดสุญญากาศ ขนนก สําหรับแมว",
@@ -4935,9 +4935,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/cat-stick.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "ของเล่นสุนัข ของเล่นแมว ตุ๊กตาเป็ดที่มีเสียงในตัว ของเล่นแบบโต้ตอบ (พร้อมส่ง) CW71",
@@ -4963,9 +4963,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/cw.webp",
-    "originalPrice": 105,
     "discountPercent": 27,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 105
   },
   {
     "title": "YTL 😻ฝนเล็บแมว คอนโดแมวราคาถูก คอนโดแมว ที่ลับเล็บแมว ที่ฝนเล็บแมว ลับเล็บแมว คอนโดแมวเล็ก ของเล่นแมว",
@@ -5018,9 +5018,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-997985.webp",
-    "originalPrice": 45,
     "discountPercent": 22,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 45
   },
   {
     "title": "❤️รางบอลแมว catnip ไม้ตกแมว ลูกบอลแมว รางบอลcatnip กังหันลม❤️",
@@ -5046,9 +5046,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/catnip-catnip.webp",
-    "originalPrice": 45,
     "discountPercent": 60,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 45
   },
   {
     "title": "99PET ของเล่นแมวโต้ตอบ Ball ลูกบอลแมวอัติโนมัติ ลูกแมวหยอกล้ออัตโนมัติ สําหรับฝึกสุนัข แมว",
@@ -5074,9 +5074,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/pet-ball.webp",
-    "originalPrice": 60,
     "discountPercent": 25,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 60
   },
   {
     "title": "ของเล่นแมว ลูกบอลสัตว์เลี้ยง ของเล่นแมวอัจฉริยะ 6 ตัวเลือก หมุนได้ 360 องศา เรืองแสง USB ชาร์จ",
@@ -5102,9 +5102,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/usb-2.webp",
-    "originalPrice": 76,
     "discountPercent": 79,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 76
   },
   {
     "title": "บอลลับเล็บ บอลลับเล็บแมว ที่ลับเล็บแมว ที่ฝนเล็บแมว ของเล่นแมว ลูกบอลฝนเล็บแมว คอนโดแมว",
@@ -5130,9 +5130,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-238389.webp",
-    "originalPrice": 189,
     "discountPercent": 26,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 189
   },
   {
     "title": "Pawcheer ที่ฝนเล็บแมว ที่ลับเล็บแมว รูปอ่าง ของเล่นแมว เป็นที่นอนแมวไปในตัว กระดาษลับเล็บทรงกลม โซฟาลับเล็บทรงกลม",
@@ -5158,9 +5158,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/pawcheer.webp",
-    "originalPrice": 63,
     "discountPercent": 38,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 63
   },
   {
     "title": "🔥 Pet Record ลูกบอลล้มลุก หนูล้มลุก ของเล่นแมว บอลกรงหนู บอลของเล่นแมว",
@@ -5186,9 +5186,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/pet-record.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "ที่ลับเล็บแมว ของเล่นแมว ฝนเล็บแมว ที่ฝนเล็บแมวลูกบอล ที่ฝนเล็บแมวใหญ่ ที่ฝนเล็บแมวขนาดใหญ่ บ้านแมว ที่ฝนเล็บแมว",
@@ -5214,9 +5214,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-648582-1.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "🐱ลูกบอลแมว บอลแมวอัตโนมัติ ชาร์ตแบตได้ ของเล่นแมว สมาร์ทไฟฟ้า  หมุนได้ ของเล่นแมวโต้ตอบ ของใช้แมว",
@@ -5242,9 +5242,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-136865.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "ของเล่นปริศนาแมวแบบโต้ตอบพร้อมลูกบอลกระดิ่ง | กล่องเขาวงกตสักหลาดสําหรับแมวในร่ม | ของเล่นกระตุ้นจิตในตัวเองเล่น | ลูกแมว เบื่อหน่าย บัสเตอร์",
@@ -5270,9 +5270,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-150663.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "COD ของเล่นแมว รางบอลแมว จานเสียงแมว ด้วยขนนก สามารถหมุนได้ 360 องศา【4ชั้น】",
@@ -5298,9 +5298,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/cod.webp",
-    "originalPrice": 79,
     "discountPercent": 44,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 79
   },
   {
     "title": "ของเล่นแมว ลูกบอลแมวอัติโนมัติ สมาร์ทไฟฟ้า หมุนได้ ของเล่นแมวโต้ตอบ 360 องศา เรืองแสง ลูกบอลสัตว์เลี้ยง",
@@ -5407,9 +5407,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/yoyopet-2.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "ของเล่นแมว ไม้ตกแมวพร้อมขนนกและกระดิ่ง รุ่นฐานดูดติดพื้น/กระจก ราคาถูก พร้อมส่ง",
@@ -5435,9 +5435,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-439456.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "ลูกบอลแมวอัจฉริยะ  ระบบหลบหลีกอัตโนมัติ  3 โหมดแสง  ขนาด 6x5.5 ซม.  วัสดุซิลิโคน",
@@ -5544,9 +5544,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-157149.webp",
-    "originalPrice": 404,
     "discountPercent": 80,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 404
   },
   {
     "title": "Winky Wink🐱ของเล่นแมวโต้ตอบ ของเล่นหมา บอลแมวอัตโนมัติ ชาร์ตแบตได้ สมาร์ทไฟฟ้า 360หมุนได้ ของใช้แมว Cat Teaser การฝึกอบร",
@@ -5572,9 +5572,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/winky-wink-cat.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "CODรางบอลแมว ทาวเวอร์ 4 ชั้น  มีที่เสียบไม้ตกแมว สามารถหมุนได้ 360 องศา ด้วยขนนก บอลแมว จานเสียงแมว",
@@ -5600,9 +5600,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/cod-1.webp",
-    "originalPrice": 133,
     "discountPercent": 22,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 133
   },
   {
     "title": "แมวปริศนาของเล่นรู้สึกกล่องปริศนาแมวของเล่นออกกําลังกายพร้อมลูกบอลในร่มความบันเทิงกีฬาล่าสัตว์ของเล่นแมวสําหรับแมวในร่ม",
@@ -5628,9 +5628,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-961795.webp",
-    "originalPrice": 65,
     "discountPercent": 14,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 65
   },
   {
     "title": "รูปอ่าง ที่ลับเล็บแมวขนาดใหญ่ ที่ขูดเล็บ ของเล่นแมว ที่ลับเล็บแมว รูปอ่าง เป็นที่นอนแมวไปในตัว ฟรี Catnip",
@@ -5655,9 +5655,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/catnip.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "ของเล่นแมว สัญญาณไฟฟ้า หนูวิ่งหนีอัตโนมัติ ของเล่นสัตว์เลี้ยง หนูวิ่งได้ หนูไขลาน หนูปลอม",
@@ -5710,9 +5710,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-133630.webp",
-    "originalPrice": 69,
     "discountPercent": 78,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 69
   },
   {
     "title": "รางบอลแมว4ชั้น ของเล่นแมว รางบอลแมว ของเล่นน้องแมว รางบอลแมว ชุดของเล่นสำหรับแมวรางบอล พร้อมลูกบอลคละสี",
@@ -5738,9 +5738,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-126755.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "รางบอลแมว4ชั้น ของเล่นแมว รางบอลแมว รางบอล4ชั้น ของเล่นน้องแมว",
@@ -5766,9 +5766,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-648582-2.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "Pet Cat Toy อุโมงค์แมวสายรุ้ง กระดิ่งแมว Pet Runway Cat Drill",
@@ -5794,9 +5794,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/pet-cat-toy.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "แคทนิป แมวรางบอลแมว4ชั้น ของเล่นแมว รางบอลแมว รางบอล4ชั้น ของเล่นสำหรับสัตว์เลี้ยง มีไม้ตกแมว รางบอลแมว Cat toy ของเล่นแ",
@@ -5822,9 +5822,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/cat-toy-1.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "ลูกบอลสัตว์เลี้ยง ของเล่นแมวอัจฉริยะ ลูกบอลกลิ้งอัตโนมัติ ลูกบอลกลิ้ง ของเล่นแมว หมุนได้ 360 องศา เรืองแสง",
@@ -5850,9 +5850,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-123465.webp",
-    "originalPrice": 35,
     "discountPercent": 17,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 35
   },
   {
     "title": "ที่ลับเล็บเปลนอน ของเล่นแมว ที่นอนแมว 2 in 1 เก้าอี้ลับเล็บแมว แผ่นลับเล็บ ที่ฝนเล็บสัตว์เลี้ยง",
@@ -5905,9 +5905,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-470609.webp",
-    "originalPrice": 118,
     "discountPercent": 73,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 118
   },
   {
     "title": "yoyopet : ที่ลับเล็บแมว+แคทนิป อ่างลับเล็บ ของเล่นแมว ที่นอนแมว 2in1แผ่นลับเล็บ ที่ฝนเล็บสัตว์เลี้ยง",
@@ -5933,9 +5933,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/yoyopet-in.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "I&CAT ของใช้แมว เตียงลับเล็บแมว ที่ลับเล็บแมว ลูกตุ้มลับเล็บ ของเล่นแมว ที่ข่วนเล็บ ย้ายสะดวก",
@@ -5961,9 +5961,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/i-cat.webp",
-    "originalPrice": 248,
     "discountPercent": 60,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 248
   },
   {
     "title": "SKISOPGO ของเล่นแมวลูกบอลแมวอัติโนมัติ สมาร์ทไฟฟ้า หมุนได้ 360 องศา ของเล่นแมวโต้ตอบ การชาร์จ USB",
@@ -5989,9 +5989,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/skisopgo-usb.webp",
-    "originalPrice": 88,
     "discountPercent": 60,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 88
   },
   {
     "title": "YTL ของเล่นแมว รางบอลแมว จานเสียงแมว ด้วยขนนก สามารถหมุนได้ 360 องศา ไม่ล้ม",
@@ -6044,9 +6044,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/skisopgo-1.webp",
-    "originalPrice": 183,
     "discountPercent": 31,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 183
   },
   {
     "title": "Harmcat ไม้ตกแมว ของเล่นแมว ไม้ล่อแมว ปรับยืด-หดได้ ไม้ล่อแมว ไม้แมว ของเล่นสัตว์เลี้ยง สำหรับแมวฝึกทักษะ เบ็ดตกแมว",
@@ -6099,9 +6099,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-116404.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "P10 ของเล่นอุโมงแมว มีหลายแบบให้เลือก ที่ขาดยาว รูปทรงS หรือบ้าน",
@@ -6127,9 +6127,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-s.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "ที่ลับเล็บแมว ของเล่นแมว ฝนเล็บแมว ที่ฝนเล็บแมวลูกบอล ที่ฝนเล็บแมวใหญ่ ที่ฝนเล็บแมวขนาดใหญ่ บ้านแมว ที่ฝนเล็บแมว",
@@ -6155,9 +6155,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-238389-1.webp",
-    "originalPrice": 358,
     "discountPercent": 64,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 358
   },
   {
     "title": "HM-ของเล่นสัตว์เลี้ยง รางบอลแมว ผึ้ง ของเล่นแมว  บอลแมว รางบอล",
@@ -6183,9 +6183,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/hm.webp",
-    "originalPrice": 55,
     "discountPercent": 11,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 55
   },
   {
     "title": "ที่ลับเล็บแมว 3in1ที่ขูดเล็บ ของเล่นแมว ลับเล็บแมว ที่ลับเล็บแมวขนาดใหญ่ ขีดข่วนได้ ทนทานทุกสายพันธุ์",
@@ -6211,9 +6211,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/in-6.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "YTL ของเล่นแมว เสริมพัฒนาการ ไม่ล้ม แมวจะเล่นเอง Tumbler",
@@ -6266,9 +6266,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/ufo.webp",
-    "originalPrice": 399,
     "discountPercent": 75,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 399
   },
   {
     "title": "yoyopet : ที่ลับเล็บแมว+แคทนิป อ่างลับเล็บ ของเล่นแมว ที่นอนแมว แผ่นลับเล็บ ที่ฝนเล็บสัตว์เลี้ยง",
@@ -6294,9 +6294,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/yoyopet-3.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "ของเล่นแมว รางบอลแมว จานเสียงแมว ด้วยขนนก สามารถหมุนได้ 360 องศา 4 ชั้น ของเล่นแมว แมว ของเล่น ของใช้แมว",
@@ -6322,9 +6322,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-114535-3.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "yoyopet :  ปืนยิงแมว ปืนยิงลูกปอมๆ ของเล่นแมว ลูกบอลไหมพรมแมว ทนทานยืดหยุ่นสูง ปืน +20 ลูก",
@@ -6350,9 +6350,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/yoyopet-4.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "พร้อมจัดส่ง😽ของเล่นแมว ไม้ล่อแมว ไม้ตกแมว ตําแหน่งคงที่ แท่งแมวตลก ปลอกคอติดแมวตลก หมุนได้ 360° คลายความเบื่อหน่าย",
@@ -6378,9 +6378,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-502938.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "ฺBoqi Factory ของเล่นขนนกแมวพร้อมก้านยาว,แท่งทีเซอร์แมวตลกสำหรับเกาออกกำลังกาย YC203",
@@ -6460,9 +6460,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/bds-usb.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "🐱ของเล่นสัตว์เลี้ยงไฟฟ้าแมวอัจฉริยะ ไม้ล้อและของเล่นแมวในอันเดียว รูปแบบยูเอฟโอที่น่ารัก🐱",
@@ -6488,9 +6488,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-598114.webp",
-    "originalPrice": 298,
     "discountPercent": 47,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 298
   },
   {
     "title": "ของเล่นแมว ตุ๊กตาหนูมีเสียง ตุ๊กตาแมวกันกัด วัสดุคุณภาพดี ปลอดภัยต่อสัตว์เลี้ยง",
@@ -6543,9 +6543,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-114535-4.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "ของเล่นแมว🐾 61CM ที่ฝนเล็บแมว ที่ลับเล็บแมว ขนาดใหญ่ 3in1 ที่ขูดเล็บ สามารถใช้เป็นครอกแมวได้ ทนต่อการสึกหรอ",
@@ -6571,9 +6571,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/cm-in.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "yoyopet: ที่ลับเล็บแมวทรงอ่าง ที่ฝนเล็บ พร้อมแคทนิปในตัว ใช้เป็นที่นอนได้ ของเล่นแมว 2in1",
@@ -6599,9 +6599,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/yoyopet-in-1.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "Petcho เลเซอร์แมว ของเล่นแมว เลเซอร์รูปอุ้งเท้าแมว เลเซอร์ล่อแมว LED ไฟฉายล่อแมว ไฟฉายแมว ล่อแมว",
@@ -6654,9 +6654,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/petcho-3.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "ไม้ตกแมว ของเล่นแมว ไม้แมว ไม้ล่อแมว ขอเล่นแมว ของเล่นเเมว มีกระดิ่งและฟู่สาย ไว้ล่อแมว คลาดเครียดคลายเหงา",
@@ -6682,9 +6682,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-648582-3.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "【4ชั้น】เครื่องให้อาหารแมวตลกของเล่นแทร็กลูกบอลฐานของเล่นแบบโต้ตอบสำหรับลูกแมวในร่ม ของเล่นแมว",
@@ -6710,9 +6710,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-378764-1.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "ของเล่นแมวอัตโนมัติ หมุนได้ ดอกไม้บิน ของเล่นแมวโต้ตอบ",
@@ -6765,9 +6765,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/wen-w.webp",
-    "originalPrice": 67,
     "discountPercent": 24,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 67
   },
   {
     "title": "พร้อมจัดส่ง😻ลับเล็บแมว ของเล่นแมว ขนาดใหญ่พิเศษ ที่ลับเล็บแมว ที่ฝนเล็บแมว ที่ขูดเล็บ ทนต่อการสึกหรอ",
@@ -6793,9 +6793,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-378764-2.webp",
-    "originalPrice": 395,
     "discountPercent": 80,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 395
   },
   {
     "title": "Petcho ของเล่นแมว ที่ลับเล็บแมว ฝนเล็บแมว ที่ฝนเล็บแมวลูกบอล ที่ฝนเล็บแมวใหญ่ ที่ฝนเล็บแมวขนาดใหญ่ บ้านแมว ที่ฝนเล็บแมว",
@@ -6848,9 +6848,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-255026.webp",
-    "originalPrice": 79,
     "discountPercent": 13,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 79
   },
   {
     "title": "ลูกบอลแมว ของเล่นแมว ลูกบอลสุนัข หมุนได้360องศา เรืองแสง ของเล่นแมวอัจฉริยะ พร้อมสายชาร์จ",
@@ -6876,9 +6876,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-116404-1.webp",
-    "originalPrice": 46,
     "discountPercent": 59,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 46
   },
   {
     "title": "พร้อมส่ง! มาใหม่ ลูกบอลขนกระต่ายแท้ ของเล่นแมวแก้เบื่อ แมวเล่นเองได้ กระตุ้นสัญชาตญาณการล่า แมวต้องหลงรัก นุ่ม ปลอดภัย ของเล่นเสริมพัฒนาการ",
@@ -6904,9 +6904,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-162357.webp",
-    "originalPrice": 127,
     "discountPercent": 55,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 127
   },
   {
     "title": "PETLUSCI® ไม้ล้อเล่นแมว 80ซม ของเล่นแมวแบบโต้ตอบ ของเล่นแมวมีขนนกและกระดิ่ง ไม้ตกแมว ไม่หักง่าย",
@@ -6959,9 +6959,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/cat-teaser.webp",
-    "originalPrice": 19,
     "discountPercent": 42,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 19
   },
   {
     "title": "ของเล่นแมว อุโมงค์แมว อุโมงค์สัตว์เลี้ยง พับได้ อุโมงค์ของเล่นแมว ดึงดูดให้แมวเล่น",
@@ -6987,9 +6987,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-403849.webp",
-    "originalPrice": 142,
     "discountPercent": 68,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 142
   },
   {
     "title": "Harmcat ของเล่นลูกบอล สำหรับสัตว์เลี้ยง ของเล่นแมว ลูกบอลนิ่ม 1 กล่อง/12 ชิ้น บอลนุ่มนิ่ม บอลสัตว์เลี้ยง ไม่มีเสียง",
@@ -7041,9 +7041,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/pp.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "yoyopet : New!! ที่ลับเล็บแมว หนาพิเศษ ลายน่ารัก ของเล่นแมวพร้อมนอน 2in1 เหมียวสนุก ฟินๆ นอนสบาย",
@@ -7069,9 +7069,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/yoyopet-new-in.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "😻ของเล่นแมวลูกบอลแมวอัติโนมัติ ของเล่นแมวโต้ตอบ หลีกเลี่ยงสิ่งกีดขวางโดยอัตโนมัติ โหมดแสงสามโหมด",
@@ -7097,9 +7097,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-575702.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "ตุ๊กตาบีบๆนุ่มนิ่มมีเสียงมีเสียง ของเล่นแมว ของเล่นสุนัขขนาดใหญ่ อุปกรณ์เสริม สําหรับฝึกสุนัขขนาดเล็ก ตุ๊กตากัดเล่นสุนัข",
@@ -7125,9 +7125,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-255026-1.webp",
-    "originalPrice": 99,
     "discountPercent": 20,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 99
   },
   {
     "title": "พร้อมส่ง🔥ลูกบอลแมว บอลแมวอัตโนมัติ ชาร์ตแบตได้ ของเล่นแมว สมาร์ทไฟฟ้า หมุนได้ ของเล่นแมวโต้ตอบ ของใช้แมว",
@@ -7153,9 +7153,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-648582-4.webp",
-    "originalPrice": 45,
     "discountPercent": 9,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 45
   },
   {
     "title": "MOMOVIDA ของเล่นตกแมวอัตโมมัติ ไม้ตกแมวอัตโนมัติ+ เลเซอร์ของเล่นแมว เลเซอร์ล่อแมว รุ่น CT-3/CT-4",
@@ -7181,9 +7181,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/momovida-ct-ct.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "ลับเล็บแมว 3in1 ของเล่นแมว ขนาดใหญ่พิเศษ 61cm ทนต่อการสึกหรอ",
@@ -7209,9 +7209,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/in-cm.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "ตุ๊กตาแคทนิป ปลาแคทนิป ของเล่นแมว แคทนิป 20CM",
@@ -7235,9 +7235,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/cm.webp",
-    "originalPrice": 15,
     "discountPercent": 7,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 15
   },
   {
     "title": "🐱ของเล่นแมว อุโมงค์แมว อุโมงค์สัตว์เลี้ยง พับได้ หนูของเล่นแมวของเล่นสัตว์เลี้ยงอุโมงค์สายรุ้งของเล่นสัตว์เลี้ยงอุโมงแมว",
@@ -7263,9 +7263,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-403849-1.webp",
-    "originalPrice": 143,
     "discountPercent": 67,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 143
   },
   {
     "title": "🔥28CM ของเล่นเเมว ของเล่นแมว ของเล่น ของใช้แมว รางบอลแมว ของเล่นลููกแมว สัตว์เลี้ยง รางบอลทาวเวอร์ 4 ชั้น ของเล่นแมว แมว",
@@ -7291,9 +7291,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/cm-1.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "ไม้ตกแมว ยาวสุด ของเล่นแมว ไม้ตกแมวแบบสปริง แบบลวดสลิง",
@@ -7373,9 +7373,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-470609-1.webp",
-    "originalPrice": 189,
     "discountPercent": 26,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 189
   },
   {
     "title": "Winky Wink 3 in 1เตียงแมวไม้ 2 ชั้น เตียงบนและล่าง เครื่องขูดแมว ของเล่นแมว โครงปีนแมว ป่านศรนารายณ์ธรรมชาติ แบบโซฟา",
@@ -7401,9 +7401,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/winky-wink-in.webp",
-    "originalPrice": 309,
     "discountPercent": 66,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 309
   },
   {
     "title": "ถุงของเล่นแมวกระดาษคราฟท์ ถุงแมวมุด อุโมงค์แมว ฝึกแมว ของเล่นแมว ทนต่อการฉีกขาด แมวและสุนัข",
@@ -7456,9 +7456,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/usb-cm.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "แคปซูลอวกาศแมว แมวเปลรังแมว ของเล่นแมวเตียง BJ2",
@@ -7511,9 +7511,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/ktcat.webp",
-    "originalPrice": 99,
     "discountPercent": 78,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 99
   },
   {
     "title": "ลับเล็บแมว 3in1 ของเล่นแมว ขนาดใหญ่พิเศษ  ทนต่อการสึกหรอ ที่ฝนเล็บแมว ที่ขูดเล็บ🔥COD",
@@ -7539,9 +7539,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/in-cod.webp",
-    "originalPrice": 298,
     "discountPercent": 79,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 298
   },
   {
     "title": "ที่ลับเล็บแมว รูปอ่าง ที่ฝนเล็บแมว ของเล่นแมว เป็นที่นอนแมวไปในตัว OM",
@@ -7594,9 +7594,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-327068.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "จัดส่งจากท้องถิ่น🚚ไม้ของเล่นแมว, ไม้จับแมว,ไม้ตบแมว，บอลแมว，ไม้แมวสายเหล็ก, ไม้ของเล่นแมวขนนก ของเล่นแมวทนทาน",
@@ -7622,9 +7622,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-177685.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "ที่ฝนเล็บแมว ที่ลับเล็บ รูปอ่าง ที่ลับเล็บแมวขนาดใหญ่ ที่ขูดเล็บ ของเล่นแมว ที่ลับเล็บแมว ฝนเล็บแมว ของเล่นแมว ที่นอนแมว",
@@ -7650,9 +7650,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-114535-5.webp",
-    "originalPrice": 129,
     "discountPercent": 71,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 129
   },
   {
     "title": "ที่ลับเล็บแมว รูปอ่าง ที่ฝนเล็บแมว ของเล่นแมว เป็นที่นอนแมวไปในตัว ฟรี แคปนิท ขนาดไซส์ใหญ่จัมโบ้น้องแมวชอมาก",
@@ -7678,9 +7678,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-378764-3.webp",
-    "originalPrice": 125,
     "discountPercent": 48,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 125
   },
   {
     "title": "CoCo.pet ที่ฝนเล็บแมวแครอท ลับเล็บแมว เสาลับเล็บ  คอนโดแมว ของเล่นแมว  ฝนเล็บแมว อุปกรณ์แมว",
@@ -7706,9 +7706,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/coco-pet.webp",
-    "originalPrice": 228,
     "discountPercent": 32,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 228
   },
   {
     "title": "🐾ที่ลับเล็บแมว รูปอ่าง ที่ฝนเล็บแมว ของเล่นแมว เป็นที่นอนแมวไปในตัว ฟรี แคปนิท ที่ขูดเล็บ ของเล่นแมว คอนโดแมว",
@@ -7734,9 +7734,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-114535-6.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "PETBABYS ของเล่นแมว ไม้ล่อแมว ไม้ตกแมว 9ชนิด ไม้ตบแมวกัญชาแมว แมวทุกวัยเล่นได้​ ดึงดูดแมว 100%​",
@@ -7762,9 +7762,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/petbabys.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "yoyopet : New !! หนาพิเศษ ที่ลับเล็บแมว ลายน่ารัก ของเล่นแมว2in1 ลับเล็บได้ นอนได้ สบาย ฟินๆ",
@@ -7790,9 +7790,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/yoyopet-new-in-1.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "TUBI รังแมวแคปซูลอวกาศ ของเล่นแมว หลุมแมว อะคริลิค พร้อมรางบอลแบบรางไม้ โดมแมว หลุมอวกาศ2in1คอนโดแมว",
@@ -7818,9 +7818,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/tubi-in.webp",
-    "originalPrice": 228,
     "discountPercent": 36,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 228
   },
   {
     "title": "รางบอลแมว4ชั้น ของเล่นแมว รางบอลแมว รางบอล4ชั้น ของเล่นน้องแมว แถมขนไก่ ลูกบอลอาหาร",
@@ -7846,9 +7846,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-378764-4.webp",
-    "originalPrice": 79,
     "discountPercent": 46,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 79
   },
   {
     "title": "COD ของเล่นแมว ของเล่นแมวอัจฉริยะ ด้วยขนนก การหลีกเลี่ยงอย่างชาญฉลาด  หมุนได้ 360 องศา",
@@ -7874,9 +7874,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/cod-2.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "YTLบอลลับเล็บ บอลลับเล็บแมว ที่ลับเล็บแมว ที่ฝนเล็บแมว ของเล่นแมว ลูกบอลฝนเล็บแมว คอนโดแมว",
@@ -7902,9 +7902,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/ytl-3.webp",
-    "originalPrice": 109,
     "discountPercent": 64,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 109
   },
   {
     "title": "🐱ของเล่นแมว🐱ที่ลับเล็บแมว ที่ฝนเล็บแมว สามารถใช้เป็นครอกแมวได้ 3in1 ที่ขูดเล็บ ลับเล็บแมว 62cm ทนต่อการสึกหรอ",
@@ -7930,9 +7930,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/in-cm-1.webp",
-    "originalPrice": 288,
     "discountPercent": 62,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 288
   },
   {
     "title": "ลูกบอลล้มลุก หนูล้มลุก ของเล่นแมว บอลกรงหนู บอลของเล่นแมว กระดิ่งแมว หนูของเล่น OI",
@@ -7958,9 +7958,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/oi.webp",
-    "originalPrice": 8,
     "discountPercent": 25,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 8
   },
   {
     "title": "CAT TOY กระดาษลับเล็บแมวหลากสี คละสี ขนาด 43x21.5x3.5 cm.ที่ลับเล็บแมว ของเล่นแมว *****มีหลายแบบให้เลือก",
@@ -7986,9 +7986,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/cat-toy-x.webp",
-    "originalPrice": 128,
     "discountPercent": 74,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 128
   },
   {
     "title": "กระดาษลับเล็บวงรี  ที่ลับเล็บแมว รูปอ่าง ที่ฝนเล็บแมว ของเล่นแมว เป็นที่นอนแมวไปในตัว ฟรี แคปนิท  ( มี 4 ขนาด )",
@@ -8014,9 +8014,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-273151.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "Thai.th ของเล่นแมวตุ๊กตาล้มลุก เสริมพัฒนาการ  ใส่อาหารสัตว์ Tumbler",
@@ -8069,9 +8069,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/in-7.webp",
-    "originalPrice": 288,
     "discountPercent": 80,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 288
   },
   {
     "title": "ตุ๊กตาแคทนิป ปลาดุ๊กด๊ก ของเล่นแมว แคทนิป ดิ้นได้ มีแบตเตอรี่ในตัว ฟรี สายชาร์จUSB ปลาแมวตุ๊กตาปลาของเล่นสัตว์เลี้ยง",
@@ -8097,9 +8097,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/usb-3.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "Winky Wink วงกลมพรมลับเล็บแมว 3 in 1 แผ่นลับเล็บแมว กันข่วน ของเล่นแมว ที่นอนแมว กันข่วน",
@@ -8125,9 +8125,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/winky-wink-in-1.webp",
-    "originalPrice": 129,
     "discountPercent": 78,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 129
   },
   {
     "title": "ของเล่นแมว ไม้ตกแมว ไม้ล่อแมว ของเล่นแมวน่ารัก สไตล์มินิมอล(🇹🇭พร้อมส่ง📦)",
@@ -8153,9 +8153,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-262760.webp",
-    "originalPrice": 19,
     "discountPercent": 16,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 19
   },
   {
     "title": "ของเล่นแมว ไม้ตกแมว มีขนนก สนุก ราคาถูก มีกระดิ่ง ไม้ล่อแมว  L",
@@ -8181,9 +8181,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/l-1.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "🔥พร้อมส่ง🔥ของเล่นแมว ที่ฝนเล็บแมว ลูกบอล คอนโดแมว ที่ฝนเล็บแมวใหญ่ ที่ลับเล็บแมวขนาดใหญ่",
@@ -8209,9 +8209,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-378764-5.webp",
-    "originalPrice": 258,
     "discountPercent": 66,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 258
   },
   {
     "title": "🐱ของเล่นแมว อุโมงค์แมว อุโมงค์สัตว์เลี้ยง พับได้ อุโมงค์แมวหลากหลายรูปแบบ",
@@ -8237,9 +8237,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-917092.webp",
-    "originalPrice": 145,
     "discountPercent": 74,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 145
   },
   {
     "title": "YTL คอนโดแมว ที่ฝนเล็บแมว เสาฝนเล็บแมว ที่ฝนเล็บแมว พร้อมของเล่น คลายเครียด ที่ฝนเล็บ แบบแท่ง ที่รับเล็บแมว",
@@ -8292,9 +8292,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/timekey-o-p.webp",
-    "originalPrice": 124,
     "discountPercent": 68,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 124
   },
   {
     "title": "Thai.th อุโมงค์แมว แบบ 3 ทาง อุโมงค์แมวพับเก็บได้ ของเล่นแมว CS-77T",
@@ -8347,9 +8347,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-648582-5.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "🐱ของเล่นหมุนลูกบอลแมว ลูกบอลหมุนเพื่อความบันเทิงสำหรับแมว สัตว์เลี้ยง สามารถอยู่เป็นเพื่อนแมวเล่นสนุกสนานได้ตลอดวัน🐱",
@@ -8402,9 +8402,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/joy-tower.webp",
-    "originalPrice": 45,
     "discountPercent": 64,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 45
   },
   {
     "title": "รางบอลแมว4ชั้น ของเล่นแมว รางบอลแมว รางบอล4ชั้น ของเล่นน้องแมว",
@@ -8430,9 +8430,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-126915-3.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "รางบอลแมว4ชั้น ของเล่นแมว รางบอลแมว รางบอล4ชั้น ของเล่นน้องแมว",
@@ -8485,9 +8485,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-119114.webp",
-    "originalPrice": 129,
     "discountPercent": 24,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 129
   },
   {
     "title": "ของเล่นแมว ไม้ตกแมว ไม้ตกแมวแบบสปริง (📍พร้อมส่ง📍)",
@@ -8513,9 +8513,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-262760-1.webp",
-    "originalPrice": 22,
     "discountPercent": 50,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 22
   },
   {
     "title": "ของเล่นจานเสียงแมว รางบอลแมว ของเล่นแมว Catch the Mouse Motion Cat Toy ของเล่นสัตว์เลี้ยง",
@@ -8541,9 +8541,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/catch-the-mouse-1.webp",
-    "originalPrice": 99,
     "discountPercent": 77,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 99
   },
   {
     "title": "[COD]🔥พร้อมส่ง🔥 กระดาษลับเล็บแมว ที่ลับเล็บแมว ของเล่นแมว โซฟาที่ลับเล็บแมว ขนาดเล็กพกพาง่า ราคาถูก",
@@ -8569,9 +8569,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/cod-3.webp",
-    "originalPrice": 36,
     "discountPercent": 47,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": 36
   },
   {
     "title": "38cm😽อันใหญ่มาก ไม้มาทาทาบิ ขัดฟันไม้ ไม้ขัดฟันแมว ของเล่นแมว ลดคราบหินปูน",
@@ -8597,9 +8597,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/cm-2.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "yoyopet : Catnip Doll ตุ๊กตาสอดไส้แคทนิป ของเล่นแมว เคี้ยวเพลิน หลับง่าย อารมณ์ดี กลิ่นหอม ยั่วใจ",
@@ -8625,9 +8625,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/yoyopet-catnip-doll.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "หนูปลอม ตุ๊กตาหนู ของเล่นแมว ของเล่นเเมว ขอเล่นหนู ปลอม ของเล่นแมว สีส่งแบบสุ่ม",
@@ -8680,9 +8680,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/yoyopet-cat-teaser-1.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "ไม้มาทาทาบิ ขัดฟันแมว 38/22cm ลดคราบหินปูน ขัดฟันแมว  กัญชาแมวมาทาบิ ของเล่นแมว พร้อมส่งจากไทย",
@@ -8708,9 +8708,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/cm-3.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "yoyopet : ไม้มาทาทาบิ ขัดฟันแมว ไม้เเมวเมา แบบเชือก ขัดฟันแมว ลดคราบหินปูน ของเล่นสําหรับสัตว์เลี้ยง",
@@ -8736,9 +8736,9 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/yoyopet-5.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "title": "หนูปลอม สีสุ่ม คลายเครียดแมว ขนไก่แมว ของเล่นแมว",
@@ -8818,9 +8818,9 @@
     "slug": "pramy-carnivore-1-kg-346772",
     "source": "apify-daily-sync",
     "localImage": "/products/pramy-carnivore-1-kg-346772.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "shopId": "1572334600",
@@ -8846,9 +8846,9 @@
     "slug": "buzz-beyond-cat-1-kg-730955",
     "source": "apify-daily-sync",
     "localImage": "/products/buzz-beyond-cat-1-kg-730955.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "shopId": "1578449264",
@@ -8874,9 +8874,9 @@
     "slug": "akine-1kg-399024",
     "source": "apify-daily-sync",
     "localImage": "/products/akine-1kg-399024.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "shopId": "1213579370",
@@ -8929,9 +8929,9 @@
     "slug": "1kg-buzz-beyond-375270",
     "source": "apify-daily-sync",
     "localImage": "/products/1kg-buzz-beyond-375270.webp",
-    "originalPrice": "฿199",
     "discountPercent": 40,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿199"
   },
   {
     "shopId": "722376275",
@@ -8957,9 +8957,9 @@
     "slug": "kaniva-1-600423",
     "source": "apify-daily-sync",
     "localImage": "/products/kaniva-1-600423.webp",
-    "originalPrice": "฿155",
     "discountPercent": 76,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿155"
   },
   {
     "shopId": "15069461",
@@ -9037,9 +9037,9 @@
     "slug": "lena-5-10-20-kg-156306",
     "source": "apify-daily-sync",
     "localImage": "/products/lena-5-10-20-kg-156306.webp",
-    "originalPrice": "฿499",
     "discountPercent": 66,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿499"
   },
   {
     "shopId": "28265861",
@@ -9092,9 +9092,9 @@
     "slug": "12-nekko-670943",
     "source": "apify-daily-sync",
     "localImage": "/products/12-nekko-670943.webp",
-    "originalPrice": "฿396",
     "discountPercent": 39,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿396"
   },
   {
     "shopId": "253732112",
@@ -9120,9 +9120,9 @@
     "slug": "1kg-lola-co-1-kg-368360",
     "source": "apify-daily-sync",
     "localImage": "/products/1kg-lola-co-1-kg-368360.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "shopId": "1026036263",
@@ -9175,9 +9175,9 @@
     "slug": "kaniva-1-1-5-kg-939080",
     "source": "apify-daily-sync",
     "localImage": "/products/kaniva-1-1-5-kg-939080.webp",
-    "originalPrice": "฿479",
     "discountPercent": 79,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿479"
   },
   {
     "shopId": "88496090",
@@ -9203,9 +9203,9 @@
     "slug": "petclub-purina-one-2-7kg-10-456133",
     "source": "apify-daily-sync",
     "localImage": "/products/petclub-purina-one-2-7kg-10-456133.webp",
-    "originalPrice": "฿850",
     "discountPercent": 48,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿850"
   },
   {
     "shopId": "1579722061",
@@ -9231,9 +9231,9 @@
     "slug": "ketzuzu-12-24-48-926768",
     "source": "apify-daily-sync",
     "localImage": "/products/ketzuzu-12-24-48-926768.webp",
-    "originalPrice": "฿218",
     "discountPercent": 50,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿218"
   },
   {
     "shopId": "347269548",
@@ -9259,9 +9259,9 @@
     "slug": "12-pramy-201982",
     "source": "apify-daily-sync",
     "localImage": "/products/12-pramy-201982.webp",
-    "originalPrice": "฿265",
     "discountPercent": 67,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿265"
   },
   {
     "shopId": "1579821145",
@@ -9287,9 +9287,9 @@
     "slug": "ketzuzu-12-24-48-138553",
     "source": "apify-daily-sync",
     "localImage": "/products/ketzuzu-12-24-48-138553.webp",
-    "originalPrice": "฿218",
     "discountPercent": 50,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿218"
   },
   {
     "shopId": "1449018616",
@@ -9342,9 +9342,9 @@
     "slug": "ketzuzu-12-24-48-174587",
     "source": "apify-daily-sync",
     "localImage": "/products/ketzuzu-12-24-48-174587.webp",
-    "originalPrice": "฿218",
     "discountPercent": 50,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿218"
   },
   {
     "shopId": "1579722061",
@@ -9370,9 +9370,9 @@
     "slug": "ketzuzu-12-24-48-880182",
     "source": "apify-daily-sync",
     "localImage": "/products/ketzuzu-12-24-48-880182.webp",
-    "originalPrice": "฿218",
     "discountPercent": 50,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿218"
   },
   {
     "shopId": "347269548",
@@ -9398,9 +9398,9 @@
     "slug": "12-nekko-197052",
     "source": "apify-daily-sync",
     "localImage": "/products/12-nekko-197052.webp",
-    "originalPrice": "฿250",
     "discountPercent": 79,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿250"
   },
   {
     "shopId": "1580877610",
@@ -9426,9 +9426,9 @@
     "slug": "12-70g-851589",
     "source": "apify-daily-sync",
     "localImage": "/products/12-70g-851589.webp",
-    "originalPrice": "฿199",
     "discountPercent": 45,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿199"
   },
   {
     "shopId": "722376275",
@@ -9454,9 +9454,9 @@
     "slug": "12-48-mr-vet-70g-113602",
     "source": "apify-daily-sync",
     "localImage": "/products/12-48-mr-vet-70g-113602.webp",
-    "originalPrice": "฿359",
     "discountPercent": 58,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿359"
   },
   {
     "shopId": "1761932598",
@@ -9509,9 +9509,9 @@
     "slug": "12-cherman-pouch-037202",
     "source": "apify-daily-sync",
     "localImage": "/products/12-cherman-pouch-037202.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "shopId": "88496090",
@@ -9537,9 +9537,9 @@
     "slug": "petclub-purina-one-pouch-5-70g-617620",
     "source": "apify-daily-sync",
     "localImage": "/products/petclub-purina-one-pouch-5-70g-617620.webp",
-    "originalPrice": "฿348",
     "discountPercent": 41,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿348"
   },
   {
     "shopId": "1825400358",
@@ -9565,9 +9565,9 @@
     "slug": "50-100-150g-510716",
     "source": "apify-daily-sync",
     "localImage": "/products/50-100-150g-510716.webp",
-    "originalPrice": "฿129",
     "discountPercent": 74,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿129"
   },
   {
     "shopId": "970093388",
@@ -9593,9 +9593,9 @@
     "slug": "100-039517",
     "source": "apify-daily-sync",
     "localImage": "/products/100-039517.webp",
-    "originalPrice": "฿299",
     "discountPercent": 57,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿299"
   },
   {
     "shopId": "1760287266",
@@ -9621,9 +9621,9 @@
     "slug": "hairball-cat-treat-100g-pethealer-cat-749180",
     "source": "apify-daily-sync",
     "localImage": "/products/hairball-cat-treat-100g-pethealer-cat-749180.webp",
-    "originalPrice": "฿316",
     "discountPercent": 61,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿316"
   },
   {
     "shopId": "282218822",
@@ -9649,9 +9649,9 @@
     "slug": "100-purrfect-paw-freeze-dried-029735",
     "source": "apify-daily-sync",
     "localImage": "/products/100-purrfect-paw-freeze-dried-029735.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "shopId": "1749130737",
@@ -9677,9 +9677,9 @@
     "slug": "petlusci-630-544075",
     "source": "apify-daily-sync",
     "localImage": "/products/petlusci-630-544075.webp",
-    "originalPrice": "฿100",
     "discountPercent": 54,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿100"
   },
   {
     "shopId": "78895131",
@@ -9705,9 +9705,9 @@
     "slug": "temptations-75-12-514283",
     "source": "apify-daily-sync",
     "localImage": "/products/temptations-75-12-514283.webp",
-    "originalPrice": "฿1,188",
     "discountPercent": 20,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿1,188"
   },
   {
     "shopId": "639932464",
@@ -9733,9 +9733,9 @@
     "slug": "petbabys-640-252307",
     "source": "apify-daily-sync",
     "localImage": "/products/petbabys-640-252307.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "shopId": "1638782512",
@@ -9761,9 +9761,9 @@
     "slug": "petlusci-100-693183",
     "source": "apify-daily-sync",
     "localImage": "/products/petlusci-100-693183.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "shopId": "1207011732",
@@ -9789,9 +9789,9 @@
     "slug": "100-100-684452",
     "source": "apify-daily-sync",
     "localImage": "/products/100-100-684452.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "shopId": "9128123",
@@ -9817,9 +9817,9 @@
     "slug": "product-533192",
     "source": "apify-daily-sync",
     "localImage": "/products/product-533192.webp",
-    "originalPrice": "฿45",
     "discountPercent": 47,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿45"
   },
   {
     "shopId": "104796104",
@@ -9844,9 +9844,9 @@
     "slug": "friskies-party-mix-60-094097",
     "source": "apify-daily-sync",
     "localImage": "/products/friskies-party-mix-60-094097.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "shopId": "1594958459",
@@ -9872,9 +9872,9 @@
     "slug": "50-100-3-cat-snacks-300701",
     "source": "apify-daily-sync",
     "localImage": "/products/50-100-3-cat-snacks-300701.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "shopId": "1082461307",
@@ -9900,9 +9900,9 @@
     "slug": "cod-600-300567",
     "source": "apify-daily-sync",
     "localImage": "/products/cod-600-300567.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "shopId": "1638782512",
@@ -9928,9 +9928,9 @@
     "slug": "petlusci-50g-857125",
     "source": "apify-daily-sync",
     "localImage": "/products/petlusci-50g-857125.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "shopId": "1224107128",
@@ -9956,9 +9956,9 @@
     "slug": "deeplove-271956",
     "source": "apify-daily-sync",
     "localImage": "/products/deeplove-271956.webp",
-    "originalPrice": "฿129",
     "discountPercent": 34,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿129"
   },
   {
     "shopId": "324391999",
@@ -9980,9 +9980,9 @@
     "slug": "hong-hong-130g-x12-637236",
     "source": "apify-daily-sync",
     "localImage": "/products/hong-hong-130g-x12-637236.webp",
-    "originalPrice": "฿191",
     "discountPercent": 2,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿191"
   },
   {
     "shopId": "62754594",
@@ -10030,9 +10030,9 @@
     "slug": "10-20kg-raptor-dog-10-kg-115878",
     "source": "apify-daily-sync",
     "localImage": "/products/10-20kg-raptor-dog-10-kg-115878.webp",
-    "originalPrice": "฿265",
     "discountPercent": 45,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿265"
   },
   {
     "shopId": "144046792",
@@ -10058,9 +10058,9 @@
     "slug": "3-smartheart-gold-dry-dog-food-091270",
     "source": "apify-daily-sync",
     "localImage": "/products/3-smartheart-gold-dry-dog-food-091270.webp",
-    "originalPrice": "฿329",
     "discountPercent": 5,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿329"
   },
   {
     "shopId": "39642517",
@@ -10083,9 +10083,9 @@
     "slug": "jerhigh-meat-as-meals-1-2-617611",
     "source": "apify-daily-sync",
     "localImage": "/products/jerhigh-meat-as-meals-1-2-617611.webp",
-    "originalPrice": "฿450",
     "discountPercent": 7,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿450"
   },
   {
     "shopId": "1261216562",
@@ -10111,9 +10111,9 @@
     "slug": "cat-dog-4-658557",
     "source": "apify-daily-sync",
     "localImage": "/products/cat-dog-4-658557.webp",
-    "originalPrice": "฿300",
     "discountPercent": 68,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿300"
   },
   {
     "shopId": "114389551",
@@ -10162,9 +10162,9 @@
     "slug": "ostech-dog-lover-12-130-771989",
     "source": "apify-daily-sync",
     "localImage": "/products/ostech-dog-lover-12-130-771989.webp",
-    "originalPrice": "฿699",
     "discountPercent": 80,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿699"
   },
   {
     "shopId": "1213579370",
@@ -10241,9 +10241,9 @@
     "slug": "12-ostech-dog-lover-130-exp10-006189",
     "source": "apify-daily-sync",
     "localImage": "/products/12-ostech-dog-lover-130-exp10-006189.webp",
-    "originalPrice": "฿399",
     "discountPercent": 66,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿399"
   },
   {
     "shopId": "179359716",
@@ -10269,9 +10269,9 @@
     "affiliateUrl": "https://shopee.co.th/product/179359716/23275934454?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=23275934454",
     "scrapedAt": "2026-07-05",
     "localImage": "/products/kaniva-1-2-1-5-premium-934454.webp",
-    "originalPrice": "฿489",
     "discountPercent": 80,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿489"
   },
   {
     "shopId": "1201097205",
@@ -10346,9 +10346,9 @@
     "affiliateUrl": "https://shopee.co.th/product/324391999/55962561246?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=55962561246",
     "scrapedAt": "2026-07-05",
     "localImage": "/products/kaniva-2-8-3-2-kg-561246.webp",
-    "originalPrice": "฿459",
     "discountPercent": 3,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿459"
   },
   {
     "shopId": "35267848",
@@ -10476,9 +10476,9 @@
     "affiliateUrl": "https://shopee.co.th/product/944560235/25701349174?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=25701349174",
     "scrapedAt": "2026-07-05",
     "localImage": "/products/lena-1kg-x-4-349174.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "shopId": "722376275",
@@ -10504,9 +10504,9 @@
     "affiliateUrl": "https://shopee.co.th/product/722376275/23674876566?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=23674876566",
     "scrapedAt": "2026-07-05",
     "localImage": "/products/petheria-1-5-876566.webp",
-    "originalPrice": "฿359",
     "discountPercent": 65,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿359"
   },
   {
     "shopId": "19056998",
@@ -10532,9 +10532,9 @@
     "affiliateUrl": "https://shopee.co.th/product/19056998/44270272857?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=44270272857",
     "scrapedAt": "2026-07-05",
     "localImage": "/products/kaniva-340-400g-272857.webp",
-    "originalPrice": "฿199",
     "discountPercent": 63,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿199"
   },
   {
     "shopId": "151386507",
@@ -10560,9 +10560,9 @@
     "affiliateUrl": "https://shopee.co.th/product/151386507/15895312449?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=15895312449",
     "scrapedAt": "2026-07-05",
     "localImage": "/products/petheria-1-1-5-kg-312449.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "shopId": "1404353915",
@@ -10588,9 +10588,9 @@
     "affiliateUrl": "https://shopee.co.th/product/1404353915/29871721220?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=29871721220",
     "scrapedAt": "2026-07-05",
     "localImage": "/products/buzz-beyond-1kg-721220.webp",
-    "originalPrice": "฿129",
     "discountPercent": 9,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿129"
   },
   {
     "shopId": "1266761607",
@@ -10616,9 +10616,9 @@
     "affiliateUrl": "https://shopee.co.th/product/1266761607/28615882104?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=28615882104",
     "scrapedAt": "2026-07-05",
     "localImage": "/products/clearance-kaniva-indoor-4-882104.webp",
-    "originalPrice": "฿390",
     "discountPercent": 50,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿390"
   },
   {
     "shopId": "27536163",
@@ -10667,9 +10667,9 @@
     "affiliateUrl": "https://shopee.co.th/product/109765977/27711387273?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=27711387273",
     "scrapedAt": "2026-07-05",
     "localImage": "/products/buzz-beyond-3-kg-premium-gluten-387273.webp",
-    "originalPrice": "฿429",
     "discountPercent": 26,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿429"
   },
   {
     "shopId": "1182608526",
@@ -10721,9 +10721,9 @@
     "affiliateUrl": "https://shopee.co.th/product/1287046821/42058975419?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=42058975419",
     "scrapedAt": "2026-07-05",
     "localImage": "/products/buzz-1-kg-3-kg-premium-975419.webp",
-    "originalPrice": "฿329",
     "discountPercent": 41,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿329"
   },
   {
     "shopId": "1673108254",
@@ -10749,9 +10749,9 @@
     "affiliateUrl": "https://shopee.co.th/product/1673108254/51412798293?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=51412798293",
     "scrapedAt": "2026-07-05",
     "localImage": "/products/4-85-798293.webp",
-    "originalPrice": "฿571",
     "discountPercent": 30,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿571"
   },
   {
     "shopId": "580691242",
@@ -10777,9 +10777,9 @@
     "affiliateUrl": "https://shopee.co.th/product/580691242/51859964709?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=51859964709",
     "scrapedAt": "2026-07-05",
     "localImage": "/products/pramy-carnivore-70g-x-12-964709.webp",
-    "originalPrice": "฿599",
     "discountPercent": 60,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿599"
   },
   {
     "shopId": "1723840004",
@@ -10805,9 +10805,9 @@
     "affiliateUrl": "https://shopee.co.th/product/1723840004/47012163430?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=47012163430",
     "scrapedAt": "2026-07-05",
     "localImage": "/products/lola-co-complete-balanced-400g-163430.webp",
-    "originalPrice": "฿99",
     "discountPercent": 51,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿99"
   },
   {
     "shopId": "1723840004",
@@ -10832,9 +10832,9 @@
     "affiliateUrl": "https://shopee.co.th/product/1723840004/52109764914?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=52109764914",
     "scrapedAt": "2026-07-05",
     "localImage": "/products/12-pramy-carnivore-70g-764914.webp",
-    "originalPrice": "฿599",
     "discountPercent": 57,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿599"
   },
   {
     "shopId": "722376275",
@@ -10859,9 +10859,9 @@
     "affiliateUrl": "https://shopee.co.th/product/722376275/27621241233?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=27621241233",
     "scrapedAt": "2026-07-05",
     "localImage": "/products/12-48-nekko-70g-7-241233.webp",
-    "originalPrice": "฿359",
     "discountPercent": 39,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿359"
   },
   {
     "shopId": "91209643",
@@ -10884,9 +10884,9 @@
     "affiliateUrl": "https://shopee.co.th/product/91209643/25241949830?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=25241949830",
     "scrapedAt": "2026-07-05",
     "localImage": "/products/24-400g-949830.webp",
-    "originalPrice": "฿840",
     "discountPercent": 57,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿840"
   },
   {
     "shopId": "76681597",
@@ -10912,9 +10912,9 @@
     "affiliateUrl": "https://shopee.co.th/product/76681597/41155082055?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=41155082055",
     "scrapedAt": "2026-07-05",
     "localImage": "/products/jingjai-12-pramy-broths-40g-082055.webp",
-    "originalPrice": "฿179",
     "discountPercent": 2,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿179"
   },
   {
     "shopId": "1225631791",
@@ -10937,9 +10937,9 @@
     "affiliateUrl": "https://shopee.co.th/product/1225631791/48058878293?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=48058878293",
     "scrapedAt": "2026-07-05",
     "localImage": "/products/pet-record-85g-12-878293.webp",
-    "originalPrice": "฿264",
     "discountPercent": 45,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿264"
   },
   {
     "shopId": "646557",
@@ -10992,9 +10992,9 @@
     "affiliateUrl": "https://shopee.co.th/product/287200631/54560532832?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=54560532832",
     "scrapedAt": "2026-07-05",
     "localImage": "/products/12-bellotta-370-400-g-532832.webp",
-    "originalPrice": "฿600",
     "discountPercent": 8,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿600"
   },
   {
     "shopId": "722376275",
@@ -11020,9 +11020,9 @@
     "affiliateUrl": "https://shopee.co.th/product/722376275/56160344588?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=56160344588",
     "scrapedAt": "2026-07-05",
     "localImage": "/products/12-48-bite-of-wild-70g-344588.webp",
-    "originalPrice": "฿599",
     "discountPercent": 73,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿599"
   },
   {
     "shopId": "91209643",
@@ -11046,9 +11046,9 @@
     "affiliateUrl": "https://shopee.co.th/product/91209643/8372116743?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=8372116743",
     "scrapedAt": "2026-07-05",
     "localImage": "/products/12-regalos-70-116743.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "shopId": "92576009",
@@ -11100,9 +11100,9 @@
     "affiliateUrl": "https://shopee.co.th/product/368892882/24895583914?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=24895583914",
     "scrapedAt": "2026-07-05",
     "localImage": "/products/hi-life-complete-balanced-400-x-583914.webp",
-    "originalPrice": "฿480",
     "discountPercent": 54,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿480"
   },
   {
     "shopId": "1033037732",
@@ -11128,9 +11128,9 @@
     "affiliateUrl": "https://shopee.co.th/product/1033037732/22049738914?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=22049738914",
     "scrapedAt": "2026-07-05",
     "localImage": "/products/freeze-dried-100-738914.webp",
-    "originalPrice": "฿299",
     "discountPercent": 54,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿299"
   },
   {
     "shopId": "1635422419",
@@ -11182,9 +11182,9 @@
     "affiliateUrl": "https://shopee.co.th/product/970093388/23350965689?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=23350965689",
     "scrapedAt": "2026-07-05",
     "localImage": "/products/100-freeze-dried-965689.webp",
-    "originalPrice": "฿299",
     "discountPercent": 57,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿299"
   },
   {
     "shopId": "1449018616",
@@ -11237,9 +11237,9 @@
     "affiliateUrl": "https://shopee.co.th/product/1230279810/27558924151?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=27558924151",
     "scrapedAt": "2026-07-05",
     "localImage": "/products/100-924151.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "shopId": "251822280",
@@ -11265,9 +11265,9 @@
     "affiliateUrl": "https://shopee.co.th/product/251822280/51359649172?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=51359649172",
     "scrapedAt": "2026-07-05",
     "localImage": "/products/100-649172.webp",
-    "originalPrice": "฿200",
     "discountPercent": 62,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿200"
   },
   {
     "shopId": "1124293183",
@@ -11293,9 +11293,9 @@
     "affiliateUrl": "https://shopee.co.th/product/1124293183/48707753174?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=48707753174",
     "scrapedAt": "2026-07-05",
     "localImage": "/products/bite-of-wild-freeze-dried-40g-753174.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "shopId": "1639266429",
@@ -11321,9 +11321,9 @@
     "affiliateUrl": "https://shopee.co.th/product/1639266429/49854440592?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=49854440592",
     "scrapedAt": "2026-07-05",
     "localImage": "/products/petlusci-650g-100-440592.webp",
-    "originalPrice": "฿124",
     "discountPercent": 60,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿124"
   },
   {
     "shopId": "1124293183",
@@ -11349,9 +11349,9 @@
     "affiliateUrl": "https://shopee.co.th/product/1124293183/23488685320?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=23488685320",
     "scrapedAt": "2026-07-05",
     "localImage": "/products/bite-of-wild-685320.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "shopId": "1749130737",
@@ -11377,9 +11377,9 @@
     "affiliateUrl": "https://shopee.co.th/product/1749130737/45358276665?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=45358276665",
     "scrapedAt": "2026-07-05",
     "localImage": "/products/petlusci-640-100-276665.webp",
-    "originalPrice": "฿118",
     "discountPercent": 58,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿118"
   },
   {
     "shopId": "1224107128",
@@ -11405,9 +11405,9 @@
     "affiliateUrl": "https://shopee.co.th/product/1224107128/29460041976?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=29460041976",
     "scrapedAt": "2026-07-05",
     "localImage": "/products/deeplove-0-0-0-041976.webp",
-    "originalPrice": "฿119",
     "discountPercent": 17,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿119"
   },
   {
     "shopId": "282218822",
@@ -11433,9 +11433,9 @@
     "affiliateUrl": "https://shopee.co.th/product/282218822/8513961622?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=8513961622",
     "scrapedAt": "2026-07-05",
     "localImage": "/products/100-purrfect-paw-freeze-dried-961622.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "shopId": "575702934",
@@ -11461,9 +11461,9 @@
     "affiliateUrl": "https://shopee.co.th/product/575702934/29271299742?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=29271299742",
     "scrapedAt": "2026-07-05",
     "localImage": "/products/1000g-299742.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "shopId": "639932464",
@@ -11489,9 +11489,9 @@
     "affiliateUrl": "https://shopee.co.th/product/639932464/24085611711?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=24085611711",
     "scrapedAt": "2026-07-05",
     "localImage": "/products/640-611711.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "shopId": "1003962876",
@@ -11517,9 +11517,9 @@
     "affiliateUrl": "https://shopee.co.th/product/1003962876/47106887679?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=47106887679",
     "scrapedAt": "2026-07-05",
     "localImage": "/products/petypet-100-887679.webp",
-    "originalPrice": "฿129",
     "discountPercent": 50,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿129"
   },
   {
     "shopId": "1449018616",
@@ -11545,9 +11545,9 @@
     "affiliateUrl": "https://shopee.co.th/product/1449018616/52204163729?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=52204163729",
     "scrapedAt": "2026-07-05",
     "localImage": "/products/2kg-163729.webp",
-    "originalPrice": "฿89",
     "discountPercent": 65,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿89"
   },
   {
     "shopId": "151386507",
@@ -11573,9 +11573,9 @@
     "affiliateUrl": "https://shopee.co.th/product/151386507/11220003578?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=11220003578",
     "scrapedAt": "2026-07-05",
     "localImage": "/products/kasty-kanimal-6-003578.webp",
-    "originalPrice": "",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "price_before_discount": ""
   },
   {
     "shopId": "584825770",
@@ -11628,9 +11628,9 @@
     "affiliateUrl": "https://shopee.co.th/product/1449018616/57754172624?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=57754172624",
     "scrapedAt": "2026-07-05",
     "localImage": "/products/katto-10l-172624.webp",
-    "originalPrice": "฿160",
     "discountPercent": 37,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿160"
   },
   {
     "shopId": "19056998",
@@ -11656,9 +11656,9 @@
     "affiliateUrl": "https://shopee.co.th/product/19056998/26023362011?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=26023362011",
     "scrapedAt": "2026-07-05",
     "localImage": "/products/kasty-20l-20-362011.webp",
-    "originalPrice": "฿1,999",
     "discountPercent": 79,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿1,999"
   },
   {
     "shopId": "151386507",
@@ -11684,9 +11684,9 @@
     "affiliateUrl": "https://shopee.co.th/product/151386507/57159951808?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=57159951808",
     "scrapedAt": "2026-07-05",
     "localImage": "/products/petcho-plant-based-2-951808.webp",
-    "originalPrice": "฿499",
     "discountPercent": 20,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿499"
   },
   {
     "shopId": "1449018616",
@@ -11712,9 +11712,9 @@
     "affiliateUrl": "https://shopee.co.th/product/1449018616/50554081988?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=50554081988",
     "scrapedAt": "2026-07-05",
     "localImage": "/products/20-081988.webp",
-    "originalPrice": "฿899",
     "discountPercent": 53,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿899"
   },
   {
     "shopId": "220797418",
@@ -11740,9 +11740,9 @@
     "affiliateUrl": "https://shopee.co.th/product/220797418/43979710202?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=43979710202",
     "scrapedAt": "2026-07-05",
     "localImage": "/products/my-paws-x-jiancha-6-710202.webp",
-    "originalPrice": "฿399",
     "discountPercent": 51,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿399"
   },
   {
     "shopId": "1095732389",
@@ -11768,9 +11768,9 @@
     "affiliateUrl": "https://shopee.co.th/product/1095732389/27350556474?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=27350556474",
     "scrapedAt": "2026-07-05",
     "localImage": "/products/kanimal-6-1-556474.webp",
-    "originalPrice": "฿429",
     "discountPercent": 61,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿429"
   },
   {
     "shopId": "111137862",
@@ -11796,9 +11796,9 @@
     "affiliateUrl": "https://shopee.co.th/product/111137862/25663022653?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=25663022653",
     "scrapedAt": "2026-07-05",
     "localImage": "/products/meow-10-022653.webp",
-    "originalPrice": "฿195",
     "discountPercent": 57,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿195"
   },
   {
     "shopId": "1449018616",
@@ -11901,9 +11901,9 @@
     "affiliateUrl": "https://shopee.co.th/product/104796104/4917341540?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=4917341540",
     "scrapedAt": "2026-07-05",
     "localImage": "/products/supercoat-8kg-341540.webp",
-    "originalPrice": "฿829",
     "discountPercent": 27,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿829"
   },
   {
     "shopId": "63476695",
@@ -11981,9 +11981,9 @@
     "affiliateUrl": "https://shopee.co.th/product/866995884/42824630015?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=42824630015",
     "scrapedAt": "2026-07-05",
     "localImage": "/products/boom-gold-10-kg-630015.webp",
-    "originalPrice": "฿740",
     "discountPercent": 12,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿740"
   },
   {
     "shopId": "866995884",
@@ -12009,9 +12009,9 @@
     "affiliateUrl": "https://shopee.co.th/product/866995884/23003532413?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=23003532413",
     "scrapedAt": "2026-07-05",
     "localImage": "/products/boom-gold-10-kg-532413.webp",
-    "originalPrice": "฿740",
     "discountPercent": 12,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿740"
   },
   {
     "shopId": "722376275",
@@ -12037,9 +12037,9 @@
     "affiliateUrl": "https://shopee.co.th/product/722376275/19771541015?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=19771541015",
     "scrapedAt": "2026-07-05",
     "localImage": "/products/prowild-15-541015.webp",
-    "originalPrice": "฿2,949",
     "discountPercent": 50,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿2,949"
   },
   {
     "shopId": "79695887",
@@ -12065,9 +12065,9 @@
     "affiliateUrl": "https://shopee.co.th/product/79695887/7418506200?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=7418506200",
     "scrapedAt": "2026-07-05",
     "localImage": "/products/20-smartheart-adult-roast-beef-20kg-506200.webp",
-    "originalPrice": "฿1,599",
     "discountPercent": 6,
-    "isOnSale": true
+    "isOnSale": true,
+    "price_before_discount": "฿1,599"
   },
   {
     "shopId": "155384172",
