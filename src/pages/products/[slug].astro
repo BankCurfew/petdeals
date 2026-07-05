@@ -132,7 +132,7 @@ const productSchema = {
   "@context": "https://schema.org",
   "@type": "Product",
   "name": seoTitle,
-  "image": images,
+  "image": images.map((img: string) => img.startsWith('http') ? img : new URL(img, Astro.site).href),
   "description": description,
   "brand": brandClean ? { "@type": "Brand", "name": brandClean } : undefined,
   "offers": {
@@ -143,12 +143,12 @@ const productSchema = {
     ...(priceHigh > price ? { "highPrice": priceHigh } : {}),
     "availability": "https://schema.org/InStock",
   },
-  ...(rating > 0 ? {
+  ...(rating > 0 && reviewCount > 0 ? {
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": rating,
       "bestRating": "5",
-      "ratingCount": reviewCount || 10,
+      "ratingCount": reviewCount,
     }
   } : {}),
 };

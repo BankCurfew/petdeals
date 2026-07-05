@@ -48,12 +48,15 @@ const endDate = season.endDate || `${now.getFullYear()}-${String(season.endMonth
 
 const saleEvent = {
   "@context": "https://schema.org",
-  "@type": "SaleEvent",
+  "@type": "Event",
   "name": `PetzDeals ${season.name}`,
   "description": season.description,
   "startDate": startDate,
   "endDate": endDate,
   "url": `https://petzdeals.com/deals/${season.slug}/`,
+  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "location": { "@type": "VirtualLocation", "url": `https://petzdeals.com/deals/${season.slug}/` },
   "organizer": { "@type": "Organization", "name": "PetzDeals", "url": "https://petzdeals.com" },
 };
 

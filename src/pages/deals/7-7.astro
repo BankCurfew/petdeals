@@ -26,12 +26,15 @@ const products = productsData
 
 const schemaEvent = {
   "@context": "https://schema.org",
-  "@type": "SaleEvent",
+  "@type": "Event",
   "name": "PetzDeals 7.7 Mega Pet Sale",
   "description": "ลดสูงสุด 80% อุปกรณ์สัตว์เลี้ยง — ดีลดีสำหรับทาสแมวและทาสหมา",
   "startDate": "2026-07-01",
   "endDate": "2026-07-08",
   "url": "https://petzdeals.com/deals/7-7/",
+  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "location": { "@type": "VirtualLocation", "url": "https://petzdeals.com/deals/7-7/" },
   "organizer": { "@type": "Organization", "name": "PetzDeals", "url": "https://petzdeals.com" },
 };
 ---
