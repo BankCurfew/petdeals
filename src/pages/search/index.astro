@@ -1,0 +1,105 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import ProductCard from '@/components/ProductCard.astro';
+import productsData from '../../../data/products.json';
+
+const allProducts = productsData
+  .filter((p: any) => p.slug && p.title)
+  .map((p: any) => {
+    const price = parseInt(String(p.price).replace(/[^0-9]/g, '')) || 0;
+    const maxPrice = parseInt(String(p.priceMax).replace(/[^0-9]/g, '')) || 0;
+    return {
+      name: p.title,
+      image: p.images?.[0] || '',
+      price,
+      originalPrice: maxPrice > price ? maxPrice : undefined,
+      discount: maxPrice > price ? Math.round((1 - price / maxPrice) * 100) : 0,
+      rating: p.rating ? parseFloat(p.rating) : undefined,
+      sold: p.sold || '',
+      affiliateUrl: p.affiliateUrl || p.url || '#',
+      category: p.category,
+      slug: p.slug,
+      searchText: `${p.title} ${p.category || ''}`.toLowerCase(),
+    };
+  });
+---
+
+<BaseLayout title="ค้นหาสินค้า — PetzDeals" description="ค้นหาดีลสินค้าสัตว์เลี้ยงจาก Shopee คัดมาให้โดยน้องดีล">
+  <nav class="max-w-7xl mx-auto px-4 py-3 text-sm text-gray-400">
+    <a href="/" class="hover:text-pet-500">หน้าแรก</a>
+    <span class="mx-1">›</span>
+    <span class="text-gray-600">ค้นหา</span>
+  </nav>
+
+  <main class="max-w-7xl mx-auto px-4 pb-12">
+    <div class="mb-6">
+      <h1 class="text-2xl font-bold text-gray-800 mb-3">🔍 ค้นหาสินค้า</h1>
+      <input
+        type="search"
+        id="search-input"
+        placeholder="พิมพ์ชื่อสินค้า เช่น อาหารแมว, Royal Canin, ทรายเต้าหู้..."
+        class="w-full max-w-lg pl-4 pr-3 py-2.5 text-base border border-gray-200 rounded-full bg-gray-50 focus:bg-white focus:border-pet-400 focus:outline-none transition-colors"
+        autofocus
+      />
+      <p id="result-count" class="mt-2 text-sm text-gray-400"></p>
+    </div>
+
+    <div id="results" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
+      {allProducts.map((p) => (
+        <div data-product-name={p.name} data-search-text={p.searchText}>
+          <ProductCard {...p} />
+        </div>
+      ))}
+    </div>
+
+    <div id="no-results" class="hidden text-center py-12 text-gray-400">
+      <p class="text-4xl mb-3">🐾</p>
+      <p class="text-lg">ไม่พบสินค้าที่ค้นหา</p>
+      <p class="text-sm mt-1">ลองเปลี่ยนคำค้นหาดูนะ</p>
+    </div>
+  </main>
+
+  <script>
+    const input = document.getElementById('search-input') as HTMLInputElement;
+    const results = document.getElementById('results')!;
+    const noResults = document.getElementById('no-results')!;
+    const countEl = document.getElementById('result-count')!;
+    const cards = results.querySelectorAll('[data-search-text]');
+    const total = cards.length;
+
+    // Read ?q= from URL
+    const params = new URLSearchParams(window.location.search);
+    const initialQ = params.get('q') || '';
+    if (initialQ) {
+      input.value = initialQ;
+      filter(initialQ);
+    } else {
+      countEl.textContent = `ทั้งหมด ${total} สินค้า`;
+    }
+
+    input.addEventListener('input', (e) => filter((e.target as HTMLInputElement).value));
+    input.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        const q = input.value.trim();
+        if (q) {
+          const url = new URL(window.location.href);
+          url.searchParams.set('q', q);
+          window.history.replaceState({}, '', url.toString());
+        }
+      }
+    });
+
+    function filter(raw: string) {
+      const q = raw.toLowerCase().trim();
+      let visible = 0;
+      cards.forEach(card => {
+        const match = !q || (card as HTMLElement).dataset.searchText!.includes(q);
+        (card as HTMLElement).style.display = match ? '' : 'none';
+        if (match) visible++;
+      });
+      countEl.textContent = q ? `พบ ${visible} จาก ${total} สินค้า` : `ทั้งหมด ${total} สินค้า`;
+      noResults.classList.toggle('hidden', visible > 0);
+    }
+  </script>
+</BaseLayout>

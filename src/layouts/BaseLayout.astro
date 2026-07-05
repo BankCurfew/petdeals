@@ -152,15 +152,16 @@ const ogImage = new URL(image || '/brand/og-default.webp', Astro.site).href;
         menuBtn.addEventListener('click', () => menu.classList.toggle('hidden'));
       }
 
-      // Search (desktop + mobile)
+      // Search — navigate to /search?q=
       ['site-search', 'mobile-search'].forEach(id => {
         const search = document.getElementById(id);
         if (search) {
-          search.addEventListener('input', (e) => {
-            const q = e.target.value.toLowerCase().trim();
-            document.querySelectorAll('[data-product-name]').forEach(card => {
-              card.style.display = (!q || card.dataset.productName.toLowerCase().includes(q)) ? '' : 'none';
-            });
+          search.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter') {
+              e.preventDefault();
+              const q = e.target.value.trim();
+              if (q) window.location.href = `/search/?q=${encodeURIComponent(q)}`;
+            }
           });
         }
       });
