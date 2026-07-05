@@ -3268,14 +3268,16 @@
     "itemId": "43176485405",
     "brand": "",
     "category": "ของเล่นแมว",
-    "slug": "yz",
+    "slug": "",
     "url": "https://shopee.co.th/product/439456949/43176485405",
     "affiliateUrl": "https://shopee.co.th/product/439456949/43176485405?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=43176485405",
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/yz.webp",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": " ของเล่นเเมวซ่อนหาอัตโนมัติ  สิ่งประดิษฐ์แมวตลก ชาร์จไฟได้",
@@ -3406,7 +3408,7 @@
     "itemId": "53304163589",
     "brand": "",
     "category": "ของเล่นแมว",
-    "slug": "p-144901-1",
+    "slug": "",
     "url": "https://shopee.co.th/product/1449018616/53304163589",
     "affiliateUrl": "https://shopee.co.th/product/1449018616/53304163589?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=53304163589",
     "scrapedAt": "2026-07-02",
@@ -3414,7 +3416,9 @@
     "localImage": "/products/p-144901-1.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "【Pet Gravity】 ที่ลับเล็บแมวผ้าฟลีซนุ่ม 3 in 1 นอนหลับ เล่นสนุก ลับเล็บ เหมาะทุกสายพันธุ์ ของเล่นแมวอเนกประสงค์",
@@ -3685,14 +3689,16 @@
     "itemId": "23670624078",
     "brand": "",
     "category": "ของเล่นแมว",
-    "slug": "cat-toy",
+    "slug": "",
     "url": "https://shopee.co.th/product/197780458/23670624078",
     "affiliateUrl": "https://shopee.co.th/product/197780458/23670624078?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=23670624078",
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/cat-toy.webp",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "😻 แมวหยุดเล่นไม่ได้! ของเล่นแมวอัจฉริยะ วิ่งสุ่ม 360° โหมดเงียบ ชาร์จ USB Type-C ลดความเครียด เผาผลาญพลังงาน",
@@ -3739,7 +3745,7 @@
     "itemId": "40464972383",
     "brand": "",
     "category": "ของเล่นแมว",
-    "slug": "winky-wink-diy",
+    "slug": "",
     "url": "https://shopee.co.th/product/262372452/40464972383",
     "affiliateUrl": "https://shopee.co.th/product/262372452/40464972383?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=40464972383",
     "scrapedAt": "2026-07-02",
@@ -3747,7 +3753,9 @@
     "localImage": "/products/winky-wink-diy.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "ของเล่นแมวอัตโนมัติ🐱ไม้ล่อแมวขนนก เคลื่อนไหวสุ่ม เล่นซ่อนหา อัตโนมัติไม้ตกแมว ชาร์จ USB ของเล่นแมวแก้เบื่อ",
@@ -3933,7 +3941,7 @@
     "itemId": "21133262233",
     "brand": "",
     "category": "คอนโดแมว",
-    "slug": "winky-wink",
+    "slug": "",
     "url": "https://shopee.co.th/product/262372452/21133262233",
     "affiliateUrl": "https://shopee.co.th/product/262372452/21133262233?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=21133262233",
     "scrapedAt": "2026-07-02",
@@ -3941,7 +3949,9 @@
     "localImage": "/products/winky-wink.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "😻 【4in1】เสาลับเล็บแมว แผ่นลับเล็บ คอนโดแมว ของเล่นแมว กันลื่น วัสดุไม้แท้ แข็งแรง ทนทาน",
@@ -4016,14 +4026,16 @@
     "itemId": "41317632942",
     "brand": "",
     "category": "คอนโดแมว",
-    "slug": "petcho",
+    "slug": "",
     "url": "https://shopee.co.th/product/287201971/41317632942",
     "affiliateUrl": "https://shopee.co.th/product/287201971/41317632942?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=41317632942",
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/petcho.webp",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "Fly-soft ของเล่นแมว ของเล่นล่อแมว ติดตก ติดแทงแมว ขนนก สำหรับแมว ของเล่นแมว",
@@ -4071,7 +4083,7 @@
     "itemId": "50359871823",
     "brand": "",
     "category": "คอนโดแมว",
-    "slug": "p-126915",
+    "slug": "",
     "url": "https://shopee.co.th/product/1269155641/50359871823",
     "affiliateUrl": "https://shopee.co.th/product/1269155641/50359871823?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=50359871823",
     "scrapedAt": "2026-07-02",
@@ -4079,7 +4091,9 @@
     "localImage": "/products/p-126915.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "60CM!! ขนาดใหญ่ ที่ลับเล็บแมว แผ่นลับเล็บแมว ที่ฝนเล็บแมว ของเล่นแมว รูปทรงตัว L 60*40*25ซม จัดส่งจากไทย🚛💨",
@@ -4181,7 +4195,7 @@
     "itemId": "27273653791",
     "brand": "",
     "category": "คอนโดแมว",
-    "slug": "winky-wink-1",
+    "slug": "",
     "url": "https://shopee.co.th/product/262372452/27273653791",
     "affiliateUrl": "https://shopee.co.th/product/262372452/27273653791?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=27273653791",
     "scrapedAt": "2026-07-02",
@@ -4189,7 +4203,9 @@
     "localImage": "/products/winky-wink-1.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "🐾ที่ลับเล็บแมว ฝนเล็บแมว คอนโดแมวราคาถูก คอนโดแมว ที่ฝนเล็บแมว ลับเล็บแมว คอนโดแมวเล็ก ของเล่นแมว แผ่นลับเล็บแมว แมวเล็บ",
@@ -4264,14 +4280,16 @@
     "itemId": "45009313358",
     "brand": "",
     "category": "คอนโดแมว",
-    "slug": "p-137016",
+    "slug": "",
     "url": "https://shopee.co.th/product/1370162073/45009313358",
     "affiliateUrl": "https://shopee.co.th/product/1370162073/45009313358?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=45009313358",
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-137016.webp",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "🔥 ของเล่นเเมว ของเล่นแมว ตุ๊กติดั่งไม่ล้ม 360° ของเล่น ของใช้แมว รางบอลแมว ของเล่นลููกแมว สัตว์เลี้ยง รางบอลทาวเวอร์ แมว",
@@ -4291,7 +4309,7 @@
     "itemId": "55054442099",
     "brand": "",
     "category": "คอนโดแมว",
-    "slug": "p-114535-1",
+    "slug": "",
     "url": "https://shopee.co.th/product/1145356578/55054442099",
     "affiliateUrl": "https://shopee.co.th/product/1145356578/55054442099?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=55054442099",
     "scrapedAt": "2026-07-02",
@@ -4299,7 +4317,9 @@
     "localImage": "/products/p-114535-1.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "(ซื้อ 1 แถม 1)ที่ลับเล็บแมว รูปอ่าง ที่ฝนเล็บแมว ของเล่นแมว เป็นที่นอนแมวไปในตัว ฟรี แคปนิท ที่ลับเล็บ ที่ลับเล็บแมว ที่",
@@ -4319,14 +4339,16 @@
     "itemId": "42317089551",
     "brand": "",
     "category": "คอนโดแมว",
-    "slug": "p-126915-1",
+    "slug": "",
     "url": "https://shopee.co.th/product/1269155641/42317089551",
     "affiliateUrl": "https://shopee.co.th/product/1269155641/42317089551?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=42317089551",
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-126915-1.webp",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "รางบอลแมว4ชั้น ของเล่นแมว รางบอลแมว รางบอล4ชั้น ของเล่นน้องแมว",
@@ -4346,7 +4368,7 @@
     "itemId": "24542818505",
     "brand": "",
     "category": "คอนโดแมว",
-    "slug": "p-126915-2",
+    "slug": "",
     "url": "https://shopee.co.th/product/1269155641/24542818505",
     "affiliateUrl": "https://shopee.co.th/product/1269155641/24542818505?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=24542818505",
     "scrapedAt": "2026-07-02",
@@ -4354,7 +4376,9 @@
     "localImage": "/products/p-126915-2.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "ซื้อ 1 แถม 1🔥ที่ลับเล็บแมว รูปอ่าง ที่ลับเล็บแมวขนาดใหญ่ ที่ขูดเล็บ ของเล่นแมว รูปอ่าง เป็นที่นอนแมวไปในตัว",
@@ -4374,7 +4398,7 @@
     "itemId": "55755860220",
     "brand": "",
     "category": "น้ำพุแมว",
-    "slug": "p-378764",
+    "slug": "",
     "url": "https://shopee.co.th/product/378764485/55755860220",
     "affiliateUrl": "https://shopee.co.th/product/378764485/55755860220?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=55755860220",
     "scrapedAt": "2026-07-02",
@@ -4382,7 +4406,9 @@
     "localImage": "/products/p-378764.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "ไม้ตกแมว ไม้ล่อแมว ไม้ตบแมว ไม้แมว ของเล่นแมว ของเล่นเเมว ขอเล่นแมว ขนนกแมว ขนไก่แมว",
@@ -4486,14 +4512,16 @@
     "itemId": "3361301801",
     "brand": "",
     "category": "น้ำพุแมว",
-    "slug": "petcho-1",
+    "slug": "",
     "url": "https://shopee.co.th/product/287201971/3361301801",
     "affiliateUrl": "https://shopee.co.th/product/287201971/3361301801?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=3361301801",
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/petcho-1.webp",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "ของเล่นแมว วัสดุแผ่นไม้หนา ของเล่นปริศนาแมว สัตว์เลี้ยงปริศนาเขาวงกต ของเล่นแมว กล่องปริศนาแมว ไม้ตกแมว ของเล่นเเมว",
@@ -4596,14 +4624,16 @@
     "itemId": "41975266802",
     "brand": "",
     "category": "น้ำพุแมว",
-    "slug": "uo",
+    "slug": "",
     "url": "https://shopee.co.th/product/439456949/41975266802",
     "affiliateUrl": "https://shopee.co.th/product/439456949/41975266802?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=41975266802",
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/uo.webp",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "ที่ลับเล็บแมว แผ่นลับเล็บแมว ที่ฝนเล็บแมว ของเล่นแมว รูปทรงตัวL มีขนาดเล็ก และ ขนาดใหญ่",
@@ -4623,7 +4653,7 @@
     "itemId": "18981016794",
     "brand": "",
     "category": "น้ำพุแมว",
-    "slug": "l",
+    "slug": "",
     "url": "https://shopee.co.th/product/439456949/18981016794",
     "affiliateUrl": "https://shopee.co.th/product/439456949/18981016794?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=18981016794",
     "scrapedAt": "2026-07-02",
@@ -4631,7 +4661,9 @@
     "localImage": "/products/l.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "🐱รางบอลของเล่นแมว ของเล่นเเมวบอลแมว ไม้ตกแมวขนนก 360° สามารถหมุนได้ กันลื่น ถอดได้ มั่นคง เล่นได้ทน",
@@ -4679,7 +4711,7 @@
     "itemId": "20194452814",
     "brand": "",
     "category": "น้ำพุแมว",
-    "slug": "l-la-xl",
+    "slug": "",
     "url": "https://shopee.co.th/product/439456949/20194452814",
     "affiliateUrl": "https://shopee.co.th/product/439456949/20194452814?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=20194452814",
     "scrapedAt": "2026-07-02",
@@ -4687,7 +4719,9 @@
     "localImage": "/products/l-la-xl.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "TT HOME01🌵ผีเสื้อ บินได้ ของเล่นอัตโนมัติ ของเล่นแมว สัตว์เลี้ยง ของเล่นแมวผีเสื้อ ดอกไม้ไฟฟ้า ของล่อแมว ผีเสื้อออโต้🌵",
@@ -4707,14 +4741,16 @@
     "itemId": "57905693998",
     "brand": "",
     "category": "น้ำพุแมว",
-    "slug": "tt-home",
+    "slug": "",
     "url": "https://shopee.co.th/product/1217502281/57905693998",
     "affiliateUrl": "https://shopee.co.th/product/1217502281/57905693998?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=57905693998",
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/tt-home.webp",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "yoyopet : ของเล่นแมว หมุนอัตโนมัติอัจฉริยะ นกบิน ผีเสื้อบินอัตโนมัติ ของเล่นออโต้ หมุน360°",
@@ -4734,14 +4770,16 @@
     "itemId": "26666114126",
     "brand": "",
     "category": "น้ำพุแมว",
-    "slug": "yoyopet-1",
+    "slug": "",
     "url": "https://shopee.co.th/product/996675217/26666114126",
     "affiliateUrl": "https://shopee.co.th/product/996675217/26666114126?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=26666114126",
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/yoyopet-1.webp",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "YTL ที่ลับเล็บแมว ของเล่นแมว ฝนเล็บแมว ที่ฝนเล็บแมวลูกบอล ที่ฝนเล็บแมวใหญ่ ที่ฝนเล็บแมวขนาดใหญ่ บ้านแมว ที่ฝนเล็บแมว",
@@ -4761,7 +4799,7 @@
     "itemId": "24137160719",
     "brand": "",
     "category": "น้ำพุแมว",
-    "slug": "ytl",
+    "slug": "",
     "url": "https://shopee.co.th/product/1329098245/24137160719",
     "affiliateUrl": "https://shopee.co.th/product/1329098245/24137160719?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=24137160719",
     "scrapedAt": "2026-07-02",
@@ -4769,7 +4807,9 @@
     "localImage": "/products/ytl.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "🍄 ที่ลับเล็บแมว ของเล่นแมว 5in1 คอนโดแมว คอนโดแมวไม้ เสาลับเล็บแมวได้ ไม่สั่นไหว ที่ลับเล็บ มัลติฟังก์ชั่น เสาฝนเล็บแมว",
@@ -4929,7 +4969,7 @@
     "itemId": "19090247853",
     "brand": "",
     "category": "เครื่องให้อาหาร",
-    "slug": "cat-stick",
+    "slug": "",
     "url": "https://shopee.co.th/product/687449835/19090247853",
     "affiliateUrl": "https://shopee.co.th/product/687449835/19090247853?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=19090247853",
     "scrapedAt": "2026-07-02",
@@ -4937,7 +4977,9 @@
     "localImage": "/products/cat-stick.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "ของเล่นสุนัข ของเล่นแมว ตุ๊กตาเป็ดที่มีเสียงในตัว ของเล่นแบบโต้ตอบ (พร้อมส่ง) CW71",
@@ -4985,14 +5027,16 @@
     "itemId": "29078134646",
     "brand": "",
     "category": "เครื่องให้อาหาร",
-    "slug": "ytl-1",
+    "slug": "",
     "url": "https://shopee.co.th/product/327068445/29078134646",
     "affiliateUrl": "https://shopee.co.th/product/327068445/29078134646?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=29078134646",
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/ytl-1.webp",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "ลูกบอลแมว ลูกบอลแมวอัตโนมัติ แบบชาร์จไฟได้ ของเล่นแมว สมาร์ทไฟฟ้า หมุน ของเล่นแมวแบบโต้ตอบ อุปกรณ์สําหรับแมว",
@@ -5180,7 +5224,7 @@
     "itemId": "43206770882",
     "brand": "",
     "category": "เครื่องให้อาหาร",
-    "slug": "pet-record",
+    "slug": "",
     "url": "https://shopee.co.th/product/1562608136/43206770882",
     "affiliateUrl": "https://shopee.co.th/product/1562608136/43206770882?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=43206770882",
     "scrapedAt": "2026-07-02",
@@ -5188,7 +5232,9 @@
     "localImage": "/products/pet-record.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "ที่ลับเล็บแมว ของเล่นแมว ฝนเล็บแมว ที่ฝนเล็บแมวลูกบอล ที่ฝนเล็บแมวใหญ่ ที่ฝนเล็บแมวขนาดใหญ่ บ้านแมว ที่ฝนเล็บแมว",
@@ -5208,7 +5254,7 @@
     "itemId": "20388781003",
     "brand": "",
     "category": "เครื่องให้อาหาร",
-    "slug": "p-648582-1",
+    "slug": "",
     "url": "https://shopee.co.th/product/648582553/20388781003",
     "affiliateUrl": "https://shopee.co.th/product/648582553/20388781003?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=20388781003",
     "scrapedAt": "2026-07-02",
@@ -5216,7 +5262,9 @@
     "localImage": "/products/p-648582-1.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "🐱ลูกบอลแมว บอลแมวอัตโนมัติ ชาร์ตแบตได้ ของเล่นแมว สมาร์ทไฟฟ้า  หมุนได้ ของเล่นแมวโต้ตอบ ของใช้แมว",
@@ -5236,7 +5284,7 @@
     "itemId": "29120010808",
     "brand": "",
     "category": "เครื่องให้อาหาร",
-    "slug": "p-136865",
+    "slug": "",
     "url": "https://shopee.co.th/product/1368650681/29120010808",
     "affiliateUrl": "https://shopee.co.th/product/1368650681/29120010808?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=29120010808",
     "scrapedAt": "2026-07-02",
@@ -5244,7 +5292,9 @@
     "localImage": "/products/p-136865.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "ของเล่นปริศนาแมวแบบโต้ตอบพร้อมลูกบอลกระดิ่ง | กล่องเขาวงกตสักหลาดสําหรับแมวในร่ม | ของเล่นกระตุ้นจิตในตัวเองเล่น | ลูกแมว เบื่อหน่าย บัสเตอร์",
@@ -5320,14 +5370,16 @@
     "itemId": "27156745217",
     "brand": "",
     "category": "เครื่องให้อาหาร",
-    "slug": "p-126129",
+    "slug": "",
     "url": "https://shopee.co.th/product/1261293109/27156745217",
     "affiliateUrl": "https://shopee.co.th/product/1261293109/27156745217?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=27156745217",
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-126129.webp",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "Petcho ของเล่นแมว ของเล่นสัตว์เลี้ยง ไม้ล่อแมว ขนนก กัญชาแมว การหมุน 360° ดีไซน์ทัมเบลอร์ แคทนิป + ลูกบอลกระดิ่ง",
@@ -5347,14 +5399,16 @@
     "itemId": "27264278145",
     "brand": "",
     "category": "เครื่องให้อาหาร",
-    "slug": "petcho-2",
+    "slug": "",
     "url": "https://shopee.co.th/product/287201971/27264278145",
     "affiliateUrl": "https://shopee.co.th/product/287201971/27264278145?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=27264278145",
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/petcho-2.webp",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "yoyopet : Cat Teaser ไม้ล่อแมว คฑานางฟ้า ไม้ตกแมวเจ้าหญิง น่ารัก ฟรุ้งฟริ้ง ของเล่นแมว สายรุ้ง",
@@ -5374,14 +5428,16 @@
     "itemId": "29912413138",
     "brand": "",
     "category": "เครื่องให้อาหาร",
-    "slug": "yoyopet-cat-teaser",
+    "slug": "",
     "url": "https://shopee.co.th/product/996675217/29912413138",
     "affiliateUrl": "https://shopee.co.th/product/996675217/29912413138?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=29912413138",
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/yoyopet-cat-teaser.webp",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "yoyopet : ที่ลับเล็บแมว+แคทนิป อ่างลับเล็บ ของเล่นแมว ที่นอนแมว แผ่นลับเล็บ ที่ฝนเล็บสัตว์เลี้ยง",
@@ -5401,7 +5457,7 @@
     "itemId": "29264832188",
     "brand": "",
     "category": "เครื่องให้อาหาร",
-    "slug": "yoyopet-2",
+    "slug": "",
     "url": "https://shopee.co.th/product/996675217/29264832188",
     "affiliateUrl": "https://shopee.co.th/product/996675217/29264832188?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=29264832188",
     "scrapedAt": "2026-07-02",
@@ -5409,7 +5465,9 @@
     "localImage": "/products/yoyopet-2.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "ของเล่นแมว ไม้ตกแมวพร้อมขนนกและกระดิ่ง รุ่นฐานดูดติดพื้น/กระจก ราคาถูก พร้อมส่ง",
@@ -5429,7 +5487,7 @@
     "itemId": "20268172189",
     "brand": "",
     "category": "เครื่องให้อาหาร",
-    "slug": "p-439456",
+    "slug": "",
     "url": "https://shopee.co.th/product/439456949/20268172189",
     "affiliateUrl": "https://shopee.co.th/product/439456949/20268172189?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=20268172189",
     "scrapedAt": "2026-07-02",
@@ -5437,7 +5495,9 @@
     "localImage": "/products/p-439456.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "ลูกบอลแมวอัจฉริยะ  ระบบหลบหลีกอัตโนมัติ  3 โหมดแสง  ขนาด 6x5.5 ซม.  วัสดุซิลิโคน",
@@ -5484,14 +5544,16 @@
     "itemId": "24622746513",
     "brand": "",
     "category": "กรงและกระเป๋า",
-    "slug": "harmcat-1",
+    "slug": "",
     "url": "https://shopee.co.th/product/277387227/24622746513",
     "affiliateUrl": "https://shopee.co.th/product/277387227/24622746513?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=24622746513",
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/harmcat-1.webp",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "PETLUSCI ไม้ล่อแมว แบบติดพื้นสุญญากาศ มีกระดิ่งล่อความสนใจ สนุกไม่รู้จบ แมวเล่นต่อเนื่อง Cat Teaser",
@@ -5511,14 +5573,16 @@
     "itemId": "57458127171",
     "brand": "",
     "category": "กรงและกระเป๋า",
-    "slug": "petlusci-cat-teaser",
+    "slug": "",
     "url": "https://shopee.co.th/product/1638782512/57458127171",
     "affiliateUrl": "https://shopee.co.th/product/1638782512/57458127171?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=57458127171",
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/petlusci-cat-teaser.webp",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "ของเล่นแมวไฟฟ้า เขย่านกจําลอง ล้อเล่นนกกระจอก บรรเทาความเบื่อหน่าย",
@@ -5566,7 +5630,7 @@
     "itemId": "26927257172",
     "brand": "",
     "category": "กรงและกระเป๋า",
-    "slug": "winky-wink-cat",
+    "slug": "",
     "url": "https://shopee.co.th/product/262372452/26927257172",
     "affiliateUrl": "https://shopee.co.th/product/262372452/26927257172?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=26927257172",
     "scrapedAt": "2026-07-02",
@@ -5574,7 +5638,9 @@
     "localImage": "/products/winky-wink-cat.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "CODรางบอลแมว ทาวเวอร์ 4 ชั้น  มีที่เสียบไม้ตกแมว สามารถหมุนได้ 360 องศา ด้วยขนนก บอลแมว จานเสียงแมว",
@@ -5649,7 +5715,7 @@
     "itemId": "43810753801",
     "brand": "",
     "category": "กรงและกระเป๋า",
-    "slug": "catnip",
+    "slug": "",
     "url": "https://shopee.co.th/product/965000081/43810753801",
     "affiliateUrl": "https://shopee.co.th/product/965000081/43810753801?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=43810753801",
     "scrapedAt": "2026-07-02",
@@ -5657,7 +5723,9 @@
     "localImage": "/products/catnip.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "ของเล่นแมว สัญญาณไฟฟ้า หนูวิ่งหนีอัตโนมัติ ของเล่นสัตว์เลี้ยง หนูวิ่งได้ หนูไขลาน หนูปลอม",
@@ -5732,7 +5800,7 @@
     "itemId": "50055839955",
     "brand": "",
     "category": "กรงและกระเป๋า",
-    "slug": "p-126755",
+    "slug": "",
     "url": "https://shopee.co.th/product/1267559768/50055839955",
     "affiliateUrl": "https://shopee.co.th/product/1267559768/50055839955?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=50055839955",
     "scrapedAt": "2026-07-02",
@@ -5740,7 +5808,9 @@
     "localImage": "/products/p-126755.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "รางบอลแมว4ชั้น ของเล่นแมว รางบอลแมว รางบอล4ชั้น ของเล่นน้องแมว",
@@ -5760,7 +5830,7 @@
     "itemId": "18386728991",
     "brand": "",
     "category": "กรงและกระเป๋า",
-    "slug": "p-648582-2",
+    "slug": "",
     "url": "https://shopee.co.th/product/648582553/18386728991",
     "affiliateUrl": "https://shopee.co.th/product/648582553/18386728991?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=18386728991",
     "scrapedAt": "2026-07-02",
@@ -5768,7 +5838,9 @@
     "localImage": "/products/p-648582-2.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "Pet Cat Toy อุโมงค์แมวสายรุ้ง กระดิ่งแมว Pet Runway Cat Drill",
@@ -5788,7 +5860,7 @@
     "itemId": "16180118786",
     "brand": "",
     "category": "กรงและกระเป๋า",
-    "slug": "pet-cat-toy",
+    "slug": "",
     "url": "https://shopee.co.th/product/542657688/16180118786",
     "affiliateUrl": "https://shopee.co.th/product/542657688/16180118786?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=16180118786",
     "scrapedAt": "2026-07-02",
@@ -5796,7 +5868,9 @@
     "localImage": "/products/pet-cat-toy.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "แคทนิป แมวรางบอลแมว4ชั้น ของเล่นแมว รางบอลแมว รางบอล4ชั้น ของเล่นสำหรับสัตว์เลี้ยง มีไม้ตกแมว รางบอลแมว Cat toy ของเล่นแ",
@@ -5816,7 +5890,7 @@
     "itemId": "41571291233",
     "brand": "",
     "category": "กรงและกระเป๋า",
-    "slug": "cat-toy-1",
+    "slug": "",
     "url": "https://shopee.co.th/product/1269155641/41571291233",
     "affiliateUrl": "https://shopee.co.th/product/1269155641/41571291233?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=41571291233",
     "scrapedAt": "2026-07-02",
@@ -5824,7 +5898,9 @@
     "localImage": "/products/cat-toy-1.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "ลูกบอลสัตว์เลี้ยง ของเล่นแมวอัจฉริยะ ลูกบอลกลิ้งอัตโนมัติ ลูกบอลกลิ้ง ของเล่นแมว หมุนได้ 360 องศา เรืองแสง",
@@ -5872,14 +5948,16 @@
     "itemId": "28374019968",
     "brand": "",
     "category": "กรงและกระเป๋า",
-    "slug": "in-5",
+    "slug": "",
     "url": "https://shopee.co.th/product/648582553/28374019968",
     "affiliateUrl": "https://shopee.co.th/product/648582553/28374019968?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=28374019968",
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/in-5.webp",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "ที่ลับเล็บแมวทรงอ่าง ที่ฝนเล็บ พร้อมแคทนิปในตัว ใช้เป็นที่นอนได้ ของเล่นแมว อ่างลับเล็บแมว ที่ฝนเล็บแมว ที่ขูดเล็บแมว",
@@ -5927,7 +6005,7 @@
     "itemId": "27214842367",
     "brand": "",
     "category": "กรงและกระเป๋า",
-    "slug": "yoyopet-in",
+    "slug": "",
     "url": "https://shopee.co.th/product/996675217/27214842367",
     "affiliateUrl": "https://shopee.co.th/product/996675217/27214842367?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=27214842367",
     "scrapedAt": "2026-07-02",
@@ -5935,7 +6013,9 @@
     "localImage": "/products/yoyopet-in.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "I&CAT ของใช้แมว เตียงลับเล็บแมว ที่ลับเล็บแมว ลูกตุ้มลับเล็บ ของเล่นแมว ที่ข่วนเล็บ ย้ายสะดวก",
@@ -6011,14 +6091,16 @@
     "itemId": "28780648536",
     "brand": "",
     "category": "กรงและกระเป๋า",
-    "slug": "ytl-2",
+    "slug": "",
     "url": "https://shopee.co.th/product/371280616/28780648536",
     "affiliateUrl": "https://shopee.co.th/product/371280616/28780648536?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=28780648536",
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/ytl-2.webp",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "SKISOPGO ของเล่นแมว อุโมงค์3ทาง อุโมงค์ สำหรับแมวหรือสัตว์ขนาดใหญ่ พับเก็บได้/จัดเก็บง่าย",
@@ -6066,14 +6148,16 @@
     "itemId": "14187892295",
     "brand": "",
     "category": "อาหารแมว",
-    "slug": "harmcat-2",
+    "slug": "",
     "url": "https://shopee.co.th/product/277387227/14187892295",
     "affiliateUrl": "https://shopee.co.th/product/277387227/14187892295?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=14187892295",
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/harmcat-2.webp",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "ของเล่นแมว ไม้ตกแมว หลายสี ไม้ตกแมวแบบสปริง ไม้ล่อแมว แบบลวดสลิง",
@@ -6093,7 +6177,7 @@
     "itemId": "29753151471",
     "brand": "",
     "category": "อาหารแมว",
-    "slug": "p-116404",
+    "slug": "",
     "url": "https://shopee.co.th/product/1164047573/29753151471",
     "affiliateUrl": "https://shopee.co.th/product/1164047573/29753151471?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=29753151471",
     "scrapedAt": "2026-07-02",
@@ -6101,7 +6185,9 @@
     "localImage": "/products/p-116404.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "P10 ของเล่นอุโมงแมว มีหลายแบบให้เลือก ที่ขาดยาว รูปทรงS หรือบ้าน",
@@ -6121,7 +6207,7 @@
     "itemId": "24627695130",
     "brand": "",
     "category": "อาหารแมว",
-    "slug": "p-s",
+    "slug": "",
     "url": "https://shopee.co.th/product/863211574/24627695130",
     "affiliateUrl": "https://shopee.co.th/product/863211574/24627695130?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=24627695130",
     "scrapedAt": "2026-07-02",
@@ -6129,7 +6215,9 @@
     "localImage": "/products/p-s.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "ที่ลับเล็บแมว ของเล่นแมว ฝนเล็บแมว ที่ฝนเล็บแมวลูกบอล ที่ฝนเล็บแมวใหญ่ ที่ฝนเล็บแมวขนาดใหญ่ บ้านแมว ที่ฝนเล็บแมว",
@@ -6205,7 +6293,7 @@
     "itemId": "40661005041",
     "brand": "",
     "category": "อาหารแมว",
-    "slug": "in-6",
+    "slug": "",
     "url": "https://shopee.co.th/product/1269155641/40661005041",
     "affiliateUrl": "https://shopee.co.th/product/1269155641/40661005041?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=40661005041",
     "scrapedAt": "2026-07-02",
@@ -6213,7 +6301,9 @@
     "localImage": "/products/in-6.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "YTL ของเล่นแมว เสริมพัฒนาการ ไม่ล้ม แมวจะเล่นเอง Tumbler",
@@ -6233,14 +6323,16 @@
     "itemId": "26930648243",
     "brand": "",
     "category": "อาหารแมว",
-    "slug": "ytl-tumbler",
+    "slug": "",
     "url": "https://shopee.co.th/product/327068445/26930648243",
     "affiliateUrl": "https://shopee.co.th/product/327068445/26930648243?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=26930648243",
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/ytl-tumbler.webp",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "💛พร้อมส่ง💛 UFO ของเล่นแมว หุ่นยนต์ดูดฝุ่น ดักจับฝุ่น อัจฉริยะ ของเล่นแมวไฟฟ้า ของเล่นแมวอัตโนมัติของเล่นสัตว์เลี้ยง",
@@ -6288,7 +6380,7 @@
     "itemId": "28864837504",
     "brand": "",
     "category": "อาหารแมว",
-    "slug": "yoyopet-3",
+    "slug": "",
     "url": "https://shopee.co.th/product/996675217/28864837504",
     "affiliateUrl": "https://shopee.co.th/product/996675217/28864837504?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=28864837504",
     "scrapedAt": "2026-07-02",
@@ -6296,7 +6388,9 @@
     "localImage": "/products/yoyopet-3.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "ของเล่นแมว รางบอลแมว จานเสียงแมว ด้วยขนนก สามารถหมุนได้ 360 องศา 4 ชั้น ของเล่นแมว แมว ของเล่น ของใช้แมว",
@@ -6316,7 +6410,7 @@
     "itemId": "42611600857",
     "brand": "",
     "category": "อาหารแมว",
-    "slug": "p-114535-3",
+    "slug": "",
     "url": "https://shopee.co.th/product/1145356578/42611600857",
     "affiliateUrl": "https://shopee.co.th/product/1145356578/42611600857?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=42611600857",
     "scrapedAt": "2026-07-02",
@@ -6324,7 +6418,9 @@
     "localImage": "/products/p-114535-3.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "yoyopet :  ปืนยิงแมว ปืนยิงลูกปอมๆ ของเล่นแมว ลูกบอลไหมพรมแมว ทนทานยืดหยุ่นสูง ปืน +20 ลูก",
@@ -6344,7 +6440,7 @@
     "itemId": "24782384660",
     "brand": "",
     "category": "อาหารแมว",
-    "slug": "yoyopet-4",
+    "slug": "",
     "url": "https://shopee.co.th/product/996675217/24782384660",
     "affiliateUrl": "https://shopee.co.th/product/996675217/24782384660?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=24782384660",
     "scrapedAt": "2026-07-02",
@@ -6352,7 +6448,9 @@
     "localImage": "/products/yoyopet-4.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "พร้อมจัดส่ง😽ของเล่นแมว ไม้ล่อแมว ไม้ตกแมว ตําแหน่งคงที่ แท่งแมวตลก ปลอกคอติดแมวตลก หมุนได้ 360° คลายความเบื่อหน่าย",
@@ -6372,7 +6470,7 @@
     "itemId": "27671621854",
     "brand": "",
     "category": "อาหารแมว",
-    "slug": "p-502938",
+    "slug": "",
     "url": "https://shopee.co.th/product/502938938/27671621854",
     "affiliateUrl": "https://shopee.co.th/product/502938938/27671621854?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=27671621854",
     "scrapedAt": "2026-07-02",
@@ -6380,7 +6478,9 @@
     "localImage": "/products/p-502938.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "ฺBoqi Factory ของเล่นขนนกแมวพร้อมก้านยาว,แท่งทีเซอร์แมวตลกสำหรับเกาออกกำลังกาย YC203",
@@ -6400,14 +6500,16 @@
     "itemId": "16162995338",
     "brand": "",
     "category": "อาหารแมว",
-    "slug": "boqi-factory-yc",
+    "slug": "",
     "url": "https://shopee.co.th/product/101426295/16162995338",
     "affiliateUrl": "https://shopee.co.th/product/101426295/16162995338?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=16162995338",
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/boqi-factory-yc.webp",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "เครื่องนวดหัวแมว นวดแมว/เครื่องนวดแมว/ของเล่นแมว ช่วยให้ความผ่อนคลาย ใช้งานง่าย",
@@ -6454,7 +6556,7 @@
     "itemId": "50153922914",
     "brand": "",
     "category": "อาหารแมว",
-    "slug": "bds-usb",
+    "slug": "",
     "url": "https://shopee.co.th/product/1013987281/50153922914",
     "affiliateUrl": "https://shopee.co.th/product/1013987281/50153922914?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=50153922914",
     "scrapedAt": "2026-07-02",
@@ -6462,7 +6564,9 @@
     "localImage": "/products/bds-usb.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "🐱ของเล่นสัตว์เลี้ยงไฟฟ้าแมวอัจฉริยะ ไม้ล้อและของเล่นแมวในอันเดียว รูปแบบยูเอฟโอที่น่ารัก🐱",
@@ -6510,14 +6614,16 @@
     "itemId": "28292954496",
     "brand": "",
     "category": "อาหารแมว",
-    "slug": "p-439456-1",
+    "slug": "",
     "url": "https://shopee.co.th/product/439456949/28292954496",
     "affiliateUrl": "https://shopee.co.th/product/439456949/28292954496?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=28292954496",
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-439456-1.webp",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "ของเล่นสําหรับแมว ที่ลับเล็บแมว+เตียงนอน ทนต่อการสึกหรอ โซฟาแมว ลูกบอลแมว ของเล่นแมว ที่ฝนเล็บแมว บ้านแมวกระดาษ ที่นอนแม",
@@ -6537,7 +6643,7 @@
     "itemId": "44300037032",
     "brand": "",
     "category": "อาหารแมว",
-    "slug": "p-114535-4",
+    "slug": "",
     "url": "https://shopee.co.th/product/1145356578/44300037032",
     "affiliateUrl": "https://shopee.co.th/product/1145356578/44300037032?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=44300037032",
     "scrapedAt": "2026-07-02",
@@ -6545,7 +6651,9 @@
     "localImage": "/products/p-114535-4.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "ของเล่นแมว🐾 61CM ที่ฝนเล็บแมว ที่ลับเล็บแมว ขนาดใหญ่ 3in1 ที่ขูดเล็บ สามารถใช้เป็นครอกแมวได้ ทนต่อการสึกหรอ",
@@ -6593,7 +6701,7 @@
     "itemId": "40055539955",
     "brand": "",
     "category": "อาหารแมว",
-    "slug": "yoyopet-in-1",
+    "slug": "",
     "url": "https://shopee.co.th/product/996675217/40055539955",
     "affiliateUrl": "https://shopee.co.th/product/996675217/40055539955?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=40055539955",
     "scrapedAt": "2026-07-02",
@@ -6601,7 +6709,9 @@
     "localImage": "/products/yoyopet-in-1.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "Petcho เลเซอร์แมว ของเล่นแมว เลเซอร์รูปอุ้งเท้าแมว เลเซอร์ล่อแมว LED ไฟฉายล่อแมว ไฟฉายแมว ล่อแมว",
@@ -6621,14 +6731,16 @@
     "itemId": "18290188217",
     "brand": "",
     "category": "อาหารแมว",
-    "slug": "petcho-led",
+    "slug": "",
     "url": "https://shopee.co.th/product/287201971/18290188217",
     "affiliateUrl": "https://shopee.co.th/product/287201971/18290188217?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=18290188217",
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/petcho-led.webp",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "Petcho ของเล่นแมว ลูกบอลแมวอัติโนมัติ สมาร์ทไฟฟ้า หมุนได้ ของเล่นแมวโต้ตอบ",
@@ -6648,7 +6760,7 @@
     "itemId": "29124594362",
     "brand": "",
     "category": "อาหารแมว",
-    "slug": "petcho-3",
+    "slug": "",
     "url": "https://shopee.co.th/product/287201971/29124594362",
     "affiliateUrl": "https://shopee.co.th/product/287201971/29124594362?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=29124594362",
     "scrapedAt": "2026-07-02",
@@ -6656,7 +6768,9 @@
     "localImage": "/products/petcho-3.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "ไม้ตกแมว ของเล่นแมว ไม้แมว ไม้ล่อแมว ขอเล่นแมว ของเล่นเเมว มีกระดิ่งและฟู่สาย ไว้ล่อแมว คลาดเครียดคลายเหงา",
@@ -6676,7 +6790,7 @@
     "itemId": "24614774667",
     "brand": "",
     "category": "อาหารแมว",
-    "slug": "p-648582-3",
+    "slug": "",
     "url": "https://shopee.co.th/product/648582553/24614774667",
     "affiliateUrl": "https://shopee.co.th/product/648582553/24614774667?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=24614774667",
     "scrapedAt": "2026-07-02",
@@ -6684,7 +6798,9 @@
     "localImage": "/products/p-648582-3.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "【4ชั้น】เครื่องให้อาหารแมวตลกของเล่นแทร็กลูกบอลฐานของเล่นแบบโต้ตอบสำหรับลูกแมวในร่ม ของเล่นแมว",
@@ -6704,7 +6820,7 @@
     "itemId": "25616617962",
     "brand": "",
     "category": "อาหารแมว",
-    "slug": "p-378764-1",
+    "slug": "",
     "url": "https://shopee.co.th/product/378764485/25616617962",
     "affiliateUrl": "https://shopee.co.th/product/378764485/25616617962?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=25616617962",
     "scrapedAt": "2026-07-02",
@@ -6712,7 +6828,9 @@
     "localImage": "/products/p-378764-1.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "ของเล่นแมวอัตโนมัติ หมุนได้ ดอกไม้บิน ของเล่นแมวโต้ตอบ",
@@ -7009,14 +7127,16 @@
     "itemId": "21271577378",
     "brand": "",
     "category": "อาหารแมว",
-    "slug": "harmcat-3",
+    "slug": "",
     "url": "https://shopee.co.th/product/277387227/21271577378",
     "affiliateUrl": "https://shopee.co.th/product/277387227/21271577378?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=21271577378",
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/harmcat-3.webp",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "🐱 PP-035 ของเล่นแมว หนูไขลาน หนูปลอม สำหรับแมวและสุนัข 🎉 เพิ่มความสนุกให้กับสัตว์เลี้ยงของคุณ!",
@@ -7035,7 +7155,7 @@
     "itemId": "8667843356",
     "brand": "",
     "category": "อาหารแมว",
-    "slug": "pp",
+    "slug": "",
     "url": "https://shopee.co.th/product/455768057/8667843356",
     "affiliateUrl": "https://shopee.co.th/product/455768057/8667843356?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=8667843356",
     "scrapedAt": "2026-07-02",
@@ -7043,7 +7163,9 @@
     "localImage": "/products/pp.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "yoyopet : New!! ที่ลับเล็บแมว หนาพิเศษ ลายน่ารัก ของเล่นแมวพร้อมนอน 2in1 เหมียวสนุก ฟินๆ นอนสบาย",
@@ -7063,7 +7185,7 @@
     "itemId": "27624554645",
     "brand": "",
     "category": "อาหารแมว",
-    "slug": "yoyopet-new-in",
+    "slug": "",
     "url": "https://shopee.co.th/product/996675217/27624554645",
     "affiliateUrl": "https://shopee.co.th/product/996675217/27624554645?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=27624554645",
     "scrapedAt": "2026-07-02",
@@ -7071,7 +7193,9 @@
     "localImage": "/products/yoyopet-new-in.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "😻ของเล่นแมวลูกบอลแมวอัติโนมัติ ของเล่นแมวโต้ตอบ หลีกเลี่ยงสิ่งกีดขวางโดยอัตโนมัติ โหมดแสงสามโหมด",
@@ -7203,7 +7327,7 @@
     "itemId": "27173979417",
     "brand": "",
     "category": "อาหารแมว",
-    "slug": "in-cm",
+    "slug": "",
     "url": "https://shopee.co.th/product/1267559768/27173979417",
     "affiliateUrl": "https://shopee.co.th/product/1267559768/27173979417?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=27173979417",
     "scrapedAt": "2026-07-02",
@@ -7211,7 +7335,9 @@
     "localImage": "/products/in-cm.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "ตุ๊กตาแคทนิป ปลาแคทนิป ของเล่นแมว แคทนิป 20CM",
@@ -7285,7 +7411,7 @@
     "itemId": "25858728598",
     "brand": "",
     "category": "อาหารแมว",
-    "slug": "cm-1",
+    "slug": "",
     "url": "https://shopee.co.th/product/1145356578/25858728598",
     "affiliateUrl": "https://shopee.co.th/product/1145356578/25858728598?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=25858728598",
     "scrapedAt": "2026-07-02",
@@ -7293,7 +7419,9 @@
     "localImage": "/products/cm-1.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "ไม้ตกแมว ยาวสุด ของเล่นแมว ไม้ตกแมวแบบสปริง แบบลวดสลิง",
@@ -7313,14 +7441,16 @@
     "itemId": "5076334499",
     "brand": "",
     "category": "อาหารแมว",
-    "slug": "p-371280",
+    "slug": "",
     "url": "https://shopee.co.th/product/371280616/5076334499",
     "affiliateUrl": "https://shopee.co.th/product/371280616/5076334499?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=5076334499",
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-371280.webp",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "ลูกบอลแมว บอลแมวอัตโนมัติ ชาร์ตแบตได้  ของเล่นแมว สมาร์ทไฟฟ้า หมุนได้ ของเล่นแมวโต้ตอบ",
@@ -7340,14 +7470,16 @@
     "itemId": "24942127192",
     "brand": "",
     "category": "อาหารแมว",
-    "slug": "p-639932",
+    "slug": "",
     "url": "https://shopee.co.th/product/639932464/24942127192",
     "affiliateUrl": "https://shopee.co.th/product/639932464/24942127192?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=24942127192",
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-639932.webp",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "พร้อมส่ง🔥ฝนเล็บแมว ที่ปีนแมว ไม้ตกแมว ลูกบอลแมวลับเล็บแมว ที่ลับเล็บแมว ของเล่นแมว มัลติฟังก์ชั่นลูกเกาแมว",
@@ -7450,7 +7582,7 @@
     "itemId": "57403671664",
     "brand": "",
     "category": "อาหารแมว",
-    "slug": "usb-cm",
+    "slug": "",
     "url": "https://shopee.co.th/product/1269155641/57403671664",
     "affiliateUrl": "https://shopee.co.th/product/1269155641/57403671664?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=57403671664",
     "scrapedAt": "2026-07-02",
@@ -7458,7 +7590,9 @@
     "localImage": "/products/usb-cm.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "แคปซูลอวกาศแมว แมวเปลรังแมว ของเล่นแมวเตียง BJ2",
@@ -7561,14 +7695,16 @@
     "itemId": "22632420598",
     "brand": "",
     "category": "อาหารแมว",
-    "slug": "om",
+    "slug": "",
     "url": "https://shopee.co.th/product/439456949/22632420598",
     "affiliateUrl": "https://shopee.co.th/product/439456949/22632420598?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=22632420598",
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/om.webp",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "รูปอ่าง ที่ลับเล็บแมวขนาดใหญ่ ที่ขูดเล็บ ของเล่นแมว ที่ลับเล็บแมว ฝนเล็บแมว ที่ฝนเล็บแมว ของเล่นแมว",
@@ -7588,7 +7724,7 @@
     "itemId": "22588390109",
     "brand": "",
     "category": "อาหารแมว",
-    "slug": "p-327068",
+    "slug": "",
     "url": "https://shopee.co.th/product/327068445/22588390109",
     "affiliateUrl": "https://shopee.co.th/product/327068445/22588390109?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=22588390109",
     "scrapedAt": "2026-07-02",
@@ -7596,7 +7732,9 @@
     "localImage": "/products/p-327068.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "จัดส่งจากท้องถิ่น🚚ไม้ของเล่นแมว, ไม้จับแมว,ไม้ตบแมว，บอลแมว，ไม้แมวสายเหล็ก, ไม้ของเล่นแมวขนนก ของเล่นแมวทนทาน",
@@ -7728,7 +7866,7 @@
     "itemId": "25476789963",
     "brand": "",
     "category": "เครื่องให้อาหาร",
-    "slug": "p-114535-6",
+    "slug": "",
     "url": "https://shopee.co.th/product/1145356578/25476789963",
     "affiliateUrl": "https://shopee.co.th/product/1145356578/25476789963?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=25476789963",
     "scrapedAt": "2026-07-02",
@@ -7736,7 +7874,9 @@
     "localImage": "/products/p-114535-6.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "PETBABYS ของเล่นแมว ไม้ล่อแมว ไม้ตกแมว 9ชนิด ไม้ตบแมวกัญชาแมว แมวทุกวัยเล่นได้​ ดึงดูดแมว 100%​",
@@ -7756,7 +7896,7 @@
     "itemId": "42308469031",
     "brand": "",
     "category": "เครื่องให้อาหาร",
-    "slug": "petbabys",
+    "slug": "",
     "url": "https://shopee.co.th/product/1082461313/42308469031",
     "affiliateUrl": "https://shopee.co.th/product/1082461313/42308469031?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=42308469031",
     "scrapedAt": "2026-07-02",
@@ -7764,7 +7904,9 @@
     "localImage": "/products/petbabys.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "yoyopet : New !! หนาพิเศษ ที่ลับเล็บแมว ลายน่ารัก ของเล่นแมว2in1 ลับเล็บได้ นอนได้ สบาย ฟินๆ",
@@ -7784,7 +7926,7 @@
     "itemId": "25688378813",
     "brand": "",
     "category": "เครื่องให้อาหาร",
-    "slug": "yoyopet-new-in-1",
+    "slug": "",
     "url": "https://shopee.co.th/product/996675217/25688378813",
     "affiliateUrl": "https://shopee.co.th/product/996675217/25688378813?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=25688378813",
     "scrapedAt": "2026-07-02",
@@ -7792,7 +7934,9 @@
     "localImage": "/products/yoyopet-new-in-1.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "TUBI รังแมวแคปซูลอวกาศ ของเล่นแมว หลุมแมว อะคริลิค พร้อมรางบอลแบบรางไม้ โดมแมว หลุมอวกาศ2in1คอนโดแมว",
@@ -7868,7 +8012,7 @@
     "itemId": "24791509186",
     "brand": "",
     "category": "เครื่องให้อาหาร",
-    "slug": "cod-2",
+    "slug": "",
     "url": "https://shopee.co.th/product/502938938/24791509186",
     "affiliateUrl": "https://shopee.co.th/product/502938938/24791509186?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=24791509186",
     "scrapedAt": "2026-07-02",
@@ -7876,7 +8020,9 @@
     "localImage": "/products/cod-2.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "YTLบอลลับเล็บ บอลลับเล็บแมว ที่ลับเล็บแมว ที่ฝนเล็บแมว ของเล่นแมว ลูกบอลฝนเล็บแมว คอนโดแมว",
@@ -8008,7 +8154,7 @@
     "itemId": "18995361004",
     "brand": "",
     "category": "เครื่องให้อาหาร",
-    "slug": "p-273151",
+    "slug": "",
     "url": "https://shopee.co.th/product/273151533/18995361004",
     "affiliateUrl": "https://shopee.co.th/product/273151533/18995361004?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=18995361004",
     "scrapedAt": "2026-07-02",
@@ -8016,7 +8162,9 @@
     "localImage": "/products/p-273151.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "Thai.th ของเล่นแมวตุ๊กตาล้มลุก เสริมพัฒนาการ  ใส่อาหารสัตว์ Tumbler",
@@ -8036,14 +8184,16 @@
     "itemId": "17599249110",
     "brand": "",
     "category": "เครื่องให้อาหาร",
-    "slug": "thai-th-tumbler",
+    "slug": "",
     "url": "https://shopee.co.th/product/131727347/17599249110",
     "affiliateUrl": "https://shopee.co.th/product/131727347/17599249110?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=17599249110",
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/thai-th-tumbler.webp",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "🐱ของเล่นแมว🐱ที่ลับเล็บแมว ที่ฝนเล็บแมว สามารถใช้เป็นครอกแมวได้ 3in1 ที่ขูดเล็บ ป่านศรนารายณ์ กระดาษแข็ง",
@@ -8091,7 +8241,7 @@
     "itemId": "24460327284",
     "brand": "",
     "category": "เครื่องให้อาหาร",
-    "slug": "usb-3",
+    "slug": "",
     "url": "https://shopee.co.th/product/1008608919/24460327284",
     "affiliateUrl": "https://shopee.co.th/product/1008608919/24460327284?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=24460327284",
     "scrapedAt": "2026-07-02",
@@ -8099,7 +8249,9 @@
     "localImage": "/products/usb-3.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "Winky Wink วงกลมพรมลับเล็บแมว 3 in 1 แผ่นลับเล็บแมว กันข่วน ของเล่นแมว ที่นอนแมว กันข่วน",
@@ -8175,7 +8327,7 @@
     "itemId": "15286660994",
     "brand": "",
     "category": "เครื่องให้อาหาร",
-    "slug": "l-1",
+    "slug": "",
     "url": "https://shopee.co.th/product/439456949/15286660994",
     "affiliateUrl": "https://shopee.co.th/product/439456949/15286660994?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=15286660994",
     "scrapedAt": "2026-07-02",
@@ -8183,7 +8335,9 @@
     "localImage": "/products/l-1.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "🔥พร้อมส่ง🔥ของเล่นแมว ที่ฝนเล็บแมว ลูกบอล คอนโดแมว ที่ฝนเล็บแมวใหญ่ ที่ลับเล็บแมวขนาดใหญ่",
@@ -8259,14 +8413,16 @@
     "itemId": "18826120062",
     "brand": "",
     "category": "ลับเล็บแมว",
-    "slug": "ytl-4",
+    "slug": "",
     "url": "https://shopee.co.th/product/378319270/18826120062",
     "affiliateUrl": "https://shopee.co.th/product/378319270/18826120062?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=18826120062",
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/ytl-4.webp",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "Timekey แมวของเล่นไม้ขนนกมีกระดิ่ง แบบโต้ตอบตลก สําหรับลูกแมว อุปกรณ์ O3P1",
@@ -8314,14 +8470,16 @@
     "itemId": "11294161685",
     "brand": "",
     "category": "ของเล่นแมว",
-    "slug": "thai-th-cs",
+    "slug": "",
     "url": "https://shopee.co.th/product/131727347/11294161685",
     "affiliateUrl": "https://shopee.co.th/product/131727347/11294161685?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=11294161685",
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/thai-th-cs.webp",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "รูปอ่าง ที่ลับเล็บแมวขนาดใหญ่ ที่ขูดเล็บ ของเล่นแมว ที่ลับเล็บแมว ฝนเล็บแมว ที่ฝนเล็บแมว ของเล่นแมว",
@@ -8341,7 +8499,7 @@
     "itemId": "20288614269",
     "brand": "",
     "category": "ลับเล็บแมว",
-    "slug": "p-648582-5",
+    "slug": "",
     "url": "https://shopee.co.th/product/648582553/20288614269",
     "affiliateUrl": "https://shopee.co.th/product/648582553/20288614269?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=20288614269",
     "scrapedAt": "2026-07-02",
@@ -8349,7 +8507,9 @@
     "localImage": "/products/p-648582-5.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "🐱ของเล่นหมุนลูกบอลแมว ลูกบอลหมุนเพื่อความบันเทิงสำหรับแมว สัตว์เลี้ยง สามารถอยู่เป็นเพื่อนแมวเล่นสนุกสนานได้ตลอดวัน🐱",
@@ -8424,7 +8584,7 @@
     "itemId": "27066323828",
     "brand": "",
     "category": "ของเล่นแมว",
-    "slug": "p-126915-3",
+    "slug": "",
     "url": "https://shopee.co.th/product/1269155641/27066323828",
     "affiliateUrl": "https://shopee.co.th/product/1269155641/27066323828?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=27066323828",
     "scrapedAt": "2026-07-02",
@@ -8432,7 +8592,9 @@
     "localImage": "/products/p-126915-3.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "รางบอลแมว4ชั้น ของเล่นแมว รางบอลแมว รางบอล4ชั้น ของเล่นน้องแมว",
@@ -8619,7 +8781,7 @@
     "itemId": "20580299429",
     "brand": "",
     "category": "ของเล่นแมว",
-    "slug": "yoyopet-catnip-doll",
+    "slug": "",
     "url": "https://shopee.co.th/product/996675217/20580299429",
     "affiliateUrl": "https://shopee.co.th/product/996675217/20580299429?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=20580299429",
     "scrapedAt": "2026-07-02",
@@ -8627,7 +8789,9 @@
     "localImage": "/products/yoyopet-catnip-doll.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "หนูปลอม ตุ๊กตาหนู ของเล่นแมว ของเล่นเเมว ขอเล่นหนู ปลอม ของเล่นแมว สีส่งแบบสุ่ม",
@@ -8647,14 +8811,16 @@
     "itemId": "28013727381",
     "brand": "",
     "category": "ของเล่นแมว",
-    "slug": "p-135728",
+    "slug": "",
     "url": "https://shopee.co.th/product/1357289934/28013727381",
     "affiliateUrl": "https://shopee.co.th/product/1357289934/28013727381?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=28013727381",
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-135728.webp",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "searchable": false,
+    "_hidden_reason": "bait_price_3"
   },
   {
     "title": "yoyopet : Cat Teaser ไม้ล่อแมว แบบสปริง ของเล่น ที่ตกแมว ลวดสลิง",
@@ -8674,7 +8840,7 @@
     "itemId": "23545241175",
     "brand": "",
     "category": "ของเล่นแมว",
-    "slug": "yoyopet-cat-teaser-1",
+    "slug": "",
     "url": "https://shopee.co.th/product/996675217/23545241175",
     "affiliateUrl": "https://shopee.co.th/product/996675217/23545241175?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=23545241175",
     "scrapedAt": "2026-07-02",
@@ -8682,7 +8848,9 @@
     "localImage": "/products/yoyopet-cat-teaser-1.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "ไม้มาทาทาบิ ขัดฟันแมว 38/22cm ลดคราบหินปูน ขัดฟันแมว  กัญชาแมวมาทาบิ ของเล่นแมว พร้อมส่งจากไทย",
@@ -8730,7 +8898,7 @@
     "itemId": "27912408727",
     "brand": "",
     "category": "ของเล่นแมว",
-    "slug": "yoyopet-5",
+    "slug": "",
     "url": "https://shopee.co.th/product/996675217/27912408727",
     "affiliateUrl": "https://shopee.co.th/product/996675217/27912408727?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=27912408727",
     "scrapedAt": "2026-07-02",
@@ -8738,7 +8906,9 @@
     "localImage": "/products/yoyopet-5.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "title": "หนูปลอม สีสุ่ม คลายเครียดแมว ขนไก่แมว ของเล่นแมว",
@@ -8758,14 +8928,16 @@
     "itemId": "25300665908",
     "brand": "",
     "category": "ของเล่นแมว",
-    "slug": "p-510839",
+    "slug": "",
     "url": "https://shopee.co.th/product/510839418/25300665908",
     "affiliateUrl": "https://shopee.co.th/product/510839418/25300665908?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=25300665908",
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-510839.webp",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "searchable": false,
+    "_hidden_reason": "bait_price_3"
   },
   {
     "title": "Boqi factory ของเล่นแมว ไม้ตกแมว แบบสปริง ล่อแมว ลวดสลิง ZK-001",
@@ -8785,14 +8957,16 @@
     "itemId": "2610602099",
     "brand": "",
     "category": "ของเล่นแมว",
-    "slug": "boqi-factory-zk",
+    "slug": "",
     "url": "https://shopee.co.th/product/101426295/2610602099",
     "affiliateUrl": "https://shopee.co.th/product/101426295/2610602099?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=2610602099",
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/boqi-factory-zk.webp",
     "discountPercent": 0,
-    "isOnSale": false
+    "isOnSale": false,
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "shopId": "722376275",
@@ -8815,12 +8989,14 @@
     "url": "https://shopee.co.th/product/722376275/26489346772",
     "affiliateUrl": "https://shopee.co.th/product/722376275/26489346772?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=26489346772",
     "scrapedAt": "2026-07-03",
-    "slug": "pramy-carnivore-1-kg-346772",
+    "slug": "",
     "source": "apify-daily-sync",
     "localImage": "/products/pramy-carnivore-1-kg-346772.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_4"
   },
   {
     "shopId": "1572334600",
@@ -8843,12 +9019,14 @@
     "url": "https://shopee.co.th/product/1572334600/40910730955",
     "affiliateUrl": "https://shopee.co.th/product/1572334600/40910730955?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=40910730955",
     "scrapedAt": "2026-07-03",
-    "slug": "buzz-beyond-cat-1-kg-730955",
+    "slug": "",
     "source": "apify-daily-sync",
     "localImage": "/products/buzz-beyond-cat-1-kg-730955.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "shopId": "1578449264",
@@ -8871,12 +9049,14 @@
     "url": "https://shopee.co.th/product/1578449264/50703399024",
     "affiliateUrl": "https://shopee.co.th/product/1578449264/50703399024?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=50703399024",
     "scrapedAt": "2026-07-03",
-    "slug": "akine-1kg-399024",
+    "slug": "",
     "source": "apify-daily-sync",
     "localImage": "/products/akine-1kg-399024.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "shopId": "1213579370",
@@ -9117,12 +9297,14 @@
     "url": "https://shopee.co.th/product/253732112/29167368360",
     "affiliateUrl": "https://shopee.co.th/product/253732112/29167368360?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=29167368360",
     "scrapedAt": "2026-07-03",
-    "slug": "1kg-lola-co-1-kg-368360",
+    "slug": "",
     "source": "apify-daily-sync",
     "localImage": "/products/1kg-lola-co-1-kg-368360.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "shopId": "1026036263",
@@ -9646,12 +9828,14 @@
     "url": "https://shopee.co.th/product/282218822/5379029735",
     "affiliateUrl": "https://shopee.co.th/product/282218822/5379029735?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=5379029735",
     "scrapedAt": "2026-07-03",
-    "slug": "100-purrfect-paw-freeze-dried-029735",
+    "slug": "",
     "source": "apify-daily-sync",
     "localImage": "/products/100-purrfect-paw-freeze-dried-029735.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "shopId": "1749130737",
@@ -9841,12 +10025,14 @@
     "url": "https://shopee.co.th/product/104796104/1858094097",
     "affiliateUrl": "https://shopee.co.th/product/104796104/1858094097?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=1858094097",
     "scrapedAt": "2026-07-03",
-    "slug": "friskies-party-mix-60-094097",
+    "slug": "",
     "source": "apify-daily-sync",
     "localImage": "/products/friskies-party-mix-60-094097.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "shopId": "1594958459",
@@ -9869,12 +10055,14 @@
     "url": "https://shopee.co.th/product/1594958459/48651300701",
     "affiliateUrl": "https://shopee.co.th/product/1594958459/48651300701?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=48651300701",
     "scrapedAt": "2026-07-03",
-    "slug": "50-100-3-cat-snacks-300701",
+    "slug": "",
     "source": "apify-daily-sync",
     "localImage": "/products/50-100-3-cat-snacks-300701.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "shopId": "1082461307",
@@ -9925,12 +10113,14 @@
     "url": "https://shopee.co.th/product/1638782512/54306857125",
     "affiliateUrl": "https://shopee.co.th/product/1638782512/54306857125?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=54306857125",
     "scrapedAt": "2026-07-03",
-    "slug": "petlusci-50g-857125",
+    "slug": "",
     "source": "apify-daily-sync",
     "localImage": "/products/petlusci-50g-857125.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "shopId": "1224107128",
@@ -11273,7 +11463,7 @@
     "shopId": "1124293183",
     "itemId": "48707753174",
     "title": "Bite of Wild Freeze-Dried 40g ฟ ไข่เหลือง / หญ้าแมว / ตับไก่ / เนื้อดิบแช่แข็งแห้ง ขนมขบเคี้ยวแมว ขนมขบเคี้ยวสำหรับสุนัข",
-    "slug": "bite-of-wild-freeze-dried-40g-753174",
+    "slug": "",
     "source": "apify-daily-sync",
     "price": "฿1",
     "priceMax": "",
@@ -11295,7 +11485,9 @@
     "localImage": "/products/bite-of-wild-freeze-dried-40g-753174.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "shopId": "1639266429",
@@ -11329,7 +11521,7 @@
     "shopId": "1124293183",
     "itemId": "23488685320",
     "title": "Bite of Wild ฟรีซดรายแซลมอน และปลาไข่ เหมาะสำหรับเป็นขนมเพื่อเสริมสร้างโภชนาการ",
-    "slug": "bite-of-wild-685320",
+    "slug": "",
     "source": "apify-daily-sync",
     "price": "฿1",
     "priceMax": "",
@@ -11351,7 +11543,9 @@
     "localImage": "/products/bite-of-wild-685320.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "shopId": "1749130737",
@@ -11413,7 +11607,7 @@
     "shopId": "282218822",
     "itemId": "8513961622",
     "title": "🐾 ขนมแมว ตับไก่ฟรีซดราย 100%(Purrfect Paw) ดีต่อสุขภาพ บำรุงขน ขนมแมวไม่เค็ม ขนมแมวฟรีซดราย Freeze dried แมว",
-    "slug": "100-purrfect-paw-freeze-dried-961622",
+    "slug": "",
     "source": "apify-daily-sync",
     "price": "฿1",
     "priceMax": "",
@@ -11435,13 +11629,15 @@
     "localImage": "/products/100-purrfect-paw-freeze-dried-961622.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "shopId": "575702934",
     "itemId": "29271299742",
     "title": "พร้อมส่ง😻 ขนมสัตว์เลี้ยง ขนมแมว คุกกี้มิ้นท์แมว1000g หญ้าแมวฟรีซดราย ขนมแมวฟรีซดราย ย่อยง่ายและดูดซึม",
-    "slug": "1000g-299742",
+    "slug": "",
     "source": "apify-daily-sync",
     "price": "฿1",
     "priceMax": "",
@@ -11463,7 +11659,9 @@
     "localImage": "/products/1000g-299742.webp",
     "discountPercent": 0,
     "isOnSale": false,
-    "price_before_discount": ""
+    "price_before_discount": "",
+    "searchable": false,
+    "_hidden_reason": "bait_price_1"
   },
   {
     "shopId": "639932464",
