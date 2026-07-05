@@ -22,13 +22,14 @@ const products = productsData
   .filter((p: any) => p.slug && p.title)
   .map((p: any) => {
     const price = parseInt(String(p.price).replace(/[^0-9]/g, '')) || 0;
-    const maxPrice = parseInt(String(p.priceMax || p.priceHigh).replace(/[^0-9]/g, '')) || 0;
+    const beforeDiscount = p.price_before_discount ? parseInt(String(p.price_before_discount).replace(/[^0-9]/g, '')) : 0;
+    const hasRealDiscount = beforeDiscount > price;
     return {
       name: p.title,
       image: p.localImage || `/products/${p.slug}.webp`,
       price,
-      originalPrice: maxPrice > price ? maxPrice : undefined,
-      discount: maxPrice > price ? Math.round((1 - price / maxPrice) * 100) : 0,
+      originalPrice: hasRealDiscount ? beforeDiscount : undefined,
+      discount: hasRealDiscount ? Math.round((1 - price / beforeDiscount) * 100) : 0,
       rating: p.rating ? parseFloat(p.rating) : undefined,
       sold: p.sold || '',
       affiliateUrl: p.affiliateUrl || p.url || '#',
