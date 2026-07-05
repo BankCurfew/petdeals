@@ -9,6 +9,9 @@ supersedes: none
 
 > แบงค์'s mandate 2026-07-05: seasonal promo pages always current, an article on every product with all images, full SEO/metadata at all times — **fully automatic. Nobody remembers anything; the loops and gates do.**
 
+## 🇹🇭 IRON RULE — THAI MARKET ONLY (แบงค์ 2026-07-05)
+Everything in this engine is strictly Thailand: shopee.co.th only (never .com.br/.sg/.com), Thai-language products/campaigns/articles, THB prices, TH sellers/shipping. Enforced by: TH gate at ingest (country=TH + language validation, Brazil CAR #7), promo scrape targets shopee.co.th hub only, niche seeds must be validated on shopee.co.th before entering sync keywords (global market data = sizing context only, never sourcing).
+
 ## The machine (all automatic — no manual steps)
 
 | Time | Loop | Oracle | Does |
