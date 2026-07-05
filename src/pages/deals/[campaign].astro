@@ -1,0 +1,141 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import ProductCard from '@/components/ProductCard.astro';
+import seasonsData from '../../../data/seasons.json';
+import productsData from '../../../data/products.json';
+
+export function getStaticPaths() {
+  const all = [
+    ...(seasonsData.campaigns || []).map((s: any) => ({ ...s, type: "campaign" })),
+    ...(seasonsData.recurring || []).map((s: any) => ({ ...s, type: "recurring" })),
+    ...(seasonsData.seasonal || []).map((s: any) => ({ ...s, type: "seasonal" })),
+  ];
+  return all.map((s: any) => ({
+    params: { campaign: s.slug },
+    props: { season: s },
+  }));
+}
+
+const { season } = Astro.props;
+
+const products = productsData
+  .filter((p: any) => p.slug && p.title)
+  .map((p: any) => {
+    const price = parseInt(String(p.price).replace(/[^0-9]/g, '')) || 0;
+    const maxPrice = parseInt(String(p.priceMax || p.priceHigh).replace(/[^0-9]/g, '')) || 0;
+    return {
+      name: p.title,
+      image: p.images?.[0] || '',
+      price,
+      originalPrice: maxPrice > price ? maxPrice : undefined,
+      discount: maxPrice > price ? Math.round((1 - price / maxPrice) * 100) : 0,
+      rating: p.rating ? parseFloat(p.rating) : undefined,
+      sold: p.sold || '',
+      affiliateUrl: p.affiliateUrl || p.url || '#',
+      category: p.category,
+      slug: p.slug,
+    };
+  })
+  .filter((p: any) => p.discount > 0)
+  .sort((a: any, b: any) => b.discount - a.discount)
+  .slice(0, 60);
+
+const now = new Date();
+const startDate = season.startDate || `${now.getFullYear()}-${String(season.startMonth || 1).padStart(2, "0")}-01`;
+const endDate = season.endDate || `${now.getFullYear()}-${String(season.endMonth || 12).padStart(2, "0")}-28`;
+
+const saleEvent = {
+  "@context": "https://schema.org",
+  "@type": "SaleEvent",
+  "name": `PetzDeals ${season.name}`,
+  "description": season.description,
+  "startDate": startDate,
+  "endDate": endDate,
+  "url": `https://petzdeals.com/deals/${season.slug}/`,
+  "organizer": { "@type": "Organization", "name": "PetzDeals", "url": "https://petzdeals.com" },
+};
+
+const breadcrumb = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "หน้าแรก", "item": "https://petzdeals.com/" },
+    { "@type": "ListItem", "position": 2, "name": "โปรโมชั่น", "item": "https://petzdeals.com/deals/" },
+    { "@type": "ListItem", "position": 3, "name": season.nameTh },
+  ],
+};
+
+const title = `${season.emoji} ${season.nameTh} — ${season.name} | PetzDeals`;
+---
+
+<BaseLayout title={title} description={season.description}>
+  <script type="application/ld+json" set:html={JSON.stringify(saleEvent)} />
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumb)} />
+
+  <nav class="max-w-7xl mx-auto px-4 py-3 text-sm text-gray-400">
+    <a href="/" class="hover:text-pet-500">หน้าแรก</a>
+    <span class="mx-1">›</span>
+    <a href="/deals/" class="hover:text-pet-500">โปรโมชั่น</a>
+    <span class="mx-1">›</span>
+    <span class="text-gray-600">{season.nameTh}</span>
+  </nav>
+
+  <main class="max-w-7xl mx-auto px-4 pb-12">
+    <div class="text-center mb-8">
+      <h1 class="text-3xl font-bold text-gray-800 mb-2">{season.emoji} {season.name}</h1>
+      <p class="text-gray-500 text-lg">{season.description}</p>
+
+      <!-- Countdown timer -->
+      <div id="countdown" class="mt-4 inline-flex items-center gap-2 px-4 py-2 bg-red-50 rounded-full text-red-600 font-mono text-sm">
+        <span>⏰</span>
+        <span id="countdown-text">กำลังคำนวณ...</span>
+      </div>
+    </div>
+
+    {products.length > 0 ? (
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
+        {products.map((p) => (
+          <div data-product-name={p.name}>
+            <ProductCard {...p} />
+          </div>
+        ))}
+      </div>
+    ) : (
+      <div class="text-center py-12 text-gray-400">
+        <p class="text-4xl mb-3">🐾</p>
+        <p class="text-lg">กำลังอัพเดทสินค้าสำหรับ {season.name}</p>
+        <p class="text-sm mt-1">กลับมาดูใหม่เร็วๆ นี้นะ</p>
+      </div>
+    )}
+  </main>
+
+  <script define:vars={{ endDate, startDate }}>
+    function updateCountdown() {
+      const now = new Date();
+      const end = new Date(endDate);
+      const start = new Date(startDate);
+      const el = document.getElementById('countdown-text');
+      const container = document.getElementById('countdown');
+      if (!el || !container) return;
+
+      if (now < start) {
+        const diff = start.getTime() - now.getTime();
+        const days = Math.floor(diff / 86400000);
+        const hours = Math.floor((diff % 86400000) / 3600000);
+        el.textContent = `เริ่มใน ${days} วัน ${hours} ชั่วโมง`;
+        container.className = container.className.replace('bg-red-50 text-red-600', 'bg-blue-50 text-blue-600');
+      } else if (now < end) {
+        const diff = end.getTime() - now.getTime();
+        const days = Math.floor(diff / 86400000);
+        const hours = Math.floor((diff % 86400000) / 3600000);
+        const mins = Math.floor((diff % 3600000) / 60000);
+        el.textContent = `เหลืออีก ${days} วัน ${hours} ชม. ${mins} นาที`;
+      } else {
+        el.textContent = 'โปรโมชั่นสิ้นสุดแล้ว';
+        container.className = container.className.replace('bg-red-50 text-red-600', 'bg-gray-50 text-gray-400');
+      }
+    }
+    updateCountdown();
+    setInterval(updateCountdown, 60000);
+  </script>
+</BaseLayout>

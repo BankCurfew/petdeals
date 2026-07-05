@@ -11,6 +11,7 @@ interface Props {
 const { title, description = 'PetzDeals — รวมดีลอุปกรณ์สัตว์เลี้ยงราคาดี คัดมาให้ทาสแมวและทาสหมาโดยเฉพาะ', image, type = 'website' } = Astro.props;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const ogImage = new URL(image || '/brand/og-default.webp', Astro.site).href;
+const defaultSchema = { "@context": "https://schema.org", "@type": "WebSite", "name": "PetzDeals", "url": "https://petzdeals.com", "description": description };
 ---
 
 <!doctype html>
@@ -21,6 +22,7 @@ const ogImage = new URL(image || '/brand/og-default.webp', Astro.site).href;
   <!-- GA4 gtag.js -->
   <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-3TCK9V54XS"></script>
   <script is:inline>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-3TCK9V54XS');</script>
+  <script type="application/ld+json" set:html={JSON.stringify(defaultSchema)} />
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content={description} />

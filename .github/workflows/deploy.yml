@@ -21,6 +21,9 @@ jobs:
 
       - run: bun run build
 
+      - name: SEO Gate
+        run: bun scripts/seo-gate.ts
+
       - uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
