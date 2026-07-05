@@ -11,9 +11,11 @@ interface Props {
   category?: string;
   lastUpdated?: string;
   slug?: string;
+  priceAfterCode?: number;
+  voucherText?: string;
 }
 
-const { name, image: rawImage, price, originalPrice, discount, rating, sold, affiliateUrl, category, lastUpdated, slug } = Astro.props;
+const { name, image: rawImage, price, originalPrice, discount, rating, sold, affiliateUrl, category, lastUpdated, slug, priceAfterCode, voucherText } = Astro.props;
 const image = (slug ? `/products/${slug}.webp` : '') || rawImage;
 
 const formatPrice = (n: number) => `฿${n.toLocaleString('th-TH')}`;
@@ -50,9 +52,9 @@ const hasSold = !!soldStr && soldStr !== '0' && soldStr !== '';
     </a>
 
     <!-- Price -->
-    <div class="flex items-baseline flex-wrap gap-1.5 mb-2">
+    <div class="flex items-baseline flex-wrap gap-1.5 mb-1">
       <span class:list={['text-lg font-bold', originalPrice != null && originalPrice > price ? 'text-red-500' : 'text-pet-600']}>
-        {formatPrice(price)}
+        {formatPrice(priceAfterCode || price)}
       </span>
       {originalPrice && originalPrice > price && (
         <span class="text-xs text-gray-400 line-through">{formatPrice(originalPrice)}</span>
@@ -61,6 +63,14 @@ const hasSold = !!soldStr && soldStr !== '0' && soldStr !== '';
         <span class="text-[10px] font-bold text-red-500 bg-red-50 px-1.5 py-0.5 rounded">-{discount}%</span>
       )}
     </div>
+    {priceAfterCode && priceAfterCode < price && (
+      <div class="mb-2">
+        <span class="text-[10px] font-medium text-orange-600 bg-orange-50 px-1.5 py-0.5 rounded">ราคาหลังโค้ด</span>
+      </div>
+    )}
+    {voucherText && (
+      <p class="text-[10px] text-gray-400 mb-1 leading-tight">{voucherText}</p>
+    )}
 
     <!-- Rating + Sold -->
     {(hasRating || hasSold) && (

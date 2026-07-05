@@ -8,22 +8,30 @@ import seasonsData from '../../data/seasons.json';
 // Parse all products once
 const allProducts = productsData
   .filter((p: any) => p.slug && p.title)
-  .filter((p: any) => parseInt(String(p.price).replace(/[^0-9]/g, '')) >= 5)
+  .filter((p: any) => {
+    const px = parseInt(String(p.price).replace(/[^0-9]/g, '')) || 0;
+    const afterCode = p.priceAfterCode ? parseInt(String(p.priceAfterCode).replace(/[^0-9]/g, '')) : 0;
+    return px >= 5 || afterCode >= 5;
+  })
   .map((p: any) => {
     const price = parseInt(String(p.price).replace(/[^0-9]/g, '')) || 0;
+    const afterCode = p.priceAfterCode ? parseInt(String(p.priceAfterCode).replace(/[^0-9]/g, '')) : 0;
+    const displayPrice = afterCode >= 5 && afterCode < price ? afterCode : price;
     const beforeDiscount = p.originalPrice ? parseInt(String(p.originalPrice).replace(/[^0-9]/g, '')) : 0;
-    const hasRealDiscount = beforeDiscount > price;
+    const hasRealDiscount = beforeDiscount > displayPrice;
     return {
       name: p.title,
       image: p.localImage || `/products/${p.slug}.webp`,
-      price,
-      originalPrice: hasRealDiscount ? beforeDiscount : undefined,
-      discount: hasRealDiscount ? Math.round((1 - price / beforeDiscount) * 100) : 0,
+      price: displayPrice,
+      originalPrice: hasRealDiscount ? beforeDiscount : (afterCode < price && afterCode >= 5 ? price : undefined),
+      discount: hasRealDiscount ? Math.round((1 - displayPrice / beforeDiscount) * 100) : 0,
       rating: p.rating ? parseFloat(p.rating) : undefined,
       sold: p.sold || '',
       affiliateUrl: p.affiliateUrl || p.url || '#',
       category: p.category || '',
       slug: p.slug,
+      priceAfterCode: afterCode >= 5 && afterCode < price ? afterCode : undefined,
+      voucherText: p.voucherText || undefined,
     };
   });
 

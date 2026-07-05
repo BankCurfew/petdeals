@@ -17,6 +17,10 @@ export function getStaticPaths() {
 const { product } = Astro.props;
 const price = parseInt(String(product.price).replace(/[^0-9]/g, '')) || 0;
 const priceHigh = product.originalPrice ? parseInt(String(product.originalPrice).replace(/[^0-9]/g, '')) : 0;
+const priceAfterCode = product.priceAfterCode ? parseInt(String(product.priceAfterCode).replace(/[^0-9]/g, '')) : 0;
+const voucherText = product.voucherText || '';
+const voucherMinSpend = product.voucherMinSpend || '';
+const hasVoucher = priceAfterCode > 0 && priceAfterCode < price;
 const rating = product.rating ? parseFloat(product.rating) : 0;
 const reviewCount = product.reviewCount ? parseInt(product.reviewCount) : 0;
 const soldRaw = product.sold || '';
@@ -223,12 +227,31 @@ const starBreakdown = rating > 0 && reviewCount > 0 ? (() => {
           </div>
         )}
 
-        <div class="bg-pet-50 rounded-xl px-6 py-4 mb-6">
-          <span class="text-3xl font-bold text-pet-600">฿{price.toLocaleString()}</span>
-          {priceHigh > price && (
+        <div class="bg-pet-50 rounded-xl px-6 py-4 mb-4">
+          <span class="text-3xl font-bold text-pet-600">฿{(hasVoucher ? priceAfterCode : price).toLocaleString()}</span>
+          {hasVoucher && (
+            <span class="text-lg text-gray-400 line-through ml-3">฿{price.toLocaleString()}</span>
+          )}
+          {!hasVoucher && priceHigh > price && (
             <span class="text-lg text-gray-400 line-through ml-3">฿{priceHigh.toLocaleString()}</span>
           )}
+          {hasVoucher && (
+            <span class="ml-3 text-sm font-medium text-orange-600 bg-orange-50 px-2 py-0.5 rounded">ราคาหลังโค้ด</span>
+          )}
         </div>
+
+        {hasVoucher && (
+          <div class="bg-amber-50 border border-amber-200 rounded-lg px-4 py-3 mb-4">
+            <p class="text-sm font-bold text-amber-800 mb-1">🏷️ วิธีได้ราคานี้</p>
+            <ol class="text-sm text-amber-700 space-y-1 list-decimal list-inside">
+              <li>กดปุ่ม "เช็คราคา" ด้านล่างเพื่อไปหน้า Shopee</li>
+              {voucherText && <li>เก็บโค้ดร้าน: {voucherText}</li>}
+              <li>ใส่โค้ดตอน checkout</li>
+              <li>ราคาเหลือ ฿{priceAfterCode.toLocaleString()}</li>
+            </ol>
+            {voucherMinSpend && <p class="text-xs text-amber-500 mt-1">* {voucherMinSpend}</p>}
+          </div>
+        )}
 
         <p class="text-gray-600 leading-relaxed mb-6">{description}</p>
 
