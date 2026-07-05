@@ -218,12 +218,13 @@ def main():
 
                 if isinstance(raw_original, (int, float)) and raw_original > raw_price and is_on_sale:
                     price_before_discount = f"฿{raw_original:,.0f}"
-                    price_after_code = price
-                    voucher_text = f"ลดราคา {int(raw_discount)}% จาก {shop_name}" if raw_discount and shop_name else ""
                 else:
                     price_before_discount = ""
-                    price_after_code = ""
-                    voucher_text = ""
+
+                # priceAfterCode requires actual shop voucher data (CDP scrape)
+                # Apify search results don't include shop voucher codes
+                price_after_code = ""
+                voucher_text = ""
 
                 if raw_price < 5 or raw_discount > 90:
                     print(f"  !! FLAGGED: {title[:30]} ฿{raw_price} (-{raw_discount}%) — bait price or extreme discount")
