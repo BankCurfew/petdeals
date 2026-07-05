@@ -17,7 +17,7 @@ Everything in this engine is strictly Thailand: shopee.co.th only (never .com.br
 | Time | Loop | Oracle | Does |
 |------|------|--------|------|
 | 02:00 daily | petdeals-apify-sync | Data | Scrape → TH+category gates → products.json (+slug/source/affiliate/local-images at ingest) → commit+push → Action deploys |
-| 08:00 daily | petdeals-gsc-daily | Researcher | GSC+GA4+Shopee metrics; submit new URLs |
+| 08:00 daily | petdeals-gsc-daily | Researcher | GSC coverage/crawl errors + sitemap + submit URLs + **GA4/GTM tags-firing realtime check** + **image spot-check (10 HEAD 200s)** — red → BoB immediately |
 | 08:30 Mon | petdeals-seasonal-prep | Data | Campaign ≤10 days out? → verify page populates, guide exists, dates right |
 | 09:00 daily | petdeals-promo-check | Data | **Scrape Shopee promotion hub via CDP** (real campaign names/dates/mechanics/banners) → seasons.json + top-deals.json → push; new campaign → cc Writer |
 | 09:00 daily | petdeals-content | Writer | Campaign ≤7 days & no guide → write it; else product-cluster article |
