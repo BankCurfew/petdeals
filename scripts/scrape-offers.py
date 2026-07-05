@@ -209,6 +209,7 @@ def main():
                 raw_discount = item.get("discountPercent", 0) or 0
                 is_on_sale = item.get("isOnSale", False)
                 has_variants = item.get("hasVariations", False)
+                shop_name = item.get("shopName", "")
 
                 if isinstance(raw_price, (int, float)) and raw_price > 0:
                     price = f"฿{raw_price:,.0f}"
@@ -217,8 +218,12 @@ def main():
 
                 if isinstance(raw_original, (int, float)) and raw_original > raw_price and is_on_sale:
                     price_before_discount = f"฿{raw_original:,.0f}"
+                    price_after_code = price
+                    voucher_text = f"ลดราคา {int(raw_discount)}% จาก {shop_name}" if raw_discount and shop_name else ""
                 else:
                     price_before_discount = ""
+                    price_after_code = ""
+                    voucher_text = ""
 
                 if raw_price < 5 or raw_discount > 90:
                     print(f"  !! FLAGGED: {title[:30]} ฿{raw_price} (-{raw_discount}%) — bait price or extreme discount")
@@ -248,9 +253,12 @@ def main():
                     "price": str(price),
                     "priceMax": price_before_discount,
                     "price_before_discount": price_before_discount,
+                    "priceAfterCode": price_after_code,
+                    "voucherText": voucher_text,
                     "discountPercent": int(raw_discount) if raw_discount else 0,
                     "isOnSale": is_on_sale,
                     "hasVariations": has_variants,
+                    "shopName": shop_name,
                     "rating": str(item.get("rating", "")),
                     "reviewCount": str(item.get("reviewCount", "")),
                     "sold": str(item.get("historicalSoldEstimated", "")),
