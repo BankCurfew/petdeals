@@ -171,6 +171,7 @@ def main():
 
     all_new = []
     rejected_count = 0
+    flagged_count = 0
     for keywords, brand, category, max_items in DAILY_SEARCHES:
         print(f"\n=== {keywords[0]} (max={max_items}) ===")
         try:
@@ -202,12 +203,26 @@ def main():
                     continue
 
                 shop_id = str(item.get("shopId", ""))
-                price = item.get("price", "")
-                if isinstance(price, (int, float)):
-                    price = f"฿{price:,.0f}"
-                orig = item.get("originalPrice", "")
-                if isinstance(orig, (int, float)) and orig > 0:
-                    orig = f"฿{orig:,.0f}"
+
+                raw_price = item.get("price", 0)
+                raw_original = item.get("originalPrice", 0) or 0
+                raw_discount = item.get("discountPercent", 0) or 0
+                is_on_sale = item.get("isOnSale", False)
+                has_variants = item.get("hasVariations", False)
+
+                if isinstance(raw_price, (int, float)) and raw_price > 0:
+                    price = f"฿{raw_price:,.0f}"
+                else:
+                    price = str(raw_price)
+
+                if isinstance(raw_original, (int, float)) and raw_original > raw_price and is_on_sale:
+                    price_before_discount = f"฿{raw_original:,.0f}"
+                else:
+                    price_before_discount = ""
+
+                if raw_price < 5 or raw_discount > 90:
+                    print(f"  !! FLAGGED: {title[:30]} ฿{raw_price} (-{raw_discount}%) — bait price or extreme discount")
+                    flagged_count += 1
 
                 slug = generate_slug(title, item_id, existing_slugs)
                 existing_slugs.add(slug)
@@ -231,7 +246,11 @@ def main():
                     "slug": slug,
                     "source": "apify-daily-sync",
                     "price": str(price),
-                    "priceMax": str(orig) if orig else "",
+                    "priceMax": price_before_discount,
+                    "originalPrice": price_before_discount,
+                    "discountPercent": int(raw_discount) if raw_discount else 0,
+                    "isOnSale": is_on_sale,
+                    "hasVariations": has_variants,
                     "rating": str(item.get("rating", "")),
                     "reviewCount": str(item.get("reviewCount", "")),
                     "sold": str(item.get("historicalSoldEstimated", "")),
@@ -255,10 +274,12 @@ def main():
         json.dump(output, f, ensure_ascii=False, indent=2)
 
     print(f"\n=== DONE ===")
-    print(f"New: {len(all_new)} | Rejected: {rejected_count} | Total: {len(products)}")
+    print(f"New: {len(all_new)} | Rejected: {rejected_count} | Flagged: {flagged_count} | Total: {len(products)}")
 
     if rejected_count > 0:
         print(f"\n!! ALERT: {rejected_count} non-TH items rejected by validation gate")
+    if flagged_count > 0:
+        print(f"\n!! FLAGGED: {flagged_count} items with bait pricing (price<฿5 or discount>90%) — review before publishing")
 
 
 if __name__ == "__main__":
