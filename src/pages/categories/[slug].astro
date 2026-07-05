@@ -21,7 +21,7 @@ const products = productsData
     const maxPrice = parseInt(String(p.priceMax).replace(/[^0-9]/g, '')) || 0;
     return {
       name: p.title,
-      image: p.images?.[0] || '',
+      image: p.localImage || `/products/${p.slug}.webp`,
       price,
       originalPrice: maxPrice > price ? maxPrice : undefined,
       discount: maxPrice > price ? Math.round((1 - price / maxPrice) * 100) : 0,
@@ -74,14 +74,45 @@ const breadcrumbSchema = {
     {hasProducts ? (
       <>
         <!-- Sort/filter bar -->
-        <div class="flex items-center justify-between mb-6">
+        <div class="flex items-center justify-between mb-4 flex-wrap gap-2">
           <h2 class="text-lg font-bold text-gray-900">{category.emoji} {category.name}ทั้งหมด</h2>
-          <span class="text-sm text-gray-400">{products.length} รายการ</span>
+          <div class="flex items-center gap-2">
+            <span class="text-sm text-gray-400" id="count-label">{products.length} รายการ</span>
+            <select id="sort-select" class="text-sm border border-gray-200 rounded-lg px-2 py-1 bg-white text-gray-600 focus:outline-none focus:border-teal-400">
+              <option value="discount">ลดมาก → น้อย</option>
+              <option value="price-low">ราคาต่ำ → สูง</option>
+              <option value="price-high">ราคาสูง → ต่ำ</option>
+              <option value="rating">คะแนนสูงสุด</option>
+              <option value="name">ตัวอักษร</option>
+            </select>
+          </div>
         </div>
 
-        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
-          {products.map(p => <ProductCard {...p} />)}
+        <div id="product-grid" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+          {products.map(p => (
+            <div data-product-name={p.name} data-price={p.price} data-discount={p.discount || 0} data-rating={p.rating || 0}>
+              <ProductCard {...p} />
+            </div>
+          ))}
         </div>
+
+        <script>
+          const grid = document.getElementById('product-grid')!;
+          const select = document.getElementById('sort-select') as HTMLSelectElement;
+          select?.addEventListener('change', () => {
+            const cards = [...grid.children] as HTMLElement[];
+            const key = select.value;
+            cards.sort((a, b) => {
+              if (key === 'discount') return +(b.dataset.discount || 0) - +(a.dataset.discount || 0);
+              if (key === 'price-low') return +(a.dataset.price || 0) - +(b.dataset.price || 0);
+              if (key === 'price-high') return +(b.dataset.price || 0) - +(a.dataset.price || 0);
+              if (key === 'rating') return +(b.dataset.rating || 0) - +(a.dataset.rating || 0);
+              if (key === 'name') return (a.dataset.productName || '').localeCompare(b.dataset.productName || '', 'th');
+              return 0;
+            });
+            cards.forEach(c => grid.appendChild(c));
+          });
+        </script>
       </>
     ) : (
       <div class="text-center py-16">

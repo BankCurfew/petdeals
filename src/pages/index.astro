@@ -1,63 +1,142 @@
 ---
 import BaseLayout from '@/layouts/BaseLayout.astro';
-import Hero77 from '@/components/Hero77.astro';
-import CategoryPills from '@/components/CategoryPills.astro';
 import ProductCard from '@/components/ProductCard.astro';
-import PawTrail from '@/components/PawTrail.astro';
-
+import categoriesData from '../../data/categories.json';
 import productsData from '../../data/products.json';
+import seasonsData from '../../data/seasons.json';
 
-const products = productsData
-  .filter((p: any) => p.slug)
+// Parse all products once
+const allProducts = productsData
+  .filter((p: any) => p.slug && p.title)
   .map((p: any) => {
     const price = parseInt(String(p.price).replace(/[^0-9]/g, '')) || 0;
     const maxPrice = parseInt(String(p.priceMax).replace(/[^0-9]/g, '')) || 0;
     return {
       name: p.title,
-      image: p.images?.[0] || 'https://placehold.co/400x400/F0FDFA/14B8A6?text=Product',
+      image: p.localImage || `/products/${p.slug}.webp`,
       price,
       originalPrice: maxPrice > price ? maxPrice : undefined,
-      discount: maxPrice > price ? Math.round((1 - price / maxPrice) * 100) : undefined,
+      discount: maxPrice > price ? Math.round((1 - price / maxPrice) * 100) : 0,
       rating: p.rating ? parseFloat(p.rating) : undefined,
       sold: p.sold || '',
       affiliateUrl: p.affiliateUrl || p.url || '#',
-      category: p.category || 'อาหารแมว',
-      lastUpdated: p.lastUpdated || p.scrapedAt || '2025-06-28',
+      category: p.category || '',
       slug: p.slug,
     };
   });
+
+// Section 1: Active campaign
+const now = new Date();
+const activeCampaign = (seasonsData.campaigns || []).find((c: any) => {
+  const start = new Date(c.startDate);
+  const end = new Date(c.endDate);
+  return now >= start && now <= end;
+}) || (seasonsData.campaigns || [])[0];
+
+// Section 2: ดีลเด็ดวันนี้ — top 8 by discount
+const topDeals = allProducts
+  .filter(p => p.discount > 10)
+  .sort((a, b) => b.discount - a.discount)
+  .slice(0, 8);
+
+// Section 3: หมวดยอดนิยม — top 6 categories by product count
+const categoryTiles = categoriesData
+  .filter((c: any) => c.phase === 1)
+  .map((c: any) => ({
+    ...c,
+    count: allProducts.filter(p => p.category === c.dataCategory).length,
+  }))
+  .sort((a: any, b: any) => b.count - a.count)
+  .slice(0, 6);
+
+// Section 4: สินค้ามาใหม่ — last 12 products
+const newProducts = allProducts.slice(-12).reverse();
 ---
 
 <BaseLayout title="PetzDeals — รวมดีลอุปกรณ์สัตว์เลี้ยง คัดมาให้ทาสแมวและทาสหมา">
-  <!-- 7.7 Sale Hero -->
-  <Hero77 />
 
-  <!-- Category Pills -->
-  <section class="max-w-7xl mx-auto mt-8">
-    <CategoryPills />
-  </section>
+  <!-- Campaign Banner -->
+  {activeCampaign && (
+    <a href={`/deals/${activeCampaign.slug}/`} class="block bg-gradient-to-r from-teal-500 to-teal-600 text-white">
+      <div class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+        <div>
+          <span class="text-2xl mr-2">{activeCampaign.emoji}</span>
+          <span class="font-bold text-lg">{activeCampaign.name}</span>
+          <span class="text-teal-100 text-sm ml-2">{activeCampaign.description.slice(0, 40)}</span>
+        </div>
+        <span class="text-sm bg-white/20 px-3 py-1 rounded-full">ดูดีลทั้งหมด →</span>
+      </div>
+    </a>
+  )}
 
-  <PawTrail />
-
-  <!-- Featured Products -->
-  <section class="max-w-7xl mx-auto px-4 py-12">
-    <div class="flex items-center justify-between mb-6">
-      <h2 class="text-xl font-bold text-gray-900">สินค้าแนะนำสำหรับเจ้านาย</h2>
-      <a href="/deals" class="text-sm text-pet-500 hover:text-pet-600 font-medium">ดูทั้งหมด →</a>
+  <!-- Section 1: ดีลเด็ดวันนี้ -->
+  <section class="max-w-7xl mx-auto px-4 pt-8 pb-4">
+    <div class="flex items-center justify-between mb-4">
+      <h2 class="text-xl font-bold text-gray-900">🔥 ดีลเด็ดวันนี้</h2>
+      <a href="/deals/today/" class="text-sm text-teal-500 hover:text-teal-600 font-medium">ดูทั้งหมด →</a>
     </div>
-    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
-      {products.map(product => (
-        <ProductCard {...product} />
+    <div class="flex gap-3 overflow-x-auto pb-2" style="scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch;">
+      {topDeals.map(p => (
+        <div class="flex-shrink-0 w-44 sm:w-48" style="scroll-snap-align: start;">
+          <ProductCard {...p} />
+        </div>
       ))}
     </div>
   </section>
 
-  <PawTrail count={7} />
+  <!-- Section 2: หมวดยอดนิยม -->
+  <section class="max-w-7xl mx-auto px-4 py-6">
+    <h2 class="text-xl font-bold text-gray-900 mb-4">📦 หมวดยอดนิยม</h2>
+    <div class="grid grid-cols-3 sm:grid-cols-6 gap-3">
+      {categoryTiles.map((cat: any) => (
+        <a href={`/categories/${cat.slug}/`} class="bg-white border border-gray-100 rounded-xl p-3 text-center hover:shadow-md hover:border-teal-200 transition-all group">
+          <div class="text-2xl mb-1">{cat.emoji}</div>
+          <div class="text-xs font-medium text-gray-700 group-hover:text-teal-600 truncate">{cat.name}</div>
+          <div class="text-[10px] text-gray-400 mt-0.5">{cat.count} สินค้า</div>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <!-- Section 3: สินค้ามาใหม่ -->
+  <section class="max-w-7xl mx-auto px-4 py-6">
+    <div class="flex items-center justify-between mb-4">
+      <h2 class="text-xl font-bold text-gray-900">✨ สินค้ามาใหม่</h2>
+      <a href="/search/" class="text-sm text-teal-500 hover:text-teal-600 font-medium">ดูทั้งหมด →</a>
+    </div>
+    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+      {newProducts.map(p => (
+        <ProductCard {...p} />
+      ))}
+    </div>
+  </section>
+
+  <!-- Trust Strip -->
+  <section class="bg-gray-50 border-y border-gray-100">
+    <div class="max-w-7xl mx-auto px-4 py-6 flex flex-wrap items-center justify-center gap-6 text-sm text-gray-500">
+      <span class="flex items-center gap-2">
+        <span class="text-lg">🐾</span>
+        <span>คัดสรรโดย<strong class="text-gray-700">น้องดีล</strong></span>
+      </span>
+      <span class="flex items-center gap-2">
+        <span class="text-lg">🛒</span>
+        <span>ราคาจาก <strong class="text-gray-700">Shopee</strong></span>
+      </span>
+      <span class="flex items-center gap-2">
+        <span class="text-lg">🔄</span>
+        <span>อัพเดท<strong class="text-gray-700">ทุกวัน</strong></span>
+      </span>
+      <span class="flex items-center gap-2">
+        <span class="text-lg">🏷️</span>
+        <span><strong class="text-gray-700">{allProducts.length}+</strong> สินค้า</span>
+      </span>
+    </div>
+  </section>
 
   <!-- SEO Content -->
-  <section class="max-w-4xl mx-auto px-4 py-12">
-    <h2 class="text-xl font-bold text-gray-900 mb-4">PetzDeals — แหล่งรวมดีลอุปกรณ์สัตว์เลี้ยงสำหรับทาสแมวและทาสหมา</h2>
-    <div class="prose prose-gray text-sm leading-relaxed">
+  <section class="max-w-4xl mx-auto px-4 py-10">
+    <h2 class="text-lg font-bold text-gray-800 mb-3">PetzDeals — แหล่งรวมดีลอุปกรณ์สัตว์เลี้ยง</h2>
+    <div class="text-sm text-gray-500 leading-relaxed space-y-2">
       <p>PetzDeals คัดสรรอุปกรณ์สัตว์เลี้ยงคุณภาพดีให้ทาสแมวและทาสหมาตัวจริง ทั้งอาหารน้องเหมียว อาหารน้องหมา ของเล่น ที่นอน อุปกรณ์อาบน้ำ และผลิตภัณฑ์ดูแลสุขภาพ พร้อมส่วนลดพิเศษอัพเดททุกวัน</p>
       <p>เราช่วยทาสแมวและทาสหมาประหยัดเวลาในการเลือกของให้เจ้านาย โดยคัดเฉพาะสินค้ารีวิวดี ยอดขายสูง และราคาคุ้มค่าที่สุด</p>
     </div>

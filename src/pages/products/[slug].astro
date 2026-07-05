@@ -108,7 +108,7 @@ const related = productsData
   .slice(0, 4)
   .map((p: any) => ({
     name: p.title,
-    image: p.images?.[0] || '',
+    image: p.localImage || `/products/${p.slug}.webp`,
     price: parseInt(String(p.price).replace(/[^0-9]/g, '')) || 0,
     rating: p.rating ? parseFloat(p.rating) : undefined,
     sold: p.sold || '',
@@ -176,7 +176,7 @@ const starBreakdown = rating > 0 && reviewCount > 0 ? (() => {
 })() : null;
 ---
 
-<BaseLayout title={seoTitle} description={description} image={images[0]}>
+<BaseLayout title={seoTitle} description={description} image={localImg || images[0]}>
   <script type="application/ld+json" set:html={JSON.stringify(productSchema)} />
   <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
@@ -196,7 +196,7 @@ const starBreakdown = rating > 0 && reviewCount > 0 ? (() => {
       <!-- Images -->
       <div>
         <div class="aspect-square bg-surface rounded-xl overflow-hidden mb-3">
-          <img src={images[0]} alt={seoTitle} title={seoTitle} width="800" height="800" class="w-full h-full object-cover" fetchpriority="high" />
+          <img src={localImg || images[0]} alt={seoTitle} title={seoTitle} width="800" height="800" class="w-full h-full object-cover" fetchpriority="high" />
         </div>
         {images.length > 1 && (
           <div class="grid grid-cols-5 gap-2">
@@ -378,4 +378,25 @@ const starBreakdown = rating > 0 && reviewCount > 0 ? (() => {
       </section>
     )}
   </article>
+
+  <!-- Sticky bottom CTA bar (mobile conversion) -->
+  <div class="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200 px-4 py-2 flex items-center justify-between z-40 shadow-[0_-2px_10px_rgba(0,0,0,0.05)] sm:hidden">
+    <div>
+      <div class="text-lg font-bold text-rose-500">฿{price.toLocaleString()}</div>
+      {priceHigh > price && (
+        <div class="text-xs text-gray-400 line-through">฿{priceHigh.toLocaleString()}</div>
+      )}
+    </div>
+    <a
+      href={affiliateUrl}
+      target="_blank"
+      rel="noopener sponsored"
+      class="bg-emerald-500 text-white font-semibold px-6 py-2.5 rounded-full text-sm hover:bg-emerald-600 transition-colors"
+      data-affiliate="true"
+      data-product-name={product.title}
+    >
+      เช็คราคาบน Shopee
+    </a>
+  </div>
+  <div class="h-16 sm:hidden" />
 </BaseLayout>
