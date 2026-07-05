@@ -10,7 +10,7 @@ const products = productsData
   .filter((p: any) => p.slug)
   .map((p: any) => ({
     name: p.title,
-    image: p.images?.[0] || '',
+    image: p.localImage || `/products/${p.slug}.webp`,
     price: parseInt(String(p.price).replace(/[^0-9]/g, '')) || 0,
     originalPrice: p.priceHigh ? parseInt(String(p.priceHigh).replace(/[^0-9]/g, '')) : undefined,
     rating: p.rating ? parseFloat(p.rating) : 0,

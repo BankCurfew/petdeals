@@ -10,7 +10,7 @@ const allProducts = productsData
     const maxPrice = parseInt(String(p.priceMax).replace(/[^0-9]/g, '')) || 0;
     return {
       name: p.title,
-      image: p.images?.[0] || '',
+      image: p.localImage || `/products/${p.slug}.webp`,
       price,
       originalPrice: maxPrice > price ? maxPrice : undefined,
       discount: maxPrice > price ? Math.round((1 - price / maxPrice) * 100) : 0,

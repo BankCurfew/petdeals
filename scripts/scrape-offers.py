@@ -214,8 +214,15 @@ def main():
 
                 product_url = f"https://shopee.co.th/product/{shop_id}/{item_id}"
 
-                images = (item.get("images") or [])[:5]
-                local_image = download_webp(images[0], slug) if images else ""
+                raw_images = (item.get("images") or [])[:5]
+                local_images = []
+                local_image = ""
+                for idx, img_url in enumerate(raw_images):
+                    name = f"{slug}-{idx}.webp" if idx > 0 else f"{slug}.webp"
+                    local = download_webp(img_url, slug if idx == 0 else f"{slug}-{idx}")
+                    local_images.append(local if local else img_url)
+                    if idx == 0:
+                        local_image = local
 
                 all_new.append({
                     "shopId": shop_id,
@@ -230,7 +237,7 @@ def main():
                     "sold": str(item.get("historicalSoldEstimated", "")),
                     "brand": brand,
                     "category": correct_category(title, category),
-                    "images": images,
+                    "images": local_images,
                     "localImage": local_image,
                     "url": product_url,
                     "affiliateUrl": make_affiliate_url(shop_id, item_id),
