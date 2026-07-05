@@ -13,9 +13,10 @@ interface Props {
   slug?: string;
   priceAfterCode?: number;
   voucherText?: string;
+  voucherCode?: string;
 }
 
-const { name, image: rawImage, price, originalPrice, discount, rating, sold, affiliateUrl, category, lastUpdated, slug, priceAfterCode, voucherText } = Astro.props;
+const { name, image: rawImage, price, originalPrice, discount, rating, sold, affiliateUrl, category, lastUpdated, slug, priceAfterCode, voucherText, voucherCode } = Astro.props;
 const image = (slug ? `/products/${slug}.webp` : '') || rawImage;
 
 const formatPrice = (n: number) => `฿${n.toLocaleString('th-TH')}`;
@@ -66,6 +67,11 @@ const hasSold = !!soldStr && soldStr !== '0' && soldStr !== '';
     {priceAfterCode && priceAfterCode < price && (
       <div class="mb-2">
         <span class="text-[10px] font-medium text-orange-600 bg-orange-50 px-1.5 py-0.5 rounded">ราคาหลังโค้ด</span>
+      </div>
+    )}
+    {voucherCode && (
+      <div class="flex items-center gap-1 mb-1">
+        <span class="text-[10px] font-mono text-orange-700 bg-orange-50 border border-dashed border-orange-300 px-1.5 py-0.5 rounded">{voucherCode}</span>
       </div>
     )}
     {voucherText && (

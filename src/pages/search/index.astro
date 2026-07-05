@@ -29,6 +29,7 @@ const allProducts = productsData
       slug: p.slug,
       priceAfterCode: afterCode >= 5 && afterCode < price ? afterCode : undefined,
       voucherText: p.voucherText || undefined,
+      voucherCode: p.voucherCode || undefined,
       searchText: `${p.title} ${p.category || ''}`.toLowerCase(),
     };
   });

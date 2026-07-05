@@ -19,7 +19,10 @@ const price = parseInt(String(product.price).replace(/[^0-9]/g, '')) || 0;
 const priceHigh = product.originalPrice ? parseInt(String(product.originalPrice).replace(/[^0-9]/g, '')) : 0;
 const priceAfterCode = product.priceAfterCode ? parseInt(String(product.priceAfterCode).replace(/[^0-9]/g, '')) : 0;
 const voucherText = product.voucherText || '';
+const voucherCode = product.voucherCode || '';
+const voucherOff = product.voucherOff || '';
 const voucherMinSpend = product.voucherMinSpend || '';
+const voucherExpiry = product.voucherExpiry || '';
 const hasVoucher = priceAfterCode > 0 && priceAfterCode < price;
 const rating = product.rating ? parseFloat(product.rating) : 0;
 const reviewCount = product.reviewCount ? parseInt(product.reviewCount) : 0;
@@ -242,14 +245,20 @@ const starBreakdown = rating > 0 && reviewCount > 0 ? (() => {
 
         {hasVoucher && (
           <div class="bg-amber-50 border border-amber-200 rounded-lg px-4 py-3 mb-4">
-            <p class="text-sm font-bold text-amber-800 mb-1">🏷️ วิธีได้ราคานี้</p>
+            <p class="text-sm font-bold text-amber-800 mb-2">🏷️ วิธีได้ราคานี้</p>
+            {voucherCode && (
+              <div class="flex items-center gap-2 mb-2 bg-white rounded px-3 py-2 border border-dashed border-amber-300">
+                <span class="font-mono font-bold text-orange-700 text-base tracking-wider">{voucherCode}</span>
+                <span class="text-xs text-amber-600">{voucherOff || voucherText}</span>
+              </div>
+            )}
             <ol class="text-sm text-amber-700 space-y-1 list-decimal list-inside">
               <li>กดปุ่ม "เช็คราคา" ด้านล่างเพื่อไปหน้า Shopee</li>
-              {voucherText && <li>เก็บโค้ดร้าน: {voucherText}</li>}
-              <li>ใส่โค้ดตอน checkout</li>
+              {voucherCode ? <li>ใส่โค้ด <strong>{voucherCode}</strong> ตอน checkout</li> : voucherText && <li>เก็บโค้ดร้าน: {voucherText}</li>}
               <li>ราคาเหลือ ฿{priceAfterCode.toLocaleString()}</li>
             </ol>
-            {voucherMinSpend && <p class="text-xs text-amber-500 mt-1">* {voucherMinSpend}</p>}
+            {voucherMinSpend && <p class="text-xs text-amber-500 mt-1">* ขั้นต่ำ {voucherMinSpend}</p>}
+            {voucherExpiry && <p class="text-xs text-amber-400 mt-1">หมดอายุ: {voucherExpiry}</p>}
           </div>
         )}
 
