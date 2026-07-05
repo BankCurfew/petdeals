@@ -19,7 +19,7 @@ const products = productsData
     category: p.category || 'food',
     lastUpdated: p.lastUpdated,
     slug: p.slug,
-    discount: p.price_before_discount ? Math.round((1 - (parseInt(String(p.price).replace(/[^0-9]/g, '')) / parseInt(String(p.price_before_discount).replace(/[^0-9]/g, '')))) * 100) : 0,
+    discount: p.originalPrice ? Math.round((1 - (parseInt(String(p.price).replace(/[^0-9]/g, '')) / parseInt(String(p.originalPrice).replace(/[^0-9]/g, '')))) * 100) : 0,
     is77: true,
   }));
 
