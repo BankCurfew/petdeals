@@ -10,7 +10,7 @@ const allProducts = productsData
   .filter((p: any) => p.slug && p.title)
   .map((p: any) => {
     const price = parseInt(String(p.price).replace(/[^0-9]/g, '')) || 0;
-    const beforeDiscount = p.originalPrice ? parseInt(String(p.originalPrice).replace(/[^0-9]/g, '')) : 0;
+    const beforeDiscount = p.price_before_discount ? parseInt(String(p.price_before_discount).replace(/[^0-9]/g, '')) : 0;
     const hasRealDiscount = beforeDiscount > price;
     return {
       name: p.title,
