@@ -8,6 +8,7 @@ const saleEnd = '2026-07-08T00:00:00+07:00';
 
 const products = productsData
   .filter((p: any) => p.slug)
+  .filter((p: any) => parseInt(String(p.price).replace(/[^0-9]/g, '')) >= 5)
   .map((p: any) => ({
     name: p.title,
     image: p.localImage || `/products/${p.slug}.webp`,
