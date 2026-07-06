@@ -1,0 +1,212 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import ProductCard from '@/components/ProductCard.astro';
+import DealCard from '@/components/DealCard.astro';
+import PawTrail from '@/components/PawTrail.astro';
+import productsData from '../../../data/products.json';
+import dealsRaw from '../../../data/shopee-pet-deals-2026-07-06.json';
+import personasData from '../../../data/personas.json';
+
+const saleStart = '2026-08-01';
+const saleEnd = '2026-08-09T00:00:00+07:00';
+
+const products = productsData
+  .filter((p: any) => p.slug && p.title)
+  .filter((p: any) => parseInt(String(p.price).replace(/[^0-9]/g, '')) >= 5)
+  .map((p: any) => ({
+    name: p.title,
+    image: p.localImage || `/products/${p.slug}.webp`,
+    price: parseInt(String(p.price).replace(/[^0-9]/g, '')) || 0,
+    originalPrice: p.priceHigh ? parseInt(String(p.priceHigh).replace(/[^0-9]/g, '')) : undefined,
+    rating: p.rating ? parseFloat(p.rating) : 0,
+    sold: p.sold || '',
+    affiliateUrl: p.affiliateUrl || p.url || '#',
+    category: p.category || 'food',
+    lastUpdated: p.lastUpdated,
+    slug: p.slug,
+    discount: p.originalPrice ? Math.round((1 - (parseInt(String(p.price).replace(/[^0-9]/g, '')) / parseInt(String(p.originalPrice).replace(/[^0-9]/g, '')))) * 100) : 0,
+  }));
+
+const topDeals = (dealsRaw as any).items
+  .filter((d: any) => d.discount_pct >= 10)
+  .sort((a: any, b: any) => b.discount_pct - a.discount_pct || b.sold - a.sold)
+  .slice(0, 12)
+  .map((d: any) => ({
+    name: d.name,
+    price: d.price,
+    priceBefore: d.price_before_discount,
+    discountPct: d.discount_pct,
+    sold: d.sold || 0,
+    rating: d.rating || 0,
+    url: d.url,
+  }));
+
+const schemaEvent = {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "PetzDeals 8.8 Mega Pet Sale",
+  "description": "ลดสูงสุด 80% อุปกรณ์สัตว์เลี้ยง — ดีลดีสำหรับทาสแมวและทาสหมา",
+  "startDate": saleStart,
+  "endDate": "2026-08-08",
+  "url": "https://petzdeals.com/deals/8-8/",
+  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "location": { "@type": "VirtualLocation", "url": "https://petzdeals.com/deals/8-8/" },
+  "organizer": { "@type": "Organization", "name": "PetzDeals", "url": "https://petzdeals.com" },
+};
+---
+
+<BaseLayout title="8.8 Mega Pet Sale — ลดสูงสุด 80% อุปกรณ์สัตว์เลี้ยง" description="ดีล 8.8 สำหรับทาสแมวและทาสหมา ลดสูงสุด 80% อาหารแมว อาหารสุนัข อุปกรณ์สัตว์เลี้ยง">
+  <script type="application/ld+json" set:html={JSON.stringify(schemaEvent)} />
+
+  <!-- Hero 8.8 -->
+  <section class="bg-gradient-to-r from-violet-600 via-fuchsia-500 to-orange-400 text-white py-12 md:py-16">
+    <div class="max-w-7xl mx-auto px-4 text-center">
+      <p class="text-sm font-medium opacity-80 mb-2">🐾 PetzDeals presents</p>
+      <h1 class="text-6xl md:text-8xl font-black mb-3 tracking-tight">8.8</h1>
+      <p class="text-xl md:text-2xl font-bold mb-2">MEGA PET SALE</p>
+      <p class="text-base opacity-90 mb-6">ลดสูงสุด 80% อุปกรณ์สัตว์เลี้ยง — ดีลดีสำหรับทาสแมวและทาสหมา</p>
+
+      <!-- Countdown -->
+      <div id="countdown-88" class="inline-flex gap-2 mb-6">
+        <div class="bg-white/15 backdrop-blur rounded-lg px-4 py-2 min-w-[64px]">
+          <div class="text-2xl font-black font-mono" id="cd-days">--</div>
+          <div class="text-[10px] opacity-70">วัน</div>
+        </div>
+        <div class="bg-white/15 backdrop-blur rounded-lg px-4 py-2 min-w-[64px]">
+          <div class="text-2xl font-black font-mono" id="cd-hours">--</div>
+          <div class="text-[10px] opacity-70">ชม.</div>
+        </div>
+        <div class="bg-white/15 backdrop-blur rounded-lg px-4 py-2 min-w-[64px]">
+          <div class="text-2xl font-black font-mono" id="cd-mins">--</div>
+          <div class="text-[10px] opacity-70">นาที</div>
+        </div>
+      </div>
+
+      <!-- Persona shortcuts -->
+      <div class="flex flex-wrap justify-center gap-2">
+        {personasData.map((p: any) => (
+          <a
+            href={`/best/${p.slug}/?utm_campaign=8-8`}
+            class="bg-white/20 hover:bg-white/30 backdrop-blur text-white text-sm font-medium px-4 py-2 rounded-full transition-colors"
+            onclick={`window.dataLayer=window.dataLayer||[];window.dataLayer.push({event:'funnel_click',funnel_step:'campaign_to_persona',persona:'${p.slug}'})`}
+          >
+            {p.emoji} {p.name}
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Breadcrumb -->
+  <nav class="max-w-7xl mx-auto px-4 py-3 text-sm text-gray-400">
+    <a href="/" class="hover:text-pet-500">หน้าแรก</a>
+    <span class="mx-1">›</span>
+    <span class="text-gray-600">ดีล 8.8</span>
+  </nav>
+
+  <main class="max-w-7xl mx-auto px-4 pb-12">
+    <!-- Sale Info -->
+    <div class="bg-cream rounded-2xl p-6 md:p-8 mb-8">
+      <h2 class="text-2xl font-bold text-gray-900 mb-3">🔥 8.8 Mega Pet Sale — ดีลดีสำหรับทาสแมวและทาสหมา</h2>
+      <p class="text-gray-600 leading-relaxed">
+        รวมดีลอุปกรณ์สัตว์เลี้ยงจัดหนัก ลดราคาสูงสุด 80% เฉพาะช่วง 8.8
+        อาหารน้องเหมียว อาหารน้องหมา ของเล่น อุปกรณ์ดูแลสุขภาพ คัดมาให้เจ้านายโดยเฉพาะ
+      </p>
+    </div>
+
+    <!-- Top Deals -->
+    {topDeals.length > 0 && (
+      <section class="mb-10">
+        <h2 class="text-xl font-bold text-gray-900 mb-4">🔥 ดีลเด็ด 8.8 — ลดสูงสุด {topDeals[0]?.discountPct}%</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {topDeals.map((d) => (
+            <DealCard {...d} persona="8-8" />
+          ))}
+        </div>
+      </section>
+    )}
+
+    <!-- Product Grid -->
+    <section>
+      <div class="flex items-center justify-between mb-6">
+        <h2 class="text-xl font-bold text-gray-900">ดีล 8.8 ทั้งหมด</h2>
+        <span class="text-sm text-gray-400">{products.length} สินค้า</span>
+      </div>
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+        {products.map(product => (
+          <div class="relative" data-product-name={product.name}>
+            <span class="absolute top-2 left-2 z-10 bg-gradient-to-r from-violet-500 to-fuchsia-500 text-white text-[10px] font-bold px-2.5 py-1 rounded-md pointer-events-none">8.8 🔥</span>
+            <ProductCard {...product} />
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <PawTrail count={7} />
+
+    <!-- SEO -->
+    <section class="max-w-4xl mx-auto py-12">
+      <h2 class="text-xl font-bold text-gray-900 mb-4">ดีล 8.8 คืออะไร?</h2>
+      <div class="prose prose-gray text-sm leading-relaxed">
+        <p>ดีล 8.8 คือมหกรรมลดราคาประจำเดือนสิงหาคม รวมโปรโมชั่นจากร้านค้าชั้นนำ ลดราคาสินค้าสัตว์เลี้ยงสูงสุด 80% ทั้งอาหารแมวพรีเมียม อาหารสุนัข ของเล่น และอุปกรณ์ดูแลสุขภาพ</p>
+        <p>PetzDeals คัดเฉพาะดีลที่ดีที่สุดสำหรับทาสแมวและทาสหมา เช็คราคาล่าสุดให้เจ้านายทุกวัน อัพเดทดีลใหม่ตลอดช่วง 8.8</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Countdown script -->
+  <script define:vars={{ saleEnd, saleStart }}>
+    function updateCountdown() {
+      const now = new Date();
+      const end = new Date(saleEnd);
+      const start = new Date(saleStart);
+      const days = document.getElementById('cd-days');
+      const hours = document.getElementById('cd-hours');
+      const mins = document.getElementById('cd-mins');
+      if (!days || !hours || !mins) return;
+
+      if (now < start) {
+        const diff = start.getTime() - now.getTime();
+        days.textContent = String(Math.floor(diff / 86400000)).padStart(2, '0');
+        hours.textContent = String(Math.floor((diff % 86400000) / 3600000)).padStart(2, '0');
+        mins.textContent = String(Math.floor((diff % 3600000) / 60000)).padStart(2, '0');
+      } else if (now < end) {
+        const diff = end.getTime() - now.getTime();
+        days.textContent = String(Math.floor(diff / 86400000)).padStart(2, '0');
+        hours.textContent = String(Math.floor((diff % 86400000) / 3600000)).padStart(2, '0');
+        mins.textContent = String(Math.floor((diff % 3600000) / 60000)).padStart(2, '0');
+      } else {
+        days.textContent = '00';
+        hours.textContent = '00';
+        mins.textContent = '00';
+      }
+    }
+    updateCountdown();
+    setInterval(updateCountdown, 60000);
+  </script>
+
+  <!-- GA4: campaign page view with persona param -->
+  <script is:inline>
+    window.dataLayer = window.dataLayer || [];
+    const params = new URLSearchParams(window.location.search);
+    window.dataLayer.push({
+      event: 'campaign_view',
+      campaign: '8-8',
+      persona: params.get('utm_persona') || 'direct',
+      page_type: 'campaign',
+    });
+  </script>
+</BaseLayout>
+
+<style>
+  .badge-88 {
+    background: linear-gradient(135deg, #8B5CF6, #D946EF);
+    color: white;
+    font-weight: 700;
+    font-size: 11px;
+    padding: 4px 10px;
+    border-radius: 6px;
+    pointer-events: none;
+  }
+</style>

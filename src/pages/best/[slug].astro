@@ -1,0 +1,183 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import ProductCard from '@/components/ProductCard.astro';
+import DealCard from '@/components/DealCard.astro';
+import PawTrail from '@/components/PawTrail.astro';
+import personasData from '../../../data/personas.json';
+import productsData from '../../../data/products.json';
+import dealsRaw from '../../../data/shopee-pet-deals-2026-07-06.json';
+
+export function getStaticPaths() {
+  return personasData.map((p: any) => ({
+    params: { slug: p.slug },
+    props: { persona: p },
+  }));
+}
+
+const { persona } = Astro.props;
+
+const products = productsData
+  .filter((p: any) => p.slug && p.title)
+  .filter((p: any) => persona.categories.includes(p.category))
+  .filter((p: any) => parseInt(String(p.price).replace(/[^0-9]/g, '')) >= 5)
+  .map((p: any) => {
+    const price = parseInt(String(p.price).replace(/[^0-9]/g, '')) || 0;
+    const origPrice = p.originalPrice ? parseInt(String(p.originalPrice).replace(/[^0-9]/g, '')) : 0;
+    const hasDiscount = origPrice > price;
+    return {
+      name: p.title,
+      image: p.localImage || `/products/${p.slug}.webp`,
+      price,
+      originalPrice: hasDiscount ? origPrice : undefined,
+      discount: hasDiscount ? Math.round((1 - price / origPrice) * 100) : 0,
+      rating: p.rating ? parseFloat(p.rating) : undefined,
+      sold: p.sold || '',
+      affiliateUrl: p.affiliateUrl || p.url || '#',
+      category: p.category,
+      slug: p.slug,
+      lastUpdated: p.lastUpdated || p.scrapedAt,
+      priceAfterCode: p.priceAfterCode ? parseInt(String(p.priceAfterCode).replace(/[^0-9]/g, '')) : undefined,
+      voucherCode: p.voucherCode,
+      voucherText: p.voucherText,
+    };
+  })
+  .sort((a: any, b: any) => (b.discount || 0) - (a.discount || 0))
+  .slice(0, 60);
+
+const keywordsForPersona: Record<string, string[]> = {
+  'dog-food-deals': ['หมา', 'สุนัข', 'dog', 'pedigree', 'smartheart', 'kaniva', 'prowild', 'luvcare', 'betagro'],
+  'cat-essentials': ['แมว', 'cat', 'ทราย', 'litter', 'คอนโด', 'ของเล่น', 'น้ำพุ', 'ลับเล็บ', 'ขนม', 'เลีย', 'ciao', 'pramy', 'whiskas'],
+  'new-pet-starter': ['เลี้ยง', 'starter', 'ชาม', 'กรง', 'กระเป๋า', 'ถาด', 'อุปกรณ์'],
+  'premium-health': ['grain.?free', 'holistic', 'premium', 'freeze', 'เกรนฟรี', 'อาหารเสริม', 'neez', 'buzz', 'hills', 'orijen', 'wellness'],
+};
+
+const personaKeywords = keywordsForPersona[persona.slug] || [];
+const topDeals = (dealsRaw as any).items
+  .filter((d: any) => d.discount_pct >= 10)
+  .filter((d: any) => personaKeywords.length === 0 || personaKeywords.some((kw: string) => new RegExp(kw, 'i').test(d.name)))
+  .sort((a: any, b: any) => b.discount_pct - a.discount_pct || b.sold - a.sold)
+  .slice(0, 6)
+  .map((d: any) => ({
+    name: d.name,
+    price: d.price,
+    priceBefore: d.price_before_discount,
+    discountPct: d.discount_pct,
+    sold: d.sold || 0,
+    rating: d.rating || 0,
+    url: d.url,
+  }));
+
+const title = persona.seoTitle || `${persona.emoji} ${persona.name} — ${persona.nameEn}`;
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "หน้าแรก", "item": "https://petzdeals.com/" },
+    { "@type": "ListItem", "position": 2, "name": persona.name },
+  ],
+};
+---
+
+<BaseLayout title={title} description={persona.description}>
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+
+  <nav class="max-w-7xl mx-auto px-4 py-3 text-sm text-gray-400">
+    <a href="/" class="hover:text-pet-500">หน้าแรก</a>
+    <span class="mx-1">›</span>
+    <span class="text-gray-600">{persona.name}</span>
+  </nav>
+
+  <!-- Hero -->
+  <section class={`max-w-7xl mx-auto px-4 mb-8`}>
+    <div class={`bg-gradient-to-r ${persona.heroColor} rounded-2xl p-8 border ${persona.heroBorder}`}>
+      <div class="flex items-center gap-4 mb-3">
+        <span class="text-4xl">{persona.emoji}</span>
+        <div>
+          <h1 class="text-2xl font-bold text-gray-900">{persona.heroTitle || persona.name}</h1>
+          <p class="text-sm text-gray-500">{persona.tagline}</p>
+        </div>
+      </div>
+      <p class="text-gray-600">{persona.heroBody || persona.description}</p>
+      {persona.painPoint && (
+        <p class="text-sm text-gray-500 mt-3 italic">{persona.painPoint}</p>
+      )}
+      <div class="mt-4 flex flex-wrap gap-2">
+        <a
+          href="/deals/8-8/"
+          class="inline-flex items-center gap-1 bg-cta-500 text-white text-sm font-medium px-4 py-2 rounded-full hover:bg-cta-600 transition-colors"
+          onclick={`window.dataLayer=window.dataLayer||[];window.dataLayer.push({event:'funnel_click',funnel_step:'lp_to_campaign',persona:'${persona.slug}'})`}
+        >
+          {persona.ctaText || 'ดูดีล 8.8 ทั้งหมด →'}
+        </a>
+        <a href="/deals/today/" class="inline-flex items-center gap-1 text-sm text-gray-500 hover:text-pet-500 px-3 py-2">
+          ดีลเด็ดวันนี้
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <main class="max-w-7xl mx-auto px-4 pb-12">
+    <!-- Top Deals -->
+    {topDeals.length > 0 && (
+      <section class="mb-10">
+        <h2 class="text-xl font-bold text-gray-900 mb-4">🔥 ดีลเด็ด{persona.name} — ลดสูงสุด {topDeals[0]?.discountPct}%</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {topDeals.map((d) => (
+            <DealCard {...d} persona={persona.slug} />
+          ))}
+        </div>
+      </section>
+    )}
+
+    <!-- Products -->
+    <section>
+      <div class="flex items-center justify-between mb-6">
+        <h2 class="text-xl font-bold text-gray-900">{persona.emoji} สินค้าแนะนำ</h2>
+        <span class="text-sm text-gray-400">{products.length} รายการ</span>
+      </div>
+      {products.length > 0 ? (
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
+          {products.map((p) => (
+            <div data-product-name={p.name}>
+              <ProductCard {...p} />
+            </div>
+          ))}
+        </div>
+      ) : (
+        <div class="text-center py-12 text-gray-400">
+          <p class="text-4xl mb-3">{persona.emoji}</p>
+          <p class="text-lg">กำลังอัพเดทสินค้าสำหรับ{persona.name}</p>
+        </div>
+      )}
+    </section>
+
+    <PawTrail />
+
+    <!-- Funnel CTA -->
+    <section class="mt-10 text-center">
+      <div class="bg-pet-50 rounded-2xl p-8 border border-pet-100">
+        <p class="text-lg font-bold text-gray-900 mb-2">ดีลเพิ่มเติมรอคุณอยู่!</p>
+        <p class="text-sm text-gray-500 mb-4">ดูดีลทั้งหมดในแคมเปญ 8.8 Mega Sale</p>
+        <a
+          href={`/deals/8-8/?utm_persona=${persona.slug}`}
+          class="inline-block bg-cta-500 text-white font-semibold px-8 py-3 rounded-full hover:bg-cta-600 transition-colors shadow-lg shadow-cta-500/20"
+          onclick={`window.dataLayer=window.dataLayer||[];window.dataLayer.push({event:'funnel_click',funnel_step:'lp_bottom_to_campaign',persona:'${persona.slug}'})`}
+        >
+          ดูดีล 8.8 ทั้งหมด →
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- GA4: persona page view -->
+  <script define:vars={{ personaSlug: persona.slug, personaName: persona.name }}>
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+      event: 'persona_view',
+      persona: personaSlug,
+      persona_name: personaName,
+      page_type: 'persona_landing',
+    });
+  </script>
+</BaseLayout>

@@ -1,0 +1,59 @@
+---
+interface Props {
+  name: string;
+  price: number;
+  priceBefore: number;
+  discountPct: number;
+  sold: number;
+  rating: number;
+  url: string;
+  persona?: string;
+}
+
+const { name, price, priceBefore, discountPct, sold, rating, url, persona } = Astro.props;
+
+const formatSold = (n: number) => {
+  if (n >= 100000) return `${Math.round(n / 1000)}K+`;
+  if (n >= 10000) return `${(n / 1000).toFixed(1)}K`;
+  if (n >= 1000) return `${(n / 1000).toFixed(1)}K`;
+  return String(n);
+};
+---
+
+<div class="bg-white rounded-xl border border-gray-200 p-4 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-200">
+  <div class="flex items-start gap-3">
+    <span class="shrink-0 bg-red-500 text-white text-sm font-bold px-2.5 py-1 rounded-lg">
+      -{discountPct}%
+    </span>
+    <div class="flex-1 min-w-0">
+      <h3 class="text-sm text-gray-700 line-clamp-2 mb-2 leading-snug">{name}</h3>
+
+      <div class="flex items-baseline gap-2 mb-1">
+        <span class="text-lg font-bold text-red-500">฿{price.toLocaleString('th-TH')}</span>
+        <span class="text-xs text-gray-400 line-through">฿{priceBefore.toLocaleString('th-TH')}</span>
+      </div>
+
+      <div class="flex items-center gap-3 text-xs text-gray-400 mb-3">
+        {rating > 0 && (
+          <span class="flex items-center gap-0.5">
+            <span class="text-star">★</span> {rating.toFixed(1)}
+          </span>
+        )}
+        {sold > 0 && <span>ขายแล้ว {formatSold(sold)}</span>}
+      </div>
+
+      <a
+        href={url}
+        target="_blank"
+        rel="noopener sponsored"
+        class="block w-full text-center bg-cta-500 text-white text-sm font-medium py-2 rounded-full hover:bg-cta-600 transition-colors"
+        data-affiliate="true"
+        data-product-name={name}
+        data-product-price={price}
+        onclick={`window.dataLayer=window.dataLayer||[];window.dataLayer.push({event:'deal_click',product_name:'${name.replace(/'/g,"\\'")}',product_price:${price},discount_pct:${discountPct},persona:'${persona||''}',affiliate_url:'${url}'})`}
+      >
+        เช็คราคาให้เจ้านาย
+      </a>
+    </div>
+  </div>
+</div>
