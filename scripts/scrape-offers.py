@@ -82,6 +82,33 @@ def is_valid_th_product(item):
     return True, "OK"
 
 
+TITLE_SPAM_RE = re.compile(r"\*{2,}|[{}]|【[^】]*】|#{2,}|!{3,}|[★☆●◆▶►▪▸]+")
+EMOJI_RUN_RE = re.compile(r"[\U0001F300-\U0001F9FF\U00002600-\U000027BF]{2,}")
+PROMO_PREFIX_RE = re.compile(r"^(\{[^}]*\}|【[^】]*】|\*+|🔥+)\s*")
+
+
+def sanitize_title(title):
+    """Strip Shopee seller spam from product title."""
+    t = PROMO_PREFIX_RE.sub("", title)
+    t = TITLE_SPAM_RE.sub("", t)
+    t = EMOJI_RUN_RE.sub("", t)
+    t = re.sub(r"\s{2,}", " ", t).strip()
+    return t[:150] if t else title[:150]
+
+
+def generate_meta_desc(title, category, brand, price):
+    """Generate a real meta description sentence (not just title copy)."""
+    clean = sanitize_title(title)
+    parts = [clean.split()[0] if clean.split() else "สินค้า"]
+    if brand:
+        parts.append(f"จาก {brand}")
+    if category:
+        parts.append(f"ในหมวด{category}")
+    if price:
+        parts.append(f"ราคา {price}")
+    return f"{clean} — {''.join(parts[1:])} เช็คราคาล่าสุดและรีวิวจากผู้ซื้อจริง พร้อมส่วนลดพิเศษ"[:160]
+
+
 def generate_slug(title, item_id, existing_slugs):
     """Generate URL-safe slug from title. Uses English tokens + itemId suffix for uniqueness."""
     ascii_parts = re.findall(r"[a-zA-Z0-9]+", title)
@@ -232,8 +259,10 @@ def main():
                     print(f"  !! FLAGGED: {title[:30]} ฿{raw_price} (-{raw_discount}%) — bait price or extreme discount")
                     flagged_count += 1
 
-                slug = generate_slug(title, item_id, existing_slugs)
+                clean_title = sanitize_title(title)
+                slug = generate_slug(clean_title, item_id, existing_slugs)
                 existing_slugs.add(slug)
+                meta_desc = generate_meta_desc(clean_title, category, brand, str(price))
 
                 product_url = f"https://shopee.co.th/product/{shop_id}/{item_id}"
 
@@ -250,7 +279,8 @@ def main():
                 all_new.append({
                     "shopId": shop_id,
                     "itemId": item_id,
-                    "title": title[:150],
+                    "title": clean_title,
+                    "description": meta_desc,
                     "slug": slug,
                     "source": "apify-daily-sync",
                     "price": str(price),
