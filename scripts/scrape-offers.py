@@ -88,10 +88,12 @@ def generate_slug(title, item_id, existing_slugs):
     if ascii_parts:
         base = "-".join(ascii_parts[:6]).lower()
     else:
-        base = "product"
+        base = "p"
 
     slug = f"{base}-{item_id[-6:]}"
     slug = re.sub(r"-+", "-", slug).strip("-")[:80]
+    if not slug or slug == item_id[-6:]:
+        slug = f"p-{item_id[-6:]}"
 
     if slug in existing_slugs:
         slug = f"{slug}-{item_id[-4:]}"
