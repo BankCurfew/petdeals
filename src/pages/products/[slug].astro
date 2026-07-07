@@ -201,8 +201,8 @@ const starBreakdown = rating > 0 && reviewCount > 0 ? (() => {
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
       <!-- Images -->
       <div>
-        <div class="aspect-square bg-surface rounded-xl overflow-hidden mb-3">
-          <img id="mainProductImg" src={localImg || images[0]} alt={seoTitle} title={seoTitle} width="800" height="800" class="w-full h-full object-cover" fetchpriority="high" />
+        <div class="aspect-square bg-surface rounded-xl overflow-hidden mb-3 flex items-center justify-center">
+          <img id="mainProductImg" src={localImg || images[0]} alt={seoTitle} title={seoTitle} class="max-w-full max-h-full object-contain" fetchpriority="high" />
         </div>
         {images.length > 1 && (
           <div class="grid grid-cols-5 gap-2">
