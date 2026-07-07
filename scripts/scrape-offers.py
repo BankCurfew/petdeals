@@ -115,7 +115,7 @@ def download_webp(img_url, slug):
         if dl.returncode != 0:
             return ""
         cv = subprocess.run(
-            ["convert", "/tmp/petdeals-img.jpg", "-resize", "200x200", "-quality", "75", webp_path],
+            ["convert", "/tmp/petdeals-img.jpg", "-resize", "800x800>", "-quality", "80", webp_path],
             capture_output=True, timeout=10)
         if cv.returncode == 0 and os.path.exists(webp_path):
             return f"/products/{slug}.webp"
