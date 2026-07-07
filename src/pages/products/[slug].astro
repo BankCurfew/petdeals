@@ -202,14 +202,14 @@ const starBreakdown = rating > 0 && reviewCount > 0 ? (() => {
       <!-- Images -->
       <div>
         <div class="aspect-square bg-surface rounded-xl overflow-hidden mb-3">
-          <img src={localImg || images[0]} alt={seoTitle} title={seoTitle} width="800" height="800" class="w-full h-full object-cover" fetchpriority="high" />
+          <img id="mainProductImg" src={localImg || images[0]} alt={seoTitle} title={seoTitle} width="800" height="800" class="w-full h-full object-cover" fetchpriority="high" />
         </div>
         {images.length > 1 && (
           <div class="grid grid-cols-5 gap-2">
             {images.slice(0, 5).map((img: string, i: number) => (
-              <div class="aspect-square bg-surface rounded-lg overflow-hidden border border-gray-100">
+              <button type="button" class="gallery-thumb aspect-square bg-surface rounded-lg overflow-hidden border-2 border-transparent hover:border-pet-400 transition-colors cursor-pointer p-0" data-src={img} aria-label={`ดูภาพที่ ${i + 2}`}>
                 <img src={img} alt={`${seoTitle} - ภาพที่ ${i + 2}`} title={seoTitle} width="200" height="200" class="w-full h-full object-cover" loading="lazy" decoding="async" />
-              </div>
+              </button>
             ))}
           </div>
         )}
@@ -430,4 +430,16 @@ const starBreakdown = rating > 0 && reviewCount > 0 ? (() => {
     </a>
   </div>
   <div class="h-16 sm:hidden" />
+
+  <script is:inline>
+    document.addEventListener('click', (e) => {
+      const thumb = e.target.closest('.gallery-thumb');
+      if (!thumb) return;
+      const main = document.getElementById('mainProductImg');
+      if (!main) return;
+      main.src = thumb.dataset.src;
+      document.querySelectorAll('.gallery-thumb').forEach(t => t.classList.replace('border-pet-500', 'border-transparent'));
+      thumb.classList.replace('border-transparent', 'border-pet-500');
+    });
+  </script>
 </BaseLayout>
