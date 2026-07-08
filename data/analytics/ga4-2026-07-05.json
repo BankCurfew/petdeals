@@ -1,0 +1,155 @@
+{
+  "pulled_at": "2026-07-05T10:05:39.849665",
+  "date": "2026-07-04",
+  "property_id": "543407169",
+  "total_rows": 7,
+  "rows": [
+    {
+      "dimensionValues": [
+        {
+          "value": "/"
+        },
+        {
+          "value": "first_visit"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "32"
+        },
+        {
+          "value": "28"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "32"
+        },
+        {
+          "value": "28"
+        },
+        {
+          "value": "32"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/"
+        },
+        {
+          "value": "session_start"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "32"
+        },
+        {
+          "value": "28"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "4"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/brand"
+        },
+        {
+          "value": "first_visit"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/brand"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/brand"
+        },
+        {
+          "value": "session_start"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    }
+  ]
+}

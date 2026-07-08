@@ -29,7 +29,10 @@ def main():
     with open(deals_file) as f:
         deals = json.load(f)
 
-    products = deals.get("products", [])
+    if isinstance(deals, list):
+        products = deals
+    else:
+        products = deals.get("products", [])
     print(f"Products in top-deals: {len(products)}")
 
     updated = 0
@@ -42,11 +45,15 @@ def main():
                 p["affiliate_url"] = new_link
                 updated += 1
 
-    deals["updated_at"] = datetime.now().isoformat()
-    deals["sync_date"] = today
+    if isinstance(deals, list):
+        output = deals
+    else:
+        deals["updated_at"] = datetime.now().isoformat()
+        deals["sync_date"] = today
+        output = deals
 
     with open(deals_file, "w") as f:
-        json.dump(deals, f, ensure_ascii=False, indent=2)
+        json.dump(output, f, ensure_ascii=False, indent=2)
 
     print(f"Updated affiliate links: {updated}")
     print(f"Saved: {deals_file}")

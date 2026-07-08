@@ -1,0 +1,71 @@
+{
+  "pulled_at": "2026-07-07T10:00:40.324153",
+  "date": "2026-07-06",
+  "property_id": "543407169",
+  "total_rows": 3,
+  "rows": [
+    {
+      "dimensionValues": [
+        {
+          "value": "/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "12"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "12"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/"
+        },
+        {
+          "value": "session_start"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "12"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/"
+        },
+        {
+          "value": "first_visit"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10508 @@
+{
+  "pulled_at": "2026-07-06T10:00:38.969736",
+  "date": "2026-07-05",
+  "property_id": "543407169",
+  "total_rows": 500,
+  "rows": [
+    {
+      "dimensionValues": [
+        {
+          "value": "/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "31"
+        },
+        {
+          "value": "7"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "29"
+        },
+        {
+          "value": "9"
+        },
+        {
+          "value": "29"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/kaniva-dog-food-12kg/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "16"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "16"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/pedigree-dog-food-3kg/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "16"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "16"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/smartheart-dog-food-10kg-1/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "16"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "16"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/deals/today/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "15"
+        },
+        {
+          "value": "5"
+        },
+        {
+          "value": "15"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/luvcare-dog-food-9kg/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "15"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "15"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/pedigree-dog-food-20kg/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "15"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "15"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/smartheart-dog-food-10kg-2/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "15"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "15"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/smartheart-dog-food-2.7kg/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "15"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "15"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/smartheart-dog-food-20kg/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "15"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "15"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/"
+        },
+        {
+          "value": "session_start"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "14"
+        },
+        {
+          "value": "9"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/blog/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "14"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "14"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/betagro-dog-food-10kg/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "14"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "14"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/jerhigh-dog-food/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "14"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "14"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/moochie-dog-food/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "14"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "14"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/betagro-dog-food-3kg/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "13"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "13"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/dog-food-130g/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "13"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "13"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/honghong-dog-food-400g/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "13"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "13"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/pedigree-dog-food-10kg/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "13"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "13"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/petrecord-dog-food-10pack/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "13"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "13"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/categories/food/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "11"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "11"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/deals/7-7/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "11"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "11"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/deals/today/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "11"
+        },
+        {
+          "value": "5"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/1kg-buzz-beyond-375270/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "11"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "11"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/boom-gold-10-kg-532413/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "11"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "11"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/cat-treats-14g/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "11"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "11"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/cat-treats-30pack/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "11"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "11"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/cattycat-wet-food-80g/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "11"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "11"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/ketzuzu-cat-treats-17g/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "11"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "11"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/meow-10-022653/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "11"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "11"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/ostech-dog-food/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "11"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "11"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-170852-1/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "11"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "11"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-378764/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "11"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "11"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/prowild-15-541015/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "11"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "11"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/temtem-cat-food-1kg/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "11"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "11"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/categories/accessories/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/categories/health/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/categories/toys/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/1-friskies-kitten-discovery-1kg-8850125071360-236883/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/10-kg-177510/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/100-purrfect-paw-freeze-dried-029735/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/12-48-bite-of-wild-70g-344588/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/12-bellotta-370-400-g-532832/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/12-cherman-pouch-037202/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/12-meow-meow-400-854530/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/12-nekko-670943/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/12-nekko-70g-276788/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/12-ostech-dog-lover-130-exp10-006189/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/12-regalos-70-116743/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/12-smartheart-pouch-120-130g-800646/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/24-400g-949830/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/640-611711/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/80-48-172605/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/bellotta-wet-food-85g/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/bite-of-wild-685320/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/bite-of-wild-freeze-dried-40g-753174/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/boqi-factory-zk/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/buzz-beyond-1-superfood-666862/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/buzz-cat-food-1kg/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/cat-dog-4-658557/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/cat-food-7kg-3/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/cat-litter-10ลิตร-1/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/cat-litter-10ลิตร-2/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/cat-litter-2kg-1/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/cat-teaser/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/cat-toy-x/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/cat-toy/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/cat-treats-15g/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/catch-the-mouse/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/catme-cat-litter-8kg/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/catstaste-wet-food-12pack/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/cattycat-wet-food-12pack/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/cherman-wet-food-12pack/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/ciao-cat-treats-50pack-1/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/ciaochuru-cat-treats-14g/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/ciaochuru-cat-treats-50pack-3/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/cm-in/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/cm-l/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/cod-1/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/cod-2/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/cod/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/cutepol-cat-litter/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/doge-orange-l/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/friskies-party-mix-60-094097/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/furbaby-cod/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/hunter-hound-freeze-dried-shrimp-20g-796916/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/i-cat/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/in-1/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/in-3/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/in-4/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/in-cod/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/jerhigh-meat-as-meals-1-2-617611/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/jingjai-12-pramy-broths-40g-082055/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/kaniva-1-1-5-kg-939080/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/kaniva-2-8-3-2-kg-561246/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/kaniva-cat-food-1.5kg-1/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/kaniva-cat-food-1kg/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/kasty-cat-litter-10ลิตร/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/kasty-cat-litter-20ลิตร/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/kasty-kanimal-6-003578/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/kenzo-cat-litter-10ลิตร/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/ketzuzu-12-24-48-138553/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/ketzuzu-wet-food-48pack/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/ketzuzu-wet-food-70g-2/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/kllei-cat-litter/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/kuwei-wet-food/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/l-1/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/lena-366618/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/maru-900g-559239/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/maxima-4-4-336366/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/meo-cat-food-7kg/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/meo-cat-treats-15g-1/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/meo-cat-treats-15g-2/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/meo-cat-treats-15g-3/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/meo-cat-treats-15g-4/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/meo-cat-treats-15g-5/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/mjkudson-dog-food/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/momovida-ct-ct/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/moochie-25-177867/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/mrvet-cat-food-12pack/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/mrvet-cat-food-1kg/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/my-paws-x-jiancha-6-710202/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/om/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-116404-1/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-133630/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-154776/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-165378/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-177685/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-255026-1/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-255026/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-262760-1/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-266654/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-327068/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-371280/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-378764-1/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-378764-4/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-403849-1/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-470609-1/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-470609/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-478799/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-510839/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-598114/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-633190/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-639932/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-648582-1/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-648582-4/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-648582-5/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-917092/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-s/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/pet-gravity-in/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/petbabys/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/petcho-1/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/petcho-2/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/petcho-cat-litter-2/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/petcho-cat-litter-3/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/petcho-led/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/petclub-purina-one-pouch-5-70g-617620/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/petlusci-650g-100-440592/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/petlusci/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/pettosan-cat-litter-10ลิตร/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/pp/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/pramy-cat-food-1kg/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/pramy-cat-food-800g-2/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/pramy-cat-treats-30pack/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/pramy-wet-food-48pack/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/purina-friskies-6-kg-881312/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/purinaone-cat-food-1.2kg-1/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/purinaone-wet-food-12pack/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/silver-1-kg-996774/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/temptations-75-12-514283/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/thai-th-cs/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/timekey-o-p/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/ufo/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/uo/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/usb-cm/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/usb/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/wen-w/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/whiskas-cat-food-7kg/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/winky-wink-cat/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/winky-wink-in/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/x/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/yoyopet-5/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/yoyopet-cat-teaser/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/yoyopet-catnip-doll/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/yoyopet-in-1/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/yoyopet-new-in/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/ytl-1/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/ytl-2/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/ytl/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/"
+        },
+        {
+          "value": "first_visit"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "8"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/1-kg-catty-cat-4-828954/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/10-20kg-raptor-dog-10-kg-115878/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/10-kg-796433/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/100-039517/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/100-100-684452/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/100-649172/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/100-924151/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/100-freeze-dried-965689/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/100-purrfect-paw-freeze-dried-961622/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/1000g-299742/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/12-48-mr-vet-70g-113602/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/12-48-nekko-70g-7-241233/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/12-70g-851589/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/12-balanced-120-929380/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/12-felina-canino-vif-75g-240349/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/12-nekko-197052/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/12-pramy-carnivore-70g-764914/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/2-20-635560/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/20-081988/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/2kg-163729/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/3kg-dog-n-joy-3-kg-663999/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/4-85-798293/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/50-100-150g-510716/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/bds-usb/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/bj/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/boqi-factory-excitedtoy/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/boqi-factory-yc/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/buzz-beyond-3-kg-premium-gluten-387273/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/buzz-cat-food-7kg/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/cat-food-70g/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/cat-food-7kg-2/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/cat-litter-10ลิตร-3/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/cat-litter-2kg-2/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/cat-litter-4pack/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/cat-stick/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/cat-treats-10pack/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/cat-treats-1pack/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/cat-treats/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/catch-the-mouse-1/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/catnip-catnip/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/catnip/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/ciao-cat-treats-50pack-2/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/ciaochuru-cat-treats-50pack-1/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/ciaochuru-cat-treats-50pack-2/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/clearance-kaniva-indoor-4-882104/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/cm-1/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/cm/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/coco-pet/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/cw/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/deennee-cat-7-26-709599/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/deeplove-0-0-0-041976/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/deeplove-271956/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/felix-wet-food-85g/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/freeze-dried-100-738914/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/harmcat-2/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/harmcat/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/hi-life-complete-balanced-400-x-583914/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/in-2/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/in-5/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/in-7/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/in-cm-1/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/in-cm/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/jerhigh-dog-food-1.2kg/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/jl/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/joy-tower/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/kaniva-1-600423/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/kaniva-2-8-3-2-1-891056/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/kaniva-cat-1-2-1-5-045596/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/kaniva-cat-food-1.5kg-2/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/kaniva-cat-food-10kg/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/kasty-20l-20-362011/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/katto-10l-172624/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/ketzuzu-12-24-48-174587/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/ketzuzu-12-24-48-880182/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/ketzuzu-12-24-48-926768/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/ketzuzu-cat-food-17g/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/ketzuzu-wet-food-70g-3/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/ketzuzu-wet-food/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/lena-1kg-x-4-349174/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/lena-5-10-20-kg-156306/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/lolaco-cat-food-7kg/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/meowspace-cat-litter-10ลิตร/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/mike-10-848909/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/oi/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/ostech-dog-lover-12-130-771989/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-114535-2/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-114535-6/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-114535/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-119114/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-123027/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-123465/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-123514/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-126129/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-126915-1/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-126915-3/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-126915/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-135728/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-137016/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-144647/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-144901-1/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-144901/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-150663/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-155418/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-162357/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-238389/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-262760/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-273151/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-378764-3/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-378764-5/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-403849/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-502938/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-598114-1/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-633205/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-895418/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-917045/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-965000/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-997985/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/pawcheer/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/pedigree-3-570869/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/petcho-plant-based-2-951808/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/petclub-purina-one-2-7kg-10-456133/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/petheria-1-5-876566/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/petlusci-640-100-276665/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/petypet-100-887679/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/pramy-carnivore-1-kg-346772/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/pramy-carnivore-800g-1-kg-889460/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/pramy-cat-food-800g-1/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/pramy-cat-litter-6ลิตร/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/pramy-wet-food-12pack/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/purinaone-cat-food-1.2kg-2/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/purinaone-cat-food-2.7kg/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/purinaone-cat-food/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/skisopgo-1/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/smartheart-dog-food-3kg/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/supercoat-8kg-341540/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/thai-th-tumbler/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/tubi-in/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/usb-3/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/whiskas-cat-food-2.7kg/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/winky-wink-1/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/winky-wink-diy/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/yoyopet-3/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/yoyopet-4/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/yoyopet-in/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/yoyopet-new-in-1/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/ytl-4/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/blog/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/categories/accessories/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/deals/7-7/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/18-20-smartheart-18-20-336668/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/1kg-x-4-lena-1-558006/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/20-smartheart-adult-roast-beef-20kg-506200/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/50-100-3-cat-snacks-300701/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/betagro-dog-food-10kg/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/buzz-1-kg-3-kg-premium-975419/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/buzz-beyond-1kg-721220/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/buzz-beyond-cat-1-kg-730955/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/cat-food/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/cat-toy-1/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/cm-2/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/cm-3/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/cod-3/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/cod-600-300567/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/deeneecat-cat-food-7kg/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/dog-food-130g/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/fly-soft/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/harmcat-1/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/harmcat-3/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/hm/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/hong-hong-130g-x12-637236/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/honghong-dog-food-400g/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/horbong-pets/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/in/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/kanimal-6-1-556474/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/kaniva-1-2-1-5-premium-934454/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/ketzuzu-wet-food-70g-1/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/ketzuzu-wet-food-70g-4/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/ktcat/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/l/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/lola-co-complete-balanced-400g-163430/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/meowmeow-wet-food-85g/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/nekko-70g-713182/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-107734/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-114535-4/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-114535-5/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-126755/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-126915-2/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-136865/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-139171/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-157149/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-172573/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-179886/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-238389-1/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-378764-2/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-439456-1/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-575702/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-648582-2/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-648582-3/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-648582/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/pet-ball/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/pet-record/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/pet8-cat-litter-10ลิตร/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/petbabys-640-252307/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/petcho-4/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/petcho-cat-litter-1/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/petcho/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/petlusci-100-693183/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/petlusci-630-544075/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/pramy-carnivore-70g-x-12-964709/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/product-533192/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/skisopgo-usb/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/skisopgo/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/smartheart-dog-food-10kg-2/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/smartheart-dog-food-20kg/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/smillie-cat-food-1kg/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/temtem-cat-food-10kg/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/tme-feather-bird/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/usb-1/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/usb-2/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/wet-food-70g/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/winky-wink-in-1/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/winky-wink/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/yoyopet-1/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/yoyopet-2/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/yoyopet-cat-teaser-1/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/yoyopet/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/ytl-3/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/yz/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/categories/food/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "7"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/12-pramy-201982/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "7"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/1kg-lola-co-1-kg-368360/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "7"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/3-smartheart-gold-dry-dog-food-091270/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "7"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/akine-1kg-399024/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "7"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/betagro-dog-food-3kg/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "7"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/boom-gold-10-kg-630015/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "7"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/cat-food-7kg-1/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "7"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/hairball-cat-treat-100g-pethealer-cat-749180/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "7"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/in-6/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "7"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/jerhigh-dog-food/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "7"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/kaniva-340-400g-272857/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "7"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/l-la-xl/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "7"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/luvcare-dog-food-9kg/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "7"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/monchou-wet-food-12pack/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "7"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-114535-1/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "7"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-114535-3/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "7"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-164989/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "7"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-170852/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "7"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-961795/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "7"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/pedigree-dog-food-20kg/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "7"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/pedigree-dog-food-3kg/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "7"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/pet-cat-toy/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "7"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/pet-record-85g-12-878293/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "7"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/petcho-3/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "7"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/petheria-1-1-5-kg-312449/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "7"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/petlusci-50g-857125/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "7"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/petlusci-cat-teaser/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "7"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/petrecord-dog-food-10pack/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "7"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/pramy-cat-treats-14g/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "7"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/smartheart-dog-food-10kg-1/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "7"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/smartheart-dog-food-2.7kg/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "7"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/smartheart-dog-food-3kg/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "7"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/tt-home/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "7"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/usb-type-c/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "7"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/whiskas-wet-food/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "7"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/ytl-tumbler/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "7"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/zoicat-cat-food-1kg/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "7"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/categories/toys/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "6"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/hairball-cat-treat-100g-pethealer-cat-749180/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "6"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/kaniva-dog-food-12kg/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "6"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/maxima-4-4-336366/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "6"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/meowspace-cat-litter-10ลิตร/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "6"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/moochie-dog-food/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "6"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-116404/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "6"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-439456/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "6"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-598114-1/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "6"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-648582-4/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "6"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/pedigree-dog-food-10kg/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "6"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/supercoat-8kg-341540/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "6"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/categories/cat-toys/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "5"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/1kg-buzz-beyond-375270/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "5"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/boom-gold-10-kg-532413/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "5"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/kaniva-1-1-5-kg-939080/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "5"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/l-la-xl/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "5"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/meow-10-022653/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "5"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/monchou-wet-food-12pack/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "5"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-114535-4/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "5"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-144901-1/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "5"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-155418/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "5"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-378764/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "5"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-470609/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "5"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/prowild-15-541015/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "5"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/purinaone-wet-food-12pack/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "5"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/temtem-cat-food-10kg/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "5"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/yz/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "5"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/deals/today/"
+        },
+        {
+          "value": "affiliate_click"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "4"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/1-friskies-kitten-discovery-1kg-8850125071360-236883/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "4"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/1-kg-catty-cat-4-828954/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "4"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/10-20kg-raptor-dog-10-kg-115878/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "4"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/10-kg-177510/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "4"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/100-039517/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "4"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/100-100-684452/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "4"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/100-649172/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "4"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/100-purrfect-paw-freeze-dried-029735/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "4"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/100-purrfect-paw-freeze-dried-961622/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "4"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/1000g-299742/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "4"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/12-48-bite-of-wild-70g-344588/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "4"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/12-48-mr-vet-70g-113602/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "4"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/12-70g-851589/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "4"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/12-balanced-120-929380/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "4"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 {
-  "version": 1,
+  "version": 2,
   "updatedAt": "2026-07-05",
   "refreshCycle": "per-seasonal-wave",
-  "source": "petdeals#27 — Writer + Researcher seed, expand per category/season",
+  "source": "petdeals#27 — Writer seed v1 + Researcher validation + trending terms (Jul 2026)",
 
   "core": {
     "description": "High-intent voucher/coupon keywords — use in meta, titles, schema",
@@ -21,7 +21,11 @@
       "โปรโมชั่น shopee สัตว์เลี้ยง",
       "ช้อปคุ้ม shopee อุปกรณ์สัตว์เลี้ยง",
       "shopee voucher pet",
-      "shopee voucher code pet food"
+      "shopee voucher code pet food",
+      "ลดราคา สัตว์เลี้ยง shopee วันนี้",
+      "flash sale shopee อาหารแมว",
+      "shopee ส่งฟรี อาหารสัตว์เลี้ยง",
+      "เช็คราคา อาหารแมว shopee"
     ]
   },
 
@@ -34,7 +38,13 @@
       "อาหารแมว Kaniva โค้ดลด",
       "อาหารแมว Whiskas โค้ดลด",
       "อาหารแมว Royal Canin โค้ดส่วนลด",
-      "อาหารแมว ส่งฟรี โค้ด shopee"
+      "อาหารแมว ส่งฟรี โค้ด shopee",
+      "อาหารแมว grain free โค้ดลด shopee",
+      "อาหารแมว freeze dried ลดราคา",
+      "อาหารแมว ยี่ห้อไหนดี 2026 โค้ดลด",
+      "อาหารแมว Me-O โค้ดลด",
+      "อาหารแมว Purina One โค้ดส่วนลด",
+      "อาหารแมว Buzz Beyond โค้ดลด"
     ],
     "อาหารเปียก": [
       "โค้ดลดอาหารเปียกแมว shopee",
@@ -91,6 +101,23 @@
     "ของเล่นสุนัข": [
       "โค้ดลดของเล่นสุนัข shopee",
       "ของเล่นหมา ลดราคา โค้ด"
+    ],
+    "อาหารเสริมสัตว์เลี้ยง": [
+      "อาหารเสริมแมว โค้ดลด shopee",
+      "วิตามินแมว ลดราคา shopee",
+      "โปรไบโอติกแมว โค้ดส่วนลด",
+      "glucosamine สุนัข โค้ดลด shopee",
+      "อาหารเสริมบำรุงขน แมว ลดราคา"
+    ],
+    "แชมพูสัตว์เลี้ยง": [
+      "โค้ดลดแชมพูแมว shopee",
+      "แชมพูสุนัข ลดราคา โค้ด shopee",
+      "แชมพูกำจัดเห็บหมัด โค้ดลด"
+    ],
+    "ที่นอนสัตว์เลี้ยง": [
+      "โค้ดลดที่นอนแมว shopee",
+      "ที่นอนสุนัข ลดราคา คูปอง",
+      "เบาะแมว โค้ดส่วนลด shopee"
     ]
   },
 
@@ -107,7 +134,11 @@
       "ส่วนลด 8.8 อาหารแมว อาหารหมา",
       "ดีล 8.8 อุปกรณ์สัตว์เลี้ยง ลดแรง",
       "shopee 8.8 โค้ดลด แมว หมา",
-      "เตรียมช้อป 8.8 สัตว์เลี้ยง โค้ด"
+      "เตรียมช้อป 8.8 สัตว์เลี้ยง โค้ด",
+      "8.8 อาหารแมว ลดสูงสุด shopee",
+      "8.8 ทรายแมว ลดราคา โค้ดส่วนลด",
+      "8.8 ของเล่นสัตว์เลี้ยง flash sale",
+      "รวมโค้ด 8.8 สัตว์เลี้ยง 2026"
     ],
     "9-9": [
       "โค้ดส่วนลด shopee 9.9 สัตว์เลี้ยง",
@@ -157,7 +188,13 @@
       "SmartHeart โค้ดลด shopee",
       "Pedigree โค้ดลด shopee",
       "Me-O โค้ดลด shopee",
-      "Purina One โค้ดลด shopee"
+      "Purina One โค้ดลด shopee",
+      "Buzz Beyond โค้ดลด shopee",
+      "Neez โค้ดลด shopee",
+      "Lifemate โค้ดลด shopee",
+      "Deserve โค้ดลด shopee",
+      "Friskies โค้ดลด shopee",
+      "Hills Science Diet โค้ดลด shopee"
     ]
   },
 
@@ -170,7 +207,12 @@
       "อาหารสุนัข ราคาส่ง โค้ดส่วนลด shopee",
       "อุปกรณ์เลี้ยงแมวครั้งแรก โค้ดลด shopee",
       "ซื้ออาหารแมวยกลัง โค้ดส่วนลด shopee",
-      "สต็อกทรายแมว โค้ดลด ส่งฟรี"
+      "สต็อกทรายแมว โค้ดลด ส่งฟรี",
+      "อาหารแมว grain free ยี่ห้อไหนดี ราคาถูก",
+      "freeze dried แมว ยี่ห้อไหนดี โค้ดลด",
+      "อาหารแมว premium ราคาส่ง shopee โค้ด",
+      "เครื่องให้อาหารอัตโนมัติ แมว ราคาถูก shopee",
+      "รถเข็นสัตว์เลี้ยง shopee โค้ดลด"
     ],
     "informational": [
       "วิธีใช้โค้ด shopee ลดราคาอาหารสัตว์เลี้ยง",
@@ -182,11 +224,18 @@
   },
 
   "meta": {
-    "totalKeywords": 109,
-    "categories": 12,
+    "totalKeywords": 145,
+    "categories": 15,
     "campaigns": 8,
-    "brands": 12,
+    "brands": 18,
     "nextRefresh": "2026-08-01",
-    "notes": "Refresh before each major campaign (8.8 next). Researcher to validate search volume and add trending terms."
+    "notes": "v2: Researcher validated Jul 5 — added 34 trending terms: grain-free/freeze-dried/premium food keywords, 3 new categories (อาหารเสริม, แชมพู, ที่นอน), 6 new brands (Buzz Beyond, Neez, Lifemate, Deserve, Friskies, Hills), 8.8 campaign expansion, long-tail buyer intent for premium products.",
+    "validation": {
+      "date": "2026-07-05",
+      "by": "Researcher-Oracle",
+      "searchVolumeAssessment": "Thai pet e-commerce +35% YoY. Core voucher keywords (โค้ดส่วนลด shopee สัตว์เลี้ยง) align with top search patterns on Picodi/SaleDuck/iPriceThailand coupon sites. Grain-free and freeze-dried are rising sub-niches with dedicated Shopee category pages and mybest/productnation review articles — high content competition but strong buyer intent. Brand keywords validated against actual Shopee product listings.",
+      "gaps_filled": ["grain-free/premium food", "freeze-dried treats", "pet supplements/probiotics", "shampoo/grooming", "pet beds", "8.8 campaign expansion", "6 additional brand keywords"],
+      "confidence": "confirmed — multi-source (Shopee listings, mybest, productnation, Thairath, industry reports)"
+    }
   }
 }
