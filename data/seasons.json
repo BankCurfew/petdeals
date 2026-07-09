@@ -64,8 +64,10 @@
         "p-144647",
         "catch-the-mouse"
       ],
-      "active": true,
-      "status": "active"
+      "active": false,
+      "status": "ended",
+      "endedAt": "2026-07-08",
+      "nextWave": "8-8"
     },
     {
       "slug": "8-8",
