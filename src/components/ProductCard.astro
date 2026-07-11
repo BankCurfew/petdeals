@@ -14,9 +14,10 @@ interface Props {
   priceAfterCode?: number;
   voucherText?: string;
   voucherCode?: string;
+  eager?: boolean;
 }
 
-const { name, image: rawImage, price, originalPrice, discount, rating, sold, affiliateUrl, category, lastUpdated, slug, priceAfterCode, voucherText, voucherCode } = Astro.props;
+const { name, image: rawImage, price, originalPrice, discount, rating, sold, affiliateUrl, category, lastUpdated, slug, priceAfterCode, voucherText, voucherCode, eager } = Astro.props;
 const image = (slug ? `/products/${slug}.webp` : '') || rawImage;
 
 const formatPrice = (n: number) => `฿${n.toLocaleString('th-TH')}`;
@@ -35,7 +36,7 @@ const hasSold = !!soldStr && soldStr !== '0' && soldStr !== '';
   <!-- Image — links to product page -->
   <a href={productPageUrl || affiliateUrl} target={productPageUrl ? '_self' : '_blank'} rel={productPageUrl ? undefined : 'noopener sponsored'}>
     <div class="relative aspect-square bg-surface overflow-hidden">
-      <img src={image} alt={name} title={name} width="400" height="400" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" decoding="async" />
+      <img src={image} alt={name} title={name} width="400" height="400" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading={eager ? "eager" : "lazy"} decoding={eager ? "sync" : "async"} fetchpriority={eager ? "high" : undefined} />
       {discount && discount > 0 && (
         <span class="absolute top-2 left-2 bg-coral-400 text-white text-xs font-bold px-2 py-0.5 rounded-md">
           -{discount}%

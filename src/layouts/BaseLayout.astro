@@ -6,9 +6,10 @@ interface Props {
   description?: string;
   image?: string;
   type?: string;
+  preloadImage?: string;
 }
 
-const { title, description = 'PetzDeals — รวมดีลอุปกรณ์สัตว์เลี้ยงราคาดี คัดมาให้ทาสแมวและทาสหมาโดยเฉพาะ', image, type = 'website' } = Astro.props;
+const { title, description = 'PetzDeals — รวมดีลอุปกรณ์สัตว์เลี้ยงราคาดี คัดมาให้ทาสแมวและทาสหมาโดยเฉพาะ', image, type = 'website', preloadImage } = Astro.props;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const ogImage = new URL(image || '/brand/og-default.webp', Astro.site).href;
 const defaultSchema = { "@context": "https://schema.org", "@type": "WebSite", "name": "PetzDeals", "url": "https://petzdeals.com", "description": description };
@@ -17,12 +18,14 @@ const defaultSchema = { "@context": "https://schema.org", "@type": "WebSite", "n
 <!doctype html>
 <html lang="th">
 <head>
-  <!-- Google Tag Manager -->
-  <script is:inline>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-MXZC4NXN');</script>
-  <!-- GA4 gtag.js -->
-  <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-3TCK9V54XS"></script>
-  <script is:inline>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-3TCK9V54XS');</script>
+  <!-- Google Tag Manager (deferred to avoid blocking LCP) -->
+  <script is:inline>
+    window.dataLayer=window.dataLayer||[];
+    (function(){var load=function(){(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-MXZC4NXN');};
+    if('requestIdleCallback' in window){requestIdleCallback(load);}else{setTimeout(load,3500);}})();
+  </script>
   <script type="application/ld+json" set:html={JSON.stringify(defaultSchema)} />
+  {preloadImage && <link rel="preload" as="image" href={preloadImage} fetchpriority="high" />}
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content={description} />

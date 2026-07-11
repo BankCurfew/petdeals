@@ -186,7 +186,7 @@ const starBreakdown = rating > 0 && reviewCount > 0 ? (() => {
 })() : null;
 ---
 
-<BaseLayout title={seoTitle} description={description} image={localImg || images[0]}>
+<BaseLayout title={seoTitle} description={description} image={localImg || images[0]} preloadImage={localImg || images[0]}>
   <script type="application/ld+json" set:html={JSON.stringify(productSchema)} />
   <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
