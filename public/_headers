@@ -1,0 +1,19 @@
+# Product images — stable filenames, cache long at edge
+/products/*.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+/products/*.jpg
+  Cache-Control: public, max-age=31536000, immutable
+
+/products/*.png
+  Cache-Control: public, max-age=31536000, immutable
+
+# HTML pages — no cache (deploy often)
+/
+  Cache-Control: no-cache, no-store, must-revalidate
+
+/*/
+  Cache-Control: no-cache, no-store, must-revalidate
+
+# Note: /_astro/* intentionally NOT immutable (learned from wealth-bank #7:
+# SPA fallback can serve HTML as CSS → immutable poisons client cache 1yr)
