@@ -310,6 +310,33 @@ def main():
         time.sleep(2)
 
     products.extend(all_new)
+
+    # Auto-prune gate: validate existing product URLs, remove dead listings (#35)
+    if "--skip-prune" not in sys.argv:
+        print(f"\n=== PRUNE GATE: checking existing products for dead Shopee listings ===")
+        pruned = []
+        for p in products[:]:
+            url = p.get("url", "")
+            if not url:
+                continue
+            try:
+                req = Request(url, headers={"User-Agent": "Mozilla/5.0 Chrome/150"})
+                resp = urlopen(req, timeout=8)
+                body = resp.read(2000).decode("utf-8", errors="ignore")
+                if "สินค้านี้ไม่มีจำหน่ายแล้ว" in body or "ไม่พบสินค้า" in body:
+                    pruned.append(p.get("slug", "?"))
+                    products.remove(p)
+                elif "shopee.co.th/search" in resp.url or resp.url.rstrip("/") == "https://shopee.co.th":
+                    pruned.append(p.get("slug", "?"))
+                    products.remove(p)
+            except Exception:
+                pass
+            time.sleep(0.3)
+        if pruned:
+            print(f"  PRUNED {len(pruned)} dead listings: {pruned[:10]}")
+        else:
+            print(f"  All {len(products)} products alive ✓")
+
     output = products if isinstance(existing, list) else {**existing, "products": products}
     with open(PRODUCTS_PATH, "w") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
