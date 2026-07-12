@@ -57,9 +57,10 @@ const allProducts = productsData
 
     <h2 class="text-lg font-bold text-gray-800 mb-3">ผลการค้นหา</h2>
     <div id="results" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
-      {allProducts.map((p) => (
-        <div data-product-name={p.name} data-search-text={p.searchText}>
-          <ProductCard {...p} />
+      {allProducts.map((p, i) => (
+        <div data-product-name={p.name} data-search-text={p.searchText}
+          style={i >= 8 ? 'content-visibility:auto;contain-intrinsic-size:0 320px;' : ''}>
+          <ProductCard {...p} eager={i === 0} />
         </div>
       ))}
     </div>
