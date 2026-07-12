@@ -35,7 +35,7 @@ const allProducts = productsData
   });
 ---
 
-<BaseLayout title="ค้นหาสินค้า — PetzDeals" description="ค้นหาดีลสินค้าสัตว์เลี้ยงจาก Shopee คัดมาให้โดยน้องดีล">
+<BaseLayout title="ค้นหาสินค้า — PetzDeals" description="ค้นหาดีลสินค้าสัตว์เลี้ยงจาก Shopee คัดมาให้โดยน้องดีล" preloadImage={allProducts[0]?.image}>
   <nav class="max-w-7xl mx-auto px-4 py-3 text-sm text-gray-400">
     <a href="/" class="hover:text-pet-500">หน้าแรก</a>
     <span class="mx-1">›</span>
@@ -89,7 +89,11 @@ const allProducts = productsData
       countEl.textContent = `ทั้งหมด ${total} สินค้า`;
     }
 
-    input.addEventListener('input', (e) => filter((e.target as HTMLInputElement).value));
+    let debounceTimer: ReturnType<typeof setTimeout>;
+    input.addEventListener('input', (e) => {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(() => filter((e.target as HTMLInputElement).value), 150);
+    });
     input.addEventListener('keydown', (e) => {
       if (e.key === 'Enter') {
         e.preventDefault();
