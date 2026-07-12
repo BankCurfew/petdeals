@@ -5,17 +5,18 @@ import PawTrail from '@/components/PawTrail.astro';
 import SpeechBubbleCTA from '@/components/SpeechBubbleCTA.astro';
 import productsData from '../../../data/products.json';
 import categoriesData from '../../../data/categories.json';
+import { cleanProductName, deduplicateTitles } from '@/lib/seo-title';
 
 export function getStaticPaths() {
-  return productsData
-    .filter((p: any) => p.slug)
-    .map((p: any) => ({
-      params: { slug: p.slug },
-      props: { product: p },
-    }));
+  const products = productsData.filter((p: any) => p.slug);
+  const titleMap = deduplicateTitles(products as any);
+  return products.map((p: any) => ({
+    params: { slug: p.slug },
+    props: { product: p, pageTitle: titleMap.get(p.slug) || p.title },
+  }));
 }
 
-const { product } = Astro.props;
+const { product, pageTitle } = Astro.props;
 const price = parseInt(String(product.price).replace(/[^0-9]/g, '')) || 0;
 const priceHigh = product.originalPrice ? parseInt(String(product.originalPrice).replace(/[^0-9]/g, '')) : 0;
 const priceAfterCode = product.priceAfterCode ? parseInt(String(product.priceAfterCode).replace(/[^0-9]/g, '')) : 0;
@@ -41,11 +42,11 @@ const nongDealReview = product.nongDealReview || '';
 const reviewCons = product.reviewCons || [];
 const lastUpdated = product.lastUpdated || scrapedAt;
 
-// SEO content — use provided or auto-generate
-const seoTitle = product.seoTitle || product.title;
+// SEO content — displayTitle for h1/schema, pageTitle for <title> tag
+const displayTitle = product.displayTitle || cleanProductName(product.title);
 const description = product.description || (brandClean
-  ? `${seoTitle} จาก ${brandClean} — สินค้ายอดนิยมในหมวด${category} ${rating > 0 ? `ได้รับคะแนน ${rating} ดาว` : ''} ${soldStr ? `ขายแล้ว ${soldStr} ชิ้น` : ''} เช็คราคาล่าสุดและรีวิวจากผู้ซื้อจริง`
-  : `${seoTitle} — สินค้าคุณภาพในหมวด${category} เช็คราคาล่าสุดและรีวิวจากผู้ซื้อจริง`
+  ? `${displayTitle} จาก ${brandClean} — สินค้ายอดนิยมในหมวด${category} ${rating > 0 ? `ได้รับคะแนน ${rating} ดาว` : ''} ${soldStr ? `ขายแล้ว ${soldStr} ชิ้น` : ''} เช็คราคาล่าสุดและรีวิวจากผู้ซื้อจริง`
+  : `${displayTitle} — สินค้าคุณภาพในหมวด${category} เช็คราคาล่าสุดและรีวิวจากผู้ซื้อจริง`
 );
 
 // Auto-generate features from available data
@@ -132,7 +133,7 @@ const lastUpdatedFormatted = new Date(lastUpdated).toLocaleDateString('th-TH', {
 const productSchema = {
   "@context": "https://schema.org",
   "@type": "Product",
-  "name": seoTitle,
+  "name": displayTitle,
   "image": images.map((img: string) => img.startsWith('http') ? img : new URL(img, Astro.site).href),
   "description": description,
   "brand": brandClean ? { "@type": "Brand", "name": brandClean } : undefined,
@@ -163,7 +164,7 @@ const breadcrumbSchema = {
   "itemListElement": [
     { "@type": "ListItem", "position": 1, "name": "หน้าแรก", "item": new URL("/", Astro.site).href },
     { "@type": "ListItem", "position": 2, "name": category, "item": categoryUrl },
-    { "@type": "ListItem", "position": 3, "name": seoTitle },
+    { "@type": "ListItem", "position": 3, "name": displayTitle },
   ],
 };
 
@@ -186,7 +187,7 @@ const starBreakdown = rating > 0 && reviewCount > 0 ? (() => {
 })() : null;
 ---
 
-<BaseLayout title={seoTitle} description={description} image={localImg || images[0]} preloadImage={localImg || images[0]}>
+<BaseLayout title={pageTitle} description={description} image={localImg || images[0]} preloadImage={localImg || images[0]}>
   <script type="application/ld+json" set:html={JSON.stringify(productSchema)} />
   <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
@@ -197,7 +198,7 @@ const starBreakdown = rating > 0 && reviewCount > 0 ? (() => {
     <span class="mx-1">›</span>
     <a href={`/categories/${categorySlug}/`} class="hover:text-pet-500">{category}</a>
     <span class="mx-1">›</span>
-    <span class="text-gray-600">{seoTitle.slice(0, 50)}{seoTitle.length > 50 ? '...' : ''}</span>
+    <span class="text-gray-600">{displayTitle.slice(0, 50)}{displayTitle.length > 50 ? '...' : ''}</span>
   </nav>
 
   <article class="max-w-7xl mx-auto px-4 py-6">
@@ -206,13 +207,13 @@ const starBreakdown = rating > 0 && reviewCount > 0 ? (() => {
       <!-- Images -->
       <div>
         <div class="aspect-square bg-surface rounded-xl overflow-hidden mb-3 flex items-center justify-center">
-          <img id="mainProductImg" src={localImg || images[0]} alt={seoTitle} title={seoTitle} class="max-w-full max-h-full object-contain" fetchpriority="high" />
+          <img id="mainProductImg" src={localImg || images[0]} alt={displayTitle} title={displayTitle} class="max-w-full max-h-full object-contain" fetchpriority="high" />
         </div>
         {images.length > 1 && (
           <div class="grid grid-cols-5 gap-2">
             {images.slice(0, 5).map((img: string, i: number) => (
               <button type="button" class="gallery-thumb aspect-square bg-surface rounded-lg overflow-hidden border-2 border-transparent hover:border-pet-400 transition-colors cursor-pointer p-0" data-src={img} aria-label={`ดูภาพที่ ${i + 2}`}>
-                <img src={img} alt={`${seoTitle} - ภาพที่ ${i + 2}`} title={seoTitle} width="200" height="200" class="w-full h-full object-cover" loading="lazy" decoding="async" />
+                <img src={img} alt={`${displayTitle} - ภาพที่ ${i + 2}`} title={displayTitle} width="200" height="200" class="w-full h-full object-cover" loading="lazy" decoding="async" />
               </button>
             ))}
           </div>
@@ -221,7 +222,7 @@ const starBreakdown = rating > 0 && reviewCount > 0 ? (() => {
 
       <!-- Info -->
       <div>
-        <h1 class="text-xl md:text-2xl font-bold text-gray-900 mb-4 leading-snug">{seoTitle}</h1>
+        <h1 class="text-xl md:text-2xl font-bold text-gray-900 mb-4 leading-snug">{displayTitle}</h1>
 
         {(rating > 0 || soldStr || brandClean) && (
           <div class="flex items-center flex-wrap gap-3 mb-4 text-sm">
