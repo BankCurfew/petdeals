@@ -44,6 +44,16 @@ const articleSchema = {
   "publisher": { "@type": "Organization", "name": "PetzDeals", "url": "https://petzdeals.com", "logo": { "@type": "ImageObject", "url": "https://petzdeals.com/favicon.svg" } },
 };
 
+const faqSchema = post.data.faqItems?.length ? {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": post.data.faqItems.map((f: { q: string; a: string }) => ({
+    "@type": "Question",
+    "name": f.q,
+    "acceptedAnswer": { "@type": "Answer", "text": f.a },
+  })),
+} : null;
+
 const dateFormatted = new Date(post.data.date).toLocaleDateString('th-TH', {
   year: 'numeric', month: 'long', day: 'numeric',
 });
@@ -51,6 +61,7 @@ const dateFormatted = new Date(post.data.date).toLocaleDateString('th-TH', {
 
 <BaseLayout title={post.data.title} description={post.data.description} type="article" image={post.data.image || '/brand/og-default.webp'}>
   <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+  {faqSchema && <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />}
 
   <nav class="max-w-4xl mx-auto px-4 py-3 text-sm text-gray-400">
     <a href="/" class="hover:text-pet-500">หน้าแรก</a>
