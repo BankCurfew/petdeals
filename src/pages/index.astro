@@ -89,7 +89,7 @@ const newProducts = allProducts.slice(-12).reverse();
     <div class="flex gap-3 overflow-x-auto pb-2" style="scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch;">
       {topDeals.map((p, i) => (
         <div class="flex-shrink-0 w-44 sm:w-48" style="scroll-snap-align: start;">
-          <ProductCard {...p} eager={i === 0} />
+          <ProductCard {...p} eager={i < 2} />
         </div>
       ))}
     </div>
@@ -117,7 +117,7 @@ const newProducts = allProducts.slice(-12).reverse();
     </div>
     <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
       {newProducts.map((p, i) => (
-        <ProductCard {...p} eager={i === 0} />
+        <ProductCard {...p} eager={i < 4} />
       ))}
     </div>
   </section>
