@@ -1,0 +1,40 @@
+{
+  "pulled_at": "2026-07-12T08:00:33.670398",
+  "date_range": {
+    "start": "2026-07-04",
+    "end": "2026-07-10"
+  },
+  "total_rows": 3,
+  "rows": [
+    {
+      "keys": [
+        "https://petzdeals.com/categories/dog-food/",
+        "adult dog food"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 47
+    },
+    {
+      "keys": [
+        "https://petzdeals.com/products/meowspace-cat-litter-10%E0%B8%A5%E0%B8%B4%E0%B8%95%E0%B8%A3/",
+        "ทรายแมว meow space"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 14
+    },
+    {
+      "keys": [
+        "https://petzdeals.com/products/p-123465/",
+        "ลูกบอลแมว"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    }
+  ]
+}

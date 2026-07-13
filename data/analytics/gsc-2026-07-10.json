@@ -1,0 +1,20 @@
+{
+  "pulled_at": "2026-07-10T08:00:34.797508",
+  "date_range": {
+    "start": "2026-07-02",
+    "end": "2026-07-08"
+  },
+  "total_rows": 1,
+  "rows": [
+    {
+      "keys": [
+        "https://petzdeals.com/products/meowspace-cat-litter-10%E0%B8%A5%E0%B8%B4%E0%B8%95%E0%B8%A3/",
+        "ทรายแมว meow space"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 14
+    }
+  ]
+}
