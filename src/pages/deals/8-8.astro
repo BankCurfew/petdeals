@@ -17,14 +17,14 @@ const products = productsData
     name: p.title,
     image: p.localImage || `/products/${p.slug}.webp`,
     price: parseInt(String(p.price).replace(/[^0-9]/g, '')) || 0,
-    originalPrice: p.priceHigh ? parseInt(String(p.priceHigh).replace(/[^0-9]/g, '')) : undefined,
+    originalPrice: (p.price_before_discount || p.priceHigh) ? parseInt(String(p.price_before_discount || p.priceHigh).replace(/[^0-9]/g, '')) : undefined,
     rating: p.rating ? parseFloat(p.rating) : 0,
     sold: p.sold || '',
     affiliateUrl: p.affiliateUrl || p.url || '#',
     category: p.category || 'food',
     lastUpdated: p.lastUpdated,
     slug: p.slug,
-    discount: p.originalPrice ? Math.round((1 - (parseInt(String(p.price).replace(/[^0-9]/g, '')) / parseInt(String(p.originalPrice).replace(/[^0-9]/g, '')))) * 100) : 0,
+    discount: (p.price_before_discount || p.originalPrice) ? Math.round((1 - (parseInt(String(p.price).replace(/[^0-9]/g, '')) / parseInt(String(p.price_before_discount || p.originalPrice).replace(/[^0-9]/g, '')))) * 100) : 0,
   }));
 
 const topDeals = (dealsRaw as any).items

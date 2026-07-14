@@ -17,7 +17,7 @@ const allProducts = productsData
     const price = parseInt(String(p.price).replace(/[^0-9]/g, '')) || 0;
     const afterCode = p.priceAfterCode ? parseInt(String(p.priceAfterCode).replace(/[^0-9]/g, '')) : 0;
     const displayPrice = afterCode >= 5 && afterCode < price ? afterCode : price;
-    const beforeDiscount = p.originalPrice ? parseInt(String(p.originalPrice).replace(/[^0-9]/g, '')) : 0;
+    const beforeDiscount = (p.price_before_discount || p.originalPrice) ? parseInt(String(p.price_before_discount || p.originalPrice).replace(/[^0-9]/g, '')) : 0;
     const hasRealDiscount = beforeDiscount > displayPrice;
     return {
       name: p.title,

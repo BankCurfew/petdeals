@@ -22,7 +22,7 @@ const products = productsData
   .filter((p: any) => parseInt(String(p.price).replace(/[^0-9]/g, '')) >= 5)
   .map((p: any) => {
     const price = parseInt(String(p.price).replace(/[^0-9]/g, '')) || 0;
-    const origPrice = p.originalPrice ? parseInt(String(p.originalPrice).replace(/[^0-9]/g, '')) : 0;
+    const origPrice = (p.price_before_discount || p.originalPrice) ? parseInt(String(p.price_before_discount || p.originalPrice).replace(/[^0-9]/g, '')) : 0;
     const hasDiscount = origPrice > price;
     return {
       name: p.title,

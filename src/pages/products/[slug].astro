@@ -18,7 +18,7 @@ export function getStaticPaths() {
 
 const { product, pageTitle } = Astro.props;
 const price = parseInt(String(product.price).replace(/[^0-9]/g, '')) || 0;
-const priceHigh = product.originalPrice ? parseInt(String(product.originalPrice).replace(/[^0-9]/g, '')) : 0;
+const priceHigh = (product.price_before_discount || product.originalPrice) ? parseInt(String(product.price_before_discount || product.originalPrice).replace(/[^0-9]/g, '')) : 0;
 const priceAfterCode = product.priceAfterCode ? parseInt(String(product.priceAfterCode).replace(/[^0-9]/g, '')) : 0;
 const voucherText = product.voucherText || '';
 const voucherCode = product.voucherCode || '';
