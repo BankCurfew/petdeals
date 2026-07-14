@@ -632,8 +632,8 @@
     "shopId": "262132208",
     "itemId": "18108344668",
     "title": "(ซื้อ3ถุง ค่าส่ง 0 บาท เก็บโค้ด Xtra 49.-) ทรายแมว MEOW SPACE จับก้อนดี มีกลิ่นหอม ช่วยกำจัดกลิ่น ขนาด 10 ลิตร",
-    "price": "฿103",
-    "priceMax": "฿105",
+    "price": "฿102",
+    "priceMax": "฿149",
     "rating": "4.94",
     "reviewCount": "6247",
     "sold": "10k+",
@@ -662,13 +662,15 @@
     "seoTitle": "ทรายแมว Meow Space เต้าหู้ — ไร้ฝุ่น ทิ้งชักโครกได้ 6,247 รีวิว",
     "feedLink": "https://shopee.co.th/product/262132208/18108344668",
     "localImage": "/products/meowspace-cat-litter-10ลิตร.webp",
-    "discountPercent": 2,
+    "discountPercent": 32,
     "isOnSale": true,
-    "price_before_discount": "฿105",
+    "price_before_discount": "฿149",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "(ซื้อ3ถุง ค่าส่ง 0 บาท เก็บโค้ด Xtra 49.-) ทรายแมว MEOW SPACE จับก้อนดี มีกลิ่นห — จับก้อนดีไร้ฝุ่น. จาก Meow Space(เหมียว สเปซ) ในหมวดทรายแมว ราคา ฿103 เช็คราค"
+    "description": "(ซื้อ3ถุง ค่าส่ง 0 บาท เก็บโค้ด Xtra 49.-) ทรายแมว MEOW SPACE จับก้อนดี มีกลิ่นห — จับก้อนดีไร้ฝุ่น. จาก Meow Space(เหมียว สเปซ) ในหมวดทรายแมว ราคา ฿103 เช็คราค",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1496922957",
@@ -708,8 +710,8 @@
     "shopId": "287201971",
     "itemId": "22590281650",
     "title": "Petcho ทรายแมวภูเขาไฟ ทรายแมว ดับกลิ่นได้ดีเยี่ยม 100% จากธรรมชาติ ฝุ่นละอองต่ำ Premium Cat Litter",
-    "price": "฿154",
-    "priceMax": "",
+    "price": "฿1",
+    "priceMax": "฿100",
     "rating": "4.9",
     "reviewCount": "4213",
     "sold": "5k+",
@@ -731,12 +733,15 @@
     "scrapedAt": "2026-06-29",
     "feedLink": "https://shopee.co.th/product/287201971/22590281650",
     "localImage": "/products/petcho-cat-litter-1.webp",
-    "discountPercent": 0,
-    "isOnSale": false,
+    "discountPercent": 99,
+    "isOnSale": true,
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "Petcho ทรายแมวภูเขาไฟ ทรายแมว ดับกลิ่นได้ดีเยี่ยม 100% จากธรรมชาติ ฝุ่นละอองต่ำ  — ทาสแมวต้องสต็อก. จาก Petcho(เพ็ทโช) ในหมวดทรายแมว ราคา ฿154 เช็คราคาและรีวิวจ"
+    "description": "Petcho ทรายแมวภูเขาไฟ ทรายแมว ดับกลิ่นได้ดีเยี่ยม 100% จากธรรมชาติ ฝุ่นละอองต่ำ  — ทาสแมวต้องสต็อก. จาก Petcho(เพ็ทโช) ในหมวดทรายแมว ราคา ฿154 เช็คราคาและรีวิวจ",
+    "price_before_discount": "฿100",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1496094264",
@@ -809,7 +814,7 @@
     "itemId": "54911564056",
     "title": "Kasty แคสตี้ ทรายแมวเต้าหู้ธรรมชาติ ขนาด 20 ลิตร ปราศจากฝุ่น ดับกลิ่นดีเยี่ยม ทิ้งชักโครกได้",
     "price": "฿535",
-    "priceMax": "฿675",
+    "priceMax": "฿759",
     "rating": "4.98",
     "reviewCount": "1439",
     "sold": "2k+",
@@ -830,13 +835,15 @@
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
     "localImage": "/products/kasty-cat-litter-20ลิตร.webp",
-    "discountPercent": 21,
+    "discountPercent": 30,
     "isOnSale": true,
-    "price_before_discount": "฿675",
+    "price_before_discount": "฿759",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "Kasty แคสตี้ ทรายแมวเต้าหู้ธรรมชาติ ขนาด 20 ลิตร ปราศจากฝุ่น ดับกลิ่นดีเยี่ยม ทิ — ดับกลิ่นดีคุ้มค่า. จาก Kasty(เคสตี้) ในหมวดทรายแมว ราคา ฿535 เช็คราคาและรีวิว"
+    "description": "Kasty แคสตี้ ทรายแมวเต้าหู้ธรรมชาติ ขนาด 20 ลิตร ปราศจากฝุ่น ดับกลิ่นดีเยี่ยม ทิ — ดับกลิ่นดีคุ้มค่า. จาก Kasty(เคสตี้) ในหมวดทรายแมว ราคา ฿535 เช็คราคาและรีวิว",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1850483867",
@@ -875,8 +882,8 @@
     "shopId": "1495508525",
     "itemId": "47010302496",
     "title": "Klleiทรายแมว ทำจากมันสำปะหลังธรรมชาติ ไร้ฝุ่น ดับกลิ่นดีเยี่ยม เหมาะกับคอนโด",
-    "price": "฿96",
-    "priceMax": "",
+    "price": "฿9",
+    "priceMax": "฿329",
     "rating": "4.88",
     "reviewCount": "136",
     "sold": "500+",
@@ -897,12 +904,15 @@
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
     "localImage": "/products/kllei-cat-litter.webp",
-    "discountPercent": 0,
-    "isOnSale": false,
+    "discountPercent": 97,
+    "isOnSale": true,
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "Klleiทรายแมว ทำจากมันสำปะหลังธรรมชาติ ไร้ฝุ่น ดับกลิ่นดีเยี่ยม เหมาะกับคอนโด — ดับกลิ่นดีคุ้มค่า. จาก Kllei(เคลลี) ในหมวดทรายแมว ราคา ฿96 เช็คราคาและรีวิวจริง"
+    "description": "Klleiทรายแมว ทำจากมันสำปะหลังธรรมชาติ ไร้ฝุ่น ดับกลิ่นดีเยี่ยม เหมาะกับคอนโด — ดับกลิ่นดีคุ้มค่า. จาก Kllei(เคลลี) ในหมวดทรายแมว ราคา ฿96 เช็คราคาและรีวิวจริง",
+    "price_before_discount": "฿329",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1850477356",
@@ -967,14 +977,16 @@
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "1 แถม 1 ทรายแมว Friendly Cat ขนาด 10 ลิตร เกรดพรีเมี่ยม ทรายแมวเบนโทไนท์ 100% จั — จับก้อนดีไร้ฝุ่น. ในหมวดทรายแมว ราคา ฿185 เช็คราคาและรีวิวจริง"
+    "description": "1 แถม 1 ทรายแมว Friendly Cat ขนาด 10 ลิตร เกรดพรีเมี่ยม ทรายแมวเบนโทไนท์ 100% จั — จับก้อนดีไร้ฝุ่น. ในหมวดทรายแมว ราคา ฿185 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "287201971",
     "itemId": "51101449827",
     "title": "Petcho ทรายแมวเต้าหู้ Plant-based ดูดซับของเหลวภายใน 2 วินาที จับตัวเป็นก้อนแน่น ฝุ่นน้อย",
-    "price": "฿274",
-    "priceMax": "",
+    "price": "฿1",
+    "priceMax": "฿199",
     "rating": "4.94",
     "reviewCount": "2352",
     "sold": "5k+",
@@ -995,19 +1007,22 @@
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
     "localImage": "/products/petcho-cat-litter-2.webp",
-    "discountPercent": 0,
-    "isOnSale": false,
+    "discountPercent": 99,
+    "isOnSale": true,
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "Petcho ทรายแมวเต้าหู้ Plant-based ดูดซับของเหลวภายใน 2 วินาที จับตัวเป็นก้อนแน่น — จับก้อนดีไร้ฝุ่น. จาก Petcho(เพ็ทโช) ในหมวดทรายแมว ราคา ฿274 เช็คราคาและรีวิว"
+    "description": "Petcho ทรายแมวเต้าหู้ Plant-based ดูดซับของเหลวภายใน 2 วินาที จับตัวเป็นก้อนแน่น — จับก้อนดีไร้ฝุ่น. จาก Petcho(เพ็ทโช) ในหมวดทรายแมว ราคา ฿274 เช็คราคาและรีวิว",
+    "price_before_discount": "฿199",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "321789311",
     "itemId": "25551122711",
     "title": "PP A10 ทรายแมวเต้าหู้ 4ชิ้น ออร์แกนิค100% ผลิตจากกากถั่วเหลืองธรรมชาติ ทรายแมว Cat Litter 6L ทรายแมวเต้าหู้ ทรายเต้าหู้",
-    "price": "฿217",
-    "priceMax": "฿219",
+    "price": "฿218",
+    "priceMax": "฿269",
     "rating": "4.89",
     "reviewCount": "8986",
     "sold": "10k+",
@@ -1028,20 +1043,22 @@
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
     "localImage": "/products/cat-litter-4pack.webp",
-    "discountPercent": 1,
+    "discountPercent": 19,
     "isOnSale": true,
-    "price_before_discount": "฿219",
+    "price_before_discount": "฿269",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "PP A10 ทรายแมวเต้าหู้ 4ชิ้น ออร์แกนิค100% ผลิตจากกากถั่วเหลืองธรรมชาติ ทรายแมว C — จับก้อนดีไร้ฝุ่น. ในหมวดทรายแมว ราคา ฿217 เช็คราคาและรีวิวจริง"
+    "description": "PP A10 ทรายแมวเต้าหู้ 4ชิ้น ออร์แกนิค100% ผลิตจากกากถั่วเหลืองธรรมชาติ ทรายแมว C — จับก้อนดีไร้ฝุ่น. ในหมวดทรายแมว ราคา ฿217 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "287201971",
     "itemId": "26380805419",
     "title": "Petcho ทรายแมวเต้าหู้ เกรดพรีเมียม ขนาดอนุภาคเล็ก 1.5 มม จับตัวเป็นก้อนเร็ว ดับกลิ่นดีเยี่ยม",
-    "price": "฿264",
-    "priceMax": "",
+    "price": "฿1",
+    "priceMax": "฿99",
     "rating": "4.93",
     "reviewCount": "4544",
     "sold": "5k+",
@@ -1063,19 +1080,22 @@
     "scrapedAt": "2026-06-29",
     "feedLink": "https://shopee.co.th/product/287201971/26380805419",
     "localImage": "/products/petcho-cat-litter-3.webp",
-    "discountPercent": 0,
-    "isOnSale": false,
+    "discountPercent": 99,
+    "isOnSale": true,
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "Petcho ทรายแมวเต้าหู้ เกรดพรีเมียม ขนาดอนุภาคเล็ก 1.5 มม จับตัวเป็นก้อนเร็ว ดับก — จับก้อนดีไร้ฝุ่น. จาก Petcho(เพ็ทโช) ในหมวดทรายแมว ราคา ฿264 เช็คราคาและรีวิว"
+    "description": "Petcho ทรายแมวเต้าหู้ เกรดพรีเมียม ขนาดอนุภาคเล็ก 1.5 มม จับตัวเป็นก้อนเร็ว ดับก — จับก้อนดีไร้ฝุ่น. จาก Petcho(เพ็ทโช) ในหมวดทรายแมว ราคา ฿264 เช็คราคาและรีวิว",
+    "price_before_discount": "฿99",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1469541987",
     "itemId": "29729859457",
     "title": "Cutepol 28L ทรายแมว ทำจากมันสำปะหลังธรรมชาติ ดับกลิ่นดีเยี่ยม16L 8L 4L ทรายแมวส่งฟรี",
-    "price": "฿120",
-    "priceMax": "",
+    "price": "฿188",
+    "priceMax": "฿419",
     "rating": "4.89",
     "reviewCount": "12143",
     "sold": "10k+",
@@ -1103,12 +1123,15 @@
     ],
     "seoTitle": "ทรายแมว Cutepol 28 ลิตร มันสำปะหลัง — ใหญ่ คุ้ม 12,143 รีวิว",
     "localImage": "/products/cutepol-cat-litter.webp",
-    "discountPercent": 0,
-    "isOnSale": false,
+    "discountPercent": 55,
+    "isOnSale": true,
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "Cutepol 28L ทรายแมว ทำจากมันสำปะหลังธรรมชาติ ดับกลิ่นดีเยี่ยม16L 8L 4L ทรายแมวส่ — ดับกลิ่นดีคุ้มค่า. จาก Cutepol ในหมวดทรายแมว ราคา ฿120 เช็คราคาและรีวิวจริง"
+    "description": "Cutepol 28L ทรายแมว ทำจากมันสำปะหลังธรรมชาติ ดับกลิ่นดีเยี่ยม16L 8L 4L ทรายแมวส่ — ดับกลิ่นดีคุ้มค่า. จาก Cutepol ในหมวดทรายแมว ราคา ฿120 เช็คราคาและรีวิวจริง",
+    "price_before_discount": "฿419",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1327057570",
@@ -1951,8 +1974,8 @@
     "shopId": "1571633380",
     "itemId": "54610883533",
     "title": "[12/24/48ซอง] อาหารแมวเปียก อาหารเปียกแมว ทูน่า แซลมอน\tเสริมกล้าม โปรตีนสูง บำรุงผิวหนังและขน อาหารเปียกลูกแมว",
-    "price": "฿109",
-    "priceMax": "",
+    "price": "฿79",
+    "priceMax": "฿218",
     "rating": "4.93",
     "reviewCount": "97",
     "sold": "500+",
@@ -1980,19 +2003,22 @@
     ],
     "seoTitle": "อาหารแมวเปียก Ketzuzu — ซองละ ฿8 ถูกสุด 6,142 รีวิว",
     "localImage": "/products/ketzuzu-wet-food-48pack.webp",
-    "discountPercent": 0,
-    "isOnSale": false,
+    "discountPercent": 64,
+    "isOnSale": true,
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "[12/24/48ซอง] อาหารแมวเปียก อาหารเปียกแมว ทูน่า แซลมอน\tเสริมกล้าม โปรตีนสูง บำรุ — อาหารเปียกคุณภาพ. จาก Ketzuzu(เคทสึซึ) ในหมวดอาหารเปียก ราคา ฿109 เช็คราคาและ"
+    "description": "[12/24/48ซอง] อาหารแมวเปียก อาหารเปียกแมว ทูน่า แซลมอน\tเสริมกล้าม โปรตีนสูง บำรุ — อาหารเปียกคุณภาพ. จาก Ketzuzu(เคทสึซึ) ในหมวดอาหารเปียก ราคา ฿109 เช็คราคาและ",
+    "price_before_discount": "฿218",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1449018616",
     "itemId": "50404163819",
     "title": "Meow Meow อาหารเปียก 85 g ยกโหล (12 ซอง)",
     "price": "฿129",
-    "priceMax": "฿133",
+    "priceMax": "฿137",
     "rating": "4.94",
     "reviewCount": "3218",
     "sold": "5k+",
@@ -2009,20 +2035,22 @@
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
     "localImage": "/products/meowmeow-wet-food-85g.webp",
-    "discountPercent": 3,
+    "discountPercent": 6,
     "isOnSale": true,
-    "price_before_discount": "฿133",
+    "price_before_discount": "฿137",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "Meow Meow อาหารเปียก 85 g ยกโหล (12 ซอง) — เปียกนุ่มน้องชอบ. จาก Meow Meow(เหมียว เหมียว) ในหมวดอาหารเปียก ราคา ฿129 เช็คราคาและรีวิวจริง"
+    "description": "Meow Meow อาหารเปียก 85 g ยกโหล (12 ซอง) — เปียกนุ่มน้องชอบ. จาก Meow Meow(เหมียว เหมียว) ในหมวดอาหารเปียก ราคา ฿129 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1579722061",
     "itemId": "48056875141",
     "title": "🔥ราคาพิเศษ! Ketzuzu อาหารเปียกแมว เนื้อบด ย่อยง่าย สำหรับแมวทุกสายพันธุ์ 70g",
-    "price": "฿109",
-    "priceMax": "",
+    "price": "฿79",
+    "priceMax": "฿199",
     "rating": "4.73",
     "reviewCount": "1869",
     "sold": "2k+",
@@ -2043,19 +2071,22 @@
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
     "localImage": "/products/ketzuzu-wet-food-70g-1.webp",
-    "discountPercent": 0,
-    "isOnSale": false,
+    "discountPercent": 60,
+    "isOnSale": true,
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "🔥ราคาพิเศษ! Ketzuzu อาหารเปียกแมว เนื้อบด ย่อยง่าย สำหรับแมวทุกสายพันธุ์ 70g — อร่อยจนเลียจาน. จาก Ketzuzu(เคทสึซึ) ในหมวดอาหารเปียก ราคา ฿109 เช็คราคาและรีวิวจ"
+    "description": "🔥ราคาพิเศษ! Ketzuzu อาหารเปียกแมว เนื้อบด ย่อยง่าย สำหรับแมวทุกสายพันธุ์ 70g — อร่อยจนเลียจาน. จาก Ketzuzu(เคทสึซึ) ในหมวดอาหารเปียก ราคา ฿109 เช็คราคาและรีวิวจ",
+    "price_before_discount": "฿199",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "64518251",
     "itemId": "20943646614",
     "title": "Cherman เชอร์แมน อาหารแมวเปียก ชนิดซอง 85 กรัม [12ซอง]*โปรดอ่านรายละเอียดก่อนสั่งซื้อ",
-    "price": "฿124",
-    "priceMax": "฿147",
+    "price": "฿130",
+    "priceMax": "฿133",
     "rating": "4.94",
     "reviewCount": "1859",
     "sold": "2k+",
@@ -2072,20 +2103,22 @@
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
     "localImage": "/products/cherman-wet-food-12pack.webp",
-    "discountPercent": 16,
+    "discountPercent": 4,
     "isOnSale": true,
-    "price_before_discount": "฿147",
+    "price_before_discount": "฿133",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "Cherman เชอร์แมน อาหารแมวเปียก ชนิดซอง 85 กรัม [12ซอง]*โปรดอ่านรายละเอียดก่อนสั่ — อาหารเปียกคุณภาพ. จาก Cherman(เชอร์แมน) ในหมวดอาหารเปียก ราคา ฿124 เช็คราคาแล"
+    "description": "Cherman เชอร์แมน อาหารแมวเปียก ชนิดซอง 85 กรัม [12ซอง]*โปรดอ่านรายละเอียดก่อนสั่ — อาหารเปียกคุณภาพ. จาก Cherman(เชอร์แมน) ในหมวดอาหารเปียก ราคา ฿124 เช็คราคาแล",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1579722061",
     "itemId": "57156844951",
     "title": "ราคาพิเศษ! (ยกโหล) Ketzuzu อาหารเปียกแมว อาหารแมว อาหารเปียกแมวแบบซอง เนื้อบดละเอียด 70g x 12",
-    "price": "฿109",
-    "priceMax": "",
+    "price": "฿79",
+    "priceMax": "฿199",
     "rating": "4.74",
     "reviewCount": "974",
     "sold": "2k+",
@@ -2106,12 +2139,15 @@
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
     "localImage": "/products/ketzuzu-wet-food-70g-2.webp",
-    "discountPercent": 0,
-    "isOnSale": false,
+    "discountPercent": 60,
+    "isOnSale": true,
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "ราคาพิเศษ! (ยกโหล) Ketzuzu อาหารเปียกแมว อาหารแมว อาหารเปียกแมวแบบซอง เนื้อบดละเ — อาหารเปียกคุณภาพ. จาก Ketzuzu(เคทสึซึ) ในหมวดอาหารเปียก ราคา ฿109 เช็คราคาและ"
+    "description": "ราคาพิเศษ! (ยกโหล) Ketzuzu อาหารเปียกแมว อาหารแมว อาหารเปียกแมวแบบซอง เนื้อบดละเ — อาหารเปียกคุณภาพ. จาก Ketzuzu(เคทสึซึ) ในหมวดอาหารเปียก ราคา ฿109 เช็คราคาและ",
+    "price_before_discount": "฿199",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1579722061",
@@ -2224,7 +2260,7 @@
     "itemId": "46310483608",
     "title": "[แพ็ค 12 ซอง] เบลลอตต้า (Bellotta) อาหารแมวชนิดเปียก เลือกรสได้ แบบซอง 85 g.(เลือกรสได้)",
     "price": "฿209",
-    "priceMax": "฿225",
+    "priceMax": "฿240",
     "rating": "4.97",
     "reviewCount": "409",
     "sold": "1k+",
@@ -2245,13 +2281,15 @@
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
     "localImage": "/products/bellotta-wet-food-85g.webp",
-    "discountPercent": 7,
+    "discountPercent": 13,
     "isOnSale": true,
-    "price_before_discount": "฿225",
+    "price_before_discount": "฿240",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "[แพ็ค 12 ซอง] เบลลอตต้า (Bellotta) อาหารแมวชนิดเปียก เลือกรสได้ แบบซอง 85 g.(เลื — อาหารเปียกคุณภาพ. จาก Bellotta(เบลลอตต้า) ในหมวดอาหารเปียก ราคา ฿209 เช็คราคา"
+    "description": "[แพ็ค 12 ซอง] เบลลอตต้า (Bellotta) อาหารแมวชนิดเปียก เลือกรสได้ แบบซอง 85 g.(เลื — อาหารเปียกคุณภาพ. จาก Bellotta(เบลลอตต้า) ในหมวดอาหารเปียก ราคา ฿209 เช็คราคา",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1579821145",
@@ -2363,7 +2401,7 @@
     "itemId": "5938133179",
     "title": "[6-12 ซอง] Cattycat แคทตี้แคท อาหารแมวปลาทูน่าเนื้อแดง 80g",
     "price": "฿64",
-    "priceMax": "฿124",
+    "priceMax": "฿120",
     "rating": "4.87",
     "reviewCount": "6491",
     "sold": "10k+",
@@ -2383,13 +2421,15 @@
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
     "localImage": "/products/cattycat-wet-food-80g.webp",
-    "discountPercent": 48,
+    "discountPercent": 47,
     "isOnSale": true,
-    "price_before_discount": "฿124",
+    "price_before_discount": "฿120",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "[6-12 ซอง] Cattycat แคทตี้แคท อาหารแมวปลาทูน่าเนื้อแดง 80g — อร่อยจนเลียจาน. จาก Catty Cat(แคทตี้แคท) ในหมวดอาหารเปียก ราคา ฿64 เช็คราคาและรีวิวจริง"
+    "description": "[6-12 ซอง] Cattycat แคทตี้แคท อาหารแมวปลาทูน่าเนื้อแดง 80g — อร่อยจนเลียจาน. จาก Catty Cat(แคทตี้แคท) ในหมวดอาหารเปียก ราคา ฿64 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1580877610",
@@ -2528,8 +2568,8 @@
     "shopId": "724854905",
     "itemId": "48408371703",
     "title": "(12 ซอง) อาหารเปียกแมว Cat’s Taste 1 กล่อง ( 12 ซอง )",
-    "price": "฿168",
-    "priceMax": "฿193",
+    "price": "฿185",
+    "priceMax": "",
     "rating": "4.97",
     "reviewCount": "3545",
     "sold": "5k+",
@@ -2550,13 +2590,15 @@
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
     "localImage": "/products/catstaste-wet-food-12pack.webp",
-    "discountPercent": 13,
-    "isOnSale": true,
-    "price_before_discount": "฿193",
+    "discountPercent": 0,
+    "isOnSale": false,
+    "price_before_discount": "",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "(12 ซอง) อาหารเปียกแมว Cat’s Taste 1 กล่อง ( 12 ซอง ) — อาหารเปียกคุณภาพ. จาก Cat's Taste(แคทเทสต์) ในหมวดอาหารเปียก ราคา ฿168 เช็คราคาและรีวิวจริง"
+    "description": "(12 ซอง) อาหารเปียกแมว Cat’s Taste 1 กล่อง ( 12 ซอง ) — อาหารเปียกคุณภาพ. จาก Cat's Taste(แคทเทสต์) ในหมวดอาหารเปียก ราคา ฿168 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1052066532",
@@ -2629,7 +2671,7 @@
     "itemId": "50053775602",
     "title": "[ยกลัง 100 ซอง]17g 🔥 ราคาช็อกโลก! Ketzuzu ขนมแมวเลียสูตรชุ่มชื้น ทาสแมวต้องรีบตุน",
     "price": "฿119",
-    "priceMax": "",
+    "priceMax": "฿200",
     "rating": "4.91",
     "reviewCount": "1939",
     "sold": "5k+",
@@ -2650,12 +2692,15 @@
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
     "localImage": "/products/ketzuzu-cat-food-17g.webp",
-    "discountPercent": 0,
-    "isOnSale": false,
+    "discountPercent": 41,
+    "isOnSale": true,
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "[ยกลัง 100 ซอง]17g 🔥 ราคาช็อกโลก! Ketzuzu ขนมแมวเลียสูตรชุ่มชื้น ทาสแมวต้องรีบตุ — น้องเหมียวชอบ. จาก Ketzuzu(เคทสึซึ) ในหมวดอาหารแมว ราคา ฿119 เช็คราคาและรีวิว"
+    "description": "[ยกลัง 100 ซอง]17g 🔥 ราคาช็อกโลก! Ketzuzu ขนมแมวเลียสูตรชุ่มชื้น ทาสแมวต้องรีบตุ — น้องเหมียวชอบ. จาก Ketzuzu(เคทสึซึ) ในหมวดอาหารแมว ราคา ฿119 เช็คราคาและรีวิว",
+    "price_before_discount": "฿200",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1449018616",
@@ -2729,8 +2774,8 @@
     "shopId": "1118890063",
     "itemId": "27720534292",
     "title": "MRVET อาหารแมว Holistic T1&T2 1kg - เหมาะสำหรับแมวทุกช่วงวัย",
-    "price": "฿160",
-    "priceMax": "",
+    "price": "฿199",
+    "priceMax": "฿279",
     "rating": "4.95",
     "reviewCount": "9266",
     "sold": "10k+",
@@ -2752,12 +2797,15 @@
     "scrapedAt": "2026-06-29",
     "feedLink": "https://shopee.co.th/product/1118890063/27720534292",
     "localImage": "/products/mrvet-cat-food-1kg.webp",
-    "discountPercent": 0,
-    "isOnSale": false,
+    "discountPercent": 51,
+    "isOnSale": true,
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "MRVET อาหารแมว Holistic T1&T2 1kg - เหมาะสำหรับแมวทุกช่วงวัย — ทาสแมวต้องมี. จาก Mr.Vet(มิสเตอร์เวท) ในหมวดอาหารแมว ราคา ฿160 เช็คราคาและรีวิวจริง"
+    "description": "MRVET อาหารแมว Holistic T1&T2 1kg - เหมาะสำหรับแมวทุกช่วงวัย — ทาสแมวต้องมี. จาก Mr.Vet(มิสเตอร์เวท) ในหมวดอาหารแมว ราคา ฿160 เช็คราคาและรีวิวจริง",
+    "price_before_discount": "฿279",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "28265861",
@@ -3068,7 +3116,10 @@
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "(7 KG.)( DC11,DC21,DC31) DEENEE CAT อาหารเม็ดแมวโต 3 รสชาติ โปรตีน26% ไม่เติมเกล — ทาสแมวต้องมี. จาก Deeneecat(ดีนี่แคท) ในหมวดอาหารแมว ราคา ฿239 เช็คราคาและรีว"
+    "description": "(7 KG.)( DC11,DC21,DC31) DEENEE CAT อาหารเม็ดแมวโต 3 รสชาติ โปรตีน26% ไม่เติมเกล — ทาสแมวต้องมี. จาก Deeneecat(ดีนี่แคท) ในหมวดอาหารแมว ราคา ฿239 เช็คราคาและรีว",
+    "price_before_discount": "",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1449018616",
@@ -3212,7 +3263,9 @@
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "[กระสอบ 7กก] DEENEE CAT ดีนี่แคท อาหารแมว กระสอบ อร่อย ไม่เติมเกลือ — น้องเหมียวชอบ. ในหมวดอาหารแมว ราคา ฿170 เช็คราคาและรีวิวจริง"
+    "description": "[กระสอบ 7กก] DEENEE CAT ดีนี่แคท อาหารแมว กระสอบ อร่อย ไม่เติมเกลือ — น้องเหมียวชอบ. ในหมวดอาหารแมว ราคา ฿170 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "179359716",
@@ -3291,8 +3344,8 @@
     "shopId": "1182608526",
     "itemId": "41804017575",
     "title": "Buzz Beyond บัซซ์ บียอนด์ อาหารแมว อาหารแมวเกรดพรีเมี่ยม ขนาด 7 kg (มีถุงแบ่งด้านในถุงละ 1 กิโล) // จัดส่งทั้งกระสอบ",
-    "price": "฿704",
-    "priceMax": "฿705",
+    "price": "฿705",
+    "priceMax": "",
     "rating": "4.96",
     "reviewCount": "6343",
     "sold": "10k+",
@@ -3314,12 +3367,14 @@
     "scrapedAt": "2026-06-29",
     "localImage": "/products/cat-food-7kg-3.webp",
     "discountPercent": 0,
-    "isOnSale": true,
-    "price_before_discount": "฿705",
+    "isOnSale": false,
+    "price_before_discount": "",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "Buzz Beyond บัซซ์ บียอนด์ อาหารแมว อาหารแมวเกรดพรีเมี่ยม ขนาด 7 kg (มีถุงแบ่งด้า — น้องเหมียวชอบ. ในหมวดอาหารแมว ราคา ฿704 เช็คราคาและรีวิวจริง"
+    "description": "Buzz Beyond บัซซ์ บียอนด์ อาหารแมว อาหารแมวเกรดพรีเมี่ยม ขนาด 7 kg (มีถุงแบ่งด้า — น้องเหมียวชอบ. ในหมวดอาหารแมว ราคา ฿704 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "109765977",
@@ -3455,8 +3510,8 @@
     "shopId": "279775864",
     "itemId": "57200749787",
     "title": "[กระสอบ 10 กิโล] TemTem อาหารแมว เต็มเต็ม แมวโต แซลมอนย่าง เม็ด บำรุงขน ประหยัด ไม่เค็ม สารอาหารครบ จาก เบทาโกร",
-    "price": "฿420",
-    "priceMax": "",
+    "price": "฿400",
+    "priceMax": "฿420",
     "rating": "4.95",
     "reviewCount": "1120",
     "sold": "2k+",
@@ -3475,12 +3530,15 @@
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
     "localImage": "/products/temtem-cat-food-10kg.webp",
-    "discountPercent": 0,
-    "isOnSale": false,
+    "discountPercent": 5,
+    "isOnSale": true,
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "[กระสอบ 10 กิโล] TemTem อาหารแมว เต็มเต็ม แมวโต แซลมอนย่าง เม็ด บำรุงขน ประหยัด  — น้องเหมียวชอบ. จาก Temtem(เต็มเต็ม) ในหมวดอาหารแมว ราคา ฿420 เช็คราคาและรีวิว"
+    "description": "[กระสอบ 10 กิโล] TemTem อาหารแมว เต็มเต็ม แมวโต แซลมอนย่าง เม็ด บำรุงขน ประหยัด  — น้องเหมียวชอบ. จาก Temtem(เต็มเต็ม) ในหมวดอาหารแมว ราคา ฿420 เช็คราคาและรีวิว",
+    "price_before_discount": "฿420",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1404353915",
@@ -3587,7 +3645,7 @@
     "shopId": "944560235",
     "itemId": "24430337898",
     "title": "พร้อมส่ง🔥 Buzz Beyond Cat อาหารแมวเกรดพรีเมี่ยม กลูเตนฟรี ขนาด 1 kg",
-    "price": "฿499",
+    "price": "",
     "priceMax": "",
     "rating": "4.94",
     "reviewCount": "6603",
@@ -3613,7 +3671,10 @@
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "พร้อมส่ง🔥 Buzz Beyond Cat อาหารแมวเกรดพรีเมี่ยม กลูเตนฟรี ขนาด 1 kg — อาหารคุณภาพสำหรับแมว. จาก BUZZ(บัซซ์) ในหมวดอาหารแมว ราคา ฿499 เช็คราคาและรีวิวจริง"
+    "description": "พร้อมส่ง🔥 Buzz Beyond Cat อาหารแมวเกรดพรีเมี่ยม กลูเตนฟรี ขนาด 1 kg — อาหารคุณภาพสำหรับแมว. จาก BUZZ(บัซซ์) ในหมวดอาหารแมว ราคา ฿499 เช็คราคาและรีวิวจริง",
+    "price_before_discount": "",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1118890063",
@@ -3688,8 +3749,8 @@
   },
   {
     "title": "รางบอล ของเล่นแมว มีลูกบอล มีกระดิ่ง คลายเคลียด ราคาถูก เล่นตัวเดียวได้ ประหยัดพื้นที่ YZ",
-    "price": "฿44",
-    "priceMax": null,
+    "price": "฿1",
+    "priceMax": "฿129",
     "rating": 4.92,
     "reviewCount": 1517,
     "sold": "",
@@ -3710,18 +3771,21 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/cat-toy-ball-485405.webp",
-    "discountPercent": 0,
-    "isOnSale": false,
+    "discountPercent": 99,
+    "isOnSale": true,
     "searchable": false,
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "รางบอล ของเล่นแมว มีลูกบอล มีกระดิ่ง คลายเคลียด ราคาถูก เล่นตัวเดียวได้ ประหยัดพ — แมวสนุกทั้งวัน. ในหมวดของเล่นแมว ราคา ฿44 เช็คราคาและรีวิวจริง"
+    "description": "รางบอล ของเล่นแมว มีลูกบอล มีกระดิ่ง คลายเคลียด ราคาถูก เล่นตัวเดียวได้ ประหยัดพ — แมวสนุกทั้งวัน. ในหมวดของเล่นแมว ราคา ฿44 เช็คราคาและรีวิวจริง",
+    "price_before_discount": "฿129",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "title": "ของเล่นเเมวซ่อนหาอัตโนมัติ สิ่งประดิษฐ์แมวตลก ชาร์จไฟได้",
-    "price": 150,
-    "priceMax": 589,
+    "price": "฿213",
+    "priceMax": "฿498",
     "rating": 4.95,
     "reviewCount": 4,
     "sold": "",
@@ -3742,13 +3806,15 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-144901.webp",
-    "discountPercent": 75,
+    "discountPercent": 57,
     "isOnSale": true,
-    "price_before_discount": 589,
+    "price_before_discount": "฿498",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "ของเล่นเเมวซ่อนหาอัตโนมัติ สิ่งประดิษฐ์แมวตลก ชาร์จไฟได้ — แมวสนุกทั้งวัน. ในหมวดของเล่นแมว ราคา 150 เช็คราคาและรีวิวจริง"
+    "description": "ของเล่นเเมวซ่อนหาอัตโนมัติ สิ่งประดิษฐ์แมวตลก ชาร์จไฟได้ — แมวสนุกทั้งวัน. ในหมวดของเล่นแมว ราคา 150 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "title": "🐱ไม้ตกแมว ไม้ล้อเล่นแมว ของเล่นแมวมีขนนกและกระดิ่ง ฝึกความสนใจแมว เชือกลวดเหล็กยืดหยุ่น ไม่หักง่าย มีถ้วยดูด",
@@ -3847,8 +3913,8 @@
   },
   {
     "title": "คอนโดแมว 2-3 ชั้น ดีไซน์ญี่ปุ่น มีรู ปีนเล่นได้",
-    "price": 1,
-    "priceMax": "",
+    "price": "฿118",
+    "priceMax": "฿218",
     "rating": 4.93,
     "reviewCount": 1096,
     "sold": "",
@@ -3869,20 +3935,22 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-144901-1.webp",
-    "discountPercent": 0,
-    "isOnSale": false,
-    "price_before_discount": "",
+    "discountPercent": 46,
+    "isOnSale": true,
+    "price_before_discount": "฿218",
     "searchable": false,
     "_hidden_reason": "bait_price_1",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "คอนโดแมว 2-3 ชั้น ดีไซน์ญี่ปุ่น มีรู ปีนเล่นได้ — ของเล่นที่แมวหลงรัก. ในหมวดของเล่นแมว ราคา 1 เช็คราคาและรีวิวจริง"
+    "description": "คอนโดแมว 2-3 ชั้น ดีไซน์ญี่ปุ่น มีรู ปีนเล่นได้ — ของเล่นที่แมวหลงรัก. ในหมวดของเล่นแมว ราคา 1 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "title": "ที่ลับเล็บแมวผ้าฟลีซนุ่ม 3 in 1 นอนหลับ เล่นสนุก ลับเล็บ เหมาะทุกสายพันธุ์ ของเล่นแมวอเนกประสงค์",
-    "price": 189,
-    "priceMax": 229,
+    "price": "฿209",
+    "priceMax": "฿309",
     "rating": 4.98,
     "reviewCount": 52,
     "sold": "",
@@ -3903,18 +3971,20 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/pet-gravity-in.webp",
-    "discountPercent": 17,
+    "discountPercent": 32,
     "isOnSale": true,
-    "price_before_discount": 229,
+    "price_before_discount": "฿309",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "ที่ลับเล็บแมวผ้าฟลีซนุ่ม 3 in 1 นอนหลับ เล่นสนุก ลับเล็บ เหมาะทุกสายพันธุ์ ของเล — แมวสนุกทั้งวัน. ในหมวดของเล่นแมว ราคา 189 เช็คราคาและรีวิวจริง"
+    "description": "ที่ลับเล็บแมวผ้าฟลีซนุ่ม 3 in 1 นอนหลับ เล่นสนุก ลับเล็บ เหมาะทุกสายพันธุ์ ของเล — แมวสนุกทั้งวัน. ในหมวดของเล่นแมว ราคา 189 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "title": "ของเล่นแมวโต้ตอบแบบชาร์จไฟได้,ทนทานซ่อนและค้นหาของเล่นแมวที่มีการเคลื่อนย้ายขนปกปิด",
-    "price": 169,
-    "priceMax": null,
+    "price": "฿179",
+    "priceMax": "฿318",
     "rating": 5,
     "reviewCount": 29,
     "sold": "",
@@ -3935,17 +4005,20 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-155418.webp",
-    "discountPercent": 0,
-    "isOnSale": false,
+    "discountPercent": 44,
+    "isOnSale": true,
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "ของเล่นแมวโต้ตอบแบบชาร์จไฟได้,ทนทานซ่อนและค้นหาของเล่นแมวที่มีการเคลื่อนย้ายขนปก — ของเล่นที่แมวหลงรัก. ในหมวดของเล่นแมว ราคา 169 เช็คราคาและรีวิวจริง"
+    "description": "ของเล่นแมวโต้ตอบแบบชาร์จไฟได้,ทนทานซ่อนและค้นหาของเล่นแมวที่มีการเคลื่อนย้ายขนปก — ของเล่นที่แมวหลงรัก. ในหมวดของเล่นแมว ราคา 169 เช็คราคาและรีวิวจริง",
+    "price_before_discount": "฿318",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "title": "พร้อมส่ง🔥 อุโมงแมว อุโมงค์สำหรับแมว พับเก็บง่าย มีหลายแบบให้เลือก ของเล่นอุโมงแมว อุโมงค์สายรุ้ง ของเล่นสัตว์เลี้ยง",
-    "price": 96,
-    "priceMax": 109,
+    "price": "฿100",
+    "priceMax": "",
     "rating": 4.95,
     "reviewCount": 231,
     "sold": "",
@@ -3966,18 +4039,20 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-144647.webp",
-    "discountPercent": 12,
-    "isOnSale": true,
-    "price_before_discount": 109,
+    "discountPercent": 0,
+    "isOnSale": false,
+    "price_before_discount": "",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "พร้อมส่ง🔥 อุโมงแมว อุโมงค์สำหรับแมว พับเก็บง่าย มีหลายแบบให้เลือก ของเล่นอุโมงแม — เสริมพัฒนาการน้องเหมียว. ในหมวดของเล่นแมว ราคา 96 เช็คราคาและรีวิวจริง"
+    "description": "พร้อมส่ง🔥 อุโมงแมว อุโมงค์สำหรับแมว พับเก็บง่าย มีหลายแบบให้เลือก ของเล่นอุโมงแม — เสริมพัฒนาการน้องเหมียว. ในหมวดของเล่นแมว ราคา 96 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "title": "😻ของเล่นแมว ของเล่นแมวไล่จับหนู ของเล่นจานเสียงแมว เกมส์แมวจับหนู Catch the Mouse motion cat toy",
-    "price": 83,
-    "priceMax": 86,
+    "price": "฿113",
+    "priceMax": "฿249",
     "rating": 4.8,
     "reviewCount": 1763,
     "sold": "",
@@ -3998,13 +4073,15 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/catch-the-mouse.webp",
-    "discountPercent": 3,
+    "discountPercent": 55,
     "isOnSale": true,
-    "price_before_discount": 86,
+    "price_before_discount": "฿249",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "😻ของเล่นแมว ของเล่นแมวไล่จับหนู ของเล่นจานเสียงแมว เกมส์แมวจับหนู Catch the Mous — เสริมพัฒนาการน้องเหมียว. ในหมวดของเล่นแมว ราคา 83 เช็คราคาและรีวิวจริง"
+    "description": "😻ของเล่นแมว ของเล่นแมวไล่จับหนู ของเล่นจานเสียงแมว เกมส์แมวจับหนู Catch the Mous — เสริมพัฒนาการน้องเหมียว. ในหมวดของเล่นแมว ราคา 83 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "title": "พร้อมส่ง COD ของเล่นแมว จำลองหนูมีเสียงอัตโนมัติ กระตุ้นสัญชาตญาณการล่า ตุ๊กตาหนูสมจริง แก้เบื่อ ทนทาน",
@@ -4200,8 +4277,8 @@
   },
   {
     "title": "😻 แมวหยุดเล่นไม่ได้! ของเล่นแมวอัจฉริยะ วิ่งสุ่ม 360° โหมดเงียบ ชาร์จ USB Type-C ลดความเครียด เผาผลาญพลังงาน",
-    "price": 149,
-    "priceMax": null,
+    "price": "฿149",
+    "priceMax": "฿249",
     "rating": 4.87,
     "reviewCount": 38,
     "sold": "",
@@ -4222,12 +4299,15 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/usb-type-c.webp",
-    "discountPercent": 0,
-    "isOnSale": false,
+    "discountPercent": 40,
+    "isOnSale": true,
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "😻 แมวหยุดเล่นไม่ได้! ของเล่นแมวอัจฉริยะ วิ่งสุ่ม 360° โหมดเงียบ ชาร์จ USB Type-C — แมวสนุกทั้งวัน. ในหมวดของเล่นแมว ราคา 149 เช็คราคาและรีวิวจริง"
+    "description": "😻 แมวหยุดเล่นไม่ได้! ของเล่นแมวอัจฉริยะ วิ่งสุ่ม 360° โหมดเงียบ ชาร์จ USB Type-C — แมวสนุกทั้งวัน. ในหมวดของเล่นแมว ราคา 149 เช็คราคาและรีวิวจริง",
+    "price_before_discount": "฿249",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "title": "Winky Wink กล่องปริศนาแมว DIY สักหลาด โพสต์ลับเล็บแมว ทนทาน รางแมว ของเล่นล่าสัตว์ในร่ม ของเล่นแมวไล่จับหนู",
@@ -4264,8 +4344,8 @@
   },
   {
     "title": "ของเล่นแมวอัตโนมัติ🐱ไม้ล่อแมวขนนก เคลื่อนไหวสุ่ม เล่นซ่อนหา อัตโนมัติไม้ตกแมว ชาร์จ USB ของเล่นแมวแก้เบื่อ",
-    "price": 185,
-    "priceMax": null,
+    "price": "฿185",
+    "priceMax": "฿300",
     "rating": 4.86,
     "reviewCount": 29,
     "sold": "",
@@ -4286,17 +4366,20 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/usb.webp",
-    "discountPercent": 0,
-    "isOnSale": false,
+    "discountPercent": 38,
+    "isOnSale": true,
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "ของเล่นแมวอัตโนมัติ🐱ไม้ล่อแมวขนนก เคลื่อนไหวสุ่ม เล่นซ่อนหา อัตโนมัติไม้ตกแมว ชา — แมวสนุกทั้งวัน. ในหมวดของเล่นแมว ราคา 185 เช็คราคาและรีวิวจริง"
+    "description": "ของเล่นแมวอัตโนมัติ🐱ไม้ล่อแมวขนนก เคลื่อนไหวสุ่ม เล่นซ่อนหา อัตโนมัติไม้ตกแมว ชา — แมวสนุกทั้งวัน. ในหมวดของเล่นแมว ราคา 185 เช็คราคาและรีวิวจริง",
+    "price_before_discount": "฿300",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "title": "ของเล่นแมวโต้ตอบแบบชาร์จไฟได้, ทนทานซ่อนและค้นหาอัตโนมัติสําหรับแมวผู้ใหญ่และแมวเบื่อในร่ม",
-    "price": 69,
-    "priceMax": 180,
+    "price": "฿46",
+    "priceMax": "฿500",
     "rating": 4.93,
     "reviewCount": 1397,
     "sold": "",
@@ -4317,13 +4400,15 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-170852.webp",
-    "discountPercent": 62,
+    "discountPercent": 91,
     "isOnSale": true,
-    "price_before_discount": 180,
+    "price_before_discount": "฿500",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "ของเล่นแมวโต้ตอบแบบชาร์จไฟได้, ทนทานซ่อนและค้นหาอัตโนมัติสําหรับแมวผู้ใหญ่และแมว — เสริมพัฒนาการน้องเหมียว. ในหมวดของเล่นแมว ราคา 69 เช็คราคาและรีวิวจริง"
+    "description": "ของเล่นแมวโต้ตอบแบบชาร์จไฟได้, ทนทานซ่อนและค้นหาอัตโนมัติสําหรับแมวผู้ใหญ่และแมว — เสริมพัฒนาการน้องเหมียว. ในหมวดของเล่นแมว ราคา 69 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "title": "อุโมงค์แมว อุโมงค์สัตว์เลี้ยงแสนสนุก ของเล่นแมว อุโมงค์3ทางสำหรับสัตว์เลี้ยงพับของเล่นสัตว์เลี้ยงอุ",
@@ -4359,8 +4444,8 @@
   },
   {
     "title": "ของเล่นแมวซ่อนและค้นหาของเล่นแมวโต้ตอบ-ไม้กายสิทธิ์ขนนกอัตโนมัติแบบชาร์จไฟได้พร้อมนกสารภาพสําหรับแมวในร่มเพิ่มความจุแบตเตอรี่ของเล่นขนนกแมวพร้อมคันแม",
-    "price": 49,
-    "priceMax": 199,
+    "price": "฿46",
+    "priceMax": "฿500",
     "rating": 4.97,
     "reviewCount": 208,
     "sold": "",
@@ -4381,13 +4466,15 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-170852-1.webp",
-    "discountPercent": 75,
+    "discountPercent": 91,
     "isOnSale": true,
-    "price_before_discount": 199,
+    "price_before_discount": "฿500",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "ของเล่นแมวซ่อนและค้นหาของเล่นแมวโต้ตอบ-ไม้กายสิทธิ์ขนนกอัตโนมัติแบบชาร์จไฟได้พร้ — คอนโดคุณภาพ. ในหมวดคอนโดแมว ราคา 49 เช็คราคาและรีวิวจริง"
+    "description": "ของเล่นแมวซ่อนและค้นหาของเล่นแมวโต้ตอบ-ไม้กายสิทธิ์ขนนกอัตโนมัติแบบชาร์จไฟได้พร้ — คอนโดคุณภาพ. ในหมวดคอนโดแมว ราคา 49 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "title": "Boqi Factory 🐱 ของเล่นแมวแบบชาร์จไฟ ซ่อนหาอัตโนมัติ หมุนได้ 360° Excitedtoy",
@@ -4422,8 +4509,8 @@
   },
   {
     "title": "สินค้าขายดี ของเล่นแมวอัตโนมัติ ซ่อนหา ชาร์จไฟได้ USB แก้เหงา แมวขี้เหงาต้องมี",
-    "price": 158,
-    "priceMax": 319,
+    "price": "฿150",
+    "priceMax": "฿222",
     "rating": 4.91,
     "reviewCount": 136,
     "sold": "",
@@ -4444,13 +4531,15 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/usb-1.webp",
-    "discountPercent": 50,
+    "discountPercent": 57,
     "isOnSale": true,
-    "price_before_discount": 319,
+    "price_before_discount": "฿222",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "สินค้าขายดี ของเล่นแมวอัตโนมัติ ซ่อนหา ชาร์จไฟได้ USB แก้เหงา แมวขี้เหงาต้องมี — คอนโดคุณภาพ. ในหมวดคอนโดแมว ราคา 158 เช็คราคาและรีวิวจริง"
+    "description": "สินค้าขายดี ของเล่นแมวอัตโนมัติ ซ่อนหา ชาร์จไฟได้ USB แก้เหงา แมวขี้เหงาต้องมี — คอนโดคุณภาพ. ในหมวดคอนโดแมว ราคา 158 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "title": "Winky Wink 🐱อุโมงค์แมว อุโมงค์สัตว์เลี้ยงแสนสนุก ของเล่นแมว ของเล่นสัตว์เลี้ยง",
@@ -4550,8 +4639,8 @@
   },
   {
     "title": "Petcho ของเล่นแมว ของเล่นแมวอัจฉริยะ การหลีกเลี่ยงอย่างชาญฉลาด หมุนได้ 360 องศา ด้วยขนนก แสงเลเซอร์จุดแดง ดึงดูดแมว",
-    "price": "฿155",
-    "priceMax": null,
+    "price": "฿1",
+    "priceMax": "฿259",
     "rating": 4.89,
     "reviewCount": 297,
     "sold": "",
@@ -4572,13 +4661,16 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/petcho-smart-toy-632942.webp",
-    "discountPercent": 0,
-    "isOnSale": false,
+    "discountPercent": 99,
+    "isOnSale": true,
     "searchable": false,
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "Petcho ของเล่นแมว ของเล่นแมวอัจฉริยะ การหลีกเลี่ยงอย่างชาญฉลาด หมุนได้ 360 องศา  — คอนโดคุณภาพ. ในหมวดคอนโดแมว ราคา ฿155 เช็คราคาและรีวิวจริง"
+    "description": "Petcho ของเล่นแมว ของเล่นแมวอัจฉริยะ การหลีกเลี่ยงอย่างชาญฉลาด หมุนได้ 360 องศา  — คอนโดคุณภาพ. ในหมวดคอนโดแมว ราคา ฿155 เช็คราคาและรีวิวจริง",
+    "price_before_discount": "฿259",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "title": "Fly-soft ของเล่นแมว ของเล่นล่อแมว ติดตก ติดแทงแมว ขนนก สำหรับแมว ของเล่นแมว",
@@ -4709,8 +4801,8 @@
   },
   {
     "title": "ของเล่นแมว หนูส่งเสียงร้องได้ เหมือนจริง ตุ๊กตาหนูบีบมีเสียง ของเล่นสัตว์เลี้ยง แก้เหงา คลายเครียด สำหรับแมวเล่นเอง 003",
-    "price": 28,
-    "priceMax": 78,
+    "price": "฿28",
+    "priceMax": "฿60",
     "rating": 4.85,
     "reviewCount": 142,
     "sold": "",
@@ -4731,13 +4823,15 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-165378.webp",
-    "discountPercent": 64,
+    "discountPercent": 53,
     "isOnSale": true,
-    "price_before_discount": 78,
+    "price_before_discount": "฿60",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "ของเล่นแมว หนูส่งเสียงร้องได้ เหมือนจริง ตุ๊กตาหนูบีบมีเสียง ของเล่นสัตว์เลี้ยง  — บ้านหรูน้องเหมียว. ในหมวดคอนโดแมว ราคา 28 เช็คราคาและรีวิวจริง"
+    "description": "ของเล่นแมว หนูส่งเสียงร้องได้ เหมือนจริง ตุ๊กตาหนูบีบมีเสียง ของเล่นสัตว์เลี้ยง  — บ้านหรูน้องเหมียว. ในหมวดคอนโดแมว ราคา 28 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "title": "Winky Wink🐱ของเล่นแมว ลูกบอลแมวอัติโนมัติ สมาร์ทไฟฟ้า หมุนได้ ของเล่นแมวโต้ตอบ 360 องศา เรืองแสง ลูกบอลสัตว์เลี้ยง",
@@ -4871,8 +4965,8 @@
   },
   {
     "title": "ของเล่นเเมว ของเล่นแมว ตุ๊กติดั่งไม่ล้ม 360° ของเล่น ของใช้แมว รางบอลแมว ของเล่นลููกแมว สัตว์เลี้ยง รางบอลทาวเวอร์ แมว",
-    "price": 1,
-    "priceMax": "",
+    "price": "฿1",
+    "priceMax": "฿158",
     "rating": 4.89,
     "reviewCount": 222,
     "sold": "",
@@ -4893,20 +4987,22 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-114535-1.webp",
-    "discountPercent": 0,
-    "isOnSale": false,
-    "price_before_discount": "",
+    "discountPercent": 99,
+    "isOnSale": true,
+    "price_before_discount": "฿158",
     "searchable": false,
     "_hidden_reason": "bait_price_1",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "ของเล่นเเมว ของเล่นแมว ตุ๊กติดั่งไม่ล้ม 360° ของเล่น ของใช้แมว รางบอลแมว ของเล่น — แมวปีนสนุก. ในหมวดคอนโดแมว ราคา 1 เช็คราคาและรีวิวจริง"
+    "description": "ของเล่นเเมว ของเล่นแมว ตุ๊กติดั่งไม่ล้ม 360° ของเล่น ของใช้แมว รางบอลแมว ของเล่น — แมวปีนสนุก. ในหมวดคอนโดแมว ราคา 1 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "title": "(ซื้อ 1 แถม 1)ที่ลับเล็บแมว รูปอ่าง ที่ฝนเล็บแมว ของเล่นแมว เป็นที่นอนแมวไปในตัว ฟรี แคปนิท ที่ลับเล็บ ที่ลับเล็บแมว ที่",
-    "price": 1,
-    "priceMax": null,
+    "price": "฿1",
+    "priceMax": "฿66",
     "rating": 4.76,
     "reviewCount": 3175,
     "sold": "",
@@ -4927,19 +5023,22 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-126915-1.webp",
-    "discountPercent": 0,
-    "isOnSale": false,
+    "discountPercent": 99,
+    "isOnSale": true,
     "searchable": false,
     "_hidden_reason": "bait_price_1",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "(ซื้อ 1 แถม 1)ที่ลับเล็บแมว รูปอ่าง ที่ฝนเล็บแมว ของเล่นแมว เป็นที่นอนแมวไปในตัว — แมวปีนสนุก. ในหมวดคอนโดแมว ราคา 1 เช็คราคาและรีวิวจริง"
+    "description": "(ซื้อ 1 แถม 1)ที่ลับเล็บแมว รูปอ่าง ที่ฝนเล็บแมว ของเล่นแมว เป็นที่นอนแมวไปในตัว — แมวปีนสนุก. ในหมวดคอนโดแมว ราคา 1 เช็คราคาและรีวิวจริง",
+    "price_before_discount": "฿66",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "title": "รางบอลแมว4ชั้น ของเล่นแมว รางบอลแมว รางบอล4ชั้น ของเล่นน้องแมว",
-    "price": 1,
-    "priceMax": "",
+    "price": "฿1",
+    "priceMax": "฿100",
     "rating": 4.83,
     "reviewCount": 1238,
     "sold": "",
@@ -4960,15 +5059,17 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-126915-2.webp",
-    "discountPercent": 0,
-    "isOnSale": false,
-    "price_before_discount": "",
+    "discountPercent": 99,
+    "isOnSale": true,
+    "price_before_discount": "฿100",
     "searchable": false,
     "_hidden_reason": "bait_price_1",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "รางบอลแมว4ชั้น ของเล่นแมว รางบอลแมว รางบอล4ชั้น ของเล่นน้องแมว — บ้านหรูน้องเหมียว. ในหมวดคอนโดแมว ราคา 1 เช็คราคาและรีวิวจริง"
+    "description": "รางบอลแมว4ชั้น ของเล่นแมว รางบอลแมว รางบอล4ชั้น ของเล่นน้องแมว — บ้านหรูน้องเหมียว. ในหมวดคอนโดแมว ราคา 1 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "title": "ซื้อ 1 แถม 1🔥ที่ลับเล็บแมว รูปอ่าง ที่ลับเล็บแมวขนาดใหญ่ ที่ขูดเล็บ ของเล่นแมว รูปอ่าง เป็นที่นอนแมวไปในตัว",
@@ -5070,8 +5171,8 @@
   },
   {
     "title": "Harmcat ลูกบอลลับเล็บ ที่ลับเล็บแมว รูปบอล ที่ฝนเล็บแมว ของเล่นแมว ขนาดใหญ่ มี 3 แบบให้เลือก",
-    "price": 24,
-    "priceMax": "",
+    "price": "฿24",
+    "priceMax": "฿1,179",
     "rating": 4.85,
     "reviewCount": 1897,
     "sold": "",
@@ -5092,18 +5193,20 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/harmcat.webp",
-    "discountPercent": 0,
-    "isOnSale": false,
-    "price_before_discount": "",
+    "discountPercent": 98,
+    "isOnSale": true,
+    "price_before_discount": "฿1,179",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "Harmcat ลูกบอลลับเล็บ ที่ลับเล็บแมว รูปบอล ที่ฝนเล็บแมว ของเล่นแมว ขนาดใหญ่ มี 3 — สินค้ายอดนิยม. ในหมวดน้ำพุแมว ราคา 24 เช็คราคาและรีวิวจริง"
+    "description": "Harmcat ลูกบอลลับเล็บ ที่ลับเล็บแมว รูปบอล ที่ฝนเล็บแมว ของเล่นแมว ขนาดใหญ่ มี 3 — สินค้ายอดนิยม. ในหมวดน้ำพุแมว ราคา 24 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "title": "Petcho โมงค์แมว ของเล่นแมว อุโมงค์3ทางสำหรับสัตว์เลี้ยงพับของเล่นสัตว์เลี้ยงอุโมงค์ ลูกสุนัข",
-    "price": 1,
-    "priceMax": null,
+    "price": "฿1",
+    "priceMax": "฿99",
     "rating": 4.89,
     "reviewCount": 1988,
     "sold": "",
@@ -5124,14 +5227,17 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/petcho-1.webp",
-    "discountPercent": 0,
-    "isOnSale": false,
+    "discountPercent": 99,
+    "isOnSale": true,
     "searchable": false,
     "_hidden_reason": "bait_price_1",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "Petcho โมงค์แมว ของเล่นแมว อุโมงค์3ทางสำหรับสัตว์เลี้ยงพับของเล่นสัตว์เลี้ยงอุโม — สินค้ายอดนิยม. ในหมวดน้ำพุแมว ราคา 1 เช็คราคาและรีวิวจริง"
+    "description": "Petcho โมงค์แมว ของเล่นแมว อุโมงค์3ทางสำหรับสัตว์เลี้ยงพับของเล่นสัตว์เลี้ยงอุโม — สินค้ายอดนิยม. ในหมวดน้ำพุแมว ราคา 1 เช็คราคาและรีวิวจริง",
+    "price_before_discount": "฿99",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "title": "ของเล่นแมว วัสดุแผ่นไม้หนา ของเล่นปริศนาแมว สัตว์เลี้ยงปริศนาเขาวงกต ของเล่นแมว กล่องปริศนาแมว ไม้ตกแมว ของเล่นเเมว",
@@ -5199,8 +5305,8 @@
   },
   {
     "title": "yoyopet : ของเล่นแมว ของเล่นแมวอัจฉริยะ ลูกแมวหยอกล้ออัตโนมัติ สมาร์ทไฟฟ้า หมุนได้ 360° เรืองแสง",
-    "price": 89,
-    "priceMax": null,
+    "price": "฿89",
+    "priceMax": "฿259",
     "rating": 4.91,
     "reviewCount": 751,
     "sold": "",
@@ -5221,12 +5327,15 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/yoyopet.webp",
-    "discountPercent": 0,
-    "isOnSale": false,
+    "discountPercent": 66,
+    "isOnSale": true,
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "yoyopet : ของเล่นแมว ของเล่นแมวอัจฉริยะ ลูกแมวหยอกล้ออัตโนมัติ สมาร์ทไฟฟ้า หมุนไ — สินค้ายอดนิยม. ในหมวดน้ำพุแมว ราคา 89 เช็คราคาและรีวิวจริง"
+    "description": "yoyopet : ของเล่นแมว ของเล่นแมวอัจฉริยะ ลูกแมวหยอกล้ออัตโนมัติ สมาร์ทไฟฟ้า หมุนไ — สินค้ายอดนิยม. ในหมวดน้ำพุแมว ราคา 89 เช็คราคาและรีวิวจริง",
+    "price_before_discount": "฿259",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "title": "ของเล่นแมว รางบอล เล่นเองได้ รางบอลหมุน น่ารัก สีพาสเทล ราคาถูก รางบอลหมุน3ชั้น ของเล่นสัตว์เลี้ยง UO",
@@ -5363,8 +5472,8 @@
   },
   {
     "title": "TT HOME01🌵ผีเสื้อ บินได้ ของเล่นอัตโนมัติ ของเล่นแมว สัตว์เลี้ยง ของเล่นแมวผีเสื้อ ดอกไม้ไฟฟ้า ของล่อแมว ผีเสื้อออโต้🌵",
-    "price": 1,
-    "priceMax": null,
+    "price": "฿1",
+    "priceMax": "฿58",
     "rating": 4.86,
     "reviewCount": 123,
     "sold": "",
@@ -5385,14 +5494,17 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/tt-home.webp",
-    "discountPercent": 0,
-    "isOnSale": false,
+    "discountPercent": 98,
+    "isOnSale": true,
     "searchable": false,
     "_hidden_reason": "bait_price_1",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "TT HOME01🌵ผีเสื้อ บินได้ ของเล่นอัตโนมัติ ของเล่นแมว สัตว์เลี้ยง ของเล่นแมวผีเสื — สินค้ายอดนิยม. ในหมวดน้ำพุแมว ราคา 1 เช็คราคาและรีวิวจริง"
+    "description": "TT HOME01🌵ผีเสื้อ บินได้ ของเล่นอัตโนมัติ ของเล่นแมว สัตว์เลี้ยง ของเล่นแมวผีเสื — สินค้ายอดนิยม. ในหมวดน้ำพุแมว ราคา 1 เช็คราคาและรีวิวจริง",
+    "price_before_discount": "฿58",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "title": "yoyopet : ของเล่นแมว หมุนอัตโนมัติอัจฉริยะ นกบิน ผีเสื้อบินอัตโนมัติ ของเล่นออโต้ หมุน360°",
@@ -5463,8 +5575,8 @@
   },
   {
     "title": "🍄 ที่ลับเล็บแมว ของเล่นแมว 5in1 คอนโดแมว คอนโดแมวไม้ เสาลับเล็บแมวได้ ไม่สั่นไหว ที่ลับเล็บ มัลติฟังก์ชั่น เสาฝนเล็บแมว",
-    "price": 129,
-    "priceMax": 219,
+    "price": "฿127",
+    "priceMax": "฿238",
     "rating": 4.93,
     "reviewCount": 623,
     "sold": "",
@@ -5485,13 +5597,15 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/in-4.webp",
-    "discountPercent": 41,
+    "discountPercent": 50,
     "isOnSale": true,
-    "price_before_discount": 219,
+    "price_before_discount": "฿238",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "🍄 ที่ลับเล็บแมว ของเล่นแมว 5in1 คอนโดแมว คอนโดแมวไม้ เสาลับเล็บแมวได้ ไม่สั่นไหว — สินค้ายอดนิยม. ในหมวดน้ำพุแมว ราคา 129 เช็คราคาและรีวิวจริง"
+    "description": "🍄 ที่ลับเล็บแมว ของเล่นแมว 5in1 คอนโดแมว คอนโดแมวไม้ เสาลับเล็บแมวได้ ไม่สั่นไหว — สินค้ายอดนิยม. ในหมวดน้ำพุแมว ราคา 129 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "title": "เสาลับเล็บแมวได้ ลับเล็บแมว ของเล่นแมว เสาฝนเล็บแมว ที่รับเล็บแมว ทนต่อการสึกหรอ วัสดุไม้เนื้อแข็ง",
@@ -5591,8 +5705,8 @@
   },
   {
     "title": "TME ของเล่นแมวจําลองนกแบบโต้ตอบ Feather Bird พร้อม Bell Cat Stick สําหรับลูกแมว Teaser Wand",
-    "price": 58,
-    "priceMax": 105,
+    "price": "฿58",
+    "priceMax": "฿83",
     "rating": 4.91,
     "reviewCount": 240,
     "sold": "",
@@ -5613,13 +5727,15 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/tme-feather-bird.webp",
-    "discountPercent": 45,
+    "discountPercent": 36,
     "isOnSale": true,
-    "price_before_discount": 105,
+    "price_before_discount": "฿83",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "TME ของเล่นแมวจําลองนกแบบโต้ตอบ Feather Bird พร้อม Bell Cat Stick สําหรับลูกแมว  — สินค้ายอดนิยม. ในหมวดน้ำพุแมว ราคา 58 เช็คราคาและรีวิวจริง"
+    "description": "TME ของเล่นแมวจําลองนกแบบโต้ตอบ Feather Bird พร้อม Bell Cat Stick สําหรับลูกแมว  — สินค้ายอดนิยม. ในหมวดน้ำพุแมว ราคา 58 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "title": "﻿ ของเล่นล่อแมว ไม้แหย่แมว ล้อเลียน Cat Stick ไม้ตกแมว แบบปุ่มดูดสุญญากาศ ขนนก สําหรับแมว",
@@ -5689,8 +5805,8 @@
   },
   {
     "title": "YTL 😻ฝนเล็บแมว คอนโดแมวราคาถูก คอนโดแมว ที่ลับเล็บแมว ที่ฝนเล็บแมว ลับเล็บแมว คอนโดแมวเล็ก ของเล่นแมว",
-    "price": 1,
-    "priceMax": null,
+    "price": "฿1",
+    "priceMax": "฿128",
     "rating": 4.85,
     "reviewCount": 515,
     "sold": "",
@@ -5711,14 +5827,17 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/ytl-1.webp",
-    "discountPercent": 0,
-    "isOnSale": false,
+    "discountPercent": 99,
+    "isOnSale": true,
     "searchable": false,
     "_hidden_reason": "bait_price_1",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "YTL 😻ฝนเล็บแมว คอนโดแมวราคาถูก คอนโดแมว ที่ลับเล็บแมว ที่ฝนเล็บแมว ลับเล็บแมว คอ — สินค้ายอดนิยม. ในหมวดเครื่องให้อาหาร ราคา 1 เช็คราคาและรีวิวจริง"
+    "description": "YTL 😻ฝนเล็บแมว คอนโดแมวราคาถูก คอนโดแมว ที่ลับเล็บแมว ที่ฝนเล็บแมว ลับเล็บแมว คอ — สินค้ายอดนิยม. ในหมวดเครื่องให้อาหาร ราคา 1 เช็คราคาและรีวิวจริง",
+    "price_before_discount": "฿128",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "title": "ลูกบอลแมว ลูกบอลแมวอัตโนมัติ แบบชาร์จไฟได้ ของเล่นแมว สมาร์ทไฟฟ้า หมุน ของเล่นแมวแบบโต้ตอบ อุปกรณ์สําหรับแมว",
@@ -6179,8 +6298,8 @@
   },
   {
     "title": "yoyopet : ที่ลับเล็บแมว+แคทนิป อ่างลับเล็บ ของเล่นแมว ที่นอนแมว แผ่นลับเล็บ ที่ฝนเล็บสัตว์เลี้ยง",
-    "price": 1,
-    "priceMax": "",
+    "price": "฿1",
+    "priceMax": "฿158",
     "rating": 4.89,
     "reviewCount": 2826,
     "sold": "",
@@ -6201,15 +6320,17 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/yoyopet-2.webp",
-    "discountPercent": 0,
-    "isOnSale": false,
-    "price_before_discount": "",
+    "discountPercent": 99,
+    "isOnSale": true,
+    "price_before_discount": "฿158",
     "searchable": false,
     "_hidden_reason": "bait_price_1",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "yoyopet : ที่ลับเล็บแมว+แคทนิป อ่างลับเล็บ ของเล่นแมว ที่นอนแมว แผ่นลับเล็บ ที่ฝ — คุ้มค่าน่าซื้อ. ในหมวดเครื่องให้อาหาร ราคา 1 เช็คราคาและรีวิวจริง"
+    "description": "yoyopet : ที่ลับเล็บแมว+แคทนิป อ่างลับเล็บ ของเล่นแมว ที่นอนแมว แผ่นลับเล็บ ที่ฝ — คุ้มค่าน่าซื้อ. ในหมวดเครื่องให้อาหาร ราคา 1 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "title": "ของเล่นแมว ไม้ตกแมวพร้อมขนนกและกระดิ่ง รุ่นฐานดูดติดพื้น/กระจก ราคาถูก พร้อมส่ง",
@@ -6278,8 +6399,8 @@
   },
   {
     "title": "Harmcat ไม้ล่อน้องแมว ติดพื้น ไม้ตกแมว ของเล่นเเมว ช่วยให้เเมวผ่อนคลาย มี 3 สีให้เลือก",
-    "price": 1,
-    "priceMax": null,
+    "price": "฿1",
+    "priceMax": "฿189",
     "rating": 4.85,
     "reviewCount": 742,
     "sold": "",
@@ -6300,14 +6421,17 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/harmcat-1.webp",
-    "discountPercent": 0,
-    "isOnSale": false,
+    "discountPercent": 99,
+    "isOnSale": true,
     "searchable": false,
     "_hidden_reason": "bait_price_1",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "Harmcat ไม้ล่อน้องแมว ติดพื้น ไม้ตกแมว ของเล่นเเมว ช่วยให้เเมวผ่อนคลาย มี 3 สีให — สินค้ายอดนิยม. ในหมวดกรงและกระเป๋า ราคา 1 เช็คราคาและรีวิวจริง"
+    "description": "Harmcat ไม้ล่อน้องแมว ติดพื้น ไม้ตกแมว ของเล่นเเมว ช่วยให้เเมวผ่อนคลาย มี 3 สีให — สินค้ายอดนิยม. ในหมวดกรงและกระเป๋า ราคา 1 เช็คราคาและรีวิวจริง",
+    "price_before_discount": "฿189",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "title": "PETLUSCI ไม้ล่อแมว แบบติดพื้นสุญญากาศ มีกระดิ่งล่อความสนใจ สนุกไม่รู้จบ แมวเล่นต่อเนื่อง Cat Teaser",
@@ -6344,8 +6468,8 @@
   },
   {
     "title": "ของเล่นแมวไฟฟ้า เขย่านกจําลอง ล้อเล่นนกกระจอก บรรเทาความเบื่อหน่าย",
-    "price": 81,
-    "priceMax": 404,
+    "price": "฿81",
+    "priceMax": "฿230",
     "rating": 4.62,
     "reviewCount": 32,
     "sold": "",
@@ -6366,13 +6490,15 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-157149.webp",
-    "discountPercent": 80,
+    "discountPercent": 65,
     "isOnSale": true,
-    "price_before_discount": 404,
+    "price_before_discount": "฿230",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "ของเล่นแมวไฟฟ้า เขย่านกจําลอง ล้อเล่นนกกระจอก บรรเทาความเบื่อหน่าย — คุ้มค่าน่าซื้อ. ในหมวดกรงและกระเป๋า ราคา 81 เช็คราคาและรีวิวจริง"
+    "description": "ของเล่นแมวไฟฟ้า เขย่านกจําลอง ล้อเล่นนกกระจอก บรรเทาความเบื่อหน่าย — คุ้มค่าน่าซื้อ. ในหมวดกรงและกระเป๋า ราคา 81 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "title": "Winky Wink🐱ของเล่นแมวโต้ตอบ ของเล่นหมา บอลแมวอัตโนมัติ ชาร์ตแบตได้ สมาร์ทไฟฟ้า 360หมุนได้ ของใช้แมว Cat Teaser การฝึกอบร",
@@ -6747,8 +6873,8 @@
   },
   {
     "title": "ที่ลับเล็บเปลนอน ของเล่นแมว ที่นอนแมว 2 in 1 เก้าอี้ลับเล็บแมว แผ่นลับเล็บ ที่ฝนเล็บสัตว์เลี้ยง",
-    "price": 1,
-    "priceMax": null,
+    "price": "฿1",
+    "priceMax": "฿209",
     "rating": 4.72,
     "reviewCount": 701,
     "sold": "",
@@ -6769,14 +6895,17 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/in-5.webp",
-    "discountPercent": 0,
-    "isOnSale": false,
+    "discountPercent": 99,
+    "isOnSale": true,
     "searchable": false,
     "_hidden_reason": "bait_price_1",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "ที่ลับเล็บเปลนอน ของเล่นแมว ที่นอนแมว 2 in 1 เก้าอี้ลับเล็บแมว แผ่นลับเล็บ ที่ฝน — คุ้มค่าน่าซื้อ. ในหมวดกรงและกระเป๋า ราคา 1 เช็คราคาและรีวิวจริง"
+    "description": "ที่ลับเล็บเปลนอน ของเล่นแมว ที่นอนแมว 2 in 1 เก้าอี้ลับเล็บแมว แผ่นลับเล็บ ที่ฝน — คุ้มค่าน่าซื้อ. ในหมวดกรงและกระเป๋า ราคา 1 เช็คราคาและรีวิวจริง",
+    "price_before_discount": "฿209",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "title": "ที่ลับเล็บแมวทรงอ่าง ที่ฝนเล็บ พร้อมแคทนิปในตัว ใช้เป็นที่นอนได้ ของเล่นแมว อ่างลับเล็บแมว ที่ฝนเล็บแมว ที่ขูดเล็บแมว",
@@ -7042,8 +7171,8 @@
   },
   {
     "title": "P10 ของเล่นอุโมงแมว มีหลายแบบให้เลือก ที่ขาดยาว รูปทรงS หรือบ้าน",
-    "price": 1,
-    "priceMax": "",
+    "price": "฿1",
+    "priceMax": "฿200",
     "rating": 4.91,
     "reviewCount": 834,
     "sold": "",
@@ -7064,20 +7193,22 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-s.webp",
-    "discountPercent": 0,
-    "isOnSale": false,
-    "price_before_discount": "",
+    "discountPercent": 99,
+    "isOnSale": true,
+    "price_before_discount": "฿200",
     "searchable": false,
     "_hidden_reason": "bait_price_1",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "P10 ของเล่นอุโมงแมว มีหลายแบบให้เลือก ที่ขาดยาว รูปทรงS หรือบ้าน — น้องเหมียวชอบ. ในหมวดอาหารแมว ราคา 1 เช็คราคาและรีวิวจริง"
+    "description": "P10 ของเล่นอุโมงแมว มีหลายแบบให้เลือก ที่ขาดยาว รูปทรงS หรือบ้าน — น้องเหมียวชอบ. ในหมวดอาหารแมว ราคา 1 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "title": "ที่ลับเล็บแมว ของเล่นแมว ฝนเล็บแมว ที่ฝนเล็บแมวลูกบอล ที่ฝนเล็บแมวใหญ่ ที่ฝนเล็บแมวขนาดใหญ่ บ้านแมว ที่ฝนเล็บแมว",
-    "price": 128,
-    "priceMax": 358,
+    "price": "฿128",
+    "priceMax": "฿400",
     "rating": 4.8,
     "reviewCount": 1389,
     "sold": "",
@@ -7098,18 +7229,20 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-238389-1.webp",
-    "discountPercent": 64,
+    "discountPercent": 68,
     "isOnSale": true,
-    "price_before_discount": 358,
+    "price_before_discount": "฿400",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "ที่ลับเล็บแมว ของเล่นแมว ฝนเล็บแมว ที่ฝนเล็บแมวลูกบอล ที่ฝนเล็บแมวใหญ่ ที่ฝนเล็บ — อาหารคุณภาพสำหรับแมว. ในหมวดอาหารแมว ราคา 128 เช็คราคาและรีวิวจริง"
+    "description": "ที่ลับเล็บแมว ของเล่นแมว ฝนเล็บแมว ที่ฝนเล็บแมวลูกบอล ที่ฝนเล็บแมวใหญ่ ที่ฝนเล็บ — อาหารคุณภาพสำหรับแมว. ในหมวดอาหารแมว ราคา 128 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "title": "HM-ของเล่นสัตว์เลี้ยง รางบอลแมว ผึ้ง ของเล่นแมว บอลแมว รางบอล",
-    "price": 49,
-    "priceMax": 55,
+    "price": "฿55",
+    "priceMax": "฿119",
     "rating": 4.92,
     "reviewCount": 217,
     "sold": "",
@@ -7130,13 +7263,15 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/hm.webp",
-    "discountPercent": 11,
+    "discountPercent": 54,
     "isOnSale": true,
-    "price_before_discount": 55,
+    "price_before_discount": "฿119",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "HM-ของเล่นสัตว์เลี้ยง รางบอลแมว ผึ้ง ของเล่นแมว บอลแมว รางบอล — ทาสแมวต้องมี. ในหมวดอาหารแมว ราคา 49 เช็คราคาและรีวิวจริง"
+    "description": "HM-ของเล่นสัตว์เลี้ยง รางบอลแมว ผึ้ง ของเล่นแมว บอลแมว รางบอล — ทาสแมวต้องมี. ในหมวดอาหารแมว ราคา 49 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "title": "ที่ลับเล็บแมว 3in1ที่ขูดเล็บ ของเล่นแมว ลับเล็บแมว ที่ลับเล็บแมวขนาดใหญ่ ขีดข่วนได้ ทนทานทุกสายพันธุ์",
@@ -7375,8 +7510,8 @@
   },
   {
     "title": "ฺBoqi Factory ของเล่นขนนกแมวพร้อมก้านยาว,แท่งทีเซอร์แมวตลกสำหรับเกาออกกำลังกาย YC203",
-    "price": 1,
-    "priceMax": null,
+    "price": "฿1",
+    "priceMax": "฿89",
     "rating": 4.88,
     "reviewCount": 1295,
     "sold": "",
@@ -7397,14 +7532,17 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/boqi-factory-yc.webp",
-    "discountPercent": 0,
-    "isOnSale": false,
+    "discountPercent": 99,
+    "isOnSale": true,
     "searchable": false,
     "_hidden_reason": "bait_price_1",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "ฺBoqi Factory ของเล่นขนนกแมวพร้อมก้านยาว,แท่งทีเซอร์แมวตลกสำหรับเกาออกกำลังกาย Y — น้องเหมียวชอบ. ในหมวดอาหารแมว ราคา 1 เช็คราคาและรีวิวจริง"
+    "description": "ฺBoqi Factory ของเล่นขนนกแมวพร้อมก้านยาว,แท่งทีเซอร์แมวตลกสำหรับเกาออกกำลังกาย Y — น้องเหมียวชอบ. ในหมวดอาหารแมว ราคา 1 เช็คราคาและรีวิวจริง",
+    "price_before_discount": "฿89",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "title": "เครื่องนวดหัวแมว นวดแมว/เครื่องนวดแมว/ของเล่นแมว ช่วยให้ความผ่อนคลาย ใช้งานง่าย",
@@ -7473,8 +7611,8 @@
   },
   {
     "title": "🐱ของเล่นสัตว์เลี้ยงไฟฟ้าแมวอัจฉริยะ ไม้ล้อและของเล่นแมวในอันเดียว รูปแบบยูเอฟโอที่น่ารัก🐱",
-    "price": 159,
-    "priceMax": 298,
+    "price": "฿159",
+    "priceMax": "฿298",
     "rating": 4.88,
     "reviewCount": 399,
     "sold": "",
@@ -7495,13 +7633,15 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-598114.webp",
-    "discountPercent": 47,
+    "discountPercent": 68,
     "isOnSale": true,
-    "price_before_discount": 298,
+    "price_before_discount": "฿298",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "🐱ของเล่นสัตว์เลี้ยงไฟฟ้าแมวอัจฉริยะ ไม้ล้อและของเล่นแมวในอันเดียว รูปแบบยูเอฟโอท — ทาสแมวต้องมี. ในหมวดอาหารแมว ราคา 159 เช็คราคาและรีวิวจริง"
+    "description": "🐱ของเล่นสัตว์เลี้ยงไฟฟ้าแมวอัจฉริยะ ไม้ล้อและของเล่นแมวในอันเดียว รูปแบบยูเอฟโอท — ทาสแมวต้องมี. ในหมวดอาหารแมว ราคา 159 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "title": "ของเล่นแมว ตุ๊กตาหนูมีเสียง ตุ๊กตาแมวกันกัด วัสดุคุณภาพดี ปลอดภัยต่อสัตว์เลี้ยง",
@@ -7604,8 +7744,8 @@
   },
   {
     "title": "yoyopet: ที่ลับเล็บแมวทรงอ่าง ที่ฝนเล็บ พร้อมแคทนิปในตัว ใช้เป็นที่นอนได้ ของเล่นแมว 2in1",
-    "price": 1,
-    "priceMax": "",
+    "price": "฿1",
+    "priceMax": "฿158",
     "rating": 4.92,
     "reviewCount": 573,
     "sold": "",
@@ -7626,15 +7766,17 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/yoyopet-in-1.webp",
-    "discountPercent": 0,
-    "isOnSale": false,
-    "price_before_discount": "",
+    "discountPercent": 99,
+    "isOnSale": true,
+    "price_before_discount": "฿158",
     "searchable": false,
     "_hidden_reason": "bait_price_1",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "yoyopet: ที่ลับเล็บแมวทรงอ่าง ที่ฝนเล็บ พร้อมแคทนิปในตัว ใช้เป็นที่นอนได้ ของเล่ — น้องเหมียวชอบ. ในหมวดอาหารแมว ราคา 1 เช็คราคาและรีวิวจริง"
+    "description": "yoyopet: ที่ลับเล็บแมวทรงอ่าง ที่ฝนเล็บ พร้อมแคทนิปในตัว ใช้เป็นที่นอนได้ ของเล่ — น้องเหมียวชอบ. ในหมวดอาหารแมว ราคา 1 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "title": "Petcho เลเซอร์แมว ของเล่นแมว เลเซอร์รูปอุ้งเท้าแมว เลเซอร์ล่อแมว LED ไฟฉายล่อแมว ไฟฉายแมว ล่อแมว",
@@ -7705,8 +7847,8 @@
   },
   {
     "title": "ไม้ตกแมว ของเล่นแมว ไม้แมว ไม้ล่อแมว ขอเล่นแมว ของเล่นเเมว มีกระดิ่งและฟู่สาย ไว้ล่อแมว คลาดเครียดคลายเหงา",
-    "price": 1,
-    "priceMax": "",
+    "price": "฿1",
+    "priceMax": "฿22",
     "rating": 4.77,
     "reviewCount": 4739,
     "sold": "",
@@ -7727,15 +7869,17 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-648582-3.webp",
-    "discountPercent": 0,
-    "isOnSale": false,
-    "price_before_discount": "",
+    "discountPercent": 96,
+    "isOnSale": true,
+    "price_before_discount": "฿22",
     "searchable": false,
     "_hidden_reason": "bait_price_1",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "ไม้ตกแมว ของเล่นแมว ไม้แมว ไม้ล่อแมว ขอเล่นแมว ของเล่นเเมว มีกระดิ่งและฟู่สาย ไว — น้องเหมียวชอบ. ในหมวดอาหารแมว ราคา 1 เช็คราคาและรีวิวจริง"
+    "description": "ไม้ตกแมว ของเล่นแมว ไม้แมว ไม้ล่อแมว ขอเล่นแมว ของเล่นเเมว มีกระดิ่งและฟู่สาย ไว — น้องเหมียวชอบ. ในหมวดอาหารแมว ราคา 1 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "title": "เครื่องให้อาหารแมวตลกของเล่นแทร็กลูกบอลฐานของเล่นแบบโต้ตอบสำหรับลูกแมวในร่ม ของเล่นแมว",
@@ -7868,8 +8012,8 @@
   },
   {
     "title": "Petcho ของเล่นแมว ที่ลับเล็บแมว ฝนเล็บแมว ที่ฝนเล็บแมวลูกบอล ที่ฝนเล็บแมวใหญ่ ที่ฝนเล็บแมวขนาดใหญ่ บ้านแมว ที่ฝนเล็บแมว",
-    "price": 151,
-    "priceMax": null,
+    "price": "฿155",
+    "priceMax": "฿299",
     "rating": 4.8,
     "reviewCount": 522,
     "sold": "",
@@ -7890,12 +8034,15 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/petcho-4.webp",
-    "discountPercent": 0,
-    "isOnSale": false,
+    "discountPercent": 48,
+    "isOnSale": true,
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "Petcho ของเล่นแมว ที่ลับเล็บแมว ฝนเล็บแมว ที่ฝนเล็บแมวลูกบอล ที่ฝนเล็บแมวใหญ่ ที — น้องเหมียวชอบ. ในหมวดอาหารแมว ราคา 151 เช็คราคาและรีวิวจริง"
+    "description": "Petcho ของเล่นแมว ที่ลับเล็บแมว ฝนเล็บแมว ที่ฝนเล็บแมวลูกบอล ที่ฝนเล็บแมวใหญ่ ที — น้องเหมียวชอบ. ในหมวดอาหารแมว ราคา 151 เช็คราคาและรีวิวจริง",
+    "price_before_discount": "฿299",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "title": "รางบอลแมว รางบอล4ชั้น สนุกได้ทั้งวันด้วยตัวคุณเอง ด้วยขนนก สามารถหมุนได้ 360 องศา จานเสียงแมว ของเล่นแมว",
@@ -7963,8 +8110,8 @@
   },
   {
     "title": "พร้อมส่ง! มาใหม่ ลูกบอลขนกระต่ายแท้ ของเล่นแมวแก้เบื่อ แมวเล่นเองได้ กระตุ้นสัญชาตญาณการล่า แมวต้องหลงรัก นุ่ม ปลอดภัย ของเล่นเสริมพัฒนาการ",
-    "price": 57,
-    "priceMax": 127,
+    "price": "฿57",
+    "priceMax": "฿69",
     "rating": 4.91,
     "reviewCount": 250,
     "sold": "",
@@ -7985,13 +8132,15 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-162357.webp",
-    "discountPercent": 55,
+    "discountPercent": 17,
     "isOnSale": true,
-    "price_before_discount": 127,
+    "price_before_discount": "฿69",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "พร้อมส่ง! มาใหม่ ลูกบอลขนกระต่ายแท้ ของเล่นแมวแก้เบื่อ แมวเล่นเองได้ กระตุ้นสัญช — น้องเหมียวชอบ. ในหมวดอาหารแมว ราคา 57 เช็คราคาและรีวิวจริง"
+    "description": "พร้อมส่ง! มาใหม่ ลูกบอลขนกระต่ายแท้ ของเล่นแมวแก้เบื่อ แมวเล่นเองได้ กระตุ้นสัญช — น้องเหมียวชอบ. ในหมวดอาหารแมว ราคา 57 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "title": "PETLUSCI® ไม้ล้อเล่นแมว 80ซม ของเล่นแมวแบบโต้ตอบ ของเล่นแมวมีขนนกและกระดิ่ง ไม้ตกแมว ไม่หักง่าย",
@@ -8058,8 +8207,8 @@
   },
   {
     "title": "ของเล่นแมว อุโมงค์แมว อุโมงค์สัตว์เลี้ยง พับได้ อุโมงค์ของเล่นแมว ดึงดูดให้แมวเล่น",
-    "price": 46,
-    "priceMax": 142,
+    "price": "฿46",
+    "priceMax": "฿99",
     "rating": 4.93,
     "reviewCount": 1400,
     "sold": "",
@@ -8080,13 +8229,15 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/p-403849.webp",
-    "discountPercent": 68,
+    "discountPercent": 54,
     "isOnSale": true,
-    "price_before_discount": 142,
+    "price_before_discount": "฿99",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "ของเล่นแมว อุโมงค์แมว อุโมงค์สัตว์เลี้ยง พับได้ อุโมงค์ของเล่นแมว ดึงดูดให้แมวเล — ทาสแมวต้องมี. ในหมวดอาหารแมว ราคา 46 เช็คราคาและรีวิวจริง"
+    "description": "ของเล่นแมว อุโมงค์แมว อุโมงค์สัตว์เลี้ยง พับได้ อุโมงค์ของเล่นแมว ดึงดูดให้แมวเล — ทาสแมวต้องมี. ในหมวดอาหารแมว ราคา 46 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "title": "Harmcat ของเล่นลูกบอล สำหรับสัตว์เลี้ยง ของเล่นแมว ลูกบอลนิ่ม 1 กล่อง/12 ชิ้น บอลนุ่มนิ่ม บอลสัตว์เลี้ยง ไม่มีเสียง",
@@ -8286,8 +8437,8 @@
   },
   {
     "title": "MOMOVIDA ของเล่นตกแมวอัตโมมัติ ไม้ตกแมวอัตโนมัติ+ เลเซอร์ของเล่นแมว เลเซอร์ล่อแมว รุ่น CT-3/CT-4",
-    "price": 9,
-    "priceMax": "",
+    "price": "฿9",
+    "priceMax": "฿300",
     "rating": 4.91,
     "reviewCount": 517,
     "sold": "",
@@ -8308,13 +8459,15 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/momovida-ct-ct.webp",
-    "discountPercent": 0,
-    "isOnSale": false,
-    "price_before_discount": "",
+    "discountPercent": 97,
+    "isOnSale": true,
+    "price_before_discount": "฿300",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "MOMOVIDA ของเล่นตกแมวอัตโมมัติ ไม้ตกแมวอัตโนมัติ+ เลเซอร์ของเล่นแมว เลเซอร์ล่อแม — ทาสแมวต้องมี. ในหมวดอาหารแมว ราคา 9 เช็คราคาและรีวิวจริง"
+    "description": "MOMOVIDA ของเล่นตกแมวอัตโมมัติ ไม้ตกแมวอัตโนมัติ+ เลเซอร์ของเล่นแมว เลเซอร์ล่อแม — ทาสแมวต้องมี. ในหมวดอาหารแมว ราคา 9 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "title": "ลับเล็บแมว 3in1 ของเล่นแมว ขนาดใหญ่พิเศษ 61cm ทนต่อการสึกหรอ",
@@ -8352,8 +8505,8 @@
   },
   {
     "title": "ตุ๊กตาแคทนิป ปลาแคทนิป ของเล่นแมว แคทนิป 20CM",
-    "price": 14,
-    "priceMax": 15,
+    "price": "฿14",
+    "priceMax": "฿38",
     "rating": 4.7,
     "reviewCount": 8165,
     "sold": "",
@@ -8372,13 +8525,15 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/cm.webp",
-    "discountPercent": 7,
+    "discountPercent": 67,
     "isOnSale": true,
-    "price_before_discount": 15,
+    "price_before_discount": "฿38",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "ตุ๊กตาแคทนิป ปลาแคทนิป ของเล่นแมว แคทนิป 20CM — น้องเหมียวชอบ. ในหมวดอาหารแมว ราคา 14 เช็คราคาและรีวิวจริง"
+    "description": "ตุ๊กตาแคทนิป ปลาแคทนิป ของเล่นแมว แคทนิป 20CM — น้องเหมียวชอบ. ในหมวดอาหารแมว ราคา 14 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "title": "🐱ของเล่นแมว อุโมงค์แมว อุโมงค์สัตว์เลี้ยง พับได้ หนูของเล่นแมวของเล่นสัตว์เลี้ยงอุโมงค์สายรุ้งของเล่นสัตว์เลี้ยงอุโมงแมว",
@@ -8706,8 +8861,8 @@
   },
   {
     "title": "ลับเล็บแมว 3in1 ของเล่นแมว ขนาดใหญ่พิเศษ ทนต่อการสึกหรอ ที่ฝนเล็บแมว ที่ขูดเล็บ🔥COD",
-    "price": 63,
-    "priceMax": 298,
+    "price": "฿63",
+    "priceMax": "฿200",
     "rating": 4.8,
     "reviewCount": 1045,
     "sold": "",
@@ -8728,13 +8883,15 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/in-cod.webp",
-    "discountPercent": 79,
+    "discountPercent": 69,
     "isOnSale": true,
-    "price_before_discount": 298,
+    "price_before_discount": "฿200",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "ลับเล็บแมว 3in1 ของเล่นแมว ขนาดใหญ่พิเศษ ทนต่อการสึกหรอ ที่ฝนเล็บแมว ที่ขูดเล็บ🔥 — ทาสแมวต้องมี. ในหมวดอาหารแมว ราคา 63 เช็คราคาและรีวิวจริง"
+    "description": "ลับเล็บแมว 3in1 ของเล่นแมว ขนาดใหญ่พิเศษ ทนต่อการสึกหรอ ที่ฝนเล็บแมว ที่ขูดเล็บ🔥 — ทาสแมวต้องมี. ในหมวดอาหารแมว ราคา 63 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "title": "ที่ลับเล็บแมว รูปอ่าง ที่ฝนเล็บแมว ของเล่นแมว เป็นที่นอนแมวไปในตัว OM",
@@ -8901,8 +9058,8 @@
   },
   {
     "title": "CoCo.pet ที่ฝนเล็บแมวแครอท ลับเล็บแมว เสาลับเล็บ คอนโดแมว ของเล่นแมว ฝนเล็บแมว อุปกรณ์แมว",
-    "price": 155,
-    "priceMax": 228,
+    "price": "฿98",
+    "priceMax": "฿399",
     "rating": 4.92,
     "reviewCount": 294,
     "sold": "",
@@ -8923,13 +9080,15 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/coco-pet.webp",
-    "discountPercent": 32,
+    "discountPercent": 75,
     "isOnSale": true,
-    "price_before_discount": 228,
+    "price_before_discount": "฿399",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "CoCo.pet ที่ฝนเล็บแมวแครอท ลับเล็บแมว เสาลับเล็บ คอนโดแมว ของเล่นแมว ฝนเล็บแมว อ — คุ้มค่าน่าซื้อ. ในหมวดเครื่องให้อาหาร ราคา 155 เช็คราคาและรีวิวจริง"
+    "description": "CoCo.pet ที่ฝนเล็บแมวแครอท ลับเล็บแมว เสาลับเล็บ คอนโดแมว ของเล่นแมว ฝนเล็บแมว อ — คุ้มค่าน่าซื้อ. ในหมวดเครื่องให้อาหาร ราคา 155 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "title": "🐾ที่ลับเล็บแมว รูปอ่าง ที่ฝนเล็บแมว ของเล่นแมว เป็นที่นอนแมวไปในตัว ฟรี แคปนิท ที่ขูดเล็บ ของเล่นแมว คอนโดแมว",
@@ -9035,8 +9194,8 @@
   },
   {
     "title": "TUBI รังแมวแคปซูลอวกาศ ของเล่นแมว หลุมแมว อะคริลิค พร้อมรางบอลแบบรางไม้ โดมแมว หลุมอวกาศ2in1คอนโดแมว",
-    "price": 145,
-    "priceMax": 228,
+    "price": "฿131",
+    "priceMax": "฿366",
     "rating": 4.94,
     "reviewCount": 231,
     "sold": "",
@@ -9057,13 +9216,15 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/tubi-in.webp",
-    "discountPercent": 36,
+    "discountPercent": 64,
     "isOnSale": true,
-    "price_before_discount": 228,
+    "price_before_discount": "฿366",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "TUBI รังแมวแคปซูลอวกาศ ของเล่นแมว หลุมแมว อะคริลิค พร้อมรางบอลแบบรางไม้ โดมแมว ห — สินค้ายอดนิยม. ในหมวดเครื่องให้อาหาร ราคา 145 เช็คราคาและรีวิวจริง"
+    "description": "TUBI รังแมวแคปซูลอวกาศ ของเล่นแมว หลุมแมว อะคริลิค พร้อมรางบอลแบบรางไม้ โดมแมว ห — สินค้ายอดนิยม. ในหมวดเครื่องให้อาหาร ราคา 145 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "title": "รางบอลแมว4ชั้น ของเล่นแมว รางบอลแมว รางบอล4ชั้น ของเล่นน้องแมว แถมขนไก่ ลูกบอลอาหาร",
@@ -9099,8 +9260,8 @@
   },
   {
     "title": "COD ของเล่นแมว ของเล่นแมวอัจฉริยะ ด้วยขนนก การหลีกเลี่ยงอย่างชาญฉลาด หมุนได้ 360 องศา",
-    "price": 1,
-    "priceMax": "",
+    "price": "฿1",
+    "priceMax": "฿159",
     "rating": 4.88,
     "reviewCount": 818,
     "sold": "",
@@ -9121,15 +9282,17 @@
     "scrapedAt": "2026-07-02",
     "source": "apify-th",
     "localImage": "/products/cod-2.webp",
-    "discountPercent": 0,
-    "isOnSale": false,
-    "price_before_discount": "",
+    "discountPercent": 99,
+    "isOnSale": true,
+    "price_before_discount": "฿159",
     "searchable": false,
     "_hidden_reason": "bait_price_1",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "COD ของเล่นแมว ของเล่นแมวอัจฉริยะ ด้วยขนนก การหลีกเลี่ยงอย่างชาญฉลาด หมุนได้ 360 — คุ้มค่าน่าซื้อ. ในหมวดเครื่องให้อาหาร ราคา 1 เช็คราคาและรีวิวจริง"
+    "description": "COD ของเล่นแมว ของเล่นแมวอัจฉริยะ ด้วยขนนก การหลีกเลี่ยงอย่างชาญฉลาด หมุนได้ 360 — คุ้มค่าน่าซื้อ. ในหมวดเครื่องให้อาหาร ราคา 1 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "title": "YTLบอลลับเล็บ บอลลับเล็บแมว ที่ลับเล็บแมว ที่ฝนเล็บแมว ของเล่นแมว ลูกบอลฝนเล็บแมว คอนโดแมว",
@@ -10246,7 +10409,7 @@
     "itemId": "40910730955",
     "title": "Buzz Beyond Cat บัช อาหารแมวเกรดพรีเมี่ยม กลูเตนฟรี ดีกว่าที่เคยเป็น มากกว่าที่เคยมี เม็ดแมว 1 kg",
     "price": "฿1",
-    "priceMax": "",
+    "priceMax": "฿299",
     "rating": "4.96",
     "reviewCount": "800",
     "sold": "2k+",
@@ -10265,22 +10428,24 @@
     "slug": "",
     "source": "apify-daily-sync",
     "localImage": "/products/buzz-beyond-cat-1-kg-730955.webp",
-    "discountPercent": 0,
-    "isOnSale": false,
-    "price_before_discount": "",
+    "discountPercent": 99,
+    "isOnSale": true,
+    "price_before_discount": "฿299",
     "searchable": false,
     "_hidden_reason": "bait_price_1",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "Buzz Beyond Cat บัช อาหารแมวเกรดพรีเมี่ยม กลูเตนฟรี ดีกว่าที่เคยเป็น มากกว่าที่เ — น้องเหมียวชอบ. ในหมวดอาหารแมว ราคา ฿1 เช็คราคาและรีวิวจริง"
+    "description": "Buzz Beyond Cat บัช อาหารแมวเกรดพรีเมี่ยม กลูเตนฟรี ดีกว่าที่เคยเป็น มากกว่าที่เ — น้องเหมียวชอบ. ในหมวดอาหารแมว ราคา ฿1 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1578449264",
     "itemId": "50703399024",
     "title": "AKINE อาหารแมวอากิเนะ เม็ดแมว สูตรคัดสรรพิเศษ แพ็คเกจสะอาด พกพาสะดวก ถุงแบ่ง ขนาด 1kg",
-    "price": "฿1",
-    "priceMax": "",
+    "price": "฿60",
+    "priceMax": "฿199",
     "rating": "4.94",
     "reviewCount": "841",
     "sold": "2k+",
@@ -10299,15 +10464,17 @@
     "slug": "",
     "source": "apify-daily-sync",
     "localImage": "/products/akine-1kg-399024.webp",
-    "discountPercent": 0,
-    "isOnSale": false,
-    "price_before_discount": "",
+    "discountPercent": 70,
+    "isOnSale": true,
+    "price_before_discount": "฿199",
     "searchable": false,
     "_hidden_reason": "bait_price_1",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "AKINE อาหารแมวอากิเนะ เม็ดแมว สูตรคัดสรรพิเศษ แพ็คเกจสะอาด พกพาสะดวก ถุงแบ่ง ขนา — น้องเหมียวชอบ. ในหมวดอาหารแมว ราคา ฿1 เช็คราคาและรีวิวจริง"
+    "description": "AKINE อาหารแมวอากิเนะ เม็ดแมว สูตรคัดสรรพิเศษ แพ็คเกจสะอาด พกพาสะดวก ถุงแบ่ง ขนา — น้องเหมียวชอบ. ในหมวดอาหารแมว ราคา ฿1 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1213579370",
@@ -10344,7 +10511,7 @@
     "shopId": "596738488",
     "itemId": "27823375270",
     "title": "(1kg) Buzz Beyond บัซซ์ บียอนด์ อาหารแมว กลูเตนฟรี ปลาทู แซลมอน ลูกแมว แกะ ทูน่า",
-    "price": "฿119",
+    "price": "฿118",
     "priceMax": "฿199",
     "rating": "4.94",
     "reviewCount": "592",
@@ -10364,13 +10531,15 @@
     "slug": "1kg-buzz-beyond-375270",
     "source": "apify-daily-sync",
     "localImage": "/products/1kg-buzz-beyond-375270.webp",
-    "discountPercent": 40,
+    "discountPercent": 41,
     "isOnSale": true,
     "price_before_discount": "฿199",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "(1kg) Buzz Beyond บัซซ์ บียอนด์ อาหารแมว กลูเตนฟรี ปลาทู แซลมอน ลูกแมว แกะ ทูน่า — อาหารคุณภาพสำหรับแมว. ในหมวดอาหารแมว ราคา ฿119 เช็คราคาและรีวิวจริง"
+    "description": "(1kg) Buzz Beyond บัซซ์ บียอนด์ อาหารแมว กลูเตนฟรี ปลาทู แซลมอน ลูกแมว แกะ ทูน่า — อาหารคุณภาพสำหรับแมว. ในหมวดอาหารแมว ราคา ฿119 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "722376275",
@@ -10402,7 +10571,9 @@
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "อาหารแมว Kaniva คานิว่า แบ่งขาย ถุงละ 1 กิโล เหมาะสำหรับแมวทุกวัย ถุงแบ่งจากโรงง — น้องเหมียวชอบ. ในหมวดอาหารแมว ราคา ฿37 เช็คราคาและรีวิวจริง"
+    "description": "อาหารแมว Kaniva คานิว่า แบ่งขาย ถุงละ 1 กิโล เหมาะสำหรับแมวทุกวัย ถุงแบ่งจากโรงง — น้องเหมียวชอบ. ในหมวดอาหารแมว ราคา ฿37 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "15069461",
@@ -10557,14 +10728,16 @@
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "( ยกโหล 12 ซอง ) Nekko อาหารแมว เปียกแมว เนื้อทูน่าแท้ โดยไม่มีส่วนผสมของเนื้อเท — ทาสแมวต้องมี. ในหมวดอาหารแมว ราคา ฿240 เช็คราคาและรีวิวจริง"
+    "description": "( ยกโหล 12 ซอง ) Nekko อาหารแมว เปียกแมว เนื้อทูน่าแท้ โดยไม่มีส่วนผสมของเนื้อเท — ทาสแมวต้องมี. ในหมวดอาหารแมว ราคา ฿240 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "253732112",
     "itemId": "29167368360",
     "title": "(1kg)Lola&Co โลล่าแอนด์โค อาหารเม็ดแมว สำหรับแมวโต ขนาด 1 kg.",
     "price": "฿1",
-    "priceMax": "",
+    "priceMax": "฿159",
     "rating": "4.93",
     "reviewCount": "1256",
     "sold": "2k+",
@@ -10583,15 +10756,17 @@
     "slug": "",
     "source": "apify-daily-sync",
     "localImage": "/products/1kg-lola-co-1-kg-368360.webp",
-    "discountPercent": 0,
-    "isOnSale": false,
-    "price_before_discount": "",
+    "discountPercent": 99,
+    "isOnSale": true,
+    "price_before_discount": "฿159",
     "searchable": false,
     "_hidden_reason": "bait_price_1",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "(1kg)Lola&Co โลล่าแอนด์โค อาหารเม็ดแมว สำหรับแมวโต ขนาด 1 kg. — น้องเหมียวชอบ. ในหมวดอาหารแมว ราคา ฿1 เช็คราคาและรีวิวจริง"
+    "description": "(1kg)Lola&Co โลล่าแอนด์โค อาหารเม็ดแมว สำหรับแมวโต ขนาด 1 kg. — น้องเหมียวชอบ. ในหมวดอาหารแมว ราคา ฿1 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1026036263",
@@ -10622,7 +10797,10 @@
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "Kaniva CAT อาหารเม็ดสำหรับเเมว ขนาด 1.2-1.5 กก(ทุกสูตร) — น้องเหมียวชอบ. ในหมวดอาหารแมว ราคา ฿197 เช็คราคาและรีวิวจริง"
+    "description": "Kaniva CAT อาหารเม็ดสำหรับเเมว ขนาด 1.2-1.5 กก(ทุกสูตร) — น้องเหมียวชอบ. ในหมวดอาหารแมว ราคา ฿197 เช็คราคาและรีวิวจริง",
+    "price_before_discount": "",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "722376275",
@@ -10654,7 +10832,9 @@
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "Kaniva คานิว่า อาหารแมว 1 - 1.5 kg สำหรับแมวทุกช่วงวัย — อาหารคุณภาพสำหรับแมว. ในหมวดอาหารแมว ราคา ฿99 เช็คราคาและรีวิวจริง"
+    "description": "Kaniva คานิว่า อาหารแมว 1 - 1.5 kg สำหรับแมวทุกช่วงวัย — อาหารคุณภาพสำหรับแมว. ในหมวดอาหารแมว ราคา ฿99 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "88496090",
@@ -10692,7 +10872,7 @@
     "shopId": "1579722061",
     "itemId": "48760926768",
     "title": "[12/24/48 ซอง] อาหารเปียกแมว สุขภาพดี รสไก่ สำหรับลูกแมว เนื้อละเอียดไม่เลี่ยน",
-    "price": "฿109",
+    "price": "฿79",
     "priceMax": "฿218",
     "rating": "4.9",
     "reviewCount": "576",
@@ -10712,13 +10892,15 @@
     "slug": "ketzuzu-12-24-48-926768",
     "source": "apify-daily-sync",
     "localImage": "/products/ketzuzu-12-24-48-926768.webp",
-    "discountPercent": 50,
+    "discountPercent": 64,
     "isOnSale": true,
     "price_before_discount": "฿218",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "[12/24/48 ซอง] อาหารเปียกแมว สุขภาพดี รสไก่ สำหรับลูกแมว เนื้อละเอียดไม่เลี่ยน — อาหารเปียกคุณภาพ. ในหมวดอาหารเปียก ราคา ฿109 เช็คราคาและรีวิวจริง"
+    "description": "[12/24/48 ซอง] อาหารเปียกแมว สุขภาพดี รสไก่ สำหรับลูกแมว เนื้อละเอียดไม่เลี่ยน — อาหารเปียกคุณภาพ. ในหมวดอาหารเปียก ราคา ฿109 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "347269548",
@@ -10819,7 +11001,7 @@
     "shopId": "1580028958",
     "itemId": "40731174587",
     "title": "[12/24/48 ซอง] อาหารเปียกแมว อาหารพร้อมทาน รสไก่ สำหรับลูกแมว กินง่าย",
-    "price": "฿109",
+    "price": "฿79",
     "priceMax": "฿218",
     "rating": "4.88",
     "reviewCount": "130",
@@ -10839,13 +11021,15 @@
     "slug": "ketzuzu-12-24-48-174587",
     "source": "apify-daily-sync",
     "localImage": "/products/ketzuzu-12-24-48-174587.webp",
-    "discountPercent": 50,
+    "discountPercent": 64,
     "isOnSale": true,
     "price_before_discount": "฿218",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "[12/24/48 ซอง] อาหารเปียกแมว อาหารพร้อมทาน รสไก่ สำหรับลูกแมว กินง่าย — อร่อยจนเลียจาน. ในหมวดอาหารเปียก ราคา ฿109 เช็คราคาและรีวิวจริง"
+    "description": "[12/24/48 ซอง] อาหารเปียกแมว อาหารพร้อมทาน รสไก่ สำหรับลูกแมว กินง่าย — อร่อยจนเลียจาน. ในหมวดอาหารเปียก ราคา ฿109 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1579722061",
@@ -10909,13 +11093,15 @@
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "[ยกโหล12ซอง] Nekko อาหารเปียกแมวเน็กโกะ ส่งทุกวัน(คละรสชาติได้) — เปียกนุ่มน้องชอบ. ในหมวดอาหารเปียก ราคา ฿52 เช็คราคาและรีวิวจริง"
+    "description": "[ยกโหล12ซอง] Nekko อาหารเปียกแมวเน็กโกะ ส่งทุกวัน(คละรสชาติได้) — เปียกนุ่มน้องชอบ. ในหมวดอาหารเปียก ราคา ฿52 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1580877610",
     "itemId": "55956851589",
     "title": "(ยกโหล 12 ซอง) อาหารเปียกแมว เกรดพรีเมี่ยม ทูน่าแท้ในเยลลี่ เกรนฟรี สำหรับลูกแมวและแมวโต ขนาด 70g",
-    "price": "฿109",
+    "price": "฿79",
     "priceMax": "฿199",
     "rating": "4.7",
     "reviewCount": "446",
@@ -10935,13 +11121,15 @@
     "slug": "12-70g-851589",
     "source": "apify-daily-sync",
     "localImage": "/products/12-70g-851589.webp",
-    "discountPercent": 45,
+    "discountPercent": 60,
     "isOnSale": true,
     "price_before_discount": "฿199",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "(ยกโหล 12 ซอง) อาหารเปียกแมว เกรดพรีเมี่ยม ทูน่าแท้ในเยลลี่ เกรนฟรี สำหรับลูกแมว — เปียกนุ่มน้องชอบ. ในหมวดอาหารเปียก ราคา ฿109 เช็คราคาและรีวิวจริง"
+    "description": "(ยกโหล 12 ซอง) อาหารเปียกแมว เกรดพรีเมี่ยม ทูน่าแท้ในเยลลี่ เกรนฟรี สำหรับลูกแมว — เปียกนุ่มน้องชอบ. ในหมวดอาหารเปียก ราคา ฿109 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "722376275",
@@ -10973,7 +11161,9 @@
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "[ยกโหล 12 ซอง-ยกลัง 48 ซอง] MR.VET อาหารแมวเปียก ขนาด 70g สูตรบำรุงสุขภาพ โปรตีน — อร่อยจนเลียจาน. ในหมวดอาหารเปียก ราคา ฿149 เช็คราคาและรีวิวจริง"
+    "description": "[ยกโหล 12 ซอง-ยกลัง 48 ซอง] MR.VET อาหารแมวเปียก ขนาด 70g สูตรบำรุงสุขภาพ โปรตีน — อร่อยจนเลียจาน. ในหมวดอาหารเปียก ราคา ฿149 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1761932598",
@@ -11011,7 +11201,7 @@
     "itemId": "40907037202",
     "title": "อาหารแมวเปียก เชอร์แมน cherman pouch ทุกขนาด ทุกรสชาติ",
     "price": "฿20",
-    "priceMax": "",
+    "priceMax": "฿135",
     "rating": "4.88",
     "reviewCount": "1380",
     "sold": "2k+",
@@ -11030,13 +11220,15 @@
     "slug": "12-cherman-pouch-037202",
     "source": "apify-daily-sync",
     "localImage": "/products/12-cherman-pouch-037202.webp",
-    "discountPercent": 0,
-    "isOnSale": false,
-    "price_before_discount": "",
+    "discountPercent": 85,
+    "isOnSale": true,
+    "price_before_discount": "฿135",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "อาหารแมวเปียก เชอร์แมน cherman pouch ทุกขนาด ทุกรสชาติ — อาหารเปียกคุณภาพ. ในหมวดอาหารเปียก ราคา ฿20 เช็คราคาและรีวิวจริง"
+    "description": "อาหารแมวเปียก เชอร์แมน cherman pouch ทุกขนาด ทุกรสชาติ — อาหารเปียกคุณภาพ. ในหมวดอาหารเปียก ราคา ฿20 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "88496090",
@@ -11074,8 +11266,8 @@
     "shopId": "1825400358",
     "itemId": "49010510716",
     "title": "[พร้อมส่ง] ขนมแมว ปลาแห้ง โปรตีนสูง ไม่เค็ม ปลอดภัยต่อไต เกรดคนกินได้ สดใหม่ ไม่ใส่สารกันเสีย 50/100/150g",
-    "price": "฿34",
-    "priceMax": "฿129",
+    "price": "฿21",
+    "priceMax": "฿69",
     "rating": "4.98",
     "reviewCount": "103",
     "sold": "500+",
@@ -11094,20 +11286,22 @@
     "slug": "50-100-150g-510716",
     "source": "apify-daily-sync",
     "localImage": "/products/50-100-150g-510716.webp",
-    "discountPercent": 74,
+    "discountPercent": 70,
     "isOnSale": true,
-    "price_before_discount": "฿129",
+    "price_before_discount": "฿69",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "[พร้อมส่ง] ขนมแมว ปลาแห้ง โปรตีนสูง ไม่เค็ม ปลอดภัยต่อไต เกรดคนกินได้ สดใหม่ ไม่ — แมวเลียจนหมดซอง. ในหมวดขนมแมว ราคา ฿34 เช็คราคาและรีวิวจริง"
+    "description": "[พร้อมส่ง] ขนมแมว ปลาแห้ง โปรตีนสูง ไม่เค็ม ปลอดภัยต่อไต เกรดคนกินได้ สดใหม่ ไม่ — แมวเลียจนหมดซอง. ในหมวดขนมแมว ราคา ฿34 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "970093388",
     "itemId": "20077039517",
     "title": "อกไก่เต๋า ขนมฟรีซดราย อกไก่ฟรีซดราย ขนมแมว ฟรีซดรายแมว ไก่ฟรีซดราย ขนมฟรีซดรายแมว ไก่ฟรีซดรายแมว 100%ฟู้ดเกรด",
-    "price": "฿129",
-    "priceMax": "฿299",
+    "price": "฿124",
+    "priceMax": "฿399",
     "rating": "4.95",
     "reviewCount": "30522",
     "sold": "20k+",
@@ -11126,13 +11320,15 @@
     "slug": "100-039517",
     "source": "apify-daily-sync",
     "localImage": "/products/100-039517.webp",
-    "discountPercent": 57,
+    "discountPercent": 69,
     "isOnSale": true,
-    "price_before_discount": "฿299",
+    "price_before_discount": "฿399",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "อกไก่เต๋า ขนมฟรีซดราย อกไก่ฟรีซดราย ขนมแมว ฟรีซดรายแมว ไก่ฟรีซดราย ขนมฟรีซดรายแม — แมวเลียจนหมดซอง. ในหมวดขนมแมว ราคา ฿129 เช็คราคาและรีวิวจริง"
+    "description": "อกไก่เต๋า ขนมฟรีซดราย อกไก่ฟรีซดราย ขนมแมว ฟรีซดรายแมว ไก่ฟรีซดราย ขนมฟรีซดรายแม — แมวเลียจนหมดซอง. ในหมวดขนมแมว ราคา ฿129 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1760287266",
@@ -11171,7 +11367,7 @@
     "itemId": "5379029735",
     "title": "🐾 ขนมแมว อกไก่ฟรีซดราย 100%(Purrfect Paw) ขนมแมวฟรีซดราย ดีต่อสุขภาพ ขนมแมวไม่เค็ม Freeze Dried แมว",
     "price": "฿1",
-    "priceMax": "",
+    "priceMax": "฿129",
     "rating": "4.96",
     "reviewCount": "21045",
     "sold": "20k+",
@@ -11190,15 +11386,17 @@
     "slug": "",
     "source": "apify-daily-sync",
     "localImage": "/products/100-purrfect-paw-freeze-dried-029735.webp",
-    "discountPercent": 0,
-    "isOnSale": false,
-    "price_before_discount": "",
+    "discountPercent": 99,
+    "isOnSale": true,
+    "price_before_discount": "฿129",
     "searchable": false,
     "_hidden_reason": "bait_price_1",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "🐾 ขนมแมว อกไก่ฟรีซดราย 100%(Purrfect Paw) ขนมแมวฟรีซดราย ดีต่อสุขภาพ ขนมแมวไม่เค — แมวเลียจนหมดซอง. ในหมวดขนมแมว ราคา ฿1 เช็คราคาและรีวิวจริง"
+    "description": "🐾 ขนมแมว อกไก่ฟรีซดราย 100%(Purrfect Paw) ขนมแมวฟรีซดราย ดีต่อสุขภาพ ขนมแมวไม่เค — แมวเลียจนหมดซอง. ในหมวดขนมแมว ราคา ฿1 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1749130737",
@@ -11364,7 +11562,7 @@
     "shopId": "9128123",
     "itemId": "2291533192",
     "title": "ทาโร่แมว ทาโร่หมา ไม่เค็ม สำหรับสัตว์เลี้ยงโดยเฉพาะ",
-    "price": "฿24",
+    "price": "฿39",
     "priceMax": "฿45",
     "rating": "4.93",
     "reviewCount": "9350",
@@ -11384,20 +11582,22 @@
     "slug": "product-533192",
     "source": "apify-daily-sync",
     "localImage": "/products/product-533192.webp",
-    "discountPercent": 47,
+    "discountPercent": 13,
     "isOnSale": true,
     "price_before_discount": "฿45",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "ทาโร่แมว ทาโร่หมา ไม่เค็ม สำหรับสัตว์เลี้ยงโดยเฉพาะ — ขนมที่แมวหลงรัก. ในหมวดขนมแมว ราคา ฿24 เช็คราคาและรีวิวจริง"
+    "description": "ทาโร่แมว ทาโร่หมา ไม่เค็ม สำหรับสัตว์เลี้ยงโดยเฉพาะ — ขนมที่แมวหลงรัก. ในหมวดขนมแมว ราคา ฿24 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "104796104",
     "itemId": "1858094097",
     "title": "Friskies Party Mix ปาร์ตี้มิกซ์60กรัม(ขนมแมวแบบซอง)",
     "price": "฿1",
-    "priceMax": "",
+    "priceMax": "฿49",
     "rating": "4.92",
     "reviewCount": "8098",
     "sold": "10k+",
@@ -11415,15 +11615,17 @@
     "slug": "",
     "source": "apify-daily-sync",
     "localImage": "/products/friskies-party-mix-60-094097.webp",
-    "discountPercent": 0,
-    "isOnSale": false,
-    "price_before_discount": "",
+    "discountPercent": 98,
+    "isOnSale": true,
+    "price_before_discount": "฿49",
     "searchable": false,
     "_hidden_reason": "bait_price_1",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "Friskies Party Mix ปาร์ตี้มิกซ์60กรัม(ขนมแมวแบบซอง) — ขนมที่แมวหลงรัก. ในหมวดขนมแมว ราคา ฿1 เช็คราคาและรีวิวจริง"
+    "description": "Friskies Party Mix ปาร์ตี้มิกซ์60กรัม(ขนมแมวแบบซอง) — ขนมที่แมวหลงรัก. ในหมวดขนมแมว ราคา ฿1 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1594958459",
@@ -11496,7 +11698,7 @@
     "itemId": "54306857125",
     "title": "PETLUSCI ฟรีซดรายแมว 50G รสชาติต่างๆ อกไก่ ไข่แดง หญ้าแมว หอม ทานง่าย อุดมไปด้วยโปรตีน ขนมแมว ขนมหมา",
     "price": "฿1",
-    "priceMax": "",
+    "priceMax": "฿299",
     "rating": "4.87",
     "reviewCount": "268",
     "sold": "1k+",
@@ -11515,15 +11717,17 @@
     "slug": "",
     "source": "apify-daily-sync",
     "localImage": "/products/petlusci-50g-857125.webp",
-    "discountPercent": 0,
-    "isOnSale": false,
-    "price_before_discount": "",
+    "discountPercent": 99,
+    "isOnSale": true,
+    "price_before_discount": "฿299",
     "searchable": false,
     "_hidden_reason": "bait_price_1",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "PETLUSCI ฟรีซดรายแมว 50G รสชาติต่างๆ อกไก่ ไข่แดง หญ้าแมว หอม ทานง่าย อุดมไปด้วย — ขนมที่แมวหลงรัก. ในหมวดขนมแมว ราคา ฿1 เช็คราคาและรีวิวจริง"
+    "description": "PETLUSCI ฟรีซดรายแมว 50G รสชาติต่างๆ อกไก่ ไข่แดง หญ้าแมว หอม ทานง่าย อุดมไปด้วย — ขนมที่แมวหลงรัก. ในหมวดขนมแมว ราคา ฿1 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1224107128",
@@ -12063,7 +12267,10 @@
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "Silver อาหารแมวแบบเม็ดซิลเวอร์ 1 kg ถุงบรรจุจากโรงงาน — อาหารคุณภาพสำหรับแมว. ในหมวดอาหารแมว ราคา ฿77 เช็คราคาและรีวิวจริง"
+    "description": "Silver อาหารแมวแบบเม็ดซิลเวอร์ 1 kg ถุงบรรจุจากโรงงาน — อาหารคุณภาพสำหรับแมว. ในหมวดอาหารแมว ราคา ฿77 เช็คราคาและรีวิวจริง",
+    "price_before_discount": "",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "39642517",
@@ -12623,7 +12830,9 @@
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "(ยกลัง 24 กระป๋อง) เหมียวเหมียว อาหารเปียกแมว แบบกระป๋อง ขนาด 400g — อร่อยจนเลียจาน. ในหมวดอาหารเปียก ราคา ฿365 เช็คราคาและรีวิวจริง"
+    "description": "(ยกลัง 24 กระป๋อง) เหมียวเหมียว อาหารเปียกแมว แบบกระป๋อง ขนาด 400g — อร่อยจนเลียจาน. ในหมวดอาหารเปียก ราคา ฿365 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "76681597",
@@ -12663,7 +12872,7 @@
     "title": "[PET Record] อาหารเปียกแมว 85g *12โภชนาการครบ โปรตีนสูง ย่อยง่าย สำหรับลูกแมวและแมวโต",
     "slug": "pet-record-85g-12-878293",
     "source": "apify-daily-sync",
-    "price": "฿144",
+    "price": "฿42",
     "priceMax": "฿264",
     "rating": "4.77",
     "reviewCount": "43",
@@ -12678,13 +12887,15 @@
     "affiliateUrl": "https://shopee.co.th/product/1225631791/48058878293?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=48058878293",
     "scrapedAt": "2026-07-05",
     "localImage": "/products/pet-record-85g-12-878293.webp",
-    "discountPercent": 45,
+    "discountPercent": 84,
     "isOnSale": true,
     "price_before_discount": "฿264",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "[PET Record] อาหารเปียกแมว 85g *12โภชนาการครบ โปรตีนสูง ย่อยง่าย สำหรับลูกแมวและ — อร่อยจนเลียจาน. ในหมวดอาหารเปียก ราคา ฿144 เช็คราคาและรีวิวจริง"
+    "description": "[PET Record] อาหารเปียกแมว 85g *12โภชนาการครบ โปรตีนสูง ย่อยง่าย สำหรับลูกแมวและ — อร่อยจนเลียจาน. ในหมวดอาหารเปียก ราคา ฿144 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "646557",
@@ -13005,7 +13216,7 @@
     "slug": "100-924151",
     "source": "apify-daily-sync",
     "price": "฿49",
-    "priceMax": "",
+    "priceMax": "฿611",
     "rating": "4.92",
     "reviewCount": "2183",
     "sold": "5k+",
@@ -13022,13 +13233,15 @@
     "affiliateUrl": "https://shopee.co.th/product/1230279810/27558924151?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=27558924151",
     "scrapedAt": "2026-07-05",
     "localImage": "/products/100-924151.webp",
-    "discountPercent": 0,
-    "isOnSale": false,
-    "price_before_discount": "",
+    "discountPercent": 92,
+    "isOnSale": true,
+    "price_before_discount": "฿611",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "🐱ขนมฟรีซดราย อกไก่ฟรีซดราย อกไก่แมวไก่ฟรีซดรายแมว อกไก่เต๋า อกไก่คลีน อกไก่ อาหา — แมวเลียจนหมดซอง. ในหมวดขนมแมว ราคา ฿49 เช็คราคาและรีวิวจริง"
+    "description": "🐱ขนมฟรีซดราย อกไก่ฟรีซดราย อกไก่แมวไก่ฟรีซดรายแมว อกไก่เต๋า อกไก่คลีน อกไก่ อาหา — แมวเลียจนหมดซอง. ในหมวดขนมแมว ราคา ฿49 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "251822280",
@@ -13069,7 +13282,7 @@
     "slug": "",
     "source": "apify-daily-sync",
     "price": "฿1",
-    "priceMax": "",
+    "priceMax": "฿70",
     "rating": "4.94",
     "reviewCount": "457",
     "sold": "1k+",
@@ -13086,15 +13299,17 @@
     "affiliateUrl": "https://shopee.co.th/product/1124293183/48707753174?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=48707753174",
     "scrapedAt": "2026-07-05",
     "localImage": "/products/bite-of-wild-freeze-dried-40g-753174.webp",
-    "discountPercent": 0,
-    "isOnSale": false,
-    "price_before_discount": "",
+    "discountPercent": 99,
+    "isOnSale": true,
+    "price_before_discount": "฿70",
     "searchable": false,
     "_hidden_reason": "bait_price_1",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "Bite of Wild Freeze-Dried 40g ฟ ไข่เหลือง / หญ้าแมว / ตับไก่ / เนื้อดิบแช่แข็งแห — แมวเลียจนหมดซอง. ในหมวดขนมแมว ราคา ฿1 เช็คราคาและรีวิวจริง"
+    "description": "Bite of Wild Freeze-Dried 40g ฟ ไข่เหลือง / หญ้าแมว / ตับไก่ / เนื้อดิบแช่แข็งแห — แมวเลียจนหมดซอง. ในหมวดขนมแมว ราคา ฿1 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1639266429",
@@ -13102,7 +13317,7 @@
     "title": "PETLUSCI อกไก่เต๋า 650g อกไก่ฟรีซดราย 100% ธรรมชาติ ไร้สารกันเสีย คุณภาพสู เสริมโปรตีน ขนมแมว ขนมหมา",
     "slug": "petlusci-650g-100-440592",
     "source": "apify-daily-sync",
-    "price": "฿49",
+    "price": "฿50",
     "priceMax": "฿124",
     "rating": "4.91",
     "reviewCount": "209",
@@ -13126,7 +13341,9 @@
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "PETLUSCI อกไก่เต๋า 650g อกไก่ฟรีซดราย 100% ธรรมชาติ ไร้สารกันเสีย คุณภาพสู เสริม — ของโปรดน้องเหมียว. ในหมวดขนมแมว ราคา ฿49 เช็คราคาและรีวิวจริง"
+    "description": "PETLUSCI อกไก่เต๋า 650g อกไก่ฟรีซดราย 100% ธรรมชาติ ไร้สารกันเสีย คุณภาพสู เสริม — ของโปรดน้องเหมียว. ในหมวดขนมแมว ราคา ฿49 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1124293183",
@@ -13135,7 +13352,7 @@
     "slug": "",
     "source": "apify-daily-sync",
     "price": "฿1",
-    "priceMax": "",
+    "priceMax": "฿119",
     "rating": "4.95",
     "reviewCount": "2389",
     "sold": "5k+",
@@ -13152,15 +13369,17 @@
     "affiliateUrl": "https://shopee.co.th/product/1124293183/23488685320?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=23488685320",
     "scrapedAt": "2026-07-05",
     "localImage": "/products/bite-of-wild-685320.webp",
-    "discountPercent": 0,
-    "isOnSale": false,
-    "price_before_discount": "",
+    "discountPercent": 99,
+    "isOnSale": true,
+    "price_before_discount": "฿119",
     "searchable": false,
     "_hidden_reason": "bait_price_1",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "Bite of Wild ฟรีซดรายแซลมอน และปลาไข่ เหมาะสำหรับเป็นขนมเพื่อเสริมสร้างโภชนาการ — น้องหมาชอบทุกมื้อ. ในหมวดอาหารสุนัข ราคา ฿1 เช็คราคาและรีวิวจริง"
+    "description": "Bite of Wild ฟรีซดรายแซลมอน และปลาไข่ เหมาะสำหรับเป็นขนมเพื่อเสริมสร้างโภชนาการ — น้องหมาชอบทุกมื้อ. ในหมวดอาหารสุนัข ราคา ฿1 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1749130737",
@@ -13168,7 +13387,7 @@
     "title": "PETLUSCI® อกไก่ฟรีซดราย ขนมแมว 640กรัม ขนมฟรีซดรายแมว 100%ฟู้ดเกรด ขนมสุนัข แมวและสุนัข",
     "slug": "petlusci-640-100-276665",
     "source": "apify-daily-sync",
-    "price": "฿50",
+    "price": "฿59",
     "priceMax": "฿118",
     "rating": "4.89",
     "reviewCount": "237",
@@ -13186,13 +13405,15 @@
     "affiliateUrl": "https://shopee.co.th/product/1749130737/45358276665?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=45358276665",
     "scrapedAt": "2026-07-05",
     "localImage": "/products/petlusci-640-100-276665.webp",
-    "discountPercent": 58,
+    "discountPercent": 51,
     "isOnSale": true,
     "price_before_discount": "฿118",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "PETLUSCI® อกไก่ฟรีซดราย ขนมแมว 640กรัม ขนมฟรีซดรายแมว 100%ฟู้ดเกรด ขนมสุนัข แมวแ — ขนมที่แมวหลงรัก. ในหมวดขนมแมว ราคา ฿50 เช็คราคาและรีวิวจริง"
+    "description": "PETLUSCI® อกไก่ฟรีซดราย ขนมแมว 640กรัม ขนมฟรีซดรายแมว 100%ฟู้ดเกรด ขนมสุนัข แมวแ — ขนมที่แมวหลงรัก. ในหมวดขนมแมว ราคา ฿50 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1224107128",
@@ -13300,8 +13521,8 @@
     "title": "หญ้าแมวฟรีซดราย ขนมแมว 640กรัม ขนมหญ้าแมวบำรุงขน อกไก่ผสมต้นอ่อนข้าวสาลีฟรีซดราย โปรตีนสูง",
     "slug": "640-611711",
     "source": "apify-daily-sync",
-    "price": "฿46",
-    "priceMax": "",
+    "price": "฿236",
+    "priceMax": "฿499",
     "rating": "4.86",
     "reviewCount": "8141",
     "sold": "10k+",
@@ -13318,13 +13539,15 @@
     "affiliateUrl": "https://shopee.co.th/product/639932464/24085611711?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=24085611711",
     "scrapedAt": "2026-07-05",
     "localImage": "/products/640-611711.webp",
-    "discountPercent": 0,
-    "isOnSale": false,
-    "price_before_discount": "",
+    "discountPercent": 53,
+    "isOnSale": true,
+    "price_before_discount": "฿499",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "หญ้าแมวฟรีซดราย ขนมแมว 640กรัม ขนมหญ้าแมวบำรุงขน อกไก่ผสมต้นอ่อนข้าวสาลีฟรีซดราย — ขนมที่แมวหลงรัก. ในหมวดขนมแมว ราคา ฿46 เช็คราคาและรีวิวจริง"
+    "description": "หญ้าแมวฟรีซดราย ขนมแมว 640กรัม ขนมหญ้าแมวบำรุงขน อกไก่ผสมต้นอ่อนข้าวสาลีฟรีซดราย — ขนมที่แมวหลงรัก. ในหมวดขนมแมว ราคา ฿46 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1003962876",
@@ -13332,7 +13555,7 @@
     "title": "ทรายแมวเต้าหู้ PetyPet ออร์แกนิค 100% จับตัวเป็นก้อนเร็ว ใช้งานง่าย",
     "slug": "petypet-100-887679",
     "source": "apify-daily-sync",
-    "price": "฿65",
+    "price": "฿68",
     "priceMax": "฿129",
     "rating": "4.95",
     "reviewCount": "371",
@@ -13350,13 +13573,15 @@
     "affiliateUrl": "https://shopee.co.th/product/1003962876/47106887679?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=47106887679",
     "scrapedAt": "2026-07-05",
     "localImage": "/products/petypet-100-887679.webp",
-    "discountPercent": 50,
+    "discountPercent": 54,
     "isOnSale": true,
     "price_before_discount": "฿129",
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "ทรายแมวเต้าหู้ PetyPet ออร์แกนิค 100% จับตัวเป็นก้อนเร็ว ใช้งานง่าย — ดับกลิ่นดีคุ้มค่า. ในหมวดทรายแมว ราคา ฿65 เช็คราคาและรีวิวจริง"
+    "description": "ทรายแมวเต้าหู้ PetyPet ออร์แกนิค 100% จับตัวเป็นก้อนเร็ว ใช้งานง่าย — ดับกลิ่นดีคุ้มค่า. ในหมวดทรายแมว ราคา ฿65 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1449018616",
@@ -13515,7 +13740,9 @@
     "priceAfterCode": "",
     "voucherText": "",
     "couponHowTo": "",
-    "description": "Kasty แคสตี้ 20L ทรายแมวเต้าหู้ เก็บกลิ่นดี จับต้วเป็นก้อน ฝุ่นน้อย ทิ้งชักโครกไ — จับก้อนดีไร้ฝุ่น. ในหมวดทรายแมว ราคา ฿420 เช็คราคาและรีวิวจริง"
+    "description": "Kasty แคสตี้ 20L ทรายแมวเต้าหู้ เก็บกลิ่นดี จับต้วเป็นก้อน ฝุ่นน้อย ทิ้งชักโครกไ — จับก้อนดีไร้ฝุ่น. ในหมวดทรายแมว ราคา ฿420 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "151386507",
@@ -14019,7 +14246,7 @@
     "title": "อาหารแมว Active-1 เกรดพรีเมี่ยมขนาด 14-15 กก. สำหรับแมวอายุ 4 เดือนขึ้นไป ไม่เค็ม โซเดียมต่ำ",
     "slug": "active-1-14-15-4-418296",
     "source": "apify-daily-sync",
-    "price": "฿1,069",
+    "price": "฿1,079",
     "priceMax": "",
     "price_before_discount": "",
     "priceAfterCode": "",
@@ -14044,7 +14271,9 @@
     "url": "https://shopee.co.th/product/1840189322/53461418296",
     "affiliateUrl": "https://shopee.co.th/product/1840189322/53461418296?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=53461418296",
     "scrapedAt": "2026-07-07",
-    "description": "อาหารแมว Active-1 เกรดพรีเมี่ยมขนาด 14-15 กก. สำหรับแมวอายุ 4 เดือนขึ้นไป ไม่เค็ — น้องเหมียวชอบ. ในหมวดอาหารแมว ราคา ฿1,069 เช็คราคาและรีวิวจริง"
+    "description": "อาหารแมว Active-1 เกรดพรีเมี่ยมขนาด 14-15 กก. สำหรับแมวอายุ 4 เดือนขึ้นไป ไม่เค็ — น้องเหมียวชอบ. ในหมวดอาหารแมว ราคา ฿1,069 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "228830584",
@@ -14108,7 +14337,9 @@
     "url": "https://shopee.co.th/product/1580028958/42327115941",
     "affiliateUrl": "https://shopee.co.th/product/1580028958/42327115941?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=42327115941",
     "scrapedAt": "2026-07-07",
-    "description": "Ketzuzu 17g อาหารเปียกแมว โภชนาการ อาหารเปียกสำหรับแมว ข้าวคลุกเนื้อชุ่มชื้นอุดม — ทาสแมวต้องมี. ในหมวดอาหารแมว ราคา ฿49 เช็คราคาและรีวิวจริง"
+    "description": "Ketzuzu 17g อาหารเปียกแมว โภชนาการ อาหารเปียกสำหรับแมว ข้าวคลุกเนื้อชุ่มชื้นอุดม — ทาสแมวต้องมี. ในหมวดอาหารแมว ราคา ฿49 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "105803044",
@@ -14215,12 +14446,12 @@
     "title": "Pramy Supreme อาหารแมวชนิดเม็ด สำหรับลูกแมวและแมวโตมีหลายสูตร ขนาด 800g - 1 kg",
     "slug": "pramy-supreme-800g-1-kg-920947",
     "source": "apify-daily-sync",
-    "price": "฿104",
+    "price": "฿101",
     "priceMax": "฿150",
     "price_before_discount": "฿150",
     "priceAfterCode": "",
     "voucherText": "",
-    "discountPercent": 31,
+    "discountPercent": 33,
     "isOnSale": true,
     "hasVariations": true,
     "shopName": "Mameaow Shop",
@@ -14240,7 +14471,9 @@
     "url": "https://shopee.co.th/product/36537132/25704920947",
     "affiliateUrl": "https://shopee.co.th/product/36537132/25704920947?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=25704920947",
     "scrapedAt": "2026-07-07",
-    "description": "Pramy Supreme อาหารแมวชนิดเม็ด สำหรับลูกแมวและแมวโตมีหลายสูตร ขนาด 800g - 1 kg — อาหารคุณภาพสำหรับแมว. ในหมวดอาหารแมว ราคา ฿104 เช็คราคาและรีวิวจริง"
+    "description": "Pramy Supreme อาหารแมวชนิดเม็ด สำหรับลูกแมวและแมวโตมีหลายสูตร ขนาด 800g - 1 kg — อาหารคุณภาพสำหรับแมว. ในหมวดอาหารแมว ราคา ฿104 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "36537132",
@@ -14248,12 +14481,12 @@
     "title": "[อาหารแมว] Petheria เพ็ทเทอเรีย โซเดียมต่ำ ไม่เค็ม ไม่ใส่เกลือ 1.5 kg",
     "slug": "petheria-1-5-kg-881730",
     "source": "apify-daily-sync",
-    "price": "฿196",
-    "priceMax": "฿285",
-    "price_before_discount": "฿285",
+    "price": "฿174",
+    "priceMax": "฿295",
+    "price_before_discount": "฿295",
     "priceAfterCode": "",
     "voucherText": "",
-    "discountPercent": 34,
+    "discountPercent": 41,
     "isOnSale": true,
     "hasVariations": true,
     "shopName": "Mameaow Shop",
@@ -14273,7 +14506,9 @@
     "url": "https://shopee.co.th/product/36537132/20194881730",
     "affiliateUrl": "https://shopee.co.th/product/36537132/20194881730?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=20194881730",
     "scrapedAt": "2026-07-07",
-    "description": "[อาหารแมว] Petheria เพ็ทเทอเรีย โซเดียมต่ำ ไม่เค็ม ไม่ใส่เกลือ 1.5 kg — ทาสแมวต้องมี. ในหมวดอาหารแมว ราคา ฿196 เช็คราคาและรีวิวจริง"
+    "description": "[อาหารแมว] Petheria เพ็ทเทอเรีย โซเดียมต่ำ ไม่เค็ม ไม่ใส่เกลือ 1.5 kg — ทาสแมวต้องมี. ในหมวดอาหารแมว ราคา ฿196 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "144046792",
@@ -14281,12 +14516,12 @@
     "title": "ฟริสกี้ส์ อาหารสำหรับแมวโต ชนิดเม็ด 6 กก. FRISKIES FOOD FOR ADULT CATS PELLET TYPE 6 KG.",
     "slug": "6-friskies-food-for-adult-cats-813263",
     "source": "apify-daily-sync",
-    "price": "฿624",
+    "price": "฿590",
     "priceMax": "฿670",
     "price_before_discount": "฿670",
     "priceAfterCode": "",
     "voucherText": "",
-    "discountPercent": 7,
+    "discountPercent": 12,
     "isOnSale": true,
     "hasVariations": true,
     "shopName": "Lotuss_official",
@@ -14306,7 +14541,9 @@
     "url": "https://shopee.co.th/product/144046792/21686813263",
     "affiliateUrl": "https://shopee.co.th/product/144046792/21686813263?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=21686813263",
     "scrapedAt": "2026-07-07",
-    "description": "ฟริสกี้ส์ อาหารสำหรับแมวโต ชนิดเม็ด 6 กก. FRISKIES FOOD FOR ADULT CATS PELLET TY — น้องเหมียวชอบ. ในหมวดอาหารแมว ราคา ฿624 เช็คราคาและรีวิวจริง"
+    "description": "ฟริสกี้ส์ อาหารสำหรับแมวโต ชนิดเม็ด 6 กก. FRISKIES FOOD FOR ADULT CATS PELLET TY — น้องเหมียวชอบ. ในหมวดอาหารแมว ราคา ฿624 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "159912755",
@@ -14436,7 +14673,9 @@
     "url": "https://shopee.co.th/product/1026036263/47411859077",
     "affiliateUrl": "https://shopee.co.th/product/1026036263/47411859077?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=47411859077",
     "scrapedAt": "2026-07-07",
-    "description": "900g.*ถุงแบ่ง Pramy Supreme พรามี่ ซุพรีม อาหารแมวสำหรับแมวเลี้ยงในบ้าน สูตรแกะ  — น้องเหมียวชอบ. ในหมวดอาหารแมว ราคา ฿105 เช็คราคาและรีวิวจริง"
+    "description": "900g.*ถุงแบ่ง Pramy Supreme พรามี่ ซุพรีม อาหารแมวสำหรับแมวเลี้ยงในบ้าน สูตรแกะ  — น้องเหมียวชอบ. ในหมวดอาหารแมว ราคา ฿105 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "105803044",
@@ -14573,13 +14812,13 @@
     "title": "70G อาหารเปียกแมว สุขภาพดี เนื้อสัตว์แท้ เกรนฟรี ไม่ใส่วัตถุกันเสีย กินได้ทั้งแมวโตและลูกแมว แซลมอน ไก่",
     "slug": "ketzuzu-70g-346844",
     "source": "apify-daily-sync",
-    "price": "฿6",
-    "priceMax": "฿35",
-    "price_before_discount": "฿35",
+    "price": "",
+    "priceMax": "",
+    "price_before_discount": "",
     "priceAfterCode": "",
     "voucherText": "",
-    "discountPercent": 83,
-    "isOnSale": true,
+    "discountPercent": 0,
+    "isOnSale": false,
     "hasVariations": true,
     "shopName": "Ketzuzu Store For Pet",
     "rating": "4.89",
@@ -14598,7 +14837,9 @@
     "url": "https://shopee.co.th/product/1580028958/54709346844",
     "affiliateUrl": "https://shopee.co.th/product/1580028958/54709346844?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=54709346844",
     "scrapedAt": "2026-07-07",
-    "description": "70G อาหารเปียกแมว สุขภาพดี เนื้อสัตว์แท้ เกรนฟรี ไม่ใส่วัตถุกันเสีย กินได้ทั้งแม — อร่อยจนเลียจาน. ในหมวดอาหารเปียก ราคา ฿6 เช็คราคาและรีวิวจริง"
+    "description": "70G อาหารเปียกแมว สุขภาพดี เนื้อสัตว์แท้ เกรนฟรี ไม่ใส่วัตถุกันเสีย กินได้ทั้งแม — อร่อยจนเลียจาน. ในหมวดอาหารเปียก ราคา ฿6 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "258952532",
@@ -14639,13 +14880,13 @@
     "title": "70 กรัม อาหารเปียกแมว ช่วยเสริมการดื่มน้ำ ไม่ใส่สารปรุงแต่งรส ควบคุมการย่อยอาหารและปรับปรุงภูมิคุ้มกัน",
     "slug": "ketzuzu-70-947049",
     "source": "apify-daily-sync",
-    "price": "฿8",
-    "priceMax": "฿35",
-    "price_before_discount": "฿35",
+    "price": "",
+    "priceMax": "",
+    "price_before_discount": "",
     "priceAfterCode": "",
     "voucherText": "",
-    "discountPercent": 77,
-    "isOnSale": true,
+    "discountPercent": 0,
+    "isOnSale": false,
     "hasVariations": true,
     "shopName": "Ketzuzu's Store",
     "rating": "4.82",
@@ -14664,7 +14905,9 @@
     "url": "https://shopee.co.th/product/1579722061/47508947049",
     "affiliateUrl": "https://shopee.co.th/product/1579722061/47508947049?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=47508947049",
     "scrapedAt": "2026-07-07",
-    "description": "70 กรัม อาหารเปียกแมว ช่วยเสริมการดื่มน้ำ ไม่ใส่สารปรุงแต่งรส ควบคุมการย่อยอาหาร — เปียกนุ่มน้องชอบ. ในหมวดอาหารเปียก ราคา ฿8 เช็คราคาและรีวิวจริง"
+    "description": "70 กรัม อาหารเปียกแมว ช่วยเสริมการดื่มน้ำ ไม่ใส่สารปรุงแต่งรส ควบคุมการย่อยอาหาร — เปียกนุ่มน้องชอบ. ในหมวดอาหารเปียก ราคา ฿8 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1761932598",
@@ -14672,13 +14915,13 @@
     "title": "(ยกโหล12ซอง) Bellotta อาหารเปียกแมว เบลลอตต้า ขนาด 85g ไม่เติมเกลือ ไม่มีสารกันเสีย",
     "slug": "12-bellotta-85g-960836",
     "source": "apify-daily-sync",
-    "price": "฿165",
-    "priceMax": "฿175",
-    "price_before_discount": "฿175",
+    "price": "฿185",
+    "priceMax": "",
+    "price_before_discount": "",
     "priceAfterCode": "",
     "voucherText": "",
-    "discountPercent": 6,
-    "isOnSale": true,
+    "discountPercent": 0,
+    "isOnSale": false,
     "hasVariations": true,
     "shopName": "โกดังสี่ขา",
     "rating": "4.98",
@@ -14696,7 +14939,9 @@
     "url": "https://shopee.co.th/product/1761932598/53307960836",
     "affiliateUrl": "https://shopee.co.th/product/1761932598/53307960836?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=53307960836",
     "scrapedAt": "2026-07-07",
-    "description": "(ยกโหล12ซอง) Bellotta อาหารเปียกแมว เบลลอตต้า ขนาด 85g ไม่เติมเกลือ ไม่มีสารกันเ — อาหารเปียกคุณภาพ. ในหมวดอาหารเปียก ราคา ฿165 เช็คราคาและรีวิวจริง"
+    "description": "(ยกโหล12ซอง) Bellotta อาหารเปียกแมว เบลลอตต้า ขนาด 85g ไม่เติมเกลือ ไม่มีสารกันเ — อาหารเปียกคุณภาพ. ในหมวดอาหารเปียก ราคา ฿165 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1571633380",
@@ -14795,7 +15040,9 @@
     "url": "https://shopee.co.th/product/1571633380/41977516158",
     "affiliateUrl": "https://shopee.co.th/product/1571633380/41977516158?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=41977516158",
     "scrapedAt": "2026-07-07",
-    "description": "ที่สุดของความฟิน! Ketzuzu ขนมแมวเลีย 17g [50 ซอง] เนื้อเนียนนุ่มชุ่มชื้น กลิ่นหอ — แมวเลียจนหมดซอง. ในหมวดขนมแมว ราคา ฿59 เช็คราคาและรีวิวจริง"
+    "description": "ที่สุดของความฟิน! Ketzuzu ขนมแมวเลีย 17g [50 ซอง] เนื้อเนียนนุ่มชุ่มชื้น กลิ่นหอ — แมวเลียจนหมดซอง. ในหมวดขนมแมว ราคา ฿59 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1571633380",
@@ -14828,7 +15075,9 @@
     "url": "https://shopee.co.th/product/1571633380/43577516341",
     "affiliateUrl": "https://shopee.co.th/product/1571633380/43577516341?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=43577516341",
     "scrapedAt": "2026-07-07",
-    "description": "ทาสแมวต้องจัด! [50 ชิ้น] Ketzuzu 17g ขนมแมวเลียสุดเลิฟ เนื้อเนียนละเอียด อิ่มอร่ — แมวเลียจนหมดซอง. ในหมวดขนมแมว ราคา ฿50 เช็คราคาและรีวิวจริง"
+    "description": "ทาสแมวต้องจัด! [50 ชิ้น] Ketzuzu 17g ขนมแมวเลียสุดเลิฟ เนื้อเนียนละเอียด อิ่มอร่ — แมวเลียจนหมดซอง. ในหมวดขนมแมว ราคา ฿50 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1579722061",
@@ -15072,7 +15321,7 @@
     "price_before_discount": "฿50",
     "priceAfterCode": "",
     "voucherText": "",
-    "discountPercent": 51,
+    "discountPercent": 45,
     "isOnSale": true,
     "hasVariations": true,
     "shopName": "Ketzuzu pet store",
@@ -15092,7 +15341,9 @@
     "url": "https://shopee.co.th/product/1580877610/55652844524",
     "affiliateUrl": "https://shopee.co.th/product/1580877610/55652844524?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=55652844524",
     "scrapedAt": "2026-07-07",
-    "description": "ลดล้างสต็อก! [50ชิ้น/แพ็คใหญ่] Ketzuzu ขนมแมวเลีย 17g มูสโภชนาการสูง บำรุงแมวอ้ว — ขนมที่แมวหลงรัก. ในหมวดขนมแมว ราคา ฿49 เช็คราคาและรีวิวจริง"
+    "description": "ลดล้างสต็อก! [50ชิ้น/แพ็คใหญ่] Ketzuzu ขนมแมวเลีย 17g มูสโภชนาการสูง บำรุงแมวอ้ว — ขนมที่แมวหลงรัก. ในหมวดขนมแมว ราคา ฿49 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1580877610",
@@ -15424,7 +15675,9 @@
     "affiliateUrl": "https://shopee.co.th/product/944560235/22586451975?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=22586451975",
     "scrapedAt": "2026-07-07",
     "_hidden_reason": "bait_price_1",
-    "description": "(🔥ส่งด่วน ค่าส่งถูก) Kasty ทรายแมวเต้าหู้ธรรมชาติ ดับกลิ่นดีเยี่ยม จับตัวเป็นก้อ — ดับกลิ่นดีคุ้มค่า. ในหมวดทรายแมว ราคา ฿1 เช็คราคาและรีวิวจริง"
+    "description": "(🔥ส่งด่วน ค่าส่งถูก) Kasty ทรายแมวเต้าหู้ธรรมชาติ ดับกลิ่นดีเยี่ยม จับตัวเป็นก้อ — ดับกลิ่นดีคุ้มค่า. ในหมวดทรายแมว ราคา ฿1 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "555218291",
@@ -15719,12 +15972,12 @@
     "title": "Jerhigh Stick ขนมสุนัข ขนาด 50-60 กรัม",
     "slug": "jerhigh-stick-50-60-279061",
     "source": "apify-daily-sync",
-    "price": "฿37",
+    "price": "฿38",
     "priceMax": "฿49",
     "price_before_discount": "฿49",
     "priceAfterCode": "",
     "voucherText": "",
-    "discountPercent": 24,
+    "discountPercent": 22,
     "isOnSale": true,
     "hasVariations": true,
     "shopName": "JetPetshop",
@@ -15740,7 +15993,9 @@
     "url": "https://shopee.co.th/product/141832310/2232279061",
     "affiliateUrl": "https://shopee.co.th/product/141832310/2232279061?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=2232279061",
     "scrapedAt": "2026-07-07",
-    "description": "Jerhigh Stick ขนมสุนัข ขนาด 50-60 กรัม — รางวัลฝึกสุนัข. ในหมวดขนมสุนัข ราคา ฿37 เช็คราคาและรีวิวจริง"
+    "description": "Jerhigh Stick ขนมสุนัข ขนาด 50-60 กรัม — รางวัลฝึกสุนัข. ในหมวดขนมสุนัข ราคา ฿37 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "213128555",
@@ -15773,7 +16028,9 @@
     "url": "https://shopee.co.th/product/213128555/21312975872",
     "affiliateUrl": "https://shopee.co.th/product/213128555/21312975872?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=21312975872",
     "scrapedAt": "2026-07-07",
-    "description": "Jerhigh Stick 50-60 g Duo Stick1ซอง มีทุกรสชาติ ขนมสุนัขแท่งเจอร์ไฮ(สั่ง100บาทขึ — ขนมหมาคุณภาพ. ในหมวดขนมสุนัข ราคา ฿37 เช็คราคาและรีวิวจริง"
+    "description": "Jerhigh Stick 50-60 g Duo Stick1ซอง มีทุกรสชาติ ขนมสุนัขแท่งเจอร์ไฮ(สั่ง100บาทขึ — ขนมหมาคุณภาพ. ในหมวดขนมสุนัข ราคา ฿37 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "34144291",
@@ -15781,12 +16038,12 @@
     "title": "Dogfin ไก่อบแห้งสำหรับน้องหมา ขนาดบรรจุ 350 กรัม - 1 กิโลกรัม กรัม แบบเยอะที่สุด คุ้มที่สุด!!",
     "slug": "dogfin-350-1-489199",
     "source": "apify-daily-sync",
-    "price": "฿269",
+    "price": "฿284",
     "priceMax": "฿285",
     "price_before_discount": "฿285",
     "priceAfterCode": "",
     "voucherText": "",
-    "discountPercent": 6,
+    "discountPercent": 1,
     "isOnSale": true,
     "hasVariations": true,
     "shopName": "Dogfin ไก่อบแห้งและขนมสุนัข",
@@ -15806,7 +16063,9 @@
     "url": "https://shopee.co.th/product/34144291/19561489199",
     "affiliateUrl": "https://shopee.co.th/product/34144291/19561489199?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=19561489199",
     "scrapedAt": "2026-07-07",
-    "description": "Dogfin ไก่อบแห้งสำหรับน้องหมา ขนาดบรรจุ 350 กรัม - 1 กิโลกรัม กรัม แบบเยอะที่สุด — รางวัลฝึกสุนัข. ในหมวดขนมสุนัข ราคา ฿269 เช็คราคาและรีวิวจริง"
+    "description": "Dogfin ไก่อบแห้งสำหรับน้องหมา ขนาดบรรจุ 350 กรัม - 1 กิโลกรัม กรัม แบบเยอะที่สุด — รางวัลฝึกสุนัข. ในหมวดขนมสุนัข ราคา ฿269 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "86425034",
@@ -15839,7 +16098,9 @@
     "url": "https://shopee.co.th/product/86425034/24863162984",
     "affiliateUrl": "https://shopee.co.th/product/86425034/24863162984?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=24863162984",
     "scrapedAt": "2026-07-07",
-    "description": "ขนมสุนัข ไก่สไลด์นิ่ม 150 กรัม ขนมหมา ไม่ปรุงรส — ขนมหมาคุณภาพ. ในหมวดขนมสุนัข ราคา ฿117 เช็คราคาและรีวิวจริง"
+    "description": "ขนมสุนัข ไก่สไลด์นิ่ม 150 กรัม ขนมหมา ไม่ปรุงรส — ขนมหมาคุณภาพ. ในหมวดขนมสุนัข ราคา ฿117 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "7409564",
@@ -15934,7 +16195,9 @@
     "url": "https://shopee.co.th/product/165223640/6806002517",
     "affiliateUrl": "https://shopee.co.th/product/165223640/6806002517?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=6806002517",
     "scrapedAt": "2026-07-07",
-    "description": "ขนมสุนัข สันในไก่พันปลาเส้น ขนมหมา ขนมแมว ไม่ปรุงรส 250กรัมประมาณ28-38ชิ้น — รางวัลฝึกสุนัข. ในหมวดขนมสุนัข ราคา ฿108 เช็คราคาและรีวิวจริง"
+    "description": "ขนมสุนัข สันในไก่พันปลาเส้น ขนมหมา ขนมแมว ไม่ปรุงรส 250กรัมประมาณ28-38ชิ้น — รางวัลฝึกสุนัข. ในหมวดขนมสุนัข ราคา ฿108 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "287201971",
@@ -15968,7 +16231,9 @@
     "affiliateUrl": "https://shopee.co.th/product/287201971/28080395407?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=28080395407",
     "scrapedAt": "2026-07-07",
     "_hidden_reason": "bait_price_1",
-    "description": "Petcho ขนมนมแพะ ขนมหมา นมแพะเม็ดเล็ก นมแพะสติ๊ก มีให้เลือก 4 แบบ 100/500g Goat M — ขนมหมาคุณภาพ. ในหมวดขนมสุนัข ราคา ฿1 เช็คราคาและรีวิวจริง"
+    "description": "Petcho ขนมนมแพะ ขนมหมา นมแพะเม็ดเล็ก นมแพะสติ๊ก มีให้เลือก 4 แบบ 100/500g Goat M — ขนมหมาคุณภาพ. ในหมวดขนมสุนัข ราคา ฿1 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "148436486",
@@ -16001,7 +16266,9 @@
     "url": "https://shopee.co.th/product/148436486/24179487473",
     "affiliateUrl": "https://shopee.co.th/product/148436486/24179487473?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=24179487473",
     "scrapedAt": "2026-07-07",
-    "description": "Jerhigh stick 50-60g Duo stick เจอร์ไฮสติ๊กขนมสุนัข(สั่ง 100 บาทขึ้นไป) — ขนมหมาคุณภาพ. ในหมวดขนมสุนัข ราคา ฿39 เช็คราคาและรีวิวจริง"
+    "description": "Jerhigh stick 50-60g Duo stick เจอร์ไฮสติ๊กขนมสุนัข(สั่ง 100 บาทขึ้นไป) — ขนมหมาคุณภาพ. ในหมวดขนมสุนัข ราคา ฿39 เช็คราคาและรีวิวจริง",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "580691242",
@@ -16109,12 +16376,12 @@
     "description": "มีโอ อาหารแมวสำเร็จรูป ชนิดเม็ด สำหรับแมวโตอายุ 1 ปีขึ้นไป ขนาด 2.8 กก./3 กก. ME-O CAT FOOD DRY TYPE FOR ADULT CATS — ในหมวดอาหารแมวราคา ฿267 เช็คราคาล่าสุดและร",
     "slug": "1-2-8-3-me-o-714441",
     "source": "apify-daily-sync",
-    "price": "฿267",
+    "price": "฿278",
     "priceMax": "฿333",
     "price_before_discount": "฿333",
     "priceAfterCode": "",
     "voucherText": "",
-    "discountPercent": 20,
+    "discountPercent": 17,
     "isOnSale": true,
     "hasVariations": true,
     "shopName": "Lotuss_official",
@@ -16133,7 +16400,9 @@
     "localImage": "/products/1-2-8-3-me-o-714441.webp",
     "url": "https://shopee.co.th/product/144046792/22265714441",
     "affiliateUrl": "https://shopee.co.th/product/144046792/22265714441?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=22265714441",
-    "scrapedAt": "2026-07-09"
+    "scrapedAt": "2026-07-09",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "275339498",
@@ -16325,7 +16594,9 @@
     "localImage": "/products/purina-friskies-1-kg-x2-627964.webp",
     "url": "https://shopee.co.th/product/28265861/23835627964",
     "affiliateUrl": "https://shopee.co.th/product/28265861/23835627964?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=23835627964",
-    "scrapedAt": "2026-07-09"
+    "scrapedAt": "2026-07-09",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "36537132",
@@ -16391,7 +16662,9 @@
     "localImage": "/products/12-nekko-70g-105579.webp",
     "url": "https://shopee.co.th/product/1114573125/28089105579",
     "affiliateUrl": "https://shopee.co.th/product/1114573125/28089105579?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=28089105579",
-    "scrapedAt": "2026-07-09"
+    "scrapedAt": "2026-07-09",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "78895131",
@@ -16400,12 +16673,12 @@
     "description": "[24 ฟรี 4] WHISKAS วิสกัส อาหารเปียกแมว แมวโต ลูกแมว แมวสูงวัย เลือกรสชาติได้ 80ก. — ในหมวดอาหารแมวราคา ฿386 เช็คราคาล่าสุดและรีวิวจากผู้ซื้อจริง พร้อมส่วนลดพิเ",
     "slug": "24-4-whiskas-80-417563",
     "source": "apify-daily-sync",
-    "price": "฿386",
+    "price": "฿415",
     "priceMax": "฿504",
     "price_before_discount": "฿504",
     "priceAfterCode": "",
     "voucherText": "",
-    "discountPercent": 23,
+    "discountPercent": 18,
     "isOnSale": true,
     "hasVariations": true,
     "shopName": "Pedigree and Whiskas Official",
@@ -16424,7 +16697,9 @@
     "localImage": "/products/24-4-whiskas-80-417563.webp",
     "url": "https://shopee.co.th/product/78895131/2864417563",
     "affiliateUrl": "https://shopee.co.th/product/78895131/2864417563?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=2864417563",
-    "scrapedAt": "2026-07-09"
+    "scrapedAt": "2026-07-09",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "898301812",
@@ -16457,7 +16732,9 @@
     "localImage": "/products/purina-one-1-2kg-925188.webp",
     "url": "https://shopee.co.th/product/898301812/19165925188",
     "affiliateUrl": "https://shopee.co.th/product/898301812/19165925188?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=19165925188",
-    "scrapedAt": "2026-07-09"
+    "scrapedAt": "2026-07-09",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1571633380",
@@ -16499,12 +16776,12 @@
     "description": "[12/24/48 ซอง] อาหารเปียกแมว สุขภาพดี รสไก่ เสริมภูมิคุ้มกัน สำหรับแมวทุกวัย — ในหมวดอาหารเปียกราคา ฿109 เช็คราคาล่าสุดและรีวิวจากผู้ซื้อจริง พร้อมส่วนลดพิเศษ",
     "slug": "12-24-48-906231",
     "source": "apify-daily-sync",
-    "price": "฿109",
+    "price": "฿79",
     "priceMax": "฿218",
     "price_before_discount": "฿218",
     "priceAfterCode": "",
     "voucherText": "",
-    "discountPercent": 50,
+    "discountPercent": 64,
     "isOnSale": true,
     "hasVariations": true,
     "shopName": "Ketzuzu's Store",
@@ -16523,7 +16800,9 @@
     "localImage": "/products/12-24-48-906231.webp",
     "url": "https://shopee.co.th/product/1579722061/55410906231",
     "affiliateUrl": "https://shopee.co.th/product/1579722061/55410906231?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=55410906231",
-    "scrapedAt": "2026-07-09"
+    "scrapedAt": "2026-07-09",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1579722061",
@@ -16688,7 +16967,9 @@
     "localImage": "/products/jinny-soft-chicken-slice-100-753090.webp",
     "url": "https://shopee.co.th/product/213128555/18575753090",
     "affiliateUrl": "https://shopee.co.th/product/213128555/18575753090?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=18575753090",
-    "scrapedAt": "2026-07-09"
+    "scrapedAt": "2026-07-09",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "802305279",
@@ -16721,7 +17002,9 @@
     "localImage": "/products/100-200-500-freeze-dried-100-785323.webp",
     "url": "https://shopee.co.th/product/802305279/27927785323",
     "affiliateUrl": "https://shopee.co.th/product/802305279/27927785323?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=27927785323",
-    "scrapedAt": "2026-07-09"
+    "scrapedAt": "2026-07-09",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "285830641",
@@ -16753,7 +17036,9 @@
     "localImage": "/products/pet8-mini-strip-3-flavor-35g-133736.webp",
     "url": "https://shopee.co.th/product/285830641/6064133736",
     "affiliateUrl": "https://shopee.co.th/product/285830641/6064133736?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=6064133736",
-    "scrapedAt": "2026-07-09"
+    "scrapedAt": "2026-07-09",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "639932464",
@@ -16795,12 +17080,12 @@
     "description": "ขนมแมว ไ่ก่ฉีกเส้น Nibbly Treats คละรสชาติ (ผลิตจากเนื้อไก่แท้) Grain-Free สำหรับแมว — ในหมวดขนมแมวราคา ฿35 เช็คราคาล่าสุดและรีวิวจากผู้ซื้อจริง พร้อมส่วนลดพิเศ",
     "slug": "nibbly-treats-grain-free-581673",
     "source": "apify-daily-sync",
-    "price": "฿35",
-    "priceMax": "฿45",
-    "price_before_discount": "฿45",
+    "price": "฿45",
+    "priceMax": "฿48",
+    "price_before_discount": "฿48",
     "priceAfterCode": "",
     "voucherText": "",
-    "discountPercent": 22,
+    "discountPercent": 6,
     "isOnSale": true,
     "hasVariations": true,
     "shopName": "บริษัท เพ็ทฟอร์จูน จำกัด",
@@ -16819,7 +17104,9 @@
     "localImage": "/products/nibbly-treats-grain-free-581673.webp",
     "url": "https://shopee.co.th/product/257857659/4634581673",
     "affiliateUrl": "https://shopee.co.th/product/257857659/4634581673?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=4634581673",
-    "scrapedAt": "2026-07-09"
+    "scrapedAt": "2026-07-09",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "299697925",
@@ -16861,13 +17148,13 @@
     "description": "[20ลิตร] Kasty 20L ทรายแมวเต้าหู้ธรรมชาติ ขนาด 20 ลิตร — ในหมวดทรายแมวราคา ฿464 เช็คราคาล่าสุดและรีวิวจากผู้ซื้อจริง พร้อมส่วนลดพิเศษ",
     "slug": "20-kasty-20l-20-248350",
     "source": "apify-daily-sync",
-    "price": "฿464",
-    "priceMax": "฿515",
-    "price_before_discount": "฿515",
+    "price": "฿515",
+    "priceMax": "",
+    "price_before_discount": "",
     "priceAfterCode": "",
     "voucherText": "",
-    "discountPercent": 10,
-    "isOnSale": true,
+    "discountPercent": 0,
+    "isOnSale": false,
     "hasVariations": true,
     "shopName": "ArayaPetMall",
     "rating": "4.97",
@@ -16885,7 +17172,9 @@
     "localImage": "/products/20-kasty-20l-20-248350.webp",
     "url": "https://shopee.co.th/product/1026036263/23990248350",
     "affiliateUrl": "https://shopee.co.th/product/1026036263/23990248350?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=23990248350",
-    "scrapedAt": "2026-07-09"
+    "scrapedAt": "2026-07-09",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "88075264",
@@ -16918,7 +17207,9 @@
     "localImage": "/products/pramy-11-012046.webp",
     "url": "https://shopee.co.th/product/88075264/41206012046",
     "affiliateUrl": "https://shopee.co.th/product/88075264/41206012046?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=41206012046",
-    "scrapedAt": "2026-07-09"
+    "scrapedAt": "2026-07-09",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "634252888",
@@ -16984,7 +17275,9 @@
     "localImage": "/products/2kg-6l-615426.webp",
     "url": "https://shopee.co.th/product/1562608136/40021615426",
     "affiliateUrl": "https://shopee.co.th/product/1562608136/40021615426?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=40021615426",
-    "scrapedAt": "2026-07-09"
+    "scrapedAt": "2026-07-09",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "484152568",
@@ -17083,7 +17376,9 @@
     "localImage": "/products/mz-16-100-944654.webp",
     "url": "https://shopee.co.th/product/1841852394/49261944654",
     "affiliateUrl": "https://shopee.co.th/product/1841852394/49261944654?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=49261944654",
-    "scrapedAt": "2026-07-09"
+    "scrapedAt": "2026-07-09",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "275309578",
@@ -17148,7 +17443,9 @@
     "localImage": "/products/mz-100-cat-litter-8-454494.webp",
     "url": "https://shopee.co.th/product/648582553/43665454494",
     "affiliateUrl": "https://shopee.co.th/product/648582553/43665454494?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=43665454494",
-    "scrapedAt": "2026-07-09"
+    "scrapedAt": "2026-07-09",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1850477356",
@@ -17181,7 +17478,9 @@
     "localImage": "/products/2kg-6l-4-105425.webp",
     "url": "https://shopee.co.th/product/1850477356/55313105425",
     "affiliateUrl": "https://shopee.co.th/product/1850477356/55313105425?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=55313105425",
-    "scrapedAt": "2026-07-09"
+    "scrapedAt": "2026-07-09",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "111137862",
@@ -17214,7 +17513,9 @@
     "localImage": "/products/meow-10-meow-10-063397.webp",
     "url": "https://shopee.co.th/product/111137862/18006063397",
     "affiliateUrl": "https://shopee.co.th/product/111137862/18006063397?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=18006063397",
-    "scrapedAt": "2026-07-09"
+    "scrapedAt": "2026-07-09",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "179359716",
@@ -17280,7 +17581,9 @@
     "localImage": "/products/petmax-7-5kg-100-003815.webp",
     "url": "https://shopee.co.th/product/1464218085/43781003815",
     "affiliateUrl": "https://shopee.co.th/product/1464218085/43781003815?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=43781003815",
-    "scrapedAt": "2026-07-09"
+    "scrapedAt": "2026-07-09",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "580691242",
@@ -17478,7 +17781,9 @@
     "localImage": "/products/ketzuzu-12-24-14g-379492.webp",
     "url": "https://shopee.co.th/product/1579722061/45162379492",
     "affiliateUrl": "https://shopee.co.th/product/1579722061/45162379492?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=45162379492",
-    "scrapedAt": "2026-07-09"
+    "scrapedAt": "2026-07-09",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1580877610",
@@ -17624,7 +17929,7 @@
     "price_before_discount": "฿390",
     "priceAfterCode": "",
     "voucherText": "",
-    "discountPercent": 26,
+    "discountPercent": 30,
     "isOnSale": true,
     "hasVariations": true,
     "shopName": "gager official",
@@ -17643,7 +17948,9 @@
     "localImage": "/products/gager-2in1-263067.webp",
     "url": "https://shopee.co.th/product/369874313/23487263067",
     "affiliateUrl": "https://shopee.co.th/product/369874313/23487263067?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=23487263067",
-    "scrapedAt": "2026-07-09"
+    "scrapedAt": "2026-07-09",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "3964910",
@@ -17742,7 +18049,9 @@
     "localImage": "/products/pet-ordinary-pet-probic-573177.webp",
     "url": "https://shopee.co.th/product/3387028/16630573177",
     "affiliateUrl": "https://shopee.co.th/product/3387028/16630573177?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=16630573177",
-    "scrapedAt": "2026-07-09"
+    "scrapedAt": "2026-07-09",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1241023619",
@@ -18037,7 +18346,9 @@
     "localImage": "/products/bokbok-100-25-120549.webp",
     "url": "https://shopee.co.th/product/36981146/15006120549",
     "affiliateUrl": "https://shopee.co.th/product/36981146/15006120549?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=15006120549",
-    "scrapedAt": "2026-07-10"
+    "scrapedAt": "2026-07-10",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1329782890",
@@ -18046,12 +18357,12 @@
     "description": "Chicky Chicken Jerky ขนมแมว โปรตีนสูง ขนาด 30-45 กรัม — ในหมวดขนมแมวราคา ฿35 เช็คราคาล่าสุดและรีวิวจากผู้ซื้อจริง พร้อมส่วนลดพิเศษ",
     "slug": "chicky-chicken-jerky-30-45-653338",
     "source": "apify-daily-sync",
-    "price": "฿35",
+    "price": "฿33",
     "priceMax": "฿80",
     "price_before_discount": "฿80",
     "priceAfterCode": "",
     "voucherText": "",
-    "discountPercent": 56,
+    "discountPercent": 59,
     "isOnSale": true,
     "hasVariations": true,
     "shopName": "Petsmile",
@@ -18070,7 +18381,9 @@
     "localImage": "/products/chicky-chicken-jerky-30-45-653338.webp",
     "url": "https://shopee.co.th/product/1329782890/29209653338",
     "affiliateUrl": "https://shopee.co.th/product/1329782890/29209653338?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=29209653338",
-    "scrapedAt": "2026-07-10"
+    "scrapedAt": "2026-07-10",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1156082145",
@@ -18079,12 +18392,12 @@
     "description": "Chicky Chicken Jerky ขนมแมว โปรตีนสูง ขนาด 30-45 กรัม — ในหมวดขนมแมวราคา ฿35 เช็คราคาล่าสุดและรีวิวจากผู้ซื้อจริง พร้อมส่วนลดพิเศษ",
     "slug": "chicky-chicken-jerky-30-45-657729",
     "source": "apify-daily-sync",
-    "price": "฿35",
+    "price": "฿32",
     "priceMax": "฿80",
     "price_before_discount": "฿80",
     "priceAfterCode": "",
     "voucherText": "",
-    "discountPercent": 56,
+    "discountPercent": 60,
     "isOnSale": true,
     "hasVariations": true,
     "shopName": "time4pet",
@@ -18103,7 +18416,9 @@
     "localImage": "/products/chicky-chicken-jerky-30-45-657729.webp",
     "url": "https://shopee.co.th/product/1156082145/28359657729",
     "affiliateUrl": "https://shopee.co.th/product/1156082145/28359657729?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=28359657729",
-    "scrapedAt": "2026-07-10"
+    "scrapedAt": "2026-07-10",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "85750208",
@@ -18136,7 +18451,9 @@
     "localImage": "/products/chicky-100-cat-snacks-30-45-391373.webp",
     "url": "https://shopee.co.th/product/85750208/29774391373",
     "affiliateUrl": "https://shopee.co.th/product/85750208/29774391373?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=29774391373",
-    "scrapedAt": "2026-07-10"
+    "scrapedAt": "2026-07-10",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1327057570",
@@ -18169,7 +18486,9 @@
     "localImage": "/products/kaniva-soft-bar-vitamin-bits-15-706254.webp",
     "url": "https://shopee.co.th/product/1327057570/44015706254",
     "affiliateUrl": "https://shopee.co.th/product/1327057570/44015706254?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=44015706254",
-    "scrapedAt": "2026-07-10"
+    "scrapedAt": "2026-07-10",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1220118139",
@@ -18235,7 +18554,9 @@
     "localImage": "/products/kitty-treats-336554.webp",
     "url": "https://shopee.co.th/product/34144291/10364336554",
     "affiliateUrl": "https://shopee.co.th/product/34144291/10364336554?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=10364336554",
-    "scrapedAt": "2026-07-10"
+    "scrapedAt": "2026-07-10",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1213579370",
@@ -18277,13 +18598,13 @@
     "description": "Pramy Nutri-Treat พรามี่ ขนมขัดฟันแมวหลากหลายรสชาติ ขนาด 50g — ในหมวดขนมแมวราคา ฿49 เช็คราคาล่าสุดและรีวิวจากผู้ซื้อจริง พร้อมส่วนลดพิเศษ",
     "slug": "pramy-nutri-treat-50g-735756",
     "source": "apify-daily-sync",
-    "price": "฿49",
-    "priceMax": "",
-    "price_before_discount": "",
+    "price": "฿45",
+    "priceMax": "฿49",
+    "price_before_discount": "฿49",
     "priceAfterCode": "",
     "voucherText": "",
-    "discountPercent": 0,
-    "isOnSale": false,
+    "discountPercent": 8,
+    "isOnSale": true,
     "hasVariations": true,
     "shopName": "Pramy and Prama",
     "rating": "4.94",
@@ -18301,7 +18622,9 @@
     "localImage": "/products/pramy-nutri-treat-50g-735756.webp",
     "url": "https://shopee.co.th/product/88075264/19979735756",
     "affiliateUrl": "https://shopee.co.th/product/88075264/19979735756?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=19979735756",
-    "scrapedAt": "2026-07-10"
+    "scrapedAt": "2026-07-10",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "298964072",
@@ -19289,12 +19612,12 @@
     "description": "Pro Plan โปรไบโอติกส์สุนัข 1gx30ซอง เทคโนโลยีไมโครแคปซูล ปรับสมดุลลำไส้ — ในหมวดอาหารเสริมราคา ฿559 เช็คราคาล่าสุดและรีวิวจากผู้ซื้อจริง พร้อมส่วนลดพิเศษ",
     "slug": "pro-plan-1gx30-245997",
     "source": "apify-daily-sync",
-    "price": "฿559",
+    "price": "฿529",
     "priceMax": "฿1,599",
     "price_before_discount": "฿1,599",
     "priceAfterCode": "",
     "voucherText": "",
-    "discountPercent": 65,
+    "discountPercent": 67,
     "isOnSale": true,
     "hasVariations": true,
     "shopName": "bb4zcg_dh2",
@@ -19313,7 +19636,9 @@
     "localImage": "/products/pro-plan-1gx30-245997.webp",
     "url": "https://shopee.co.th/product/1832204440/53062245997",
     "affiliateUrl": "https://shopee.co.th/product/1832204440/53062245997?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=53062245997",
-    "scrapedAt": "2026-07-10"
+    "scrapedAt": "2026-07-10",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "163294819",
@@ -19389,12 +19714,12 @@
     "slug": "bingo-star-yummy-500-090423",
     "source": "apify-daily-sync",
     "price": "฿305",
-    "priceMax": "",
-    "price_before_discount": "",
+    "priceMax": "฿360",
+    "price_before_discount": "฿360",
     "priceAfterCode": "",
     "voucherText": "",
-    "discountPercent": 0,
-    "isOnSale": false,
+    "discountPercent": 15,
+    "isOnSale": true,
     "hasVariations": true,
     "shopName": "LOVEPET (Pet Shop)",
     "rating": "4.96",
@@ -19412,7 +19737,9 @@
     "localImage": "/products/bingo-star-yummy-500-090423.webp",
     "url": "https://shopee.co.th/product/213128555/52959090423",
     "affiliateUrl": "https://shopee.co.th/product/213128555/52959090423?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=52959090423",
-    "scrapedAt": "2026-07-10"
+    "scrapedAt": "2026-07-10",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1574511815",
@@ -19445,7 +19772,9 @@
     "localImage": "/products/mango-1-1-500g-476812.webp",
     "url": "https://shopee.co.th/product/1574511815/55358476812",
     "affiliateUrl": "https://shopee.co.th/product/1574511815/55358476812?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=55358476812",
-    "scrapedAt": "2026-07-10"
+    "scrapedAt": "2026-07-10",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "327068445",
@@ -19576,7 +19905,9 @@
     "localImage": "/products/800-794772.webp",
     "url": "https://shopee.co.th/product/57680806/6768794772",
     "affiliateUrl": "https://shopee.co.th/product/57680806/6768794772?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=6768794772",
-    "scrapedAt": "2026-07-10"
+    "scrapedAt": "2026-07-10",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "662606594",
@@ -19707,7 +20038,9 @@
     "localImage": "/products/pramy-carnivore-100-800g-1kg-888880.webp",
     "url": "https://shopee.co.th/product/48075862/54960888880",
     "affiliateUrl": "https://shopee.co.th/product/48075862/54960888880?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=54960888880",
-    "scrapedAt": "2026-07-11"
+    "scrapedAt": "2026-07-11",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "104671354",
@@ -19773,7 +20106,9 @@
     "localImage": "/products/1-7-royal-canin-fit-492924.webp",
     "url": "https://shopee.co.th/product/1670334336/42826492924",
     "affiliateUrl": "https://shopee.co.th/product/1670334336/42826492924?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=42826492924",
-    "scrapedAt": "2026-07-11"
+    "scrapedAt": "2026-07-11",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "67479661",
@@ -19802,7 +20137,9 @@
     "localImage": "/products/whiskas-500g-1kg-655337.webp",
     "url": "https://shopee.co.th/product/67479661/23966655337",
     "affiliateUrl": "https://shopee.co.th/product/67479661/23966655337?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=23966655337",
-    "scrapedAt": "2026-07-11"
+    "scrapedAt": "2026-07-11",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "933465748",
@@ -19832,7 +20169,9 @@
     "localImage": "/products/maxima-cat-3-3kg-1-485218.webp",
     "url": "https://shopee.co.th/product/933465748/50410485218",
     "affiliateUrl": "https://shopee.co.th/product/933465748/50410485218?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=50410485218",
-    "scrapedAt": "2026-07-11"
+    "scrapedAt": "2026-07-11",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "155724466",
@@ -19962,7 +20301,9 @@
     "localImage": "/products/400g-tony-s-cat-28-400-537950.webp",
     "url": "https://shopee.co.th/product/36537132/56362537950",
     "affiliateUrl": "https://shopee.co.th/product/36537132/56362537950?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=56362537950",
-    "scrapedAt": "2026-07-11"
+    "scrapedAt": "2026-07-11",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1454784871",
@@ -20028,7 +20369,9 @@
     "localImage": "/products/catlove-900-623695.webp",
     "url": "https://shopee.co.th/product/250420308/45010623695",
     "affiliateUrl": "https://shopee.co.th/product/250420308/45010623695?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=45010623695",
-    "scrapedAt": "2026-07-11"
+    "scrapedAt": "2026-07-11",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "36537132",
@@ -20061,7 +20404,9 @@
     "localImage": "/products/7-pet8-26-7-kg-693406.webp",
     "url": "https://shopee.co.th/product/36537132/54551693406",
     "affiliateUrl": "https://shopee.co.th/product/36537132/54551693406?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=54551693406",
-    "scrapedAt": "2026-07-11"
+    "scrapedAt": "2026-07-11",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1815630740",
@@ -20070,7 +20415,7 @@
     "description": "[12/24/48 ซอง]อาหารแมวเปียก เนื้อเนียนละเอียด บำรุงขนเงางาม โปรตีนสูง ขนมแมวรสแซลมอน ทูน่า ไก่ อาหารเปียกลูกแมว — ในหมวดอาหารแมวราคา ฿108 เช็คราคาล่าสุดและรีวิว",
     "slug": "12-24-48-639222",
     "source": "apify-daily-sync",
-    "price": "฿108",
+    "price": "฿109",
     "priceMax": "฿218",
     "price_before_discount": "฿218",
     "priceAfterCode": "",
@@ -20094,7 +20439,9 @@
     "localImage": "/products/12-24-48-639222.webp",
     "url": "https://shopee.co.th/product/1815630740/57612639222",
     "affiliateUrl": "https://shopee.co.th/product/1815630740/57612639222?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=57612639222",
-    "scrapedAt": "2026-07-11"
+    "scrapedAt": "2026-07-11",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1579821145",
@@ -20193,7 +20540,9 @@
     "localImage": "/products/ketzuzu-16g-930977.webp",
     "url": "https://shopee.co.th/product/1579821145/55053930977",
     "affiliateUrl": "https://shopee.co.th/product/1579821145/55053930977?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=55053930977",
-    "scrapedAt": "2026-07-11"
+    "scrapedAt": "2026-07-11",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1749130737",
@@ -20226,7 +20575,9 @@
     "localImage": "/products/petlusci-50-169821.webp",
     "url": "https://shopee.co.th/product/1749130737/49309169821",
     "affiliateUrl": "https://shopee.co.th/product/1749130737/49309169821?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=49309169821",
-    "scrapedAt": "2026-07-11"
+    "scrapedAt": "2026-07-11",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1621016999",
@@ -20298,12 +20649,12 @@
     "description": "Ketzuzu 100 ซอง ขนมแมวเลีย แมวชอบกินมาก อร่อยทุกคำ ขนมแมว 16g รสรวม 5 รส อาหารเปียกแมว — ในหมวดขนมแมวราคา ฿119 เช็คราคาล่าสุดและรีวิวจากผู้ซื้อจริง พร้อมส่วนลดพ",
     "slug": "ketzuzu-100-16g-5-561492",
     "source": "apify-daily-sync",
-    "price": "฿119",
+    "price": "฿99",
     "priceMax": "฿200",
     "price_before_discount": "฿200",
     "priceAfterCode": "",
     "voucherText": "",
-    "discountPercent": 41,
+    "discountPercent": 51,
     "isOnSale": true,
     "hasVariations": true,
     "shopName": "Ketzuzu Pet Paradise",
@@ -20322,7 +20673,9 @@
     "localImage": "/products/ketzuzu-100-16g-5-561492.webp",
     "url": "https://shopee.co.th/product/1815630740/57512561492",
     "affiliateUrl": "https://shopee.co.th/product/1815630740/57512561492?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=57512561492",
-    "scrapedAt": "2026-07-11"
+    "scrapedAt": "2026-07-11",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1295117148",
@@ -20355,7 +20708,9 @@
     "localImage": "/products/100g-844794.webp",
     "url": "https://shopee.co.th/product/1295117148/53562844794",
     "affiliateUrl": "https://shopee.co.th/product/1295117148/53562844794?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=53562844794",
-    "scrapedAt": "2026-07-11"
+    "scrapedAt": "2026-07-11",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1041795615",
@@ -20388,7 +20743,9 @@
     "localImage": "/products/good-give-10-4kg-3-363909.webp",
     "url": "https://shopee.co.th/product/1041795615/28532363909",
     "affiliateUrl": "https://shopee.co.th/product/1041795615/28532363909?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=28532363909",
-    "scrapedAt": "2026-07-11"
+    "scrapedAt": "2026-07-11",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "227661686",
@@ -20420,7 +20777,9 @@
     "localImage": "/products/2-power-cat-20-975296.webp",
     "url": "https://shopee.co.th/product/227661686/48755975296",
     "affiliateUrl": "https://shopee.co.th/product/227661686/48755975296?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=48755975296",
-    "scrapedAt": "2026-07-11"
+    "scrapedAt": "2026-07-11",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1578449264",
@@ -20486,7 +20845,9 @@
     "localImage": "/products/8l-2-5kg-612252.webp",
     "url": "https://shopee.co.th/product/997985578/56959612252",
     "affiliateUrl": "https://shopee.co.th/product/997985578/56959612252?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=56959612252",
-    "scrapedAt": "2026-07-11"
+    "scrapedAt": "2026-07-11",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "439456949",
@@ -20519,7 +20880,9 @@
     "localImage": "/products/5l-tlc-069909.webp",
     "url": "https://shopee.co.th/product/439456949/26105069909",
     "affiliateUrl": "https://shopee.co.th/product/439456949/26105069909?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=26105069909",
-    "scrapedAt": "2026-07-11"
+    "scrapedAt": "2026-07-11",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1728000185",
@@ -20911,7 +21274,9 @@
     "localImage": "/products/florgut-30-exp-2028-746197.webp",
     "url": "https://shopee.co.th/product/810351886/28229746197",
     "affiliateUrl": "https://shopee.co.th/product/810351886/28229746197?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=28229746197",
-    "scrapedAt": "2026-07-11"
+    "scrapedAt": "2026-07-11",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "369874313",
@@ -20920,12 +21285,12 @@
     "description": "Gager (กาเจอร์) วิตามินหมา วิตามินแมว ผงเบต้ากลูแคน+โปรไบโอติค2in1 เสริมสร้างภูมิคุ้มกัน กลิ่นไก่ผสมตับ (มีตัวเลือก) — ในหมวดอาหารเสริมราคา ฿210 เช็คราคาล่าสุดแ",
     "slug": "gager-2in1-017552",
     "source": "apify-daily-sync",
-    "price": "฿210",
+    "price": "฿199",
     "priceMax": "฿250",
     "price_before_discount": "฿250",
     "priceAfterCode": "",
     "voucherText": "",
-    "discountPercent": 16,
+    "discountPercent": 20,
     "isOnSale": true,
     "hasVariations": true,
     "shopName": "gager official",
@@ -20944,7 +21309,9 @@
     "localImage": "/products/gager-2in1-017552.webp",
     "url": "https://shopee.co.th/product/369874313/19946017552",
     "affiliateUrl": "https://shopee.co.th/product/369874313/19946017552?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=19946017552",
-    "scrapedAt": "2026-07-11"
+    "scrapedAt": "2026-07-11",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1719740392",
@@ -20953,12 +21320,12 @@
     "description": "Love Pet Prosper Probiotic บำรุงลำไส้ ช่วยย่อยอาหาร ขนมเสริมสุขภาพสัตว์เลี้ยง 100เม็ด — ในหมวดอาหารเสริมราคา ฿89 เช็คราคาล่าสุดและรีวิวจากผู้ซื้อจริง พร้อมส่วนล",
     "slug": "love-pet-prosper-probiotic-100-370090",
     "source": "apify-daily-sync",
-    "price": "฿89",
+    "price": "฿86",
     "priceMax": "฿353",
     "price_before_discount": "฿353",
     "priceAfterCode": "",
     "voucherText": "",
-    "discountPercent": 75,
+    "discountPercent": 76,
     "isOnSale": true,
     "hasVariations": true,
     "shopName": "LOVE PET PROSPER",
@@ -20977,7 +21344,9 @@
     "localImage": "/products/love-pet-prosper-probiotic-100-370090.webp",
     "url": "https://shopee.co.th/product/1719740392/54807370090",
     "affiliateUrl": "https://shopee.co.th/product/1719740392/54807370090?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=54807370090",
-    "scrapedAt": "2026-07-11"
+    "scrapedAt": "2026-07-11",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "323605236",
@@ -21019,13 +21388,13 @@
     "description": "ส่งด่วน🔥3 ถุง สุดคุ้ม bingo star yummy stick ขนมสุนัขบิงโกสตาร์ ยัมมี่ สติ๊ก ขนาด 500g (ตัวเลือกคละรสร้านคละให้นะคะ) — ในหมวดขนมสุนัขราคา ฿250 เช็คราคาล่าสุดและ",
     "slug": "3-bingo-star-yummy-stick-500g-448036",
     "source": "apify-daily-sync",
-    "price": "฿250",
-    "priceMax": "฿305",
-    "price_before_discount": "฿305",
+    "price": "฿305",
+    "priceMax": "",
+    "price_before_discount": "",
     "priceAfterCode": "",
     "voucherText": "",
-    "discountPercent": 18,
-    "isOnSale": true,
+    "discountPercent": 0,
+    "isOnSale": false,
     "hasVariations": true,
     "shopName": "Norah Pet Store",
     "rating": "4.96",
@@ -21043,7 +21412,9 @@
     "localImage": "/products/3-bingo-star-yummy-stick-500g-448036.webp",
     "url": "https://shopee.co.th/product/500920447/43714448036",
     "affiliateUrl": "https://shopee.co.th/product/500920447/43714448036?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=43714448036",
-    "scrapedAt": "2026-07-11"
+    "scrapedAt": "2026-07-11",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "33708695",
@@ -21075,7 +21446,9 @@
     "localImage": "/products/sasami-stick-1-341296.webp",
     "url": "https://shopee.co.th/product/33708695/52560341296",
     "affiliateUrl": "https://shopee.co.th/product/33708695/52560341296?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=52560341296",
-    "scrapedAt": "2026-07-11"
+    "scrapedAt": "2026-07-11",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1569561390",
@@ -21108,7 +21481,9 @@
     "localImage": "/products/2-2-500g-030987.webp",
     "url": "https://shopee.co.th/product/1569561390/52212030987",
     "affiliateUrl": "https://shopee.co.th/product/1569561390/52212030987?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=52212030987",
-    "scrapedAt": "2026-07-11"
+    "scrapedAt": "2026-07-11",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1569561390",
@@ -21216,12 +21591,12 @@
     "description": "[ทั้งหมด 2 ถุง] วิสกัส พ็อกเก็ตส์ อาหารแมวชนิดเม็ด ขนาด 1.1 กก./1.2 กก. WHISKAS POCKET DRY CAT FOOD 1.1 KG./1.2 KG. — ในหมวดอาหารแมวราคา ฿258 เช็คราคาล่าสุดและร",
     "slug": "2-1-1-1-2-whiskas-096191",
     "source": "apify-daily-sync",
-    "price": "฿258",
+    "price": "฿255",
     "priceMax": "฿322",
     "price_before_discount": "฿322",
     "priceAfterCode": "",
     "voucherText": "",
-    "discountPercent": 20,
+    "discountPercent": 21,
     "isOnSale": true,
     "hasVariations": true,
     "shopName": "Lotuss_official",
@@ -21240,7 +21615,9 @@
     "localImage": "/products/2-1-1-1-2-whiskas-096191.webp",
     "url": "https://shopee.co.th/product/144046792/22081096191",
     "affiliateUrl": "https://shopee.co.th/product/144046792/22081096191?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=22081096191",
-    "scrapedAt": "2026-07-12"
+    "scrapedAt": "2026-07-12",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1532328125",
@@ -21315,12 +21692,12 @@
     "description": "Monny Light อาหารแมวมอนนี่ ไลท์ รสทูน่า เม็ด 2 สี กระสอบ 20 kg. — ในหมวดอาหารแมวราคา ฿609 เช็คราคาล่าสุดและรีวิวจากผู้ซื้อจริง พร้อมส่วนลดพิเศษ",
     "slug": "monny-light-2-20-kg-811822",
     "source": "apify-daily-sync",
-    "price": "฿609",
+    "price": "฿663",
     "priceMax": "฿699",
     "price_before_discount": "฿699",
     "priceAfterCode": "",
     "voucherText": "",
-    "discountPercent": 13,
+    "discountPercent": 5,
     "isOnSale": true,
     "hasVariations": true,
     "shopName": "Petpal-shop",
@@ -21339,7 +21716,9 @@
     "localImage": "/products/monny-light-2-20-kg-811822.webp",
     "url": "https://shopee.co.th/product/866995884/41328811822",
     "affiliateUrl": "https://shopee.co.th/product/866995884/41328811822?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=41328811822",
-    "scrapedAt": "2026-07-12"
+    "scrapedAt": "2026-07-12",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1170112936",
@@ -21372,7 +21751,9 @@
     "localImage": "/products/1-pramy-carnivore-800-1-966589.webp",
     "url": "https://shopee.co.th/product/1170112936/51956966589",
     "affiliateUrl": "https://shopee.co.th/product/1170112936/51956966589?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=51956966589",
-    "scrapedAt": "2026-07-12"
+    "scrapedAt": "2026-07-12",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1783238603",
@@ -21499,7 +21880,9 @@
     "localImage": "/products/pramy-carnivore-1-kg-392119.webp",
     "url": "https://shopee.co.th/product/1287046821/48103392119",
     "affiliateUrl": "https://shopee.co.th/product/1287046821/48103392119?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=48103392119",
-    "scrapedAt": "2026-07-12"
+    "scrapedAt": "2026-07-12",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "140971661",
@@ -21730,7 +22113,9 @@
     "localImage": "/products/x12-50g-whiskas-80-170153.webp",
     "url": "https://shopee.co.th/product/47780077/55103170153",
     "affiliateUrl": "https://shopee.co.th/product/47780077/55103170153?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=55103170153",
-    "scrapedAt": "2026-07-12"
+    "scrapedAt": "2026-07-12",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "672929438",
@@ -21999,12 +22384,12 @@
     "description": "อกไก่เต๋า อกไก่ฟรีซดราย 100กรัม 200กรัม 500กรัม ขนมฟรีซดราย ขนมแมว ไก่ฟรีซดราย ไก่ฟรีซดรายแมว Freeze Dried ฟู้ดเกรด100% — ในหมวดขนมแมวราคา ฿33 เช็คราคาล่าสุดและ",
     "slug": "100-200-500-freeze-dried-100-180515",
     "source": "apify-daily-sync",
-    "price": "฿33",
-    "priceMax": "฿45",
-    "price_before_discount": "฿45",
+    "price": "฿40",
+    "priceMax": "฿49",
+    "price_before_discount": "฿49",
     "priceAfterCode": "",
     "voucherText": "",
-    "discountPercent": 27,
+    "discountPercent": 18,
     "isOnSale": true,
     "hasVariations": true,
     "shopName": "Petlover_Official",
@@ -22023,7 +22408,9 @@
     "localImage": "/products/100-200-500-freeze-dried-100-180515.webp",
     "url": "https://shopee.co.th/product/1293736576/26504180515",
     "affiliateUrl": "https://shopee.co.th/product/1293736576/26504180515?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=26504180515",
-    "scrapedAt": "2026-07-12"
+    "scrapedAt": "2026-07-12",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "431678659",
@@ -22033,8 +22420,8 @@
     "slug": "folopets-14-10-5-100-295242",
     "source": "apify-daily-sync",
     "price": "฿1",
-    "priceMax": "฿158",
-    "price_before_discount": "฿158",
+    "priceMax": "฿178",
+    "price_before_discount": "฿178",
     "priceAfterCode": "",
     "voucherText": "",
     "discountPercent": 99,
@@ -22056,7 +22443,9 @@
     "localImage": "/products/folopets-14-10-5-100-295242.webp",
     "url": "https://shopee.co.th/product/431678659/27154295242",
     "affiliateUrl": "https://shopee.co.th/product/431678659/27154295242?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=27154295242",
-    "scrapedAt": "2026-07-12"
+    "scrapedAt": "2026-07-12",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1365666029",
@@ -22191,7 +22580,7 @@
     "description": "ทรายแมวเต้าหู้ 6L-30L ทรายแมวผสม💚เบนโทไนท์+แคทแบบเต้าหู้ 💜ลาเวนเดอร์ ✅ดับกลิ่นแรงสุด! — ในหมวดทรายแมวราคา ฿45 เช็คราคาล่าสุดและรีวิวจากผู้ซื้อจริง พร้อมส่วนลดพิ",
     "slug": "6l-30l-407553",
     "source": "apify-daily-sync",
-    "price": "฿45",
+    "price": "฿44",
     "priceMax": "฿149",
     "price_before_discount": "฿149",
     "priceAfterCode": "",
@@ -22215,7 +22604,9 @@
     "localImage": "/products/6l-30l-407553.webp",
     "url": "https://shopee.co.th/product/238389288/49702407553",
     "affiliateUrl": "https://shopee.co.th/product/238389288/49702407553?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=49702407553",
-    "scrapedAt": "2026-07-12"
+    "scrapedAt": "2026-07-12",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "149432708",
@@ -22800,7 +23191,9 @@
     "localImage": "/products/boom-gold-7-kg-862055.webp",
     "url": "https://shopee.co.th/product/866995884/54601862055",
     "affiliateUrl": "https://shopee.co.th/product/866995884/54601862055?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=54601862055",
-    "scrapedAt": "2026-07-13"
+    "scrapedAt": "2026-07-13",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "36537132",
@@ -23029,7 +23422,9 @@
     "localImage": "/products/pramy-carnivore-800g-1kg-591124.webp",
     "url": "https://shopee.co.th/product/88075264/40902591124",
     "affiliateUrl": "https://shopee.co.th/product/88075264/40902591124?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=40902591124",
-    "scrapedAt": "2026-07-13"
+    "scrapedAt": "2026-07-13",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1798404333",
@@ -23038,13 +23433,13 @@
     "description": "(ยกกล่อง 12ซอง) Purina One เพียวริน่าวัน อาหารเปียกแมวเกรดพรีเมี่ยม ในน้ำเกรวี่ 70g — ในหมวดอาหารเปียกราคา ฿230 เช็คราคาล่าสุดและรีวิวจากผู้ซื้อจริง พร้อมส่วนลด",
     "slug": "12-purina-one-70g-969394",
     "source": "apify-daily-sync",
-    "price": "฿230",
-    "priceMax": "",
-    "price_before_discount": "",
+    "price": "฿210",
+    "priceMax": "฿230",
+    "price_before_discount": "฿230",
     "priceAfterCode": "",
     "voucherText": "",
-    "discountPercent": 0,
-    "isOnSale": false,
+    "discountPercent": 9,
+    "isOnSale": true,
     "hasVariations": true,
     "shopName": "Pet me pet shops ",
     "rating": "4.33",
@@ -23062,7 +23457,9 @@
     "localImage": "/products/12-purina-one-70g-969394.webp",
     "url": "https://shopee.co.th/product/1798404333/57362969394",
     "affiliateUrl": "https://shopee.co.th/product/1798404333/57362969394?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=57362969394",
-    "scrapedAt": "2026-07-13"
+    "scrapedAt": "2026-07-13",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1125685137",
@@ -23161,7 +23558,9 @@
     "localImage": "/products/12-24-friskies-70-701480.webp",
     "url": "https://shopee.co.th/product/722376275/29394701480",
     "affiliateUrl": "https://shopee.co.th/product/722376275/29394701480?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=29394701480",
-    "scrapedAt": "2026-07-13"
+    "scrapedAt": "2026-07-13",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1591262973",
@@ -23170,12 +23569,12 @@
     "description": "[ยกโหล 12 ซอง] Pramy Functional Pouch อาหารเปียกแมว พรามี่ สูตรดูแลสุขภาพ ขนาด 70 กรัม(g.) — ในหมวดอาหารเปียกราคา ฿249 เช็คราคาล่าสุดและรีวิวจากผู้ซื้อจริง พร้อ",
     "slug": "12-pramy-functional-pouch-70-g-989897",
     "source": "apify-daily-sync",
-    "price": "฿249",
+    "price": "฿243",
     "priceMax": "฿312",
     "price_before_discount": "฿312",
     "priceAfterCode": "",
     "voucherText": "",
-    "discountPercent": 20,
+    "discountPercent": 22,
     "isOnSale": true,
     "hasVariations": true,
     "shopName": "Cheaper Petstore",
@@ -23194,7 +23593,9 @@
     "localImage": "/products/12-pramy-functional-pouch-70-g-989897.webp",
     "url": "https://shopee.co.th/product/1591262973/55310989897",
     "affiliateUrl": "https://shopee.co.th/product/1591262973/55310989897?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=55310989897",
-    "scrapedAt": "2026-07-13"
+    "scrapedAt": "2026-07-13",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1828175275",
@@ -23227,7 +23628,9 @@
     "localImage": "/products/cherman-pouch-12-85g-70g-483653.webp",
     "url": "https://shopee.co.th/product/1828175275/52210483653",
     "affiliateUrl": "https://shopee.co.th/product/1828175275/52210483653?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=52210483653",
-    "scrapedAt": "2026-07-13"
+    "scrapedAt": "2026-07-13",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "236674029",
@@ -23260,7 +23663,9 @@
     "localImage": "/products/12-85-235059.webp",
     "url": "https://shopee.co.th/product/236674029/10407235059",
     "affiliateUrl": "https://shopee.co.th/product/236674029/10407235059?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=10407235059",
-    "scrapedAt": "2026-07-13"
+    "scrapedAt": "2026-07-13",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1279948059",
@@ -23392,7 +23797,9 @@
     "localImage": "/products/by-pet8-mini-strip-flavor-35g-027867.webp",
     "url": "https://shopee.co.th/product/257857659/3649027867",
     "affiliateUrl": "https://shopee.co.th/product/257857659/3649027867?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=3649027867",
-    "scrapedAt": "2026-07-13"
+    "scrapedAt": "2026-07-13",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "99788459",
@@ -23451,7 +23858,9 @@
     "localImage": "/products/inaba-juicy-bites-mini-cat-snack-407841.webp",
     "url": "https://shopee.co.th/product/1148470/3935407841",
     "affiliateUrl": "https://shopee.co.th/product/1148470/3935407841?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=3935407841",
-    "scrapedAt": "2026-07-13"
+    "scrapedAt": "2026-07-13",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "140971661",
@@ -23484,7 +23893,9 @@
     "localImage": "/products/ciao-1-4-881896.webp",
     "url": "https://shopee.co.th/product/140971661/23367881896",
     "affiliateUrl": "https://shopee.co.th/product/140971661/23367881896?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=23367881896",
-    "scrapedAt": "2026-07-13"
+    "scrapedAt": "2026-07-13",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "33542876",
@@ -23577,7 +23988,9 @@
     "localImage": "/products/pettosan-5-10-366893.webp",
     "url": "https://shopee.co.th/product/500920447/42021366893",
     "affiliateUrl": "https://shopee.co.th/product/500920447/42021366893?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=42021366893",
-    "scrapedAt": "2026-07-13"
+    "scrapedAt": "2026-07-13",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "634252888",
@@ -23816,7 +24229,7 @@
     "price_before_discount": "฿199",
     "priceAfterCode": "",
     "voucherText": "",
-    "discountPercent": 57,
+    "discountPercent": 55,
     "isOnSale": true,
     "hasVariations": true,
     "shopName": "Petclear",
@@ -23835,7 +24248,9 @@
     "localImage": "/products/petclear-200-900093.webp",
     "url": "https://shopee.co.th/product/1394468409/53905900093",
     "affiliateUrl": "https://shopee.co.th/product/1394468409/53905900093?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=53905900093",
-    "scrapedAt": "2026-07-13"
+    "scrapedAt": "2026-07-13",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "1579821145",
@@ -23934,7 +24349,9 @@
     "localImage": "/products/500-g-bingo-star-yummy-stick-794892.webp",
     "url": "https://shopee.co.th/product/15069461/42163794892",
     "affiliateUrl": "https://shopee.co.th/product/15069461/42163794892?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=42163794892",
-    "scrapedAt": "2026-07-13"
+    "scrapedAt": "2026-07-13",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "211185711",
@@ -23965,7 +24382,9 @@
     "localImage": "/products/450-044806.webp",
     "url": "https://shopee.co.th/product/211185711/5916044806",
     "affiliateUrl": "https://shopee.co.th/product/211185711/5916044806?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=5916044806",
-    "scrapedAt": "2026-07-13"
+    "scrapedAt": "2026-07-13",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "141832310",
@@ -23975,8 +24394,8 @@
     "slug": "dd-dog-5-1-262814",
     "source": "apify-daily-sync",
     "price": "฿54",
-    "priceMax": "฿65",
-    "price_before_discount": "฿65",
+    "priceMax": "฿69",
+    "price_before_discount": "฿69",
     "priceAfterCode": "",
     "voucherText": "",
     "discountPercent": 22,
@@ -23998,7 +24417,9 @@
     "localImage": "/products/dd-dog-5-1-262814.webp",
     "url": "https://shopee.co.th/product/141832310/14535262814",
     "affiliateUrl": "https://shopee.co.th/product/141832310/14535262814?utm_source=an_15312860014&utm_medium=affiliates&utm_campaign=petdeals&utm_content=14535262814",
-    "scrapedAt": "2026-07-13"
+    "scrapedAt": "2026-07-13",
+    "parityCheckedAt": "2026-07-15",
+    "listingAlive": true
   },
   {
     "shopId": "279775864",
