@@ -14,8 +14,9 @@
       "url": "https://shopee.co.th/product/284948184/55253194581",
       "old_price": "฿350",
       "old_discount": 0,
-      "status": "unmatched-pending-cdp",
-      "source": null
+      "status": "cdp-alive",
+      "source": null,
+      "cdp_detail": "price=True buy=True len=3178"
     },
     {
       "itemId": "21088099316",
@@ -25,8 +26,9 @@
       "url": "https://shopee.co.th/product/144046792/21088099316",
       "old_price": "฿257",
       "old_discount": 3,
-      "status": "unmatched-pending-cdp",
-      "source": null
+      "status": "cdp-alive",
+      "source": null,
+      "cdp_detail": "price=True buy=True len=5963"
     },
     {
       "itemId": "23565721667",
@@ -36,8 +38,9 @@
       "url": "https://shopee.co.th/product/144046792/23565721667",
       "old_price": "฿1,324",
       "old_discount": 0,
-      "status": "unmatched-pending-cdp",
-      "source": null
+      "status": "cdp-alive",
+      "source": null,
+      "cdp_detail": "price=True buy=True len=5335"
     },
     {
       "itemId": "27676149087",
@@ -47,8 +50,9 @@
       "url": "https://shopee.co.th/product/768680897/27676149087",
       "old_price": "฿265",
       "old_discount": 0,
-      "status": "unmatched-pending-cdp",
-      "source": null
+      "status": "cdp-alive",
+      "source": null,
+      "cdp_detail": "price=True buy=True len=4749"
     },
     {
       "itemId": "48158200615",
@@ -58,8 +62,9 @@
       "url": "https://shopee.co.th/product/1373166437/48158200615",
       "old_price": "฿322",
       "old_discount": 12,
-      "status": "unmatched-pending-cdp",
-      "source": null
+      "status": "cdp-dead",
+      "source": null,
+      "cdp_detail": "no price/buy rendered (unavailable): Skip to main content"
     },
     {
       "itemId": "4443095277",
@@ -69,8 +74,9 @@
       "url": "https://shopee.co.th/product/27072891/4443095277",
       "old_price": "฿645",
       "old_discount": 34,
-      "status": "unmatched-pending-cdp",
-      "source": null
+      "status": "cdp-alive",
+      "source": null,
+      "cdp_detail": "price=True buy=True len=4821"
     },
     {
       "itemId": "23965702126",
@@ -80,8 +86,9 @@
       "url": "https://shopee.co.th/product/144046792/23965702126",
       "old_price": "฿699",
       "old_discount": 4,
-      "status": "unmatched-pending-cdp",
-      "source": null
+      "status": "cdp-alive",
+      "source": null,
+      "cdp_detail": "price=True buy=True len=8669"
     },
     {
       "itemId": "19288105453",
@@ -91,8 +98,9 @@
       "url": "https://shopee.co.th/product/144046792/19288105453",
       "old_price": "฿699",
       "old_discount": 0,
-      "status": "unmatched-pending-cdp",
-      "source": null
+      "status": "cdp-alive",
+      "source": null,
+      "cdp_detail": "price=True buy=True len=5327"
     },
     {
       "itemId": "16283502073",
@@ -102,8 +110,9 @@
       "url": "https://shopee.co.th/product/139240422/16283502073",
       "old_price": "฿331",
       "old_discount": 0,
-      "status": "unmatched-pending-cdp",
-      "source": null
+      "status": "cdp-alive",
+      "source": null,
+      "cdp_detail": "price=True buy=True len=3487"
     },
     {
       "itemId": "23660790108",
@@ -113,8 +122,9 @@
       "url": "https://shopee.co.th/product/279775864/23660790108",
       "old_price": "฿1,320",
       "old_discount": 15,
-      "status": "unmatched-pending-cdp",
-      "source": null
+      "status": "cdp-alive",
+      "source": null,
+      "cdp_detail": "price=True buy=True len=6942"
     },
     {
       "itemId": "5090780315",
@@ -124,8 +134,9 @@
       "url": "https://shopee.co.th/product/36479205/5090780315",
       "old_price": "฿173",
       "old_discount": 18,
-      "status": "unmatched-pending-cdp",
-      "source": null
+      "status": "cdp-alive",
+      "source": null,
+      "cdp_detail": "price=True buy=True len=10035"
     },
     {
       "itemId": "27877515066",
@@ -135,8 +146,9 @@
       "url": "https://shopee.co.th/product/646557/27877515066",
       "old_price": "฿345",
       "old_discount": 1,
-      "status": "unmatched-pending-cdp",
-      "source": null
+      "status": "cdp-alive",
+      "source": null,
+      "cdp_detail": "price=True buy=True len=4619"
     },
     {
       "itemId": "43304683028",
@@ -146,8 +158,9 @@
       "url": "https://shopee.co.th/product/83872760/43304683028",
       "old_price": "฿1,303",
       "old_discount": 30,
-      "status": "unmatched-pending-cdp",
-      "source": null
+      "status": "cdp-alive",
+      "source": null,
+      "cdp_detail": "price=True buy=True len=5182"
     },
     {
       "itemId": "28880026032",
@@ -157,8 +170,9 @@
       "url": "https://shopee.co.th/product/1261293109/28880026032",
       "old_price": "฿80",
       "old_discount": 0,
-      "status": "unmatched-pending-cdp",
-      "source": null
+      "status": "cdp-alive",
+      "source": null,
+      "cdp_detail": "price=True buy=True len=7433"
     },
     {
       "itemId": "28088084050",
@@ -168,8 +182,9 @@
       "url": "https://shopee.co.th/product/141832310/28088084050",
       "old_price": "฿44",
       "old_discount": 0,
-      "status": "unmatched-pending-cdp",
-      "source": null
+      "status": "cdp-dead",
+      "source": null,
+      "cdp_detail": "no price/buy rendered (unavailable): Skip to main content"
     },
     {
       "itemId": "24947519629",
@@ -179,8 +194,9 @@
       "url": "https://shopee.co.th/product/646557/24947519629",
       "old_price": "฿799",
       "old_discount": 3,
-      "status": "unmatched-pending-cdp",
-      "source": null
+      "status": "cdp-alive",
+      "source": null,
+      "cdp_detail": "price=True buy=True len=3711"
     },
     {
       "itemId": "8696101581",
@@ -190,8 +206,9 @@
       "url": "https://shopee.co.th/product/141832310/8696101581",
       "old_price": "฿185",
       "old_discount": 27,
-      "status": "unmatched-pending-cdp",
-      "source": null
+      "status": "cdp-alive",
+      "source": null,
+      "cdp_detail": "price=True buy=True len=4984"
     },
     {
       "itemId": "20348607344",
@@ -201,8 +218,9 @@
       "url": "https://shopee.co.th/product/69983339/20348607344",
       "old_price": "฿548",
       "old_discount": 0,
-      "status": "unmatched-pending-cdp",
-      "source": null
+      "status": "cdp-alive",
+      "source": null,
+      "cdp_detail": "price=True buy=True len=5814"
     },
     {
       "itemId": "40976321835",
@@ -212,8 +230,9 @@
       "url": "https://shopee.co.th/product/83872760/40976321835",
       "old_price": "฿33",
       "old_discount": 0,
-      "status": "unmatched-pending-cdp",
-      "source": null
+      "status": "cdp-dead",
+      "source": null,
+      "cdp_detail": "no price/buy rendered (unavailable): Skip to main content"
     },
     {
       "itemId": "18108344668",
@@ -239,8 +258,9 @@
       "url": "https://shopee.co.th/product/1496922957/29979806349",
       "old_price": "฿85",
       "old_discount": 44,
-      "status": "unmatched-pending-cdp",
-      "source": null
+      "status": "cdp-alive",
+      "source": null,
+      "cdp_detail": "price=True buy=True len=4465"
     },
     {
       "itemId": "22590281650",
@@ -266,8 +286,9 @@
       "url": "https://shopee.co.th/product/1496094264/49458179980",
       "old_price": "฿84",
       "old_discount": 0,
-      "status": "unmatched-pending-cdp",
-      "source": null
+      "status": "cdp-dead",
+      "source": null,
+      "cdp_detail": "no price/buy rendered (unavailable): Skip to main content"
     },
     {
       "itemId": "47860586834",
@@ -277,8 +298,9 @@
       "url": "https://shopee.co.th/product/1170112936/47860586834",
       "old_price": "฿189",
       "old_discount": 0,
-      "status": "unmatched-pending-cdp",
-      "source": null
+      "status": "cdp-alive",
+      "source": null,
+      "cdp_detail": "price=True buy=True len=3278"
     },
     {
       "itemId": "54911564056",
@@ -304,8 +326,9 @@
       "url": "https://shopee.co.th/product/1850483867/43031592483",
       "old_price": "฿40",
       "old_discount": 0,
-      "status": "unmatched-pending-cdp",
-      "source": null
+      "status": "cdp-alive",
+      "source": null,
+      "cdp_detail": "price=True buy=True len=7307"
     },
     {
       "itemId": "47010302496",
@@ -331,8 +354,9 @@
       "url": "https://shopee.co.th/product/1850477356/57662143902",
       "old_price": "฿42",
       "old_discount": 0,
-      "status": "unmatched-pending-cdp",
-      "source": null
+      "status": "cdp-alive",
+      "source": null,
+      "cdp_detail": "price=True buy=True len=5985"
     },
     {
       "itemId": "29981906757",
@@ -422,8 +446,9 @@
       "url": "https://shopee.co.th/product/1327057570/26708633458",
       "old_price": "฿100",
       "old_discount": 0,
-      "status": "unmatched-pending-cdp",
-      "source": null
+      "status": "cdp-alive",
+      "source": null,
+      "cdp_detail": "price=True buy=True len=5075"
     },
     {
       "itemId": "44311948053",
@@ -433,8 +458,9 @@
       "url": "https://shopee.co.th/product/1559570460/44311948053",
       "old_price": "฿179",
       "old_discount": 17,
-      "status": "unmatched-pending-cdp",
-      "source": null
+      "status": "cdp-alive",
+      "source": null,
+      "cdp_detail": "price=True buy=True len=3424"
     },
     {
       "itemId": "22676700405",
@@ -444,8 +470,9 @@
       "url": "https://shopee.co.th/product/189572746/22676700405",
       "old_price": "฿175",
       "old_discount": 49,
-      "status": "unmatched-pending-cdp",
-      "source": null
+      "status": "cdp-alive",
+      "source": null,
+      "cdp_detail": "price=True buy=True len=5231"
     },
     {
       "itemId": "42913548223",
@@ -455,8 +482,9 @@
       "url": "https://shopee.co.th/product/36537132/42913548223",
       "old_price": "฿164",
       "old_discount": 7,
-      "status": "unmatched-pending-cdp",
-      "source": null
+      "status": "cdp-alive",
+      "source": null,
+      "cdp_detail": "price=True buy=True len=4937"
     },
     {
       "itemId": "56410961111",
@@ -466,8 +494,9 @@
       "url": "https://shopee.co.th/product/1287046821/56410961111",
       "old_price": "฿104",
       "old_discount": 0,
-      "status": "unmatched-pending-cdp",
-      "source": null
+      "status": "cdp-alive",
+      "source": null,
+      "cdp_detail": "price=True buy=True len=4816"
     },
     {
       "itemId": "25539392383",
@@ -477,8 +506,9 @@
       "url": "https://shopee.co.th/product/1327057570/25539392383",
       "old_price": "฿43",
       "old_discount": 0,
-      "status": "unmatched-pending-cdp",
-      "source": null
+      "status": "cdp-alive",
+      "source": null,
+      "cdp_detail": "price=True buy=True len=4923"
     },
     {
       "itemId": "23657103665",
@@ -488,8 +518,9 @@
       "url": "https://shopee.co.th/product/831512945/23657103665",
       "old_price": "฿17",
       "old_discount": 0,
-      "status": "unmatched-pending-cdp",
-      "source": null
+      "status": "cdp-alive",
+      "source": null,
+      "cdp_detail": "price=True buy=True len=6703"
     },
     {
       "itemId": "26720153196",
@@ -499,8 +530,9 @@
       "url": "https://shopee.co.th/product/1184557417/26720153196",
       "old_price": "฿13",
       "old_discount": 13,
-      "status": "unmatched-pending-cdp",
-      "source": null
+      "status": "cdp-alive",
+      "source": null,
+      "cdp_detail": "price=True buy=True len=6152"
     },
     {
       "itemId": "47600715674",
@@ -510,8 +542,9 @@
       "url": "https://shopee.co.th/product/76681597/47600715674",
       "old_price": "฿149",
       "old_discount": 0,
-      "status": "unmatched-pending-cdp",
-      "source": null
+      "status": "cdp-alive",
+      "source": null,
+      "cdp_detail": "price=True buy=True len=5174"
     },
     {
       "itemId": "16884728328",
@@ -521,8 +554,9 @@
       "url": "https://shopee.co.th/product/91209643/16884728328",
       "old_price": "฿149",
       "old_discount": 0,
-      "status": "unmatched-pending-cdp",
-      "source": null
+      "status": "cdp-dead",
+      "source": null,
+      "cdp_detail": "rendered dead-marker"
     },
     {
       "itemId": "20789499944",
@@ -532,8 +566,9 @@
       "url": "https://shopee.co.th/product/7409564/20789499944",
       "old_price": "฿449",
       "old_discount": 2,
-      "status": "unmatched-pending-cdp",
-      "source": null
+      "status": "cdp-alive",
+      "source": null,
+      "cdp_detail": "price=True buy=True len=4764"
     },
     {
       "itemId": "8276182947",
@@ -543,8 +578,9 @@
       "url": "https://shopee.co.th/product/7409564/8276182947",
       "old_price": "฿437",
       "old_discount": 11,
-      "status": "unmatched-pending-cdp",
-      "source": null
+      "status": "cdp-alive",
+      "source": null,
+      "cdp_detail": "price=True buy=True len=4918"
     },
     {
       "itemId": "25907233446",
@@ -554,8 +590,9 @@
       "url": "https://shopee.co.th/product/1101522855/25907233446",
       "old_price": "฿525",
       "old_discount": 0,
-      "status": "unmatched-pending-cdp",
-      "source": null
+      "status": "cdp-alive",
+      "source": null,
+      "cdp_detail": "price=True buy=True len=6774"
     },
     {
       "itemId": "4053762174",
@@ -565,8 +602,9 @@
       "url": "https://shopee.co.th/product/41596381/4053762174",
       "old_price": "฿499",
       "old_discount": 0,
-      "status": "unmatched-pending-cdp",
-      "source": null
+      "status": "cdp-dead",
+      "source": null,
+      "cdp_detail": "rendered dead-marker"
     },
     {
       "itemId": "23052316099",
@@ -576,8 +614,9 @@
       "url": "https://shopee.co.th/product/884964011/23052316099",
       "old_price": "฿384",
       "old_discount": 2,
-      "status": "unmatched-pending-cdp",
-      "source": null
+      "status": "cdp-dead",
+      "source": null,
+      "cdp_detail": "no price/buy rendered (unavailable): Skip to main content"
     },
     {
       "itemId": "57156242083",
@@ -587,8 +626,9 @@
       "url": "https://shopee.co.th/product/279775864/57156242083",
       "old_price": "฿470",
       "old_discount": 6,
-      "status": "unmatched-pending-cdp",
-      "source": null
+      "status": "cdp-alive",
+      "source": null,
+      "cdp_detail": "price=True buy=True len=5244"
     },
     {
       "itemId": "26532054062",

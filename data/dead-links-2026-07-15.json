@@ -1,6 +1,63 @@
 {
   "date": "2026-07-15",
-  "count": 0,
-  "method": "pending CDP render pass over 541 unmatched",
-  "dead_links": []
+  "count": 7,
+  "method": "CDP render (logged-in :9222) + HTTP redirect",
+  "cdp_stats": {
+    "alive": 33,
+    "dead": 7,
+    "login_wall": 0,
+    "unknown": 0,
+    "error": 0
+  },
+  "dead_links": [
+    {
+      "itemId": "48158200615",
+      "slug": "smartheart-dog-food-2.7kg",
+      "title": "อาหารสุนัข SmartHeart 2.7 kg. - 3 kg. อาหารเม็ดสัตว์เลี้ยง",
+      "url": "https://shopee.co.th/product/1373166437/48158200615",
+      "reason": "no price/buy rendered (unavailable): Skip to main content"
+    },
+    {
+      "itemId": "28088084050",
+      "slug": "jerhigh-dog-food",
+      "title": "(รสเนื้อ EXP.10/2026) Jerhigh More Breeder อาหารสุนัข เจอร์ไ",
+      "url": "https://shopee.co.th/product/141832310/28088084050",
+      "reason": "no price/buy rendered (unavailable): Skip to main content"
+    },
+    {
+      "itemId": "40976321835",
+      "slug": "ostech-dog-food",
+      "title": "Ostech Gourmet VF+ อาหารกระป๋องสุนัข ขนาด 400 กรัม",
+      "url": "https://shopee.co.th/product/83872760/40976321835",
+      "reason": "no price/buy rendered (unavailable): Skip to main content"
+    },
+    {
+      "itemId": "49458179980",
+      "slug": "cat-litter-10ลิตร-1",
+      "title": "(ซื้อ4ถุง ส่งฟรี) ทรายแมว Fluffy PAW 10 ลิตร ดับกลิ่นดี - Be",
+      "url": "https://shopee.co.th/product/1496094264/49458179980",
+      "reason": "no price/buy rendered (unavailable): Skip to main content"
+    },
+    {
+      "itemId": "16884728328",
+      "slug": "cat-treats-10pack",
+      "title": "🌟10 ซอง/20 ซอง/ยกกล่อง🌟 Pramy ขนมแมวเลีย บำรุงสุขภาพ มีทั้งห",
+      "url": "https://shopee.co.th/product/91209643/16884728328",
+      "reason": "rendered dead-marker"
+    },
+    {
+      "itemId": "4053762174",
+      "slug": "ciao-cat-treats-50pack-2",
+      "title": "CIAO ชูหรุ ขนมแมวเลีย 14 กรัม x 50 ชิ้น/กระปุก (1 กระปุก) - ",
+      "url": "https://shopee.co.th/product/41596381/4053762174",
+      "reason": "rendered dead-marker"
+    },
+    {
+      "itemId": "23052316099",
+      "slug": "ciaochuru-cat-treats-50pack-2",
+      "title": "CIAO Chu-ru ขนมแมวเลีย รสผสม 50 ซอง (TSC-11T/12T/13T/14T)",
+      "url": "https://shopee.co.th/product/884964011/23052316099",
+      "reason": "no price/buy rendered (unavailable): Skip to main content"
+    }
+  ]
 }
