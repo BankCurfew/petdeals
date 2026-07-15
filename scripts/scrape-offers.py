@@ -68,7 +68,7 @@ def correct_category(title, assigned_category):
 
 
 def is_valid_th_product(item):
-    """Validation gate: reject non-Thai items. Returns (ok, reason)."""
+    """Validation gate: reject non-Thai items and bait prices. Returns (ok, reason)."""
     title = item.get("name", "") or ""
     url = item.get("url", "") or ""
 
@@ -78,6 +78,13 @@ def is_valid_th_product(item):
 
     if not has_thai(title):
         return False, f"REJECTED: non-Thai title: {title[:40]}"
+
+    try:
+        price = float(item.get("price", 0) or 0)
+    except (ValueError, TypeError):
+        price = 0
+    if 0 < price < 5:
+        return False, f"REJECTED: bait price ฿{price} (Shopee 'starting from' variant)"
 
     return True, "OK"
 
