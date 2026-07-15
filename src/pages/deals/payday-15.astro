@@ -1,0 +1,197 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import ProductCard from '@/components/ProductCard.astro';
+import productsData from '../../../data/products.json';
+import seasonsData from '../../../data/seasons.json';
+
+const payday = seasonsData.recurring.find((r: any) => r.slug === 'payday-15');
+const matchSlugs = new Set(payday?.matchingProducts || []);
+
+const products = productsData
+  .filter((p: any) => p.slug && p.title)
+  .filter((p: any) => parseInt(String(p.price).replace(/[^0-9]/g, '')) >= 5)
+  .filter((p: any) => matchSlugs.size === 0 || matchSlugs.has(p.slug) || ['อาหารแมว', 'อาหารสุนัข', 'ทรายแมว'].includes(p.category))
+  .map((p: any) => ({
+    name: p.title,
+    image: p.localImage || `/products/${p.slug}.webp`,
+    price: parseInt(String(p.price).replace(/[^0-9]/g, '')) || 0,
+    originalPrice: (p.price_before_discount || p.priceHigh) ? parseInt(String(p.price_before_discount || p.priceHigh).replace(/[^0-9]/g, '')) : undefined,
+    rating: p.rating ? parseFloat(p.rating) : 0,
+    sold: p.sold || '',
+    affiliateUrl: p.affiliateUrl || p.url || '#',
+    category: p.category || 'food',
+    slug: p.slug,
+    discount: (p.price_before_discount || p.originalPrice) ? Math.round((1 - (parseInt(String(p.price).replace(/[^0-9]/g, '')) / parseInt(String(p.price_before_discount || p.originalPrice).replace(/[^0-9]/g, '')))) * 100) : 0,
+    isPayday: true,
+  }));
+
+const catFood = products.filter((p: any) => p.category === 'อาหารแมว');
+const dogFood = products.filter((p: any) => p.category === 'อาหารสุนัข');
+const catLitter = products.filter((p: any) => p.category === 'ทรายแมว');
+const others = products.filter((p: any) => !['อาหารแมว', 'อาหารสุนัข', 'ทรายแมว'].includes(p.category));
+
+const schemaEvent = {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "PetzDeals ดีลวันเงินเดือนออก 15 ก.ค. 2026",
+  "description": "เงินเดือนออก 15! สต็อกอาหารสัตว์เลี้ยงราคาพิเศษ อาหารแมว อาหารสุนัข ทรายแมว ลดราคา",
+  "startDate": "2026-07-15",
+  "endDate": "2026-07-18",
+  "url": "https://petzdeals.com/deals/payday-15/",
+  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "location": { "@type": "VirtualLocation", "url": "https://petzdeals.com/deals/payday-15/" },
+  "organizer": { "@type": "Organization", "name": "PetzDeals", "url": "https://petzdeals.com" },
+};
+
+const breadcrumb = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "หน้าแรก", "item": "https://petzdeals.com/" },
+    { "@type": "ListItem", "position": 2, "name": "โปรโมชั่น", "item": "https://petzdeals.com/deals/" },
+    { "@type": "ListItem", "position": 3, "name": "ดีลวันเงินเดือนออก 15" },
+  ],
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "ดีลวันเงินเดือน Shopee ลดจริงไหม?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "ลดจริงค่ะ Shopee มีโปรวันเงินเดือนออก (Payday Sale) ทุกวันที่ 15 และ 25 มี voucher เพิ่ม ฟรีค่าส่ง และ flash sale สินค้าราคาพิเศษ เหมาะกับการสต็อกอาหารสัตว์เลี้ยง"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "ซื้ออาหารแมวตอนไหนคุ้มที่สุด?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "ช่วงที่คุ้มที่สุดคือ mega sale (7.7, 8.8, 11.11) แต่ถ้าพลาดแล้ว ดีลวันเงินเดือน 15 และ 25 เป็นโอกาสดีรองลงมา โดยเฉพาะการซื้อถุงใหญ่ + ใช้ voucher ซ้อนกัน"
+      }
+    }
+  ],
+};
+---
+
+<BaseLayout title="ดีลวันเงินเดือนออก 15 ก.ค. — สต็อกอาหารสัตว์เลี้ยง" description="เงินเดือนออก 15! รวมดีลอาหารแมว อาหารสุนัข ทรายแมว ราคาพิเศษ สต็อกของให้เจ้านาย">
+  <script type="application/ld+json" set:html={JSON.stringify(schemaEvent)} />
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumb)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+
+  <nav class="max-w-7xl mx-auto px-4 py-3 text-sm text-gray-400">
+    <a href="/" class="hover:text-pet-500">หน้าแรก</a>
+    <span class="mx-1">›</span>
+    <a href="/deals/" class="hover:text-pet-500">โปรโมชั่น</a>
+    <span class="mx-1">›</span>
+    <span class="text-gray-600">ดีลวันเงินเดือนออก 15</span>
+  </nav>
+
+  <section class="max-w-7xl mx-auto px-4 py-8">
+    <div class="bg-gradient-to-r from-amber-50 to-yellow-50 rounded-2xl p-6 md:p-8 mb-8 border border-amber-100">
+      <h1 class="text-2xl font-bold text-gray-900 mb-3">💰 เงินเดือนออก 15 ก.ค. — สต็อกของให้เจ้านาย!</h1>
+      <p class="text-gray-600 leading-relaxed mb-4">
+        เงินเดือนออกแล้ว! ถึงเวลาสต็อกอาหารแมว อาหารสุนัข ทรายแมว ให้เจ้านาย
+        รวมดีลจาก Shopee ราคาพิเศษ ซื้อถุงใหญ่คุ้มกว่า + ใช้ voucher ลดเพิ่มอีก
+      </p>
+      <p class="text-sm text-amber-700 font-medium">🗓️ ดีลวันเงินเดือน 15-17 ก.ค. 2026 (3 วันเท่านั้น!)</p>
+    </div>
+
+    {catFood.length > 0 && (
+      <div class="mb-10">
+        <div class="flex items-center justify-between mb-4">
+          <h2 class="text-xl font-bold text-gray-900">🐱 อาหารแมว</h2>
+          <span class="text-sm text-gray-400">{catFood.length} สินค้า</span>
+        </div>
+        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+          {catFood.map(product => (
+            <div class="relative">
+              <span class="badge-payday absolute top-2 left-2 z-10">💰 Payday</span>
+              <ProductCard {...product} />
+            </div>
+          ))}
+        </div>
+      </div>
+    )}
+
+    {dogFood.length > 0 && (
+      <div class="mb-10">
+        <div class="flex items-center justify-between mb-4">
+          <h2 class="text-xl font-bold text-gray-900">🐶 อาหารสุนัข</h2>
+          <span class="text-sm text-gray-400">{dogFood.length} สินค้า</span>
+        </div>
+        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+          {dogFood.map(product => (
+            <div class="relative">
+              <span class="badge-payday absolute top-2 left-2 z-10">💰 Payday</span>
+              <ProductCard {...product} />
+            </div>
+          ))}
+        </div>
+      </div>
+    )}
+
+    {catLitter.length > 0 && (
+      <div class="mb-10">
+        <div class="flex items-center justify-between mb-4">
+          <h2 class="text-xl font-bold text-gray-900">🪣 ทรายแมว</h2>
+          <span class="text-sm text-gray-400">{catLitter.length} สินค้า</span>
+        </div>
+        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+          {catLitter.map(product => (
+            <div class="relative">
+              <span class="badge-payday absolute top-2 left-2 z-10">💰 Payday</span>
+              <ProductCard {...product} />
+            </div>
+          ))}
+        </div>
+      </div>
+    )}
+
+    {others.length > 0 && (
+      <div class="mb-10">
+        <div class="flex items-center justify-between mb-4">
+          <h2 class="text-xl font-bold text-gray-900">🐾 สินค้าอื่นๆ</h2>
+          <span class="text-sm text-gray-400">{others.length} สินค้า</span>
+        </div>
+        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+          {others.map(product => (
+            <div class="relative">
+              <span class="badge-payday absolute top-2 left-2 z-10">💰 Payday</span>
+              <ProductCard {...product} />
+            </div>
+          ))}
+        </div>
+      </div>
+    )}
+  </section>
+
+  <section class="max-w-4xl mx-auto px-4 py-12">
+    <h2 class="text-xl font-bold text-gray-900 mb-4">ดีลวันเงินเดือนออก คืออะไร?</h2>
+    <div class="prose prose-gray text-sm leading-relaxed">
+      <p>Shopee Payday Sale คือโปรโมชั่นพิเศษทุกวันที่ 15 และ 25 ของเดือน ตรงกับวันที่พนักงานส่วนใหญ่ได้รับเงินเดือน มี voucher ลดราคาเพิ่ม ฟรีค่าส่ง และ flash sale สินค้าราคาพิเศษ</p>
+      <p>PetzDeals คัดสินค้าสัตว์เลี้ยงที่คุ้มค่าสำหรับช่วงเงินเดือนออก — อาหารแมว อาหารสุนัข ทรายแมว ถุงใหญ่สต็อกได้ 1-2 เดือน ซื้อตอนเงินเดือนออก ไม่ต้องรอ mega sale</p>
+    </div>
+    <div class="mt-6 text-center">
+      <a href="/blog/payday-15-pet-deals-2026" class="inline-flex items-center gap-2 px-5 py-2.5 bg-amber-500 text-white rounded-lg font-medium hover:bg-amber-600 transition-colors">
+        📖 อ่านไกด์ Payday ฉบับเต็ม
+      </a>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .badge-payday {
+    background: linear-gradient(135deg, #F59E0B, #D97706);
+    color: white;
+    font-weight: 700;
+    font-size: 11px;
+    padding: 4px 10px;
+    border-radius: 6px;
+    pointer-events: none;
+  }
+</style>
