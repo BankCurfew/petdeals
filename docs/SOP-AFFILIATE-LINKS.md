@@ -10,6 +10,22 @@ All product and campaign links on PetzDeals must use proper Shopee affiliate sha
 - **Account**: AP (AP_marketing)
 - **Affiliate ID**: an_15312860014
 - **Access via**: CDP (port 9222) connected to logged-in Chrome
+- **Credentials**: `~/.oracle/security/shopee-affiliate.env` (600 perms, gitignored). NEVER commit/echo the password.
+
+### CDP Auto-Login (when session is missing)
+
+The portal is a **plain username/password login — NO OTP/2FA** on the `AP_marketing` account. Do NOT defer to "แบงค์ logs in" without trying this first (verified 2026-07-16, T094).
+
+1. Ensure CDP is up: `curl -sf localhost:9222/json/version`. If not, relaunch Chrome on the `C:\ChromeCDP` profile (see BoB memory `mac-cdp-default-profile-block`).
+2. Open a tab to `https://affiliate.shopee.co.th/dashboard`. If it redirects to `shopee.co.th/buyer/login`, the session is missing → auto-login:
+3. Fill `input[name=loginKey]` = `$SHOPEE_AFFILIATE_USER`, `input[name=password]` = `$SHOPEE_AFFILIATE_PASS` using the **React-native value setter** (plain `.value=` won't register):
+   ```js
+   const set=(el,v)=>{const s=Object.getOwnPropertyDescriptor(HTMLInputElement.prototype,'value').set;s.call(el,v);el.dispatchEvent(new Event('input',{bubbles:true}));el.dispatchEvent(new Event('change',{bubbles:true}));};
+   ```
+   then click the button whose text is `LOG IN`.
+4. Success = URL becomes `affiliate.shopee.co.th/dashboard?is_from_login=true`, nav shows รายการ feed สินค้า / รายงานคำสั่งซื้อ / รายงานคลิก / ลิงก์ที่กำหนดเอง.
+5. **Session persists in `C:\ChromeCDP`** — later pulls skip login. Only re-login if Shopee expired the cookie.
+6. Pull the feed via **in-page clicks on the same tab** — never `page.goto`/full-nav that drops the SPA session (see BoB memory `never-goto-spa-session`).
 
 ## Portal Directory
 
