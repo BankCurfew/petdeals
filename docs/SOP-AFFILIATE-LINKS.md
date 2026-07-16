@@ -45,6 +45,17 @@ The portal is a **plain username/password login — NO OTP/2FA** on the `AP_mark
 | | Payout Record | /payment/payout_record | Active | View payouts |
 | **Open API** | Open API | /open_api | Needs 1000 orders | GraphQL API for programmatic access |
 
+## ⚠️ ANTI-BOT RULE (T094 lesson, 2026-07-16)
+
+Shopee anti-bot trips a **slide-puzzle captcha** if link generation looks automated. Two hard rules:
+
+1. **PACE every batch** — Custom Link UI, **5 URLs/batch, 2.5–4s jitter** between batches. NEVER call the `batchCustomLink` GraphQL endpoint in a tight loop (that's what triggered the captcha). If GQL is unavoidable, throttle to ~1 req / 2–3s + jitter + reuse the session cookie.
+2. **Use the FULL real Chrome profile** for CDP (`C:\ChromeCDP` copied from แบงค์'s `Default` — History + Cookies + Local Storage), not a cookie-only seed. A thin/fresh profile is itself an anti-bot tell.
+3. **Captcha appears = STOP immediately + cc bob.** Do NOT retry (re-triggers + hardens the block). The slide-puzzle is a human-only wall.
+4. **Product Feed CSV is a subset** (~6/758 petzdeals matched of 38K rows) — the rest must be converted via Custom Link (paced), not expected in the feed.
+
+CAR/PAR: `BoB-Oracle/ψ/memory/car/CAR-PAR-2026-07-16-shopee-antibot-captcha.md`
+
 ## Method 1: Custom Link (Manual / Small Batch)
 
 Best for: campaign pages, new products, one-off links.
