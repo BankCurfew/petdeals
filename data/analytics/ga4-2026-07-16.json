@@ -1,8 +1,8 @@
 {
-  "pulled_at": "2026-07-15T08:00:46.449261",
-  "date": "2026-07-14",
+  "pulled_at": "2026-07-16T17:12:27.440102",
+  "date": "2026-07-15",
   "property_id": "543407169",
-  "total_rows": 9,
+  "total_rows": 13,
   "rows": [
     {
       "dimensionValues": [
@@ -10,39 +10,18 @@
           "value": "/"
         },
         {
-          "value": "first_visit"
-        }
-      ],
-      "metricValues": [
-        {
-          "value": "6"
-        },
-        {
-          "value": "6"
-        },
-        {
-          "value": "0"
-        }
-      ]
-    },
-    {
-      "dimensionValues": [
-        {
-          "value": "/"
-        },
-        {
           "value": "page_view"
         }
       ],
       "metricValues": [
         {
-          "value": "6"
+          "value": "3"
         },
         {
-          "value": "6"
+          "value": "2"
         },
         {
-          "value": "6"
+          "value": "3"
         }
       ]
     },
@@ -57,10 +36,115 @@
       ],
       "metricValues": [
         {
-          "value": "6"
+          "value": "2"
         },
         {
-          "value": "6"
+          "value": "2"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "2"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/12-cherman-pouch-037202/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "2"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/search/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "2"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/"
+        },
+        {
+          "value": "first_visit"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/12-cherman-pouch-037202/"
+        },
+        {
+          "value": "affiliate_click"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
         },
         {
           "value": "0"
@@ -157,7 +241,7 @@
           "value": "/search/"
         },
         {
-          "value": "page_view"
+          "value": "session_start"
         }
       ],
       "metricValues": [
@@ -168,7 +252,7 @@
           "value": "1"
         },
         {
-          "value": "1"
+          "value": "0"
         }
       ]
     },
@@ -178,7 +262,7 @@
           "value": "/search/"
         },
         {
-          "value": "session_start"
+          "value": "user_engagement"
         }
       ],
       "metricValues": [

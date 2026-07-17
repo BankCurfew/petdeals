@@ -1,6 +1,6 @@
 {
-  "pulled_at": "2026-07-15T08:00:46.449261",
-  "date": "2026-07-14",
+  "pulled_at": "2026-07-17T08:00:28.605051",
+  "date": "2026-07-16",
   "property_id": "543407169",
   "total_rows": 9,
   "rows": [
@@ -15,10 +15,10 @@
       ],
       "metricValues": [
         {
-          "value": "6"
+          "value": "11"
         },
         {
-          "value": "6"
+          "value": "11"
         },
         {
           "value": "0"
@@ -36,13 +36,13 @@
       ],
       "metricValues": [
         {
-          "value": "6"
+          "value": "11"
         },
         {
-          "value": "6"
+          "value": "11"
         },
         {
-          "value": "6"
+          "value": "11"
         }
       ]
     },
@@ -57,10 +57,10 @@
       ],
       "metricValues": [
         {
-          "value": "6"
+          "value": "11"
         },
         {
-          "value": "6"
+          "value": "11"
         },
         {
           "value": "0"
