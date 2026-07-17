@@ -1,0 +1,40 @@
+{
+  "pulled_at": "2026-07-16T17:12:25.888447",
+  "date_range": {
+    "start": "2026-07-08",
+    "end": "2026-07-14"
+  },
+  "total_rows": 3,
+  "rows": [
+    {
+      "keys": [
+        "https://petzdeals.com/categories/dog-food/",
+        "adult dog food"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 47
+    },
+    {
+      "keys": [
+        "https://petzdeals.com/products/p-114535-6",
+        "ที่ฝนเล็บ"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 25
+    },
+    {
+      "keys": [
+        "https://petzdeals.com/products/p-123465/",
+        "ลูกบอลแมว"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    }
+  ]
+}
