@@ -161,9 +161,10 @@ def download_webp(img_url, slug):
 
 
 def make_affiliate_url(shop_id, item_id):
-    """Generate Shopee affiliate URL with proper tracking params."""
-    base = f"https://shopee.co.th/product/{shop_id}/{item_id}"
-    return f"{base}?utm_source={AFFILIATE_ID}&utm_medium=affiliates&utm_campaign=petdeals&utm_content={item_id}"
+    """Generate Shopee affiliate an_redir URL with commission tracking."""
+    from urllib.parse import quote
+    origin = f"https://shopee.co.th/product/{shop_id}/{item_id}"
+    return f"https://shope.ee/an_redir?origin_link={quote(origin, safe='')}&affiliate_id={AFFILIATE_ID}&sub_id=petzdeals"
 
 
 def run_actor(keywords, max_items):
