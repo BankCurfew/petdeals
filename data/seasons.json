@@ -403,6 +403,44 @@
       ],
       "active": false,
       "status": "upcoming"
+    },
+    {
+      "slug": "payday-sale",
+      "name": "Shopee Payday Sale",
+      "nameTh": "Shopee วันเงินเดือนออก ลดทั้งร้าน",
+      "description": "ดีลวันเงินเดือนออก 25-27 ทุกเดือน — คูปองส่วนลด + ส่งฟรี + Shopee Coins Cashback",
+      "startDate": "2026-07-25",
+      "endDate": "2026-07-27",
+      "tags": [
+        "payday",
+        "monthly",
+        "voucher"
+      ],
+      "emoji": "💰",
+      "matchingProducts": [],
+      "active": false,
+      "status": "upcoming",
+      "recurring": true,
+      "recurrence": "monthly-25th"
+    },
+    {
+      "slug": "mid-month-sale",
+      "name": "Shopee Mid-Month Sale",
+      "nameTh": "Shopee ดีลกลางเดือน ลดแรง",
+      "description": "ดีลกลางเดือน 15-17 ทุกเดือน — Flash Sale + Voucher + Free Shipping",
+      "startDate": "2026-08-15",
+      "endDate": "2026-08-17",
+      "tags": [
+        "mid-month",
+        "monthly",
+        "flash-sale"
+      ],
+      "emoji": "⚡",
+      "matchingProducts": [],
+      "active": false,
+      "status": "upcoming",
+      "recurring": true,
+      "recurrence": "monthly-15th"
     }
   ],
   "recurring": [
@@ -474,7 +512,7 @@
         "mrvet-cat-food-12pack",
         "skisopgo-1"
       ],
-      "active": false
+      "active": true
     },
     {
       "slug": "payday-25",
