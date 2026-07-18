@@ -1,8 +1,8 @@
 {
-  "pulled_at": "2026-07-17T08:00:29.794134",
-  "date": "2026-07-16",
+  "pulled_at": "2026-07-18T08:00:33.668195",
+  "date": "2026-07-17",
   "property_id": "543407169",
-  "total_rows": 9,
+  "total_rows": 16,
   "rows": [
     {
       "dimensionValues": [
@@ -10,15 +10,36 @@
           "value": "/"
         },
         {
-          "value": "first_visit"
+          "value": "page_view"
         }
       ],
       "metricValues": [
         {
-          "value": "11"
+          "value": "6"
         },
         {
-          "value": "11"
+          "value": "2"
+        },
+        {
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "5"
+        },
+        {
+          "value": "1"
         },
         {
           "value": "0"
@@ -31,18 +52,18 @@
           "value": "/"
         },
         {
-          "value": "page_view"
+          "value": "affiliate_click"
         }
       ],
       "metricValues": [
         {
-          "value": "11"
+          "value": "2"
         },
         {
-          "value": "11"
+          "value": "1"
         },
         {
-          "value": "11"
+          "value": "0"
         }
       ]
     },
@@ -57,10 +78,94 @@
       ],
       "metricValues": [
         {
-          "value": "11"
+          "value": "2"
         },
         {
-          "value": "11"
+          "value": "1"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/"
+        },
+        {
+          "value": "first_visit"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/deals/7-7/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/deals/today/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/deals/today/"
+        },
+        {
+          "value": "user_engagement"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
         },
         {
           "value": "0"
@@ -116,6 +221,48 @@
         },
         {
           "value": "session_start"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-813587/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/products/p-813587/"
+        },
+        {
+          "value": "user_engagement"
         }
       ],
       "metricValues": [
