@@ -345,6 +345,18 @@ def main():
         else:
             print(f"  All {len(products)} products alive ✓")
 
+    # IMAGE GATE (SOP-PD-001 #44): never commit products without local images
+    imageless = [p for p in products if not p.get("localImage")]
+    if imageless:
+        print(f"\n!! IMAGE GATE FAIL: {len(imageless)} products have no localImage")
+        for p in imageless[:10]:
+            print(f"  {p.get('slug', '?')}")
+        if "--force" not in sys.argv:
+            print("  Aborting write — fix images before commit. Use --force to override.")
+            return
+        else:
+            print("  --force: writing despite imageless products (manual override)")
+
     output = products if isinstance(existing, list) else {**existing, "products": products}
     with open(PRODUCTS_PATH, "w") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
