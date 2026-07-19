@@ -48,7 +48,7 @@ function htmlExtraChars(s: string): number {
 }
 
 export function buildPageTitle(raw: string, category: string, curated?: string): string {
-  if (curated) return curated;
+  if (curated) return curated.length <= PAGE_TITLE_MAX ? curated : smartTruncate(curated, PAGE_TITLE_MAX);
 
   const cleaned = cleanProductName(raw);
   const effMax = PAGE_TITLE_MAX - htmlExtraChars(cleaned) - htmlExtraChars(category);
@@ -83,9 +83,10 @@ export function deduplicateTitles(
       if (p.seoTitle) continue;
       const variant = p.brand || p.shopName || `#${slug.slice(-6)}`;
       const varSuffix = ` ${variant}`;
-      const nameMax = PAGE_TITLE_MAX - htmlExtraChars(cleanProductName(p.title)) - htmlExtraChars(variant) - varSuffix.length;
+      const nameMax = PAGE_TITLE_MAX - varSuffix.length;
       const truncName = smartTruncate(cleanProductName(p.title), Math.max(10, nameMax));
-      result.set(slug, `${truncName}${varSuffix}`);
+      const combined = `${truncName}${varSuffix}`;
+      result.set(slug, combined.length <= PAGE_TITLE_MAX ? combined : smartTruncate(combined, PAGE_TITLE_MAX));
     }
   }
 
