@@ -1,0 +1,20 @@
+{
+  "pulled_at": "2026-07-19T08:30:30.252367",
+  "date_range": {
+    "start": "2026-07-11",
+    "end": "2026-07-17"
+  },
+  "total_rows": 1,
+  "rows": [
+    {
+      "keys": [
+        "https://petzdeals.com/products/p-114535-6",
+        "ที่ฝนเล็บ"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 25
+    }
+  ]
+}
