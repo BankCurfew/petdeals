@@ -345,7 +345,7 @@ def main():
         else:
             print(f"  All {len(products)} products alive ✓")
 
-    # IMAGE GATE (SOP-PD-001 #44): never commit products without local images
+    # IMAGE GATE v2 (SOP-PD-001 #44): never commit products without TRACKED local images
     imageless = [p for p in products if not p.get("localImage")]
     if imageless:
         print(f"\n!! IMAGE GATE FAIL: {len(imageless)} products have no localImage")
@@ -356,6 +356,20 @@ def main():
             return
         else:
             print("  --force: writing despite imageless products (manual override)")
+
+    # GIT TRACKING GATE: ensure all localImage files are git-tracked
+    untracked = subprocess.run(
+        ["git", "ls-files", "--others", "public/products/"],
+        capture_output=True, text=True, cwd=os.path.dirname(os.path.dirname(__file__))
+    )
+    untracked_files = [f for f in untracked.stdout.strip().split("\n") if f.endswith(".webp")]
+    if untracked_files:
+        print(f"\n!! GIT TRACKING GATE: {len(untracked_files)} webp files untracked — auto-staging")
+        subprocess.run(
+            ["git", "add"] + [f"public/products/{os.path.basename(f)}" for f in untracked_files[:200]],
+            cwd=os.path.dirname(os.path.dirname(__file__))
+        )
+        print(f"  Staged {len(untracked_files)} files for commit")
 
     output = products if isinstance(existing, list) else {**existing, "products": products}
     with open(PRODUCTS_PATH, "w") as f:
