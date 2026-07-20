@@ -24,11 +24,11 @@ ACTOR_ID = "fmKWN5uByUCIy2Sam"
 PRODUCTS_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data", "products.json")
 
 DAILY_SEARCHES = [
-    (["อาหารแมว"], "", "อาหารแมว", 20),
-    (["อาหารเปียกแมว"], "", "อาหารเปียก", 15),
-    (["ขนมแมว"], "", "ขนมแมว", 15),
-    (["ทรายแมว"], "", "ทรายแมว", 15),
-    (["อาหารสุนัข"], "", "อาหารสุนัข", 15),
+    (["อาหารแมว"], "", "อาหารแมว", 10),
+    (["อาหารเปียกแมว"], "", "อาหารเปียก", 10),
+    (["ขนมแมว"], "", "ขนมแมว", 10),
+    (["ทรายแมว"], "", "ทรายแมว", 10),
+    (["อาหารสุนัข"], "", "อาหารสุนัข", 10),
     (["อาหารเสริมสัตว์เลี้ยง วิตามิน โปรไบโอติก"], "", "อาหารเสริม", 10),
     (["ขนมสุนัข ขนมหมา"], "", "ขนมสุนัข", 10),
 ]
@@ -318,6 +318,32 @@ def main():
         time.sleep(2)
 
     products.extend(all_new)
+
+    # BAIT SWEEP (#45 CAR): purge ALL rows (legacy + new) with bait pricing
+    bait_before = len(products)
+    bait_purged = []
+    clean_products = []
+    for p in products:
+        raw_price = p.get("price", 0)
+        if isinstance(raw_price, str):
+            try:
+                price_num = float(raw_price.replace("฿", "").replace(",", ""))
+            except (ValueError, TypeError):
+                price_num = 999
+        else:
+            price_num = float(raw_price) if raw_price else 999
+        discount = p.get("discountPercent", 0) or 0
+        if (0 < price_num < 5) or discount > 90:
+            bait_purged.append(p.get("slug", "?"))
+        else:
+            clean_products.append(p)
+    products = clean_products
+    if bait_purged:
+        print(f"\n=== BAIT SWEEP: purged {len(bait_purged)} items (price<฿5 or discount>90%) ===")
+        for s in bait_purged[:5]:
+            print(f"  {s}")
+        if len(bait_purged) > 5:
+            print(f"  ... +{len(bait_purged) - 5} more")
 
     # Auto-prune gate: validate existing product URLs, remove dead listings (#35)
     if "--skip-prune" not in sys.argv:
