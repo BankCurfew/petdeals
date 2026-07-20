@@ -345,29 +345,50 @@ def main():
         else:
             print(f"  All {len(products)} products alive ✓")
 
-    # IMAGE GATE v2 (SOP-PD-001 #44): never commit products without TRACKED local images
-    imageless = [p for p in products if not p.get("localImage")]
-    if imageless:
-        print(f"\n!! IMAGE GATE FAIL: {len(imageless)} products have no localImage")
-        for p in imageless[:10]:
-            print(f"  {p.get('slug', '?')}")
+    # IMAGE GATE v3 (#45): reject remote-URL mains, verify RIFF magic, no Thai filenames
+    repo_root = os.path.dirname(os.path.dirname(__file__))
+    gate_fails = []
+    for p in products:
+        local = p.get("localImage", "")
+        slug = p.get("slug", "?")
+        if not local:
+            gate_fails.append(f"{slug}: no localImage")
+            continue
+        if local.startswith("http"):
+            gate_fails.append(f"{slug}: remote URL as localImage ({local[:50]})")
+            continue
+        imgs = p.get("images", [])
+        if imgs and imgs[0].startswith("http"):
+            gate_fails.append(f"{slug}: images[0] is remote URL — localizing")
+            imgs[0] = local
+        fpath = os.path.join(repo_root, "public", local.lstrip("/"))
+        if not os.path.exists(fpath):
+            gate_fails.append(f"{slug}: file missing at {local}")
+            continue
+        with open(fpath, "rb") as fb:
+            magic = fb.read(4)
+        if magic != b"RIFF":
+            gate_fails.append(f"{slug}: invalid magic bytes {magic!r} (not RIFF/WEBP)")
+
+    if gate_fails:
+        print(f"\n!! IMAGE GATE v3 FAIL: {len(gate_fails)} issues")
+        for f in gate_fails[:10]:
+            print(f"  {f}")
         if "--force" not in sys.argv:
             print("  Aborting write — fix images before commit. Use --force to override.")
             return
-        else:
-            print("  --force: writing despite imageless products (manual override)")
 
     # GIT TRACKING GATE: ensure all localImage files are git-tracked
     untracked = subprocess.run(
         ["git", "ls-files", "--others", "public/products/"],
-        capture_output=True, text=True, cwd=os.path.dirname(os.path.dirname(__file__))
+        capture_output=True, text=True, cwd=repo_root
     )
     untracked_files = [f for f in untracked.stdout.strip().split("\n") if f.endswith(".webp")]
     if untracked_files:
         print(f"\n!! GIT TRACKING GATE: {len(untracked_files)} webp files untracked — auto-staging")
         subprocess.run(
             ["git", "add"] + [f"public/products/{os.path.basename(f)}" for f in untracked_files[:200]],
-            cwd=os.path.dirname(os.path.dirname(__file__))
+            cwd=repo_root
         )
         print(f"  Staged {len(untracked_files)} files for commit")
 

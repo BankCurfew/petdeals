@@ -678,11 +678,11 @@
     "shopName": "MEOW SPACE",
     "brand": "Meow Space(เหมียว สเปซ)",
     "images": [
-      "/products/meowspace-cat-litter-10ลิตร.webp",
-      "/products/meowspace-cat-litter-10ลิตร-1.webp",
-      "/products/meowspace-cat-litter-10ลิตร-2.webp",
-      "/products/meowspace-cat-litter-10ลิตร-3.webp",
-      "/products/meowspace-cat-litter-10ลิตร-4.webp"
+      "/products/meowspace-cat-litter-10.webp",
+      "/products/meowspace-cat-litter-10-1.webp",
+      "/products/meowspace-cat-litter-10-2.webp",
+      "/products/meowspace-cat-litter-10-3.webp",
+      "/products/meowspace-cat-litter-10-4.webp"
     ],
     "imageCount": 5,
     "url": "https://shopee.co.th/product/262132208/18108344668",
@@ -699,7 +699,7 @@
     ],
     "seoTitle": "ทรายแมว Meow Space เต้าหู้ — ไร้ฝุ่น ทิ้งชักโครกได้ 6,247 รีวิว",
     "feedLink": "https://shopee.co.th/product/262132208/18108344668",
-    "localImage": "/products/meowspace-cat-litter-10ลิตร.webp",
+    "localImage": "/products/meowspace-cat-litter-10.webp",
     "discountPercent": 32,
     "isOnSale": true,
     "price_before_discount": "฿149",
@@ -722,11 +722,11 @@
     "shopName": "Petdome อาหารสัตว์",
     "brand": "Kenzo( เคนโซ่ )",
     "images": [
-      "/products/kenzo-cat-litter-10ลิตร.webp",
-      "/products/kenzo-cat-litter-10ลิตร-1.webp",
-      "/products/kenzo-cat-litter-10ลิตร-2.webp",
-      "/products/kenzo-cat-litter-10ลิตร-3.webp",
-      "/products/kenzo-cat-litter-10ลิตร-4.webp"
+      "/products/kenzo-cat-litter-10.webp",
+      "/products/kenzo-cat-litter-10-1.webp",
+      "/products/kenzo-cat-litter-10-2.webp",
+      "/products/kenzo-cat-litter-10-3.webp",
+      "/products/kenzo-cat-litter-10-4.webp"
     ],
     "imageCount": 5,
     "url": "https://shopee.co.th/product/1496922957/29979806349",
@@ -735,7 +735,7 @@
     "category": "ทรายแมว",
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
-    "localImage": "/products/kenzo-cat-litter-10ลิตร.webp",
+    "localImage": "/products/kenzo-cat-litter-10.webp",
     "discountPercent": 44,
     "isOnSale": true,
     "price_before_discount": "฿153",
@@ -796,11 +796,11 @@
     "shopName": "LXD กระดาษทิชชู่",
     "brand": "",
     "images": [
-      "/products/cat-litter-10ลิตร-1.webp",
-      "/products/cat-litter-10ลิตร-1-1.webp",
-      "/products/cat-litter-10ลิตร-1-2.webp",
-      "/products/cat-litter-10ลิตร-1-3.webp",
-      "/products/cat-litter-10ลิตร-1-4.webp"
+      "/products/cat-litter-10-1.webp",
+      "/products/cat-litter-10-1-1.webp",
+      "/products/cat-litter-10-1-2.webp",
+      "/products/cat-litter-10-1-3.webp",
+      "/products/cat-litter-10-1-4.webp"
     ],
     "imageCount": 5,
     "url": "https://shopee.co.th/product/1496094264/49458179980",
@@ -809,7 +809,7 @@
     "category": "ทรายแมว",
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
-    "localImage": "/products/cat-litter-10ลิตร-1.webp",
+    "localImage": "/products/cat-litter-10-1.webp",
     "discountPercent": 0,
     "isOnSale": false,
     "priceAfterCode": "",
@@ -866,11 +866,11 @@
     "shopName": "ilovedog.official",
     "brand": "Kasty(เคสตี้)",
     "images": [
-      "/products/kasty-cat-litter-20ลิตร.webp",
-      "/products/kasty-cat-litter-20ลิตร-1.webp",
-      "/products/kasty-cat-litter-20ลิตร-2.webp",
-      "/products/kasty-cat-litter-20ลิตร-3.webp",
-      "/products/kasty-cat-litter-20ลิตร-4.webp"
+      "/products/kasty-cat-litter-20.webp",
+      "/products/kasty-cat-litter-20-1.webp",
+      "/products/kasty-cat-litter-20-2.webp",
+      "/products/kasty-cat-litter-20-3.webp",
+      "/products/kasty-cat-litter-20-4.webp"
     ],
     "imageCount": 5,
     "url": "https://shopee.co.th/product/1313421895/54911564056",
@@ -879,7 +879,7 @@
     "category": "ทรายแมว",
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
-    "localImage": "/products/kasty-cat-litter-20ลิตร.webp",
+    "localImage": "/products/kasty-cat-litter-20.webp",
     "discountPercent": 30,
     "isOnSale": true,
     "price_before_discount": "฿759",
@@ -1008,10 +1008,10 @@
     "shopName": "Nippan b&m",
     "brand": "",
     "images": [
-      "/products/cat-litter-10ลิตร-2.webp",
-      "/products/cat-litter-10ลิตร-2-1.webp",
-      "/products/cat-litter-10ลิตร-2-2.webp",
-      "/products/cat-litter-10ลิตร-2-3.webp"
+      "/products/cat-litter-10-2.webp",
+      "/products/cat-litter-10-2-1.webp",
+      "/products/cat-litter-10-2-2.webp",
+      "/products/cat-litter-10-2-3.webp"
     ],
     "imageCount": 4,
     "url": "https://shopee.co.th/product/958470529/29981906757",
@@ -1020,7 +1020,7 @@
     "category": "ทรายแมว",
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
-    "localImage": "/products/cat-litter-10ลิตร-2.webp",
+    "localImage": "/products/cat-litter-10-2.webp",
     "discountPercent": 5,
     "isOnSale": true,
     "price_before_discount": "฿195",
@@ -1197,10 +1197,10 @@
     "shopName": "ร้านขายอาหารสัตว์ยอดขายอันดับ1",
     "brand": "Kasty(เคสตี้)",
     "images": [
-      "/products/kasty-cat-litter-10ลิตร.webp",
-      "/products/kasty-cat-litter-10ลิตร-1.webp",
-      "/products/kasty-cat-litter-10ลิตร-2.webp",
-      "/products/kasty-cat-litter-10ลิตร-3.webp"
+      "/products/kasty-cat-litter-10.webp",
+      "/products/kasty-cat-litter-10-1.webp",
+      "/products/kasty-cat-litter-10-2.webp",
+      "/products/kasty-cat-litter-10-3.webp"
     ],
     "imageCount": 4,
     "url": "https://shopee.co.th/product/1327057570/26708633458",
@@ -1209,7 +1209,7 @@
     "category": "ทรายแมว",
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
-    "localImage": "/products/kasty-cat-litter-10ลิตร.webp",
+    "localImage": "/products/kasty-cat-litter-10.webp",
     "discountPercent": 0,
     "isOnSale": false,
     "priceAfterCode": "",
@@ -1231,11 +1231,11 @@
     "shopName": "HYBRIDPET",
     "brand": "Pet8(เพท8)",
     "images": [
-      "/products/pet8-cat-litter-10ลิตร.webp",
-      "/products/pet8-cat-litter-10ลิตร-1.webp",
-      "/products/pet8-cat-litter-10ลิตร-2.webp",
-      "/products/pet8-cat-litter-10ลิตร-3.webp",
-      "/products/pet8-cat-litter-10ลิตร-4.webp"
+      "/products/pet8-cat-litter-10.webp",
+      "/products/pet8-cat-litter-10-1.webp",
+      "/products/pet8-cat-litter-10-2.webp",
+      "/products/pet8-cat-litter-10-3.webp",
+      "/products/pet8-cat-litter-10-4.webp"
     ],
     "imageCount": 5,
     "url": "https://shopee.co.th/product/1559570460/44311948053",
@@ -1244,7 +1244,7 @@
     "category": "ทรายแมว",
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
-    "localImage": "/products/pet8-cat-litter-10ลิตร.webp",
+    "localImage": "/products/pet8-cat-litter-10.webp",
     "discountPercent": 17,
     "isOnSale": true,
     "price_before_discount": "฿215",
@@ -1267,11 +1267,11 @@
     "shopName": "Fluffy Store",
     "brand": "",
     "images": [
-      "/products/cat-litter-10ลิตร-3.webp",
-      "/products/cat-litter-10ลิตร-3-1.webp",
-      "/products/cat-litter-10ลิตร-3-2.webp",
-      "/products/cat-litter-10ลิตร-3-3.webp",
-      "/products/cat-litter-10ลิตร-3-4.webp"
+      "/products/cat-litter-10-3.webp",
+      "/products/cat-litter-10-3-1.webp",
+      "/products/cat-litter-10-3-2.webp",
+      "/products/cat-litter-10-3-3.webp",
+      "/products/cat-litter-10-3-4.webp"
     ],
     "imageCount": 5,
     "url": "https://shopee.co.th/product/189572746/22676700405",
@@ -1280,7 +1280,7 @@
     "category": "ทรายแมว",
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
-    "localImage": "/products/cat-litter-10ลิตร-3.webp",
+    "localImage": "/products/cat-litter-10-3.webp",
     "discountPercent": 49,
     "isOnSale": true,
     "price_before_discount": "฿345",
@@ -1303,11 +1303,11 @@
     "shopName": "Mameaow Shop",
     "brand": "Pramy(พรามี่)",
     "images": [
-      "/products/pramy-cat-litter-6ลิตร.webp",
-      "/products/pramy-cat-litter-6ลิตร-1.webp",
-      "/products/pramy-cat-litter-6ลิตร-2.webp",
-      "/products/pramy-cat-litter-6ลิตร-3.webp",
-      "/products/pramy-cat-litter-6ลิตร-4.webp"
+      "/products/pramy-cat-litter-6.webp",
+      "/products/pramy-cat-litter-6-1.webp",
+      "/products/pramy-cat-litter-6-2.webp",
+      "/products/pramy-cat-litter-6-3.webp",
+      "/products/pramy-cat-litter-6-4.webp"
     ],
     "imageCount": 5,
     "url": "https://shopee.co.th/product/36537132/42913548223",
@@ -1316,7 +1316,7 @@
     "category": "ทรายแมว",
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
-    "localImage": "/products/pramy-cat-litter-6ลิตร.webp",
+    "localImage": "/products/pramy-cat-litter-6.webp",
     "discountPercent": 7,
     "isOnSale": true,
     "price_before_discount": "฿176",
@@ -1339,9 +1339,9 @@
     "shopName": "PETSLAND",
     "brand": "PettoSan(เพ็ทโตะซัง)",
     "images": [
-      "/products/pettosan-cat-litter-10ลิตร.webp",
-      "/products/pettosan-cat-litter-10ลิตร-1.webp",
-      "/products/pettosan-cat-litter-10ลิตร-2.webp"
+      "/products/pettosan-cat-litter-10.webp",
+      "/products/pettosan-cat-litter-10-1.webp",
+      "/products/pettosan-cat-litter-10-2.webp"
     ],
     "imageCount": 3,
     "url": "https://shopee.co.th/product/1287046821/56410961111",
@@ -1350,7 +1350,7 @@
     "category": "ทรายแมว",
     "source": "apify_real",
     "scrapedAt": "2026-06-29",
-    "localImage": "/products/pettosan-cat-litter-10ลิตร.webp",
+    "localImage": "/products/pettosan-cat-litter-10.webp",
     "discountPercent": 0,
     "isOnSale": false,
     "priceAfterCode": "",
@@ -20673,7 +20673,7 @@
     "brand": "",
     "category": "อาหารเปียก",
     "images": [
-      "https://cf.shopee.com.br/file/th-11134207-81ztk-mlhfhns7jo5h6a",
+      "/products/ketzuzu-12-70g-875073-1.webp",
       "/products/ketzuzu-12-70g-875073-1.webp",
       "/products/ketzuzu-12-70g-875073-2.webp",
       "/products/ketzuzu-12-70g-875073-3.webp",
@@ -22266,7 +22266,7 @@
     "brand": "",
     "category": "อาหารเปียก",
     "images": [
-      "https://cf.shopee.com.br/file/th-11134207-81ztq-mpm1uaupgrgtd7",
+      "/products/moochie-70g-x12-450223-1.webp",
       "/products/moochie-70g-x12-450223-1.webp",
       "/products/moochie-70g-x12-450223-2.webp",
       "/products/moochie-70g-x12-450223-3.webp",
