@@ -37,7 +37,7 @@ function smartTruncate(text: string, max: number): string {
   return cut;
 }
 
-const PAGE_TITLE_MAX = 46;
+const PAGE_TITLE_MAX = 38;
 
 function htmlExtraChars(s: string): number {
   return (s.match(/&/g) || []).length * 4
