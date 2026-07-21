@@ -100,7 +100,14 @@ def sanitize_title(title):
     t = TITLE_SPAM_RE.sub("", t)
     t = EMOJI_RUN_RE.sub("", t)
     t = re.sub(r"\s{2,}", " ", t).strip()
-    return t[:150] if t else title[:150]
+    t = t[:150] if t else title[:150]
+    if len(t) > 55:
+        cut = t[:54]
+        last_space = cut.rfind(" ")
+        if last_space > 30:
+            cut = cut[:last_space]
+        t = cut.rstrip() + "…"
+    return t
 
 
 def generate_meta_desc(title, category, brand, price):
