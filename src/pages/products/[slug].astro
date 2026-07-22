@@ -45,20 +45,20 @@ const lastUpdated = product.lastUpdated || scrapedAt;
 // Thin-content detection: noindex pages with insufficient product data
 const isThinContent = !brandClean && rating === 0 && !soldStr && reviewCount === 0;
 
-// SEO content — displayTitle for h1/schema, pageTitle for <title> tag
+// SEO content: displayTitle for h1/schema, pageTitle for <title> tag
 const displayTitle = product.displayTitle || cleanProductName(product.title);
 const description = product.description || (brandClean
-  ? `${displayTitle} จาก ${brandClean} — สินค้ายอดนิยมในหมวด${category} ${rating > 0 ? `ได้รับคะแนน ${rating} ดาว` : ''} ${soldStr ? `ขายแล้ว ${soldStr} ชิ้น` : ''} เช็คราคาล่าสุดและรีวิวจากผู้ซื้อจริง`
-  : `${displayTitle} — สินค้าคุณภาพในหมวด${category} เช็คราคาล่าสุดและรีวิวจากผู้ซื้อจริง`
+  ? `${displayTitle} จาก ${brandClean}, สินค้ายอดนิยมในหมวด${category} ${rating > 0 ? `ได้รับคะแนน ${rating} ดาว` : ''} ${soldStr ? `ขายแล้ว ${soldStr} ชิ้น` : ''} เช็คราคาล่าสุดและรีวิวจากผู้ซื้อจริง`
+  : `${displayTitle}: สินค้าคุณภาพในหมวด${category} เช็คราคาล่าสุดและรีวิวจากผู้ซื้อจริง`
 );
 
 // Auto-generate features from available data
 const features = product.features || [
-  brandClean ? `แบรนด์ ${brandClean} — แบรนด์ที่ได้รับความนิยมในกลุ่ม${category}` : `สินค้าคุณภาพในหมวด${category}`,
-  rating >= 4.5 ? `คะแนนรีวิว ${rating} ดาว — ผู้ซื้อให้คะแนนสูง` : rating > 0 ? `คะแนนรีวิว ${rating} ดาว จากผู้ซื้อจริง` : 'สินค้ายอดนิยมจากร้านค้าชั้นนำ',
-  soldStr ? `ขายแล้ว ${soldStr} ชิ้น — เป็นที่นิยมในหมู่ทาสแมวและทาสหมา` : 'สินค้าแนะนำจาก PetzDeals',
-  `ราคาเริ่มต้น ฿${price.toLocaleString()} — คุ้มค่าสำหรับเจ้านาย`,
-  shopName ? `จำหน่ายโดย ${shopName} — ร้านค้าที่เชื่อถือได้` : 'จากร้านค้าที่ผ่านการคัดสรร',
+  brandClean ? `แบรนด์ ${brandClean}: แบรนด์ที่ได้รับความนิยมในกลุ่ม${category}` : `สินค้าคุณภาพในหมวด${category}`,
+  rating >= 4.5 ? `คะแนนรีวิว ${rating} ดาว, ผู้ซื้อให้คะแนนสูง` : rating > 0 ? `คะแนนรีวิว ${rating} ดาว จากผู้ซื้อจริง` : 'สินค้ายอดนิยมจากร้านค้าชั้นนำ',
+  soldStr ? `ขายแล้ว ${soldStr} ชิ้น, เป็นที่นิยมในหมู่ทาสแมวและทาสหมา` : 'สินค้าแนะนำจาก PetzDeals',
+  `ราคาเริ่มต้น ฿${price.toLocaleString()}: คุ้มค่าสำหรับเจ้านาย`,
+  shopName ? `จำหน่ายโดย ${shopName}: ร้านค้าที่เชื่อถือได้` : 'จากร้านค้าที่ผ่านการคัดสรร',
 ];
 
 // Auto-generate specs table
@@ -360,7 +360,7 @@ const starBreakdown = rating > 0 && reviewCount > 0 ? (() => {
               {nongDealReview
                 ? nongDealReview
                 : rating >= 4.5
-                ? `ข้าให้ผ่าน! ${brandClean || 'สินค้านี้'}ได้คะแนน ${rating} ดาว ${soldStr ? 'ขายไป ' + soldStr + ' ชิ้นแล้ว' : ''} — ทาสหลายคนยืนยันว่าเจ้านายชอบ เหมียว~`
+                ? `ข้าให้ผ่าน! ${brandClean || 'สินค้านี้'}ได้คะแนน ${rating} ดาว ${soldStr ? 'ขายไป ' + soldStr + ' ชิ้นแล้ว' : ''}, ทาสหลายคนยืนยันว่าเจ้านายชอบ เหมียว~`
                 : rating >= 4.0
                 ? `พอใช้ได้เจ้าทาส ${brandClean || 'สินค้านี้'}ได้ ${rating} ดาว ราคาเริ่ม ฿${price.toLocaleString()} คุ้มค่าพอสมควร ลองดูรีวิวจากทาสคนอื่นก่อนตัดสินใจ`
                 : `ข้ายังไม่มีข้อมูลรีวิวมากพอ ลองเช็คราคาและรีวิวเพิ่มเติมก่อนซื้อให้ข้านะเจ้าทาส`

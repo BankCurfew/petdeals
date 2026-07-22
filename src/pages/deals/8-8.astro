@@ -45,7 +45,7 @@ const schemaEvent = {
   "@context": "https://schema.org",
   "@type": "Event",
   "name": "PetzDeals 8.8 Mega Pet Sale",
-  "description": "ลดสูงสุด 80% อุปกรณ์สัตว์เลี้ยง — ดีลดีสำหรับทาสแมวและทาสหมา",
+  "description": "ลดสูงสุด 80% อุปกรณ์สัตว์เลี้ยง, ดีลดีสำหรับทาสแมวและทาสหมา",
   "startDate": saleStart,
   "endDate": "2026-08-08",
   "url": "https://petzdeals.com/deals/8-8/",
@@ -56,7 +56,7 @@ const schemaEvent = {
 };
 ---
 
-<BaseLayout title="8.8 Mega Pet Sale — ลดสูงสุด 80% สัตว์เลี้ยง" description="ดีล 8.8 สำหรับทาสแมวและทาสหมา ลดสูงสุด 80% อาหารแมว อาหารสุนัข อุปกรณ์สัตว์เลี้ยง">
+<BaseLayout title="8.8 Mega Pet Sale: ลดสูงสุด 80% สัตว์เลี้ยง" description="ดีล 8.8 สำหรับทาสแมวและทาสหมา ลดสูงสุด 80% อาหารแมว อาหารสุนัข อุปกรณ์สัตว์เลี้ยง">
   <script type="application/ld+json" set:html={JSON.stringify(schemaEvent)} />
 
   <!-- Hero 8.8 -->
@@ -65,7 +65,7 @@ const schemaEvent = {
       <p class="text-sm font-medium opacity-80 mb-2">🐾 PetzDeals presents</p>
       <h1 class="text-6xl md:text-8xl font-black mb-3 tracking-tight">8.8</h1>
       <p class="text-xl md:text-2xl font-bold mb-2">MEGA PET SALE</p>
-      <p class="text-base opacity-90 mb-6">ลดสูงสุด 80% อุปกรณ์สัตว์เลี้ยง — ดีลดีสำหรับทาสแมวและทาสหมา</p>
+      <p class="text-base opacity-90 mb-6">ลดสูงสุด 80% อุปกรณ์สัตว์เลี้ยง, ดีลดีสำหรับทาสแมวและทาสหมา</p>
 
       <!-- Countdown -->
       <div id="countdown-88" class="inline-flex gap-2 mb-6">
@@ -108,7 +108,7 @@ const schemaEvent = {
   <main class="max-w-7xl mx-auto px-4 pb-12">
     <!-- Sale Info -->
     <div class="bg-cream rounded-2xl p-6 md:p-8 mb-8">
-      <h2 class="text-2xl font-bold text-gray-900 mb-3">🔥 8.8 Mega Pet Sale — ดีลดีสำหรับทาสแมวและทาสหมา</h2>
+      <h2 class="text-2xl font-bold text-gray-900 mb-3">🔥 8.8 Mega Pet Sale: ดีลดีสำหรับทาสแมวและทาสหมา</h2>
       <p class="text-gray-600 leading-relaxed">
         รวมดีลอุปกรณ์สัตว์เลี้ยงจัดหนัก ลดราคาสูงสุด 80% เฉพาะช่วง 8.8
         อาหารน้องเหมียว อาหารน้องหมา ของเล่น อุปกรณ์ดูแลสุขภาพ คัดมาให้เจ้านายโดยเฉพาะ
@@ -118,7 +118,7 @@ const schemaEvent = {
     <!-- Top Deals -->
     {topDeals.length > 0 && (
       <section class="mb-10">
-        <h2 class="text-xl font-bold text-gray-900 mb-4">🔥 ดีลเด็ด 8.8 — ลดสูงสุด {topDeals[0]?.discountPct}%</h2>
+        <h2 class="text-xl font-bold text-gray-900 mb-4">🔥 ดีลเด็ด 8.8: ลดสูงสุด {topDeals[0]?.discountPct}%</h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {topDeals.map((d) => (
             <DealCard {...d} persona="8-8" />

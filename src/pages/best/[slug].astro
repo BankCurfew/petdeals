@@ -67,7 +67,7 @@ const topDeals = (dealsRaw as any).items
     url: d.url,
   }));
 
-const title = persona.seoTitle || `${persona.emoji} ${persona.name} — ${persona.nameEn}`;
+const title = persona.seoTitle || `${persona.emoji} ${persona.name} · ${persona.nameEn}`;
 
 const breadcrumbSchema = {
   "@context": "https://schema.org",
@@ -121,7 +121,7 @@ const breadcrumbSchema = {
     <!-- Top Deals -->
     {topDeals.length > 0 && (
       <section class="mb-10">
-        <h2 class="text-xl font-bold text-gray-900 mb-4">🔥 ดีลเด็ด{persona.name} — ลดสูงสุด {topDeals[0]?.discountPct}%</h2>
+        <h2 class="text-xl font-bold text-gray-900 mb-4">🔥 ดีลเด็ด{persona.name}: ลดสูงสุด {topDeals[0]?.discountPct}%</h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {topDeals.map((d) => (
             <DealCard {...d} persona={persona.slug} />

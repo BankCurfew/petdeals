@@ -33,7 +33,7 @@ const hasSold = !!soldStr && soldStr !== '0' && soldStr !== '';
 ---
 
 <div class="group block bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-lg hover:-translate-y-0.5 transition-all duration-200" data-product-category={category} data-product-name={name}>
-  <!-- Image — links to product page -->
+  <!-- Image: links to product page -->
   <a href={productPageUrl || affiliateUrl} target={productPageUrl ? '_self' : '_blank'} rel={productPageUrl ? undefined : 'noopener sponsored'}>
     <div class="relative aspect-square bg-surface overflow-hidden">
       <img src={image} alt={name} title={name} width="400" height="400" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading={eager ? "eager" : "lazy"} decoding={eager ? "sync" : "async"} fetchpriority={eager ? "high" : undefined} />

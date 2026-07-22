@@ -10,7 +10,7 @@ interface Props {
   noindex?: boolean;
 }
 
-const { title, description = 'PetzDeals — รวมดีลอุปกรณ์สัตว์เลี้ยงราคาดี คัดมาให้ทาสแมวและทาสหมาโดยเฉพาะ', image, type = 'website', preloadImage, noindex = false } = Astro.props;
+const { title, description = 'PetzDeals, รวมดีลอุปกรณ์สัตว์เลี้ยงราคาดี คัดมาให้ทาสแมวและทาสหมาโดยเฉพาะ', image, type = 'website', preloadImage, noindex = false } = Astro.props;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const ogImage = new URL(image || '/brand/og-default.webp', Astro.site).href;
 const defaultSchema = { "@context": "https://schema.org", "@type": "WebSite", "name": "PetzDeals", "url": "https://petzdeals.com", "description": description };
@@ -167,7 +167,7 @@ const defaultSchema = { "@context": "https://schema.org", "@type": "WebSite", "n
         </div>
       </div>
       <div class="border-t border-gray-200 mt-8 pt-6 text-center text-xs text-gray-400">
-        <p>&copy; 2026 PetzDeals — petzdeals.com</p>
+        <p>&copy; 2026 PetzDeals · petzdeals.com</p>
         <p class="mt-1">ราคาและส่วนลดอาจเปลี่ยนแปลงได้ กรุณาตรวจสอบราคาล่าสุดก่อนสั่งซื้อ</p>
       </div>
     </div>
@@ -182,7 +182,7 @@ const defaultSchema = { "@context": "https://schema.org", "@type": "WebSite", "n
         menuBtn.addEventListener('click', () => menu.classList.toggle('hidden'));
       }
 
-      // Search — navigate to /search?q=
+      // Search: navigate to /search?q=
       ['site-search', 'mobile-search'].forEach(id => {
         const search = document.getElementById(id);
         if (search) {

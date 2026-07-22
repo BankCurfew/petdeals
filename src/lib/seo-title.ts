@@ -24,7 +24,7 @@ export function cleanProductName(raw: string): string {
   for (const re of spamRegexes) s = s.replace(re, '');
   s = s.replace(SKU_RE, '');
   s = s.replace(SPECIAL_RE, '');
-  s = s.replace(/^[\s\-—!.,;:/]+|[\s\-—!.,;:/]+$/g, '');
+  s = s.replace(/^[\s\-!.,;:/]+|[\s\-!.,;:/]+$/g, '');
   s = s.replace(/\s+/g, ' ').trim();
   return s || raw.replace(/\s+/g, ' ').trim();
 }
@@ -52,10 +52,10 @@ export function buildPageTitle(raw: string, category: string, curated?: string):
 
   const cleaned = cleanProductName(raw);
   const effMax = PAGE_TITLE_MAX - htmlExtraChars(cleaned) - htmlExtraChars(category);
-  const withCat = `${cleaned} — ${category}`;
+  const withCat = `${cleaned} · ${category}`;
   if (withCat.length <= effMax) return withCat;
 
-  const catSuffix = ` — ${category}`;
+  const catSuffix = ` · ${category}`;
   const nameMax = effMax - catSuffix.length;
   if (nameMax >= 12) return smartTruncate(cleaned, nameMax) + catSuffix;
 
