@@ -2,10 +2,10 @@
   "version": 2,
   "updatedAt": "2026-07-05",
   "refreshCycle": "per-seasonal-wave",
-  "source": "petdeals#27 — Writer seed v1 + Researcher validation + trending terms (Jul 2026)",
+  "source": "petdeals#27 , Writer seed v1 + Researcher validation + trending terms (Jul 2026)",
 
   "core": {
-    "description": "High-intent voucher/coupon keywords — use in meta, titles, schema",
+    "description": "High-intent voucher/coupon keywords , use in meta, titles, schema",
     "keywords": [
       "โค้ดส่วนลด shopee สัตว์เลี้ยง",
       "โค้ดส่วนลด shopee แมว",
@@ -30,7 +30,7 @@
   },
 
   "byCategory": {
-    "description": "Category-specific coupon keywords — use in product pages + article meta",
+    "description": "Category-specific coupon keywords , use in product pages + article meta",
     "อาหารแมว": [
       "โค้ดลดอาหารแมว shopee",
       "อาหารแมว ลดราคา โค้ด",
@@ -122,7 +122,7 @@
   },
 
   "bySeason": {
-    "description": "Seasonal/campaign coupon keywords — use in seasonal article titles + deal pages",
+    "description": "Seasonal/campaign coupon keywords , use in seasonal article titles + deal pages",
     "7-7": [
       "โค้ดส่วนลด shopee 7.7 สัตว์เลี้ยง",
       "ส่วนลด 7.7 อาหารแมว",
@@ -175,7 +175,7 @@
   },
 
   "byBrand": {
-    "description": "Brand-specific coupon keywords — top brands from products.json",
+    "description": "Brand-specific coupon keywords , top brands from products.json",
     "keywords": [
       "Kaniva โค้ดลด shopee",
       "Whiskas โค้ดส่วนลด shopee",
@@ -199,7 +199,7 @@
   },
 
   "longTail": {
-    "description": "Long-tail intent keywords — buyer-intent + informational",
+    "description": "Long-tail intent keywords , buyer-intent + informational",
     "buyerIntent": [
       "อาหารแมว ยี่ห้อไหนดี ราคาถูก โค้ดลด",
       "ทรายแมว ยี่ห้อไหนดี ส่งฟรี โค้ด",
@@ -229,13 +229,13 @@
     "campaigns": 8,
     "brands": 18,
     "nextRefresh": "2026-08-01",
-    "notes": "v2: Researcher validated Jul 5 — added 34 trending terms: grain-free/freeze-dried/premium food keywords, 3 new categories (อาหารเสริม, แชมพู, ที่นอน), 6 new brands (Buzz Beyond, Neez, Lifemate, Deserve, Friskies, Hills), 8.8 campaign expansion, long-tail buyer intent for premium products.",
+    "notes": "v2: Researcher validated Jul 5 , added 34 trending terms: grain-free/freeze-dried/premium food keywords, 3 new categories (อาหารเสริม, แชมพู, ที่นอน), 6 new brands (Buzz Beyond, Neez, Lifemate, Deserve, Friskies, Hills), 8.8 campaign expansion, long-tail buyer intent for premium products.",
     "validation": {
       "date": "2026-07-05",
       "by": "Researcher-Oracle",
-      "searchVolumeAssessment": "Thai pet e-commerce +35% YoY. Core voucher keywords (โค้ดส่วนลด shopee สัตว์เลี้ยง) align with top search patterns on Picodi/SaleDuck/iPriceThailand coupon sites. Grain-free and freeze-dried are rising sub-niches with dedicated Shopee category pages and mybest/productnation review articles — high content competition but strong buyer intent. Brand keywords validated against actual Shopee product listings.",
+      "searchVolumeAssessment": "Thai pet e-commerce +35% YoY. Core voucher keywords (โค้ดส่วนลด shopee สัตว์เลี้ยง) align with top search patterns on Picodi/SaleDuck/iPriceThailand coupon sites. Grain-free and freeze-dried are rising sub-niches with dedicated Shopee category pages and mybest/productnation review articles , high content competition but strong buyer intent. Brand keywords validated against actual Shopee product listings.",
       "gaps_filled": ["grain-free/premium food", "freeze-dried treats", "pet supplements/probiotics", "shampoo/grooming", "pet beds", "8.8 campaign expansion", "6 additional brand keywords"],
-      "confidence": "confirmed — multi-source (Shopee listings, mybest, productnation, Thairath, industry reports)"
+      "confidence": "confirmed , multi-source (Shopee listings, mybest, productnation, Thairath, industry reports)"
     }
   }
 }

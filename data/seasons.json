@@ -4,7 +4,7 @@
       "slug": "7-7",
       "name": "7.7 Mega Pet Sale",
       "nameTh": "ดีล 7.7 สำหรับทาสแมวและทาสหมา",
-      "description": "ลดสูงสุด 80% อุปกรณ์สัตว์เลี้ยง — ดีลดีสำหรับทาสแมวและทาสหมา",
+      "description": "ลดสูงสุด 80% อุปกรณ์สัตว์เลี้ยง , ดีลดีสำหรับทาสแมวและทาสหมา",
       "startDate": "2026-07-01",
       "endDate": "2026-07-08",
       "tags": [
@@ -408,7 +408,7 @@
       "slug": "payday-sale",
       "name": "Shopee Payday Sale",
       "nameTh": "Shopee วันเงินเดือนออก ลดทั้งร้าน",
-      "description": "ดีลวันเงินเดือนออก 25-27 ทุกเดือน — คูปองส่วนลด + ส่งฟรี + Shopee Coins Cashback",
+      "description": "ดีลวันเงินเดือนออก 25-27 ทุกเดือน , คูปองส่วนลด + ส่งฟรี + Shopee Coins Cashback",
       "startDate": "2026-07-25",
       "endDate": "2026-07-27",
       "tags": [
@@ -427,7 +427,7 @@
       "slug": "mid-month-sale",
       "name": "Shopee Mid-Month Sale",
       "nameTh": "Shopee ดีลกลางเดือน ลดแรง",
-      "description": "ดีลกลางเดือน 15-17 ทุกเดือน — Flash Sale + Voucher + Free Shipping",
+      "description": "ดีลกลางเดือน 15-17 ทุกเดือน , Flash Sale + Voucher + Free Shipping",
       "startDate": "2026-08-15",
       "endDate": "2026-08-17",
       "tags": [
@@ -590,7 +590,7 @@
       "slug": "rainy-season",
       "name": "Rainy Season Pet Care",
       "nameTh": "ดูแลสัตว์เลี้ยงหน้าฝน",
-      "description": "สินค้าดูแลสัตว์เลี้ยงหน้าฝน — ทรายดูดซับ ของเล่นในบ้าน อาหารเสริมภูมิ",
+      "description": "สินค้าดูแลสัตว์เลี้ยงหน้าฝน , ทรายดูดซับ ของเล่นในบ้าน อาหารเสริมภูมิ",
       "startMonth": 6,
       "endMonth": 10,
       "tags": [
@@ -662,7 +662,7 @@
       "slug": "hot-season",
       "name": "Hot Season Pet Essentials",
       "nameTh": "สิ่งจำเป็นสัตว์เลี้ยงหน้าร้อน",
-      "description": "หน้าร้อน — น้ำพุแมว แผ่นเจลเย็น อาหารเปียก ดูแลสัตว์เลี้ยงช่วงร้อน",
+      "description": "หน้าร้อน , น้ำพุแมว แผ่นเจลเย็น อาหารเปียก ดูแลสัตว์เลี้ยงช่วงร้อน",
       "startMonth": 3,
       "endMonth": 5,
       "tags": [
@@ -733,7 +733,7 @@
       "slug": "cool-season",
       "name": "Cool Season Pet Comfort",
       "nameTh": "สัตว์เลี้ยงสบายหน้าหนาว",
-      "description": "หน้าหนาว — คอนโดแมว เตียงอุ่น ผ้าห่มสัตว์เลี้ยง",
+      "description": "หน้าหนาว , คอนโดแมว เตียงอุ่น ผ้าห่มสัตว์เลี้ยง",
       "startMonth": 11,
       "endMonth": 2,
       "tags": [
@@ -773,7 +773,7 @@
       "slug": "songkran",
       "name": "Songkran Pet Travel",
       "nameTh": "สงกรานต์ เดินทางกับสัตว์เลี้ยง",
-      "description": "สงกรานต์ — เครื่องให้อาหารอัตโนมัติ น้ำพุ กรงเดินทาง สำหรับฝากเลี้ยง",
+      "description": "สงกรานต์ , เครื่องให้อาหารอัตโนมัติ น้ำพุ กรงเดินทาง สำหรับฝากเลี้ยง",
       "startMonth": 4,
       "endMonth": 4,
       "tags": [
