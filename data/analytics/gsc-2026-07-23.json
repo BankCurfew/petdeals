@@ -1,0 +1,20 @@
+{
+  "pulled_at": "2026-07-23T08:30:27.979063",
+  "date_range": {
+    "start": "2026-07-15",
+    "end": "2026-07-21"
+  },
+  "total_rows": 1,
+  "rows": [
+    {
+      "keys": [
+        "https://petzdeals.com/categories/dog-food/",
+        "ราคา"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3
+    }
+  ]
+}
