@@ -1,7 +1,7 @@
 # PETDEALS — Content Quality Guidelines
 
-> Editor-Oracle | Created 2026-06-28 | Ref: [petdeals] channel:editor #22
-> Purpose: SEO structure, hook writing, tone branding, quality standards
+> Editor-Oracle | Created 2026-06-28 | Updated 2026-07-26 (Data doc-sync)
+> Purpose: SEO structure, hook writing, tone branding, quality standards, daily ops gates
 > Goal: Top Google + Google AI Overview (AEO) for pet supplies Thailand
 
 ---
@@ -49,9 +49,9 @@ PETDEALS = trusted friend who knows pet products, not a salesperson. We help pet
 ```
 
 ### Rules
-1. **60-70 characters max** — Google truncates at ~60 in Thai
+1. **55 characters max** — enforced by `sanitize_title()` gate in scrape-offers.py (#46, Jul 2026). Smart-truncates at word boundary + ellipsis.
 2. **Primary keyword first** — อาหารแมว before brand name
-3. **Benefit after em dash** — what the product does, not what it is
+3. **NO em-dash (—)** — banned everywhere per แบงค์ order (Jul 2026). Use comma, colon, or middot instead.
 4. **No emoji, no caps, no !!!** — clean professional titles
 5. **Brand name always included** — brand searches are high-intent
 6. **Size/variant for differentiation** — 2kg vs 4kg matters for SEO
@@ -224,5 +224,53 @@ Before any content goes to production:
 
 ---
 
-*PETDEALS Content Guidelines v1.0 — Editor-Oracle*
-*Review with: Writer (descriptions + articles), Designer (image standards), Researcher (keywords)*
+---
+
+## 8. Daily Operations Pipeline (Growth Engine #22)
+
+### Product Sync (scrape-offers.py)
+Daily Apify scrape: 7 categories (อาหารแมว, เปียก, ขนม, ทราย, สุนัข, เสริม, ขนมสุนัข) at 10 items each.
+Apify Starter plan ($29/mo), monthly quota. maxItems tuned to 10x7=70/run to fit billing cycle.
+
+### Automated Gates (scrape-offers.py, run every sync)
+
+| Gate | What | Added |
+|------|------|-------|
+| **Validation gate** | Rejects non-TH URLs, non-Thai titles, bait prices (<฿5) at ingest | Jun 2026 |
+| **Bait sweep (#45)** | Purges ALL rows (legacy + new) with price<฿5 or discount>90% before write | Jul 2026 |
+| **Title gate (#46)** | `sanitize_title()` caps at 55 chars, smart word-boundary truncation | Jul 2026 |
+| **IMAGE GATE v3 (#44/#45)** | (a) Rejects missing localImage, (b) verifies RIFF/WEBP magic bytes, (c) auto-fixes remote-URL mains to local, (d) auto-stages untracked .webp via git | Jul 2026 |
+
+### Content Pipeline (#22 daily)
+Writer adds 6 product links per article daily (internal linking). Cat-food pillar hub as anchor.
+Product images: downloaded as .webp via `download_webp()`, 800x800 max, stored in `public/products/`.
+Affiliate URLs: an_redir format with `affiliate_id=an_15312860014&sub_id=petzdeals`.
+
+### Seasonal / Campaign Engine
+- **seasons.json**: campaign registry (7.7, 8.8, payday-25, mid-month, etc.)
+- **Deal pages**: `/deals/payday-25`, `/deals/7-7`, `/deals/today` (Astro SSG)
+- **Payday engine**: 25th monthly, category-based product rendering (fallback when matchingProducts=[])
+- **Blog guides**: per-campaign article pre-built (Writer)
+- Schedule: pre-build campaign page + guide before each sale date
+
+### Deploy Verification
+- Sitemap-based: `sitemap-0.xml` is the machine-checkable source (NOT `/sitemap.xml` which is SPA shell on CF Pages)
+- Post-deploy: verify product count + 0 bait items in sitemap
+
+---
+
+## 9. Em-Dash Ban (แบงค์ order, Jul 2026)
+
+**NO em-dashes (—) anywhere** in src/ or data/ files. Applies to:
+- Article content (.md/.mdx)
+- Product titles and descriptions (products.json)
+- Seasonal data (seasons.json)
+- Templates (.astro)
+
+Use comma (,), colon (:), middot (·), or period (.) instead.
+Generator `sanitizeDashes()` in wealth-bank strips any that leak through DB imports.
+
+---
+
+*PETDEALS Content Guidelines v2.0 — Editor-Oracle + Data-Oracle (doc-sync Jul 2026)*
+*Review with: Writer (descriptions + articles), Designer (image standards), Researcher (keywords), Data (pipeline gates)*
