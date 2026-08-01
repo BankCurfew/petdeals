@@ -1,0 +1,30 @@
+{
+  "pulled_at": "2026-07-31T11:01:58.558122",
+  "date_range": {
+    "start": "2026-07-23",
+    "end": "2026-07-29"
+  },
+  "total_rows": 2,
+  "rows": [
+    {
+      "keys": [
+        "https://petzdeals.com/blog/cat-food-guide-2026/",
+        "อาหารแมวยี่ห้อไหนดีที่สุด"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 62
+    },
+    {
+      "keys": [
+        "https://petzdeals.com/blog/cat-food-guide-2026/",
+        "เกรดอาหารแมว"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 81.5
+    }
+  ]
+}
