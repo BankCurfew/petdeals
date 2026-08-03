@@ -1,75 +1,12 @@
 {
-  "pulled_at": "2026-08-02T08:00:59.754527",
-  "date": "2026-08-01",
+  "pulled_at": "2026-08-03T08:58:22.893165",
+  "date": "2026-08-02",
   "property_id": "543407169",
-  "total_rows": 9,
+  "total_rows": 7,
   "rows": [
     {
       "dimensionValues": [
         {
-          "value": "/search/"
-        },
-        {
-          "value": "first_visit"
-        }
-      ],
-      "metricValues": [
-        {
-          "value": "6"
-        },
-        {
-          "value": "1"
-        },
-        {
-          "value": "0"
-        }
-      ]
-    },
-    {
-      "dimensionValues": [
-        {
-          "value": "/search/"
-        },
-        {
-          "value": "page_view"
-        }
-      ],
-      "metricValues": [
-        {
-          "value": "6"
-        },
-        {
-          "value": "1"
-        },
-        {
-          "value": "6"
-        }
-      ]
-    },
-    {
-      "dimensionValues": [
-        {
-          "value": "/search/"
-        },
-        {
-          "value": "session_start"
-        }
-      ],
-      "metricValues": [
-        {
-          "value": "6"
-        },
-        {
-          "value": "1"
-        },
-        {
-          "value": "0"
-        }
-      ]
-    },
-    {
-      "dimensionValues": [
-        {
           "value": "/"
         },
         {
@@ -78,10 +15,10 @@
       ],
       "metricValues": [
         {
-          "value": "1"
+          "value": "2"
         },
         {
-          "value": "1"
+          "value": "2"
         },
         {
           "value": "0"
@@ -99,13 +36,13 @@
       ],
       "metricValues": [
         {
-          "value": "1"
+          "value": "2"
         },
         {
-          "value": "1"
+          "value": "2"
         },
         {
-          "value": "1"
+          "value": "2"
         }
       ]
     },
@@ -116,6 +53,27 @@
         },
         {
           "value": "session_start"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "2"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/"
+        },
+        {
+          "value": "user_engagement"
         }
       ],
       "metricValues": [
