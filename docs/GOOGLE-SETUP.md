@@ -173,11 +173,11 @@ bun /tmp/oauth-server.ts &
 
 ## 5. API Key
 
-**Key**: `AIzaSyDW0reowS0xQvmsAx8uhvHtIkPTGffIe98`
+**Key**: stored in vault at `~/.oracle/security/` — ask Admin or Security-Oracle for access.
 
 API keys do NOT work for management APIs (Analytics, GTM, GSC). They only work for public-data APIs. Use OAuth2 tokens for all management operations.
 
 Use `x-goog-api-key` header for supported APIs:
 ```bash
-curl -H "x-goog-api-key: AIzaSyDW0reowS0xQvmsAx8uhvHtIkPTGffIe98" https://...
+curl -H "x-goog-api-key: $GOOGLE_API_KEY" https://...
 ```
