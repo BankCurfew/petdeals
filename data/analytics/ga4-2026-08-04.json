@@ -1,8 +1,8 @@
 {
-  "pulled_at": "2026-08-03T09:01:44.139640",
-  "date": "2026-08-02",
+  "pulled_at": "2026-08-04T08:00:51.870163",
+  "date": "2026-08-03",
   "property_id": "543407169",
-  "total_rows": 7,
+  "total_rows": 9,
   "rows": [
     {
       "dimensionValues": [
@@ -15,10 +15,10 @@
       ],
       "metricValues": [
         {
-          "value": "2"
+          "value": "3"
         },
         {
-          "value": "2"
+          "value": "3"
         },
         {
           "value": "0"
@@ -36,13 +36,13 @@
       ],
       "metricValues": [
         {
-          "value": "2"
+          "value": "3"
         },
         {
-          "value": "2"
+          "value": "3"
         },
         {
-          "value": "2"
+          "value": "3"
         }
       ]
     },
@@ -57,31 +57,10 @@
       ],
       "metricValues": [
         {
-          "value": "2"
+          "value": "3"
         },
         {
-          "value": "2"
-        },
-        {
-          "value": "0"
-        }
-      ]
-    },
-    {
-      "dimensionValues": [
-        {
-          "value": "/"
-        },
-        {
-          "value": "user_engagement"
-        }
-      ],
-      "metricValues": [
-        {
-          "value": "1"
-        },
-        {
-          "value": "1"
+          "value": "3"
         },
         {
           "value": "0"
@@ -99,7 +78,7 @@
       ],
       "metricValues": [
         {
-          "value": "1"
+          "value": "2"
         },
         {
           "value": "1"
@@ -120,13 +99,13 @@
       ],
       "metricValues": [
         {
-          "value": "1"
+          "value": "2"
         },
         {
           "value": "1"
         },
         {
-          "value": "1"
+          "value": "2"
         }
       ]
     },
@@ -141,7 +120,70 @@
       ],
       "metricValues": [
         {
+          "value": "2"
+        },
+        {
           "value": "1"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/search/"
+        },
+        {
+          "value": "first_visit"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "2"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/search/"
+        },
+        {
+          "value": "page_view"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "2"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/search/"
+        },
+        {
+          "value": "session_start"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "2"
         },
         {
           "value": "1"
