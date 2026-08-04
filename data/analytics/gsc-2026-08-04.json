@@ -1,0 +1,80 @@
+{
+  "pulled_at": "2026-08-04T10:04:46.942744",
+  "date_range": {
+    "start": "2026-07-27",
+    "end": "2026-08-02"
+  },
+  "total_rows": 7,
+  "rows": [
+    {
+      "keys": [
+        "https://petzdeals.com/blog/cat-food-guide-2026/",
+        "อาหารแมวมีกี่เกรด"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 84
+    },
+    {
+      "keys": [
+        "https://petzdeals.com/blog/cat-food-guide-2026/",
+        "อาหารแมวยี่ห้อไหนดีที่สุด"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 90
+    },
+    {
+      "keys": [
+        "https://petzdeals.com/blog/cat-food-guide-2026/",
+        "เกรดอาหารแมว"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 89.33333333333333
+    },
+    {
+      "keys": [
+        "https://petzdeals.com/categories/cat-food/",
+        "cat food"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 61
+    },
+    {
+      "keys": [
+        "https://petzdeals.com/categories/cat-food/",
+        "อาหารแมวราคา"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 51.5
+    },
+    {
+      "keys": [
+        "https://petzdeals.com/categories/cat-treats/",
+        "cat snacks"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 53
+    },
+    {
+      "keys": [
+        "https://petzdeals.com/categories/cat-treats/",
+        "cat treats"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 62
+    }
+  ]
+}
