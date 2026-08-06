@@ -145,7 +145,7 @@
         "catch-the-mouse"
       ],
       "active": true,
-      "status": "countdown"
+      "status": "active"
     },
     {
       "slug": "9-9",
