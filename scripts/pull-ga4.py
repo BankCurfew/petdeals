@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
-"""Pull GA4 data (24h) → data/analytics/ga4-YYYY-MM-DD.json"""
-import json, os
+"""Pull GA4 data (24h) → data/analytics/ga4-YYYY-MM-DD.json
+Hardcoded to petdeals property 543407169. Fails loudly on mismatch.
+"""
+import json, os, sys
 from datetime import datetime, timedelta
 from urllib.request import Request, urlopen
 from urllib.parse import urlencode
@@ -16,7 +18,8 @@ for line in open(ENV):
 CLIENT_ID = creds["GOOGLE_OAUTH_CLIENT_ID"]
 CLIENT_SECRET = creds["GOOGLE_OAUTH_CLIENT_SECRET"]
 REFRESH_TOKEN = creds["GOOGLE_REFRESH_TOKEN"]
-PROPERTY_ID = creds.get("GA4_PROPERTY_ID", "543407169")
+EXPECTED_PROPERTY = "543407169"
+PROPERTY_ID = EXPECTED_PROPERTY
 
 def get_access_token():
     body = urlencode({
@@ -61,6 +64,11 @@ def main():
     rows = data.get("rows", [])
     print(f"Rows: {len(rows)}")
 
+    resp_property = data.get("metadata", {}).get("propertyId", PROPERTY_ID)
+    if str(resp_property) != str(EXPECTED_PROPERTY):
+        print(f"FATAL: property mismatch! expected={EXPECTED_PROPERTY} got={resp_property}", file=sys.stderr)
+        sys.exit(1)
+
     output = {
         "pulled_at": datetime.now().isoformat(),
         "date": yesterday,
@@ -74,7 +82,7 @@ def main():
     outfile = os.path.join(outdir, f"ga4-{today}.json")
     with open(outfile, "w") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
-    print(f"Saved: {outfile}")
+    print(f"Saved: {outfile} (property={EXPECTED_PROPERTY} verified)")
 
     for r in rows[:5]:
         dims = [d.get("value", "") for d in r.get("dimensionValues", [])]
