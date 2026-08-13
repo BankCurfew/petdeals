@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# Repo-specific pre-commit gates for petdeals.
+# Called by the fleet hook (~/.oracle/git-hooks/pre-commit) via chaining.
+# The fleet hook runs its secret scan BEFORE this file — do not duplicate it.
+
+REPO="$(git rev-parse --show-toplevel)"
+
+# T142 dash ban (em-dash / en-dash / double-hyphen)
+if [[ -f "$REPO/scripts/dash-gate.js" ]]; then
+  node "$REPO/scripts/dash-gate.js" || exit 1
+fi
