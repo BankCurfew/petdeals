@@ -30,6 +30,24 @@ import { fileURLToPath } from 'node:url';
 const EM_DASH = '—';
 const EN_DASH = '–';
 
+const THAI_DASH_REPAIR_DOC = '~/.oracle/conduct/T142-thai-dash-repair.md';
+
+/**
+ * Thai-script detection for the failure message (T142 conduct addendum,
+ * 2026-08-24). A dash-ban hit in Thai copy is repaired differently from a
+ * Latin one: delete the dash, keep the space, and if the dash carried
+ * contrast, carry it with an explicit connective (แต่ / ยกเว้น). The conduct
+ * doc explains the repair; this returns a pointer to it when the offending
+ * snippet contains Thai script, else '' (Latin hits need no special rule).
+ * Thai Unicode block: U+0E00–U+0E7F.
+ */
+export function thaiRepairPointer(snippet) {
+  if (/[\u0E00-\u0E7F]/.test(snippet || '')) {
+    return `\n     ↳ Thai-script hit: repair per ${THAI_DASH_REPAIR_DOC} (delete dash keep space; if contrast, carry with แต่/ยกเว้น)`;
+  }
+  return '';
+}
+
 const CONTENT_DIRS = [
   { dir: 'src/content/blog', type: 'blog' },
 ];
@@ -111,6 +129,7 @@ function runSelfTest() {
 function main() {
   const ROOT = process.cwd();
   let errors = 0;
+  let thaiHits = 0;
   let filesScanned = 0;
   let filesSkippedDraft = 0;
 
@@ -131,7 +150,9 @@ function main() {
       filesScanned++;
       const hits = scanContent(content);
       for (const hit of hits) {
-        console.error(`  ❌ FAIL [${type}] ${file}:${hit.line} — ${hit.char} → "${hit.snippet}"`);
+        const pointer = thaiRepairPointer(hit.snippet);
+        if (pointer) thaiHits++;
+        console.error(`  ❌ FAIL [${type}] ${file}:${hit.line} — ${hit.char} → "${hit.snippet}"${pointer}`);
         errors++;
       }
     }
@@ -142,6 +163,9 @@ function main() {
   if (errors > 0) {
     console.error(`🚫 DASH GATE FAILED — ${errors} banned-character hit(s) across published content`);
     console.error(`   Replace em-dash/en-dash/double-hyphen with a colon, comma, or period. T142.`);
+    if (thaiHits > 0) {
+      console.error(`   ↳ ${thaiHits} Thai-script hit(s): repair per ${THAI_DASH_REPAIR_DOC} (delete dash keep space; if contrast, carry with แต่/ยกเว้น).`);
+    }
     process.exit(1);
   } else {
     console.log('✅ DASH GATE PASSED — no em-dash, en-dash, or double-hyphen in published content');
