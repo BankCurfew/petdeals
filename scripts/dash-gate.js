@@ -38,7 +38,12 @@ function stripNonProse(text) {
   return text
     .replace(/```[\s\S]*?```/g, '')
     .replace(/`[^`\n]*`/g, '')
-    .replace(/\]\([^)]*\)/g, ']()');
+    .replace(/\]\([^)]*\)/g, ']()')
+    .replace(/^---\n[\s\S]*?\n---/m, '')
+    .replace(/^---\s*$/gm, '')
+    .replace(/--[a-zA-Z][\w-]*\s*:/g, '')
+    .replace(/var\(--[\w-]*\)/g, '')
+    .replace(/<!--[\s\S]*?-->/g, '');
 }
 
 export function scanContent(rawText) {
@@ -83,6 +88,23 @@ function runSelfTest() {
     process.exit(1);
   }
   console.log('✅ SELF-TEST PASSED — scanner does not false-positive on clean text.');
+
+  // POSITIVE CONTROL for double-hyphen EXCLUSIONS (BoB #142, 2026-08-23):
+  // exclusions can silently neuter the gate, so plant a real prose "--" AND
+  // code/structural doubles, and assert the gate catches prose but not code.
+  const proseDash = 'เริ่มจากคำถามของคุณ -- แล้วให้ตัวเลขตอบ';
+  const codeDashes = ['---', '--ink: #0A0A0A', 'color: var(--red);', '<!-- comment -->'].join('\n');
+  const proseHits = scanContent(proseDash);
+  const codeHits = scanContent(codeDashes);
+  if (proseHits.length === 0) {
+    console.error('❌ POSITIVE CONTROL FAILED — gate no longer catches a REAL prose double-hyphen.');
+    process.exit(1);
+  }
+  if (codeHits.length !== 0) {
+    console.error('❌ POSITIVE CONTROL FAILED — gate still fires on code/structural double-hyphens.');
+    process.exit(1);
+  }
+  console.log('✅ POSITIVE CONTROL PASSED — prose double-hyphen caught, code/structural excluded.');
   process.exit(0);
 }
 
